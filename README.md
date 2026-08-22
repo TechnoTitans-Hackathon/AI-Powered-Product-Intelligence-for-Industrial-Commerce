@@ -18,6 +18,21 @@ We built a multi-agent AI engine using FastAPI and a local React/Vite frontend. 
 - `Frontend+Backend + Ai Engine/`: The core UniHack application.
 - `freellmapi/`: A third-party OpenAI-compatible proxy interface to local/remote models. Included under MIT License (see `THIRD_PARTY_LICENSES.md`).
 
-## Setup and Running
+## Documentation
+
+To fully understand the architecture, data provenance, and limitations of this system, please review the following comprehensive documentation:
+
+- **[Architecture & How It Works](./ARCHITECTURE.md) | [Simple Explanation](./HOW_IT_WORKS.md)**
+- **[Dataset Catalog](./DATASET_CATALOG.md) | [Data Provenance](./DATA_PROVENANCE.md) | [Real vs Synthetic](./REAL_VS_SYNTHETIC.md)**
+- **[AI Models](./AI_MODELS.md)**
+- **[API & Authentication](./API_AND_AUTHENTICATION.md)**
+- **[Environment Setup](./ENVIRONMENT_VARIABLES.md)**
+- **[Judge Quickstart](./JUDGE_QUICKSTART.md)**
+- **[Security Overview](./SECURITY.md)**
+- **[Limitations](./LIMITATIONS.md)**
+- **[License Info](./LICENSE_INFO.md) | [Third-Party Licenses](./THIRD_PARTY_LICENSES.md) | [Dataset Licenses](./DATASET_LICENSES.md) | [Model Licenses](./MODEL_LICENSES.md)**
+- **[Authorship & Acknowledgements](./AUTHORSHIP.md)**
+
+## Setup & Running
 1. Read the [Environment Variables](ENVIRONMENT_VARIABLES.md) guide and copy `.env.example` to `.env`.
 2. Follow the [Judge Quickstart](JUDGE_QUICKSTART.md) for step-by-step evaluation setup.
