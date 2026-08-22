@@ -1,0 +1,94 @@
+{
+  "version": "1.0",
+  "description": "Hierarchical industry/category taxonomy for industrial and commercial products.",
+  "license": "curated-reference",
+  "taxonomy": {
+    "Industrial Equipment": {
+      "Bearings": ["Deep Groove Ball Bearings", "Angular Contact Ball Bearings", "Cylindrical Roller Bearings", "Tapered Roller Bearings", "Spherical Roller Bearings", "Thrust Bearings", "Needle Roller Bearings", "Linear Bearings"],
+      "Electric Motors": ["AC Induction Motors", "DC Motors", "Servo Motors", "Stepper Motors", "Gear Motors", "Synchronous Motors", "Explosion-Proof Motors"],
+      "Pumps": ["Centrifugal Pumps", "Positive Displacement Pumps", "Submersible Pumps", "Diaphragm Pumps", "Gear Pumps", "Peristaltic Pumps", "Vacuum Pumps"],
+      "Valves": ["Gate Valves", "Globe Valves", "Ball Valves", "Butterfly Valves", "Check Valves", "Control Valves", "Relief Valves", "Solenoid Valves"],
+      "Gearboxes": ["Helical Gearboxes", "Worm Gearboxes", "Bevel Gearboxes", "Planetary Gearboxes"],
+      "Couplings": ["Jaw Couplings", "Gear Couplings", "Disc Couplings", "Fluid Couplings"],
+      "Seals": ["Mechanical Seals", "O-Rings", "Gaskets", "Oil Seals", "Lip Seals"]
+    },
+    "Industrial Automation": {
+      "Sensors": ["Temperature Sensors", "Pressure Sensors", "Proximity Sensors", "Level Sensors", "Flow Sensors", "Vibration Sensors", "Optical Sensors"],
+      "Controllers": ["PLCs", "DCS Systems", "SCADA Systems", "Motion Controllers", "PACs"],
+      "Drives": ["Variable Frequency Drives", "Servo Drives", "DC Drives", "Soft Starters"],
+      "HMI": ["Touch Panels", "Operator Terminals", "Industrial PCs"],
+      "Robots": ["Articulated Robots", "SCARA Robots", "Collaborative Robots", "Delta Robots"]
+    },
+    "Electrical Components": {
+      "Circuit Protection": ["Circuit Breakers", "Fuses", "Surge Protectors", "RCDs"],
+      "Switching": ["Contactors", "Relays", "Disconnect Switches", "Transfer Switches"],
+      "Wiring": ["Cables", "Connectors", "Terminal Blocks", "Cable Trays"],
+      "Transformers": ["Power Transformers", "Instrument Transformers", "Isolation Transformers"]
+    },
+    "Fasteners": {
+      "Bolts": ["Hex Bolts", "Socket Head Cap Screws", "Carriage Bolts", "U-Bolts", "Anchor Bolts"],
+      "Nuts": ["Hex Nuts", "Lock Nuts", "Flange Nuts", "Wing Nuts"],
+      "Screws": ["Machine Screws", "Self-Tapping Screws", "Set Screws", "Wood Screws"],
+      "Washers": ["Flat Washers", "Lock Washers", "Spring Washers", "Belleville Washers"],
+      "Rivets": ["Blind Rivets", "Solid Rivets", "Drive Rivets"]
+    },
+    "HVAC": {
+      "Cooling": ["Chillers", "Cooling Towers", "Air Handling Units", "Fan Coil Units"],
+      "Heating": ["Boilers", "Heat Exchangers", "Furnaces", "Heat Pumps"],
+      "Ventilation": ["Fans", "Blowers", "Dampers", "Ductwork"],
+      "Refrigeration": ["Compressors", "Condensers", "Evaporators", "Expansion Valves"]
+    },
+    "Safety Equipment": {
+      "Head Protection": ["Hard Hats", "Bump Caps", "Welding Helmets"],
+      "Eye Protection": ["Safety Glasses", "Goggles", "Face Shields"],
+      "Hearing Protection": ["Earplugs", "Earmuffs", "Electronic Hearing Protection"],
+      "Respiratory Protection": ["Dust Masks", "Half-Face Respirators", "Full-Face Respirators", "PAPR"],
+      "Fall Protection": ["Harnesses", "Lanyards", "Self-Retracting Lifelines", "Anchor Points"],
+      "Hand Protection": ["Work Gloves", "Chemical Gloves", "Cut-Resistant Gloves"]
+    },
+    "Automotive Components": {
+      "Engine": ["Spark Plugs", "Fuel Injectors", "Turbochargers", "Oil Filters", "Air Filters"],
+      "Braking": ["Brake Pads", "Brake Rotors", "Brake Calipers", "Brake Lines"],
+      "Suspension": ["Shock Absorbers", "Struts", "Control Arms", "Ball Joints"],
+      "Electrical": ["Alternators", "Starters", "Ignition Coils", "Sensors"]
+    },
+    "Construction Materials": {
+      "Structural Steel": ["I-Beams", "Channels", "Angles", "Plates", "Tubes"],
+      "Concrete": ["Ready-Mix Concrete", "Precast Elements", "Rebar", "Cement"],
+      "Insulation": ["Fiberglass", "Mineral Wool", "Foam Board", "Spray Foam"],
+      "Roofing": ["Metal Roofing", "Shingles", "Membrane Roofing", "Flashing"]
+    },
+    "Power Equipment": {
+      "Generators": ["Diesel Generators", "Gas Generators", "Portable Generators", "Standby Generators"],
+      "UPS Systems": ["Online UPS", "Line-Interactive UPS", "Offline UPS"],
+      "Switchgear": ["Low Voltage Switchgear", "Medium Voltage Switchgear", "Motor Control Centers"]
+    },
+    "Agricultural Equipment": {
+      "Tillage": ["Plows", "Harrows", "Cultivators"],
+      "Planting": ["Seeders", "Planters", "Transplanters"],
+      "Harvesting": ["Combines", "Forage Harvesters", "Cotton Pickers"],
+      "Irrigation": ["Sprinklers", "Drip Systems", "Pivot Systems"]
+    },
+    "Packaging Equipment": {
+      "Filling": ["Liquid Fillers", "Powder Fillers", "Volumetric Fillers"],
+      "Sealing": ["Heat Sealers", "Induction Sealers", "Ultrasonic Sealers"],
+      "Labeling": ["Pressure-Sensitive Labelers", "Shrink Sleeve Labelers"],
+      "Wrapping": ["Stretch Wrappers", "Shrink Wrappers", "Flow Wrappers"]
+    },
+    "Manufacturing Equipment": {
+      "CNC Machines": ["CNC Lathes", "CNC Mills", "CNC Routers", "CNC Grinders"],
+      "Welding": ["MIG Welders", "TIG Welders", "Stick Welders", "Spot Welders"],
+      "Material Handling": ["Conveyor Systems", "Hoists", "Cranes", "Forklifts"]
+    },
+    "Chemicals and Materials": {
+      "Lubricants": ["Bearing Greases", "Hydraulic Oils", "Gear Oils", "Cutting Fluids"],
+      "Adhesives": ["Epoxy", "Cyanoacrylate", "Polyurethane", "Anaerobic"],
+      "Coatings": ["Paints", "Primers", "Powder Coatings", "Protective Coatings"]
+    },
+    "Medical and Regulated Products": {
+      "Diagnostic Equipment": ["Monitors", "Analyzers", "Imaging Systems"],
+      "Surgical Instruments": ["Scalpels", "Forceps", "Clamps"],
+      "Sterilization": ["Autoclaves", "UV Sterilizers", "Chemical Sterilizers"]
+    }
+  }
+}

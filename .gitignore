@@ -1,0 +1,67 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+build/
+.npm/
+
+# Databases / local state
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs / test output
+*.log
+logs/
+test-results/
+playwright-report/
+coverage/
+
+# Temporary / Generated
+scratch/
+tmp/
+temp/
+validation_runs/
+*/data_storage/temp_cache/
+*/data_storage/vector_store/
+*/data_storage/user_uploads/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude/
+
+# Local model artifacts and large files
+*.gguf
+models/
+model_cache/
+ollama-models/
+main.zip
+Main_Backup_PreMerge.zip
+
+# Obsolete / Backup
+Frontend+Backend + Ai Engine 2/
+New folder (2)/
+Original_Temp/
+Friend_Temp/
+old/
+legacy/
+backup/
+Main_Backup_PreMerge.zip
+
+# Generated local reports if they are machine-specific
+*.local.md

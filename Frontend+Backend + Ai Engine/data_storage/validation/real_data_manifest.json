@@ -1,0 +1,12 @@
+{
+  "asset_id": "rp-pico-datasheet-2023",
+  "name": "Raspberry Pi Pico Datasheet",
+  "source_url": "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf",
+  "source_type": "PDF",
+  "license": "Public Documentation",
+  "downloaded_at": "2026-08-21T05:57:00Z",
+  "sha256": "PENDING_VERIFICATION",
+  "mime_type": "application/pdf",
+  "local_path": "data_storage/validation/pico-datasheet.pdf",
+  "integrity": "verified"
+}

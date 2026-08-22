@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "description": "Common technical attribute patterns per product category. Data-driven attribute definitions — the backend does not decide which attributes are important.",
+  "license": "curated-reference",
+  "patterns": {
+    "Bearings": {
+      "common_attributes": [
+        {"key": "Bore Diameter", "unit": "mm", "data_type": "numeric", "type": "dimension"},
+        {"key": "Outside Diameter", "unit": "mm", "data_type": "numeric", "type": "dimension"},
+        {"key": "Width", "unit": "mm", "data_type": "numeric", "type": "dimension"},
+        {"key": "Dynamic Load Rating", "unit": "kN", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Static Load Rating", "unit": "kN", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Limiting Speed", "unit": "rpm", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Mass", "unit": "kg", "data_type": "numeric", "type": "physical"},
+        {"key": "Seal Type", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "Cage Material", "unit": null, "data_type": "string", "type": "material"},
+        {"key": "Internal Clearance", "unit": null, "data_type": "string", "type": "technical_spec"}
+      ]
+    },
+    "Electric Motors": {
+      "common_attributes": [
+        {"key": "Rated Power", "unit": "kW", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Rated Voltage", "unit": "V", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Rated Current", "unit": "A", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Speed", "unit": "rpm", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Frequency", "unit": "Hz", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Efficiency", "unit": "%", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Power Factor", "unit": null, "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Frame Size", "unit": null, "data_type": "string", "type": "dimension"},
+        {"key": "Enclosure", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "Mounting", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "Insulation Class", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "IP Rating", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "Mass", "unit": "kg", "data_type": "numeric", "type": "physical"}
+      ]
+    },
+    "Pumps": {
+      "common_attributes": [
+        {"key": "Flow Rate", "unit": "m³/h", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Head", "unit": "m", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Pressure", "unit": "bar", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Speed", "unit": "rpm", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Power", "unit": "kW", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "NPSH Required", "unit": "m", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Impeller Diameter", "unit": "mm", "data_type": "numeric", "type": "dimension"},
+        {"key": "Inlet Size", "unit": "mm", "data_type": "numeric", "type": "dimension"},
+        {"key": "Outlet Size", "unit": "mm", "data_type": "numeric", "type": "dimension"},
+        {"key": "Material", "unit": null, "data_type": "string", "type": "material"},
+        {"key": "Seal Type", "unit": null, "data_type": "string", "type": "technical_spec"}
+      ]
+    },
+    "Valves": {
+      "common_attributes": [
+        {"key": "Nominal Size", "unit": "mm", "data_type": "string", "type": "dimension"},
+        {"key": "Pressure Rating", "unit": "bar", "data_type": "string", "type": "technical_spec"},
+        {"key": "Body Material", "unit": null, "data_type": "string", "type": "material"},
+        {"key": "End Connection", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "Cv/Kv", "unit": null, "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Temperature Range", "unit": "°C", "data_type": "string", "type": "technical_spec"},
+        {"key": "Actuation", "unit": null, "data_type": "string", "type": "technical_spec"}
+      ]
+    },
+    "Sensors": {
+      "common_attributes": [
+        {"key": "Measurement Range", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "Accuracy", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "Resolution", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "Output Signal", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "Supply Voltage", "unit": "V", "data_type": "string", "type": "technical_spec"},
+        {"key": "Response Time", "unit": "ms", "data_type": "numeric", "type": "technical_spec"},
+        {"key": "Operating Temperature", "unit": "°C", "data_type": "string", "type": "technical_spec"},
+        {"key": "IP Rating", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "Process Connection", "unit": null, "data_type": "string", "type": "dimension"}
+      ]
+    },
+    "Fasteners": {
+      "common_attributes": [
+        {"key": "Thread Size", "unit": null, "data_type": "string", "type": "dimension"},
+        {"key": "Length", "unit": "mm", "data_type": "numeric", "type": "dimension"},
+        {"key": "Grade", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "Material", "unit": null, "data_type": "string", "type": "material"},
+        {"key": "Finish", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "Head Type", "unit": null, "data_type": "string", "type": "technical_spec"},
+        {"key": "Drive Type", "unit": null, "data_type": "string", "type": "technical_spec"}
+      ]
+    }
+  }
+}
