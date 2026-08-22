@@ -2,21 +2,26 @@
 
 Follow these steps to fully evaluate the UniHack Product Intelligence Platform locally.
 
-## 1. Start the FreeLLMAPI Proxy
-1. Open a terminal and navigate to `freellmapi/`.
-2. Run `npm install` and then `npm run dev` to start the local proxy on port 3001.
+## STEP 1: Initial Setup (Only first time)
+1. Navigate to the root directory `D:\Hackathon\`.
+2. Read the [Environment Variables](ENVIRONMENT_VARIABLES.md) guide and configure your `.env` if necessary.
 
-## 2. Start the Backend API
-1. Navigate to `Frontend+Backend + Ai Engine/`.
-2. Ensure you have activated your Python virtual environment.
-3. Install dependencies: `pip install -r requirements.txt`.
-4. Copy `.env.example` to `.env` and ensure `FREELLMAPI_BASE_URL` points to `http://localhost:3001/v1`.
-5. Start the backend: `python -m uvicorn backend.main:app --reload` (Runs on port 8000).
+*(If a separate setup script exists, you can run `npm run setup` here. Ensure `qwen3.5:9b-q4_K_M` model is pulled in Ollama).*
 
-## 3. Start the Frontend
-1. Open a new terminal and navigate to `Frontend+Backend + Ai Engine/frontend/`.
-2. Run `npm install`.
-3. Start the Vite server: `npm run dev`.
+## STEP 2: Start the Application
+Run the following single command from the root directory (`D:\Hackathon\`):
 
-## 4. Evaluation
+```bash
+npm run dev
+```
+
+The orchestration script will automatically:
+- Detect and reuse or start Ollama and verify the model.
+- Detect and reuse or start the FreeLLMAPI proxy.
+- Start the FastAPI backend.
+- Start the Vite frontend.
+
+## STEP 3: Evaluation
+Open the frontend URL printed in the terminal by the orchestration script (e.g., `http://localhost:5173`).
+
 You can now upload a sample PDF (such as the Pico Datasheet found in `Frontend+Backend + Ai Engine/data_storage/validation/`) or enter a supplier URL in the frontend to witness the AI Agent dynamically structuring the parameters.

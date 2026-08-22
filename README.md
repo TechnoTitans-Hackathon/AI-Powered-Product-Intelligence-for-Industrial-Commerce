@@ -36,3 +36,8 @@ To fully understand the architecture, data provenance, and limitations of this s
 ## Setup & Running
 1. Read the [Environment Variables](ENVIRONMENT_VARIABLES.md) guide and copy `.env.example` to `.env`.
 2. Follow the [Judge Quickstart](JUDGE_QUICKSTART.md) for step-by-step evaluation setup.
+
+The entire application can be started from the root directory using a single command:
+```bash
+npm run dev
+```
