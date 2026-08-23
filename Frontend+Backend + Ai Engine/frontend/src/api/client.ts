@@ -190,6 +190,31 @@ export const triggerProductReprocess = async (
   return res.data;
 };
 
+export const exportProductXlsx = async (id: string): Promise<void> => {
+  const res = await api.get(`/products/${id}/export/xlsx`, {
+    responseType: 'blob',
+  });
+  const url = window.URL.createObjectURL(new Blob([res.data]));
+  const link = document.createElement('a');
+  link.href = url;
+
+  // Extract filename from Content-Disposition header if possible
+  const contentDisposition = res.headers['content-disposition'];
+  let filename = `Unihack_Export_${id}.xlsx`;
+  if (contentDisposition) {
+    const filenameMatch = contentDisposition.match(/filename="?([^"]+)"?/);
+    if (filenameMatch && filenameMatch.length === 2) {
+      filename = filenameMatch[1];
+    }
+  }
+
+  link.setAttribute('download', filename);
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  window.URL.revokeObjectURL(url);
+};
+
 // ─── File Uploads API ─────────────────────────────────────────────────────────
 
 export const uploadSourceFile = async (file: File, productId?: string): Promise<any> => {

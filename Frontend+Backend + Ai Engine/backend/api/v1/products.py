@@ -116,12 +116,12 @@ async def create_product(
     tenant_id: str = Depends(get_current_tenant)
 ):
     product = product_service.create_product(db, payload, tenant_id=tenant_id)
-    
+
     if auto_process:
         job = job_service.create_job(db, product.id, tenant_id=tenant_id, ai_mode=payload.ai_mode)
         await job_service.run_pipeline(db, job.id)
         db.refresh(product)
-        
+
     return product_service.format_to_response(product)
 
 
@@ -137,7 +137,7 @@ async def create_product_from_url(
     """
     name = payload.product_name or f"Product from {payload.url.split('//')[-1].split('/')[0]}"
     sku = payload.sku or payload.url.split('/')[-1].split('?')[0].replace('-', '_')[:30]
-    
+
     create_dto = ProductCreate(
         name=name,
         sku=sku,
@@ -148,7 +148,7 @@ async def create_product_from_url(
         ai_mode=payload.ai_mode
     )
     product = product_service.create_product(db, create_dto, tenant_id=tenant_id)
-    
+
     # Store source document for URL
     source_doc = SourceDocument(
         tenant_id=tenant_id,
@@ -162,12 +162,12 @@ async def create_product_from_url(
     )
     db.add(source_doc)
     db.commit()
-    
+
     if auto_process:
         job = job_service.create_job(db, product.id, tenant_id=tenant_id, ai_mode=payload.ai_mode)
         await job_service.run_pipeline(db, job.id)
         db.refresh(product)
-        
+
     return product_service.format_to_response(product)
 
 
@@ -249,7 +249,7 @@ async def process_product(
     resolved_ai_mode = ai_mode or (AIProcessingMode(prev_job.ai_mode) if prev_job else AIProcessingMode.AUTO)
 
     job = job_service.create_job(db, product_id, tenant_id=tenant_id, ai_mode=resolved_ai_mode)
-    
+
     if background and background_tasks:
         background_tasks.add_task(_run_job_bg, job.id)
         return {
@@ -309,7 +309,7 @@ def get_product_intelligence(
     product = product_service.get_product(db, product_id, tenant_id=tenant_id)
     if not product:
         raise HTTPException(status_code=404, detail=f"Product {product_id} not found.")
-    
+
     formatted = product_service.format_to_response(product)
     return {
         "product_id": product.id,
@@ -423,3 +423,58 @@ def _run_job_bg(job_id: str):
         asyncio.run(job_service.run_pipeline(db, job_id))
     finally:
         db.close()
+
+
+@router.get("/products/{product_id}/export/xlsx")
+def export_product_xlsx(
+    product_id: str,
+    db: Session = Depends(get_db),
+    tenant_id: str = Depends(get_current_tenant)
+):
+    import io
+    import sys
+    import os
+    from fastapi.responses import Response
+
+    sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../..")))
+
+    try:
+        import pandas as pd
+        from ai_engine.output.commerce_adapter import CommerceOutputAdapter, COMMERCE_COLUMNS
+    except ImportError as e:
+        raise HTTPException(status_code=500, detail=f"Failed to import export dependencies: {e}")
+
+    product = product_service.get_product(db, product_id, tenant_id=tenant_id)
+    if not product:
+        raise HTTPException(status_code=404, detail=f"Product {product_id} not found.")
+
+    if not product.commerce_json:
+        raise HTTPException(status_code=400, detail="Product has no commerce output generated.")
+
+    try:
+        adapter = CommerceOutputAdapter()
+        df = adapter.create_commerce_dataframe([product.commerce_json])
+
+        if len(df.columns) != 252:
+            raise HTTPException(status_code=500, detail=f"Internal schema error: export has {len(df.columns)} columns instead of 252.")
+
+        for expected, actual in zip(COMMERCE_COLUMNS, df.columns):
+            if expected != actual:
+                raise HTTPException(status_code=500, detail=f"Internal schema error: column mismatch '{expected}' != '{actual}'")
+
+        output = io.BytesIO()
+        with pd.ExcelWriter(output, engine='openpyxl') as writer:
+            df.to_excel(writer, index=False, sheet_name='Delivery Format')
+
+        output.seek(0)
+
+        filename = f"Unihack_{product.sku or product_id}.xlsx".replace(" ", "_")
+        headers = {
+            'Content-Disposition': f'attachment; filename="{filename}"'
+        }
+
+        return Response(content=output.read(), media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", headers=headers)
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Export failed: {str(e)}")

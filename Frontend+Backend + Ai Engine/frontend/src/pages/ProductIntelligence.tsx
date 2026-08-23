@@ -14,7 +14,7 @@ import {
   Table,
   CheckSquare,
 } from 'lucide-react';
-import { getProductById, getProducts, triggerProductReprocess, AIProcessingMode } from '../api/client';
+import { getProductById, getProducts, triggerProductReprocess, exportProductXlsx, AIProcessingMode } from '../api/client';
 import { ProductItem, DynamicAttribute } from '../types';
 import { ConfidenceBadge } from '../components/ConfidenceBadge';
 import { StatusBadge } from '../components/StatusBadge';
@@ -191,7 +191,7 @@ export const ProductIntelligence: React.FC = () => {
                 Brand: <strong style={{ color: '#0f172a' }}>{product.brand}</strong>
               </span>
               <span>
-                Manufacturer: <strong style={{ color: '#0f172a' }}>{product.manufacturer || 'Unknown'}</strong>
+                Manufacturer: <strong style={{ color: '#0f172a' }}>{product.commerceData?.MANUFACTURER_NAME || product.intelligence?.manufacturer?.value || product.manufacturer || 'Unknown'}</strong>
               </span>
               <span>
                 Category: <strong style={{ color: '#0f172a' }}>{product.category}</strong>
@@ -204,6 +204,10 @@ export const ProductIntelligence: React.FC = () => {
 
           {/* Action Buttons */}
           <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+            <button className="btn-secondary" onClick={() => exportProductXlsx(product.id)}>
+              <FileText size={14} color="#059669" />
+              Download Excel
+            </button>
             <button className="btn-secondary" onClick={() => navigate(`/validation?productId=${product.id}`)}>
               <CheckSquare size={14} color="#d97706" />
               Validation Issues ({product.validationIssues?.length || 0})
