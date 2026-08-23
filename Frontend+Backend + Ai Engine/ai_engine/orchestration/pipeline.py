@@ -522,7 +522,7 @@ class ProductIntelligencePipeline:
             return None
 
     async def _evaluate_agent2_requirement(self, discovery, evidence, request_id: str) -> tuple[bool, dict[str, Any]]:
-        """Qwen Router: evaluate whether Agent 2 is actually required.
+        """Deterministic Router: evaluate whether Agent 2 is actually required.
         
         Outputs a structured decision:
         {
@@ -534,51 +534,30 @@ class ProductIntelligencePipeline:
           }
         }
         """
-        logger.info(f"Pipeline: Qwen Router evaluating Agent 2 requirement for {request_id}")
+        logger.info(f"Pipeline: Deterministic Router evaluating Agent 2 requirement for {request_id}")
         
-        # Build prompt from discovery and evidence
-        evidence_summary = [
-            f"ID: {e.evidence_id} | Source: {e.source} | Content: {e.content[:100]}..." 
-            for e in evidence.evidence
-        ]
+        is_req = False
+        reason = "Evidence is sufficient, no conflicts, and straightforward extraction."
         
-        prompt = f"""Evaluate if deep reasoning (Agent 2) is required.
-
-Known Info:
-{discovery.known_information}
-
-Missing Info required:
-{discovery.missing_information}
-
-Evidence Gathered:
-{evidence_summary}
-
-Decide if the evidence needs complex extraction, conflict resolution, or synthesis (Agent 2 required), or if the known information is already sufficient and evidence is straightforward (Agent 2 NOT required).
-
-Respond with valid JSON matching:
-{{
-  "agent2_required": true or false,
-  "reason": "explanation",
-  "task": {{
-    "objective": "what Agent 2 should focus on, if required",
-    "evidence_ids": ["ids of relevant evidence"]
-  }}
-}}"""
-
-        try:
-            # We use the pipeline's router_provider (which is OllamaProvider in production)
-            decision = await self.router_provider.generate_structured(
-                prompt=prompt,
-                system_instruction="You are a routing layer. Decide if deep reasoning is needed based on evidence.",
-                temperature=0.1
-            )
+        if evidence.total_sources == 0:
+            is_req = True
+            reason = "No evidence found, require deep synthesis."
+        elif evidence.average_score < 0.6:
+            is_req = True
+            reason = "Low average evidence score requires verification."
+        elif discovery.missing_information and len(discovery.missing_information) > 0:
+            is_req = True
+            reason = f"Missing {len(discovery.missing_information)} fields, synthesis required."
             
-            # Validate decision
-            is_req = bool(decision.get("agent2_required", True))
-            return is_req, decision
-        except Exception as e:
-            logger.error(f"Pipeline: Router evaluation failed: {e}. Defaulting to Agent 2 = True.")
-            return True, {"agent2_required": True, "reason": f"Fallback due to error: {str(e)}"}
+        decision = {
+            "agent2_required": is_req,
+            "reason": reason,
+            "task": {
+                "objective": "Extract and synthesize all product fields, resolving any conflicts.",
+                "evidence_ids": [e.evidence_id for e in evidence.evidence]
+            } if is_req else None
+        }
+        return is_req, decision
 
     def _build_baseline_intelligence(
         self, 

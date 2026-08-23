@@ -8,7 +8,7 @@ import logging
 from abc import ABC, abstractmethod
 from typing import Any, Optional
 
-from tenacity import retry, stop_after_attempt, wait_exponential
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception
 
 from ai_engine.schemas import (
     DiscoveryResult,
@@ -20,6 +20,20 @@ from ai_engine.schemas import (
 )
 
 logger = logging.getLogger(__name__)
+
+def is_transient_error(e: Exception) -> bool:
+    """Determine if an error is transient. Do NOT retry on 404s, Timeouts, or Auth errors."""
+    error_str = str(e).lower()
+    # Do not retry on Not Found errors (e.g., model missing)
+    if "404" in error_str or "not found" in error_str:
+        return False
+    # Do not retry on timeouts (since our timeout is already generous)
+    if "timeout" in error_str or "readtimeout" in error_str:
+        return False
+    # Do not retry on authentication errors
+    if "401" in error_str or "403" in error_str or "unauthorized" in error_str:
+        return False
+    return True
 
 
 # ---------------------------------------------------------------------------
@@ -191,7 +205,7 @@ class GeminiProvider(AIProviderInterface):
     ) -> dict[str, Any]:
         import time
         time.sleep(4) # Throttle to max 15 RPM
-        
+
         client = self._get_client()
         from google.genai import types
 
@@ -321,10 +335,11 @@ Respond with a JSON array of attribute objects."""
 class OllamaProvider(AIProviderInterface):
     """Local Qwen3.5 LLM provider via Ollama."""
 
-    def __init__(self, base_url: Optional[str] = None, model: Optional[str] = None, timeout: int = 300):
+    def __init__(self, base_url: Optional[str] = None, model: Optional[str] = None, timeout: int = 1200):
         self.base_url = (base_url or os.environ.get("OLLAMA_BASE_URL", "http://127.0.0.1:11434")).rstrip("/")
         self.model_name = model or os.environ.get("OLLAMA_MODEL", "qwen3.5:9b-q4_K_M")
-        self.timeout = int(os.environ.get("OLLAMA_TIMEOUT", timeout))
+        default_timeout = int(os.environ.get("PROVIDER_TIMEOUT_SECONDS", timeout))
+        self.timeout = int(os.environ.get("OLLAMA_TIMEOUT_SECONDS", os.environ.get("OLLAMA_TIMEOUT", default_timeout)))
         self._client = None
 
     def _get_client(self):
@@ -333,7 +348,7 @@ class OllamaProvider(AIProviderInterface):
             self._client = httpx.AsyncClient(timeout=self.timeout)
         return self._client
 
-    @retry(stop=stop_after_attempt(2), wait=wait_exponential(min=1, max=5))
+    @retry(retry=retry_if_exception(is_transient_error), stop=stop_after_attempt(2), wait=wait_exponential(min=1, max=5))
     async def generate_structured(
         self,
         prompt: str,
@@ -342,7 +357,7 @@ class OllamaProvider(AIProviderInterface):
         temperature: float = 0.1,
     ) -> dict[str, Any]:
         client = self._get_client()
-        
+
         # Build prompt enforcing JSON structure
         full_prompt = prompt
         if response_schema:
@@ -350,8 +365,8 @@ class OllamaProvider(AIProviderInterface):
         else:
             full_prompt += "\n\nOutput STRICT valid JSON. NO markdown, NO text, JUST JSON."
 
-        # Use /api/chat with /no_think to prevent Qwen 3.5 think-block interference with JSON output
-        sys_msg = f"/no_think\n{system_instruction}" if system_instruction else "/no_think\nYou are a helpful assistant that outputs valid JSON."
+        # Prevent think-block interference with JSON output
+        sys_msg = system_instruction if system_instruction else "You are a helpful assistant that outputs valid JSON."
         payload = {
             "model": self.model_name,
             "messages": [
@@ -361,22 +376,27 @@ class OllamaProvider(AIProviderInterface):
             "stream": False,
             "options": {
                 "num_ctx": int(os.environ.get("OLLAMA_NUM_CTX", "2048")),
-                "num_predict": 512,
+                "num_predict": 2048,
                 "temperature": temperature,
             }
         }
 
         try:
+            logger.info(f"\n[DIAGNOSTIC] Ollama POST /api/chat | Provider: OLLAMA | Model: {self.model_name} | URL: {self.base_url}")
             response = await client.post(f"{self.base_url}/api/chat", json=payload)
             response.raise_for_status()
             data = response.json()
-            content = data.get("message", {}).get("content", "")
+            message = data.get("message", {})
+            content = message.get("content", "")
+            if not content.strip():
+                content = message.get("thinking", "")
+
             return self._parse_json_response(content)
         except Exception as e:
             logger.error(f"OllamaProvider generate_structured failed: {e}")
             raise RuntimeError(f"OllamaProvider generation failed: {e}")
 
-    @retry(stop=stop_after_attempt(2), wait=wait_exponential(min=1, max=5))
+    @retry(retry=retry_if_exception(is_transient_error), stop=stop_after_attempt(2), wait=wait_exponential(min=1, max=5))
     async def analyze_multimodal(
         self,
         prompt: str,
@@ -402,7 +422,7 @@ class OllamaProvider(AIProviderInterface):
             return fallback
         return {"error": "Vision analysis unavailable in LOCAL mode"}
 
-    @retry(stop=stop_after_attempt(2), wait=wait_exponential(min=1, max=5))
+    @retry(retry=retry_if_exception(is_transient_error), stop=stop_after_attempt(2), wait=wait_exponential(min=1, max=5))
     async def analyze_product(
         self,
         product_info: dict[str, Any],
@@ -414,10 +434,10 @@ class OllamaProvider(AIProviderInterface):
         prompt = f"Task: {task}\n\nProduct Information:\n{json.dumps(product_info, indent=2, default=str)}\n\n"
         if context:
             prompt += f"Additional Context: {context}\n\n"
-            
+
         prompt += "Respond with strictly valid JSON matching the exact requested keys. No surrounding text, no markdown."
 
-        system_instruction = "/no_think\nYou are an expert product data analyst. Analyze product information accurately. Never fabricate specifications or evidence. If information is not available, mark it as missing. ALWAYS OUTPUT RAW JSON."
+        system_instruction = "You are an expert product data analyst. Analyze product information accurately. Never fabricate specifications or evidence. If information is not available, mark it as missing. ALWAYS OUTPUT RAW JSON. DO NOT use <think> tags. Do not explain your reasoning. Output only the final response directly."
 
         payload = {
             "model": self.model_name,
@@ -428,20 +448,25 @@ class OllamaProvider(AIProviderInterface):
             "stream": False,
             "options": {
                 "num_ctx": int(os.environ.get("OLLAMA_NUM_CTX", "2048")),
+                "num_predict": -1,
             }
         }
 
         try:
-            response = await client.post(f"{self.base_url}/api/chat", json=payload)
+            logger.info(f"\n[DIAGNOSTIC] Ollama POST /api/chat (analyze_product) | Provider: OLLAMA | Model: {self.model_name} | URL: {self.base_url}")
+            response = await client.post(f"{self.base_url}/api/chat", json=payload, timeout=3600.0)
             response.raise_for_status()
             data = response.json()
-            content = data.get("message", {}).get("content", "")
+            message = data.get("message", {})
+            content = message.get("content", "")
+            if not content.strip():
+                content = message.get("thinking", "")
             return self._parse_json_response(content)
         except Exception as e:
             logger.error(f"OllamaProvider analyze_product failed: {e}")
             raise RuntimeError(f"OllamaProvider analysis failed: {e}")
 
-    @retry(stop=stop_after_attempt(2), wait=wait_exponential(min=1, max=5))
+    @retry(retry=retry_if_exception(is_transient_error), stop=stop_after_attempt(2), wait=wait_exponential(min=1, max=5))
     async def extract_attributes(
         self,
         product_info: dict[str, Any],
@@ -478,7 +503,7 @@ CRITICAL RULES:
 
 Output strictly a JSON array (or an object with an 'attributes' array). No markdown, no conversational text."""
 
-        system_instruction = "/no_think\nYou are a precise product data extraction engine. Extract only what is directly supported by evidence. Never fabricate data. ALWAYS OUTPUT RAW JSON."
+        system_instruction = "You are a precise data extraction AI. Extract the requested attributes strictly from the provided evidence. ALWAYS OUTPUT RAW JSON. DO NOT use <think> tags. Do not explain your reasoning. Output only the final response directly."
 
         payload = {
             "model": self.model_name,
@@ -489,16 +514,19 @@ Output strictly a JSON array (or an object with an 'attributes' array). No markd
             "stream": False,
             "options": {
                 "num_ctx": int(os.environ.get("OLLAMA_NUM_CTX", "2048")),
+                "num_predict": -1,
             }
         }
 
         try:
-            response = await client.post(f"{self.base_url}/api/chat", json=payload)
+            logger.info(f"\n[DIAGNOSTIC] Ollama POST /api/chat (extract_attributes) | Provider: OLLAMA | Model: {self.model_name} | URL: {self.base_url}")
+            response = await client.post(f"{self.base_url}/api/chat", json=payload, timeout=3600.0)
+            logger.info(f"[DIAGNOSTIC] Ollama POST (extract_attributes) returned status: {response.status_code}")
             response.raise_for_status()
             data = response.json()
             content = data.get("message", {}).get("content", "")
             result = self._parse_json_response(content)
-            
+
             if isinstance(result, list):
                 return result
             if isinstance(result, dict) and "attributes" in result:
@@ -512,47 +540,46 @@ Output strictly a JSON array (or an object with an 'attributes' array). No markd
         return f"Ollama ({self.model_name})"
 
     @staticmethod
-    def _parse_json_response(text: str) -> Any:
+    def _parse_json_response(text: str, expected_type=dict) -> Any:
         """Robustly extract and parse JSON from Ollama output."""
         import re
         import json
-        
+
+        original_text = text
         # 1. Remove think blocks
         text = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL)
         text = re.sub(r'(?i)Thinking\.\.\..*?done thinking\.', '', text, flags=re.DOTALL)
-        
-        # 2. Extract JSON from markdown blocks if present
-        json_pattern = r'```(?:json)?(.*?)```'
-        matches = re.findall(json_pattern, text, flags=re.DOTALL)
-        if matches:
-            text = matches[-1] # take the last code block
-            
-        text = text.strip()
-        
-        # 3. Try parsing directly
-        try:
-            return json.loads(text)
-        except json.JSONDecodeError:
-            pass
-            
-        # 4. Fallback repair: find first {/[ and last }/]
-        start_obj = text.find("{")
-        start_arr = text.find("[")
-        
-        if start_obj == -1 and start_arr == -1:
-            raise ValueError(f"No JSON object or array found in Ollama response: {text[:200]}")
-            
-        start = start_obj if (start_arr == -1 or (start_obj != -1 and start_obj < start_arr)) else start_arr
-        end_char = "}" if start == start_obj else "]"
-        end = text.rfind(end_char)
-        
-        if end != -1 and end > start:
-            try:
-                return json.loads(text[start:end+1])
-            except json.JSONDecodeError as e:
-                raise ValueError(f"Failed to parse repaired JSON string: {e}")
-                
-        raise ValueError(f"Failed to extract JSON from Ollama response: {text[:200]}")
+
+        # 2. Robust JSON extraction
+        valid_jsons = []
+        decoder = json.JSONDecoder()
+
+        i = 0
+        while i < len(text):
+            if text[i] in '{[':
+                try:
+                    obj, idx = decoder.raw_decode(text[i:])
+                    if isinstance(obj, expected_type):
+                        valid_jsons.append(obj)
+                    i += idx
+                    continue
+                except json.JSONDecodeError:
+                    pass
+            i += 1
+
+        if valid_jsons:
+            if expected_type == dict:
+                if len(valid_jsons) == 1:
+                    return valid_jsons[0]
+                # Merge all dicts (resolves LLMs splitting output into multiple blocks)
+                merged = {}
+                for d in valid_jsons:
+                    merged.update(d)
+                return merged
+            else:
+                return valid_jsons[-1]
+
+        raise ValueError(f"Failed to extract JSON from Ollama response: {original_text[:200]}")
 
 
 # ---------------------------------------------------------------------------
@@ -562,11 +589,12 @@ Output strictly a JSON array (or an object with an 'attributes' array). No markd
 class FreeLLMAPIProvider(AIProviderInterface):
     """FreeLLMAPI provider targeting GPT-OSS 120B."""
 
-    def __init__(self, base_url: str = "http://localhost:3001/v1", api_key: str = "", model: str = "gpt-oss-120b", timeout: int = 300):
+    def __init__(self, base_url: str = "http://localhost:3001/v1", api_key: str = "", model: str = "gpt-oss-120b", timeout: int = 1200):
         self.base_url = base_url.rstrip("/")
         self.api_key = api_key or os.environ.get("FREELLMAPI_KEY", "")
         self.model_name = model or os.environ.get("FREELLMAPI_MODEL", "gpt-oss-120b")
-        self.timeout = int(os.environ.get("FREELLMAPI_TIMEOUT", timeout))
+        default_timeout = int(os.environ.get("PROVIDER_TIMEOUT_SECONDS", timeout))
+        self.timeout = int(os.environ.get("FREELLMAPI_TIMEOUT_SECONDS", os.environ.get("FREELLMAPI_TIMEOUT", default_timeout)))
         self._client = None
 
     def _get_client(self):
@@ -585,7 +613,7 @@ class FreeLLMAPIProvider(AIProviderInterface):
                 )
         return self._client
 
-    @retry(stop=stop_after_attempt(5), wait=wait_exponential(min=2, max=30))
+    @retry(retry=retry_if_exception(is_transient_error), stop=stop_after_attempt(3), wait=wait_exponential(min=2, max=10))
     async def generate_structured(
         self,
         prompt: str,
@@ -594,7 +622,7 @@ class FreeLLMAPIProvider(AIProviderInterface):
         temperature: float = 0.2,
     ) -> dict[str, Any]:
         client = self._get_client()
-        
+
         full_prompt = prompt
         if response_schema:
             full_prompt += f"\n\nOutput STRICT valid JSON matching this schema. NO markdown, NO text, JUST JSON:\n{json.dumps(response_schema, indent=2)}"
@@ -619,7 +647,7 @@ class FreeLLMAPIProvider(AIProviderInterface):
             logger.error(f"FreeLLMAPIProvider generate_structured failed: {e}")
             raise RuntimeError(f"FreeLLMAPIProvider generation failed: {e}")
 
-    @retry(stop=stop_after_attempt(2), wait=wait_exponential(min=1, max=5))
+    @retry(retry=retry_if_exception(is_transient_error), stop=stop_after_attempt(2), wait=wait_exponential(min=1, max=5))
     async def analyze_multimodal(
         self,
         prompt: str,
@@ -633,7 +661,7 @@ class FreeLLMAPIProvider(AIProviderInterface):
         """FreeLLMAPI fallback for multimodal requests."""
         raise RuntimeError("Vision analysis unavailable in FreeLLMAPI mode")
 
-    @retry(stop=stop_after_attempt(5), wait=wait_exponential(min=2, max=30))
+    @retry(retry=retry_if_exception(is_transient_error), stop=stop_after_attempt(3), wait=wait_exponential(min=2, max=10))
     async def analyze_product(
         self,
         product_info: dict[str, Any],
@@ -645,7 +673,7 @@ class FreeLLMAPIProvider(AIProviderInterface):
         prompt = f"Task: {task}\n\nProduct Information:\n{json.dumps(product_info, indent=2, default=str)}\n\n"
         if context:
             prompt += f"Additional Context: {context}\n\n"
-            
+
         prompt += "Respond with strictly valid JSON matching the exact requested keys. No surrounding text, no markdown."
         system_instruction = "You are an expert product data analyst. Analyze product information accurately. Never fabricate specifications or evidence. If information is not available, mark it as missing. ALWAYS OUTPUT RAW JSON."
 
@@ -667,7 +695,7 @@ class FreeLLMAPIProvider(AIProviderInterface):
             logger.error(f"FreeLLMAPIProvider analyze_product failed: {e}")
             raise RuntimeError(f"FreeLLMAPIProvider analysis failed: {e}")
 
-    @retry(stop=stop_after_attempt(5), wait=wait_exponential(min=2, max=30))
+    @retry(retry=retry_if_exception(is_transient_error), stop=stop_after_attempt(3), wait=wait_exponential(min=2, max=10))
     async def extract_attributes(
         self,
         product_info: dict[str, Any],
@@ -704,7 +732,7 @@ CRITICAL RULES:
 
 Output strictly a JSON array (or an object with an 'attributes' array). No markdown, no conversational text."""
 
-        system_instruction = "You are a precise product data extraction engine. Extract only what is directly supported by evidence. Never fabricate data. ALWAYS OUTPUT RAW JSON."
+        system_instruction = "You are an expert product data extraction system. Extract accurate values directly from the provided evidence texts. Never fabricate data. ALWAYS OUTPUT RAW JSON. DO NOT use <think> tags. Do not explain your reasoning. Output only the final response directly."
 
         messages = [
             {"role": "system", "content": system_instruction},
@@ -720,7 +748,7 @@ Output strictly a JSON array (or an object with an 'attributes' array). No markd
             )
             content = response.choices[0].message.content
             result = self._parse_json_response(content)
-            
+
             if isinstance(result, list):
                 return result
             if isinstance(result, dict) and "attributes" in result:
@@ -738,42 +766,42 @@ Output strictly a JSON array (or an object with an 'attributes' array). No markd
         """Robustly extract and parse JSON."""
         import re
         import json
-        
+
         # 1. Remove think blocks
         text = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL)
         text = re.sub(r'(?i)Thinking\.\.\..*?done thinking\.', '', text, flags=re.DOTALL)
-        
+
         # 2. Extract JSON from markdown blocks if present
         json_pattern = r'```(?:json)?(.*?)```'
         matches = re.findall(json_pattern, text, flags=re.DOTALL)
         if matches:
             text = matches[-1] # take the last code block
-            
+
         text = text.strip()
-        
+
         # 3. Try parsing directly
         try:
             return json.loads(text)
         except json.JSONDecodeError:
             pass
-            
+
         # 4. Fallback repair: find first {/[ and last }/]
         start_obj = text.find("{")
         start_arr = text.find("[")
-        
+
         if start_obj == -1 and start_arr == -1:
             raise ValueError(f"No JSON object or array found in FreeLLMAPI response: {text[:200]}")
-            
+
         start = start_obj if (start_arr == -1 or (start_obj != -1 and start_obj < start_arr)) else start_arr
         end_char = "}" if start == start_obj else "]"
         end = text.rfind(end_char)
-        
+
         if end != -1 and end > start:
             try:
                 return json.loads(text[start:end+1])
             except json.JSONDecodeError as e:
                 raise ValueError(f"Failed to parse repaired JSON string: {e}")
-                
+
         raise ValueError(f"Failed to extract JSON from FreeLLMAPI response: {text[:200]}")
 
 
@@ -831,18 +859,18 @@ class XAIProvider(AIProviderInterface):
         """Enforce local safety limits (RPS and TPM)."""
         async with self._lock:
             now = time.time()
-            
+
             # RPS check
             min_interval = 1.0 / self.max_rps if self.max_rps > 0 else 0
             elapsed = now - self.__class__._last_request_time
             if elapsed < min_interval:
                 await asyncio.sleep(min_interval - elapsed)
-            
+
             # TPM check
             if now - self.__class__._tpm_window_start > 60:
                 self.__class__._tpm_window_start = now
                 self.__class__._tokens_used_in_window = 0
-                
+
             if self.__class__._tokens_used_in_window + estimated_tokens > self.max_tpm:
                 sleep_time = 60 - (now - self.__class__._tpm_window_start)
                 if sleep_time > 0:
@@ -859,18 +887,18 @@ class XAIProvider(AIProviderInterface):
         """Call xAI API with bounded exponential backoff for 429 errors."""
         max_retries = 3
         base_delay = 2.0
-        
+
         client = self._get_client()
         headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json"
         }
-        
+
         for attempt in range(max_retries + 1):
             await self._enforce_budget()
             try:
                 response = await client.post(f"{self.base_url}/v1/chat/completions", json=payload, headers=headers)
-                
+
                 if response.status_code in (401, 403):
                     raise XAIAuthenticationError(f"xAI Auth Error: {response.status_code} - {response.text}")
                 elif response.status_code == 429:
@@ -890,10 +918,10 @@ class XAIProvider(AIProviderInterface):
                         continue
                     else:
                         raise XAIServerError(f"xAI Server Error: {response.status_code} - {response.text}")
-                
+
                 response.raise_for_status()
                 return response.json()
-                
+
             except RequestError as e:
                 # E.g., network timeouts
                 if attempt < max_retries:
@@ -913,19 +941,19 @@ class XAIProvider(AIProviderInterface):
         response_schema: Optional[dict] = None,
         temperature: float = 0.2,
     ) -> dict[str, Any]:
-        
+
         messages = []
         if system_instruction:
             messages.append({"role": "system", "content": system_instruction})
         messages.append({"role": "user", "content": prompt})
-        
+
         payload = {
             "model": self.model_name,
             "messages": messages,
             "temperature": temperature,
             "stream": False
         }
-        
+
         if response_schema:
             schema_name = response_schema.get("title", "structured_response").replace(" ", "_")
             payload["response_format"] = {
@@ -936,9 +964,9 @@ class XAIProvider(AIProviderInterface):
                     "strict": True
                 }
             }
-        
+
         data = await self._call_api_with_retry(payload)
-        
+
         try:
             content = data["choices"][0]["message"]["content"]
             result = json.loads(content)
@@ -976,13 +1004,13 @@ class XAIProvider(AIProviderInterface):
         task: str,
         context: str = "",
     ) -> dict[str, Any]:
-        
+
         prompt = f"Task: {task}\n\nProduct Information:\n{json.dumps(product_info, indent=2, default=str)}\n\n"
         if context:
             prompt += f"Additional Context: {context}\n\n"
-            
+
         system_instruction = "You are an expert product data analyst. Analyze product information accurately. Never fabricate specifications or evidence. If information is not available, mark it as missing."
-        
+
         return await self.generate_structured(
             prompt=prompt,
             system_instruction=system_instruction,
@@ -996,9 +1024,9 @@ class XAIProvider(AIProviderInterface):
         evidence_texts: list[str],
         required_attributes: list[str],
     ) -> list[dict[str, Any]]:
-        
+
         evidence_block = "\n---\n".join(evidence_texts[:5])
-        
+
         prompt = f"""Extract product attributes from the provided evidence.
 
 Product: {json.dumps(product_info, indent=2, default=str)}
@@ -1015,7 +1043,7 @@ CRITICAL RULES:
 - Include the exact evidence snippet that supports each value
 """
         system_instruction = "You are a precise product data extraction engine. Extract only what is directly supported by evidence. Never fabricate data."
-        
+
         schema = {
             "type": "object",
             "properties": {
@@ -1040,14 +1068,14 @@ CRITICAL RULES:
             "required": ["attributes"],
             "additionalProperties": False
         }
-        
+
         result = await self.generate_structured(
             prompt=prompt,
             system_instruction=system_instruction,
             response_schema=schema,
             temperature=0.1
         )
-        
+
         return result.get("attributes", [])
 
     def get_provider_name(self) -> str:

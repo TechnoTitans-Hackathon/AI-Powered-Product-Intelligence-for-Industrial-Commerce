@@ -65,7 +65,9 @@ def resolve_ai_policy(mode: AIProcessingMode) -> AIPolicy:
     default_agent2_provider = settings.AI_ENGINE_AGENT2_MODE.lower() if settings.AI_ENGINE_AGENT2_MODE else "freellmapi"
 
     def _get_model(provider: str, mode: AIProcessingMode) -> str:
-        if provider == "freellmapi":
+        if provider == "ollama":
+            return "qwen3.5:9b-q4_K_M"
+        elif provider == "freellmapi":
             return "gpt-oss-120b"
         elif provider == "xai":
             return "grok-4.5"

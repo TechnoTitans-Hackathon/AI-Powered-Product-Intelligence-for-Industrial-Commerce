@@ -52,6 +52,24 @@ async function checkUrl(url, method = 'GET') {
   });
 }
 
+async function checkFrontendIdentity(url) {
+  return new Promise((resolve) => {
+    const req = http.request(url, { method: 'GET' }, (res) => {
+      if (res.statusCode !== 200) {
+        resolve(false);
+        return;
+      }
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        resolve(data.includes('src="/src/main.tsx"'));
+      });
+    });
+    req.on('error', () => resolve(false));
+    req.end();
+  });
+}
+
 async function checkOllama() {
   return new Promise((resolve) => {
     http.get(`${OLLAMA_URL}/api/tags`, (res) => {
@@ -138,39 +156,24 @@ async function startBackend() {
 }
 
 async function startFrontend() {
-  return new Promise((resolve) => {
-    const targetDir = path.join(__dirname, 'Frontend+Backend + Ai Engine', 'frontend');
-    const proc = spawn('npm run dev:frontend', {
-      cwd: targetDir,
-      shell: true
-    });
-    spawnedProcesses.push(proc);
-
-    let resolved = false;
-    proc.stdout.on('data', (data) => {
-      const output = data.toString();
-      const match = output.match(/http:\/\/(localhost|127\.0\.0\.1):(\d+)/);
-      if (match && !resolved) {
-        resolved = true;
-        resolve(match[0]);
-      }
-    });
-
-    proc.on('error', () => {
-      if (!resolved) {
-        resolved = true;
-        resolve(null);
-      }
-    });
-
-    // Timeout fallback
-    setTimeout(() => {
-      if (!resolved) {
-        resolved = true;
-        resolve(null);
-      }
-    }, 20000);
+  const targetDir = path.join(__dirname, 'Frontend+Backend + Ai Engine', 'frontend');
+  const proc = spawn('npm run dev:frontend -- --port 5175', {
+    cwd: targetDir,
+    stdio: 'ignore',
+    shell: true
   });
+  spawnedProcesses.push(proc);
+
+  for (let i = 0; i < 40; i++) {
+    await new Promise(r => setTimeout(r, 1000));
+    for (let port of [5175, 5176, 5177, 5178]) {
+      const url = `http://localhost:${port}`;
+      if (await checkFrontendIdentity(url)) {
+        return url;
+      }
+    }
+  }
+  return null;
 }
 
 async function main() {
@@ -231,9 +234,17 @@ async function main() {
 
   // 5. FRONTEND
   console.log('\n[5/5] Starting Frontend...');
-  let frontendUrl = 'http://localhost:5173';
-  let frontendStatus = await checkUrl(frontendUrl);
-  if (frontendStatus === 200) {
+  let frontendUrl = null;
+  for (let port of [5175, 5176, 5177, 5178]) {
+    const url = `http://localhost:${port}`;
+    const isUniHack = await checkFrontendIdentity(url);
+    if (isUniHack) {
+      frontendUrl = url;
+      break;
+    }
+  }
+
+  if (frontendUrl) {
     console.log('[OK] Frontend');
   } else {
     const actualUrl = await startFrontend();
@@ -248,8 +259,9 @@ async function main() {
   console.log('\n==========================================');
   console.log('UNIHACK IS READY');
   console.log('==========================================');
-  console.log(`Frontend: ${frontendUrl}`);
-  console.log(`Backend:  ${BACKEND_URL}`);
+  console.log(`UniHack Frontend: ${frontendUrl}`);
+  console.log(`Backend:          ${BACKEND_URL}`);
+  console.log(`FreeLLMAPI API:   ${FREELLMAPI_URL}`);
   console.log('==========================================\n');
 
   // Keep event loop alive

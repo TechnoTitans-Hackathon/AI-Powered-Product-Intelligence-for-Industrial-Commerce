@@ -243,8 +243,8 @@ export const getJobById = async (jobId: string): Promise<ProcessingJobItem> => {
   return res.data;
 };
 
-export const submitBatchProcessing = async (productIds: string[]): Promise<{ message: string; job_ids: string[]; total: number }> => {
-  const res = await api.post('/batch', { product_ids: productIds });
+export const submitBatchProcessing = async (productIds: string[], ai_mode: AIProcessingMode = AIProcessingMode.AUTO): Promise<{ message: string; job_ids: string[]; total: number }> => {
+  const res = await api.post('/batch', { product_ids: productIds, ai_mode });
   return res.data;
 };
 

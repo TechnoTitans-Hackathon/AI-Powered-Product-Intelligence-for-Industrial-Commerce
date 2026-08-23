@@ -76,6 +76,13 @@ def submit_batch(
     if not product_ids:
         raise HTTPException(status_code=400, detail="No product_ids provided.")
 
+    ai_mode_str = payload.get("ai_mode", "AUTO")
+    try:
+        from backend.schemas.ai_contract import AIProcessingMode
+        ai_mode = AIProcessingMode(ai_mode_str)
+    except ValueError:
+        ai_mode = AIProcessingMode.AUTO
+
     created_jobs = []
     for product_id in product_ids:
         product = db.query(Product).filter(
@@ -85,7 +92,7 @@ def submit_batch(
         if not product:
             logger.warning(f"Batch: product {product_id} not found for tenant {tenant_id}, skipping.")
             continue
-        job = job_service.create_job(db, product_id, tenant_id=tenant_id)
+        job = job_service.create_job(db, product_id, tenant_id=tenant_id, ai_mode=ai_mode)
         background_tasks.add_task(_run_job_background, job.id)
         created_jobs.append(job.id)
 

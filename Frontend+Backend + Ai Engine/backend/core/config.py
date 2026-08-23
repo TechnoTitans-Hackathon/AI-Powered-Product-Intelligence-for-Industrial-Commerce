@@ -47,6 +47,11 @@ class Settings(BaseSettings):
     FREELLMAPI_API_KEY: str = ""
     FREELLMAPI_BASE_URL: str = "https://api.freellmapi.com/v1"
 
+    # Timeout configurations (Generous defaults for local LLMs)
+    PROVIDER_TIMEOUT_SECONDS: int = 1200
+    OLLAMA_TIMEOUT_SECONDS: int = 1200
+    AI_PROCESSING_TIMEOUT_SECONDS: int = 3600
+
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
 

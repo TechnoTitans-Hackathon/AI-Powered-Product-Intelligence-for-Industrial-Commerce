@@ -103,8 +103,8 @@ CRITICAL RULES:
 - Generate TARGETED search queries, not generic ones
 - Identify the most likely product category and industry
 
-Return as JSON with these exact keys: product_identity, known_information, 
-missing_information, required_attributes, evidence_requirements, 
+Return as JSON with these exact keys: product_identity, known_information,
+missing_information, required_attributes, evidence_requirements,
 retrieval_queries, external_search_queries, research_required, industry, category, actions"""
 
     def _parse_discovery_result(
@@ -146,6 +146,23 @@ retrieval_queries, external_search_queries, research_required, industry, categor
         else:
             sufficiency = EvidenceSufficiency.INSUFFICIENT
 
+        # Normalize required_attributes to list of strings
+        raw_req_attrs = ai_result.get("required_attributes", CORE_COMMERCE_ATTRIBUTES)
+        normalized_req_attrs = []
+        if isinstance(raw_req_attrs, list):
+            for attr in raw_req_attrs:
+                if isinstance(attr, dict):
+                    # Handle hallucinated dicts e.g. {"attribute": "power_rating", "reason": "..."}
+                    if "attribute" in attr:
+                        normalized_req_attrs.append(str(attr["attribute"]))
+                    elif "name" in attr:
+                        normalized_req_attrs.append(str(attr["name"]))
+                elif isinstance(attr, str):
+                    normalized_req_attrs.append(attr)
+
+        if not normalized_req_attrs:
+            normalized_req_attrs = CORE_COMMERCE_ATTRIBUTES
+
         return DiscoveryResult(
             request_id=request_id,
             product_identity=identity,
@@ -153,7 +170,7 @@ retrieval_queries, external_search_queries, research_required, industry, categor
             category=ai_result.get("category", identity.category),
             known_information=ai_result.get("known_information", []),
             missing_information=missing,
-            required_attributes=ai_result.get("required_attributes", CORE_COMMERCE_ATTRIBUTES),
+            required_attributes=normalized_req_attrs,
             evidence_requirements=evidence_reqs,
             retrieval_queries=ai_result.get("retrieval_queries", []),
             external_search_queries=ai_result.get("external_search_queries", []),

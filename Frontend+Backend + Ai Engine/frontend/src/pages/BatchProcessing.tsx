@@ -10,7 +10,7 @@ import {
   Layers,
   ArrowRight,
 } from 'lucide-react';
-import { getJobs, getBatchSummary, submitBatchProcessing, getProducts } from '../api/client';
+import { getJobs, getBatchSummary, submitBatchProcessing, getProducts, AIProcessingMode } from '../api/client';
 import { ProcessingJobItem, ProductItem } from '../types';
 import { useTenant } from '../context/TenantContext';
 
@@ -30,6 +30,7 @@ export const BatchProcessing: React.FC = () => {
   const [selectedProductIds, setSelectedProductIds] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
+  const [aiMode, setAiMode] = useState<AIProcessingMode>(AIProcessingMode.AUTO);
 
   const fetchData = async () => {
     try {
@@ -71,7 +72,7 @@ export const BatchProcessing: React.FC = () => {
 
     try {
       setSubmitting(true);
-      await submitBatchProcessing(selectedProductIds);
+      await submitBatchProcessing(selectedProductIds, aiMode);
       setSelectedProductIds([]);
       await fetchData();
     } catch (err) {
@@ -140,7 +141,18 @@ export const BatchProcessing: React.FC = () => {
               Select catalog items to run through the multi-agent enrichment pipeline
             </p>
           </div>
-          <div style={{ display: 'flex', gap: '8px' }}>
+          <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+            <select
+              value={aiMode}
+              onChange={(e) => setAiMode(e.target.value as AIProcessingMode)}
+              className="select-field"
+              style={{ padding: '0.4rem', fontSize: '0.85rem' }}
+            >
+              <option value={AIProcessingMode.AUTO}>AUTO (FreeLLMAPI)</option>
+              <option value={AIProcessingMode.LOCAL}>LOCAL (Ollama)</option>
+              <option value={AIProcessingMode.FAST}>FAST (Speed)</option>
+              <option value={AIProcessingMode.DEEP}>DEEP (Gemini)</option>
+            </select>
             <button className="btn-secondary btn-sm" onClick={selectAllProducts}>
               {selectedProductIds.length === products.length ? 'Deselect All' : 'Select All'}
             </button>
