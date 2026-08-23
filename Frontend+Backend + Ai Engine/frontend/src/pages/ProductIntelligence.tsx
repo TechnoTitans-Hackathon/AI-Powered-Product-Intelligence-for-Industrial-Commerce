@@ -204,7 +204,13 @@ export const ProductIntelligence: React.FC = () => {
 
           {/* Action Buttons */}
           <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
-            <button className="btn-secondary" onClick={() => exportProductXlsx(product.id)}>
+            <button className="btn-secondary" onClick={async () => {
+              try {
+                await exportProductXlsx(product.id);
+              } catch (err: any) {
+                alert(err.message || "Export failed.");
+              }
+            }}>
               <FileText size={14} color="#059669" />
               Download Excel
             </button>

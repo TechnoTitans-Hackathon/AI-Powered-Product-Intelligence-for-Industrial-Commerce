@@ -1,0 +1,57 @@
+[
+  {
+    "industry": "Agricultural Equipment",
+    "category": "*",
+    "missing_knowledge": [
+      "Open licensed product catalog records",
+      "Deeper category-specific product specification data"
+    ],
+    "reason": "No clearly licensed real product/specification dataset found during bounded acquisition.",
+    "recommended_future_source": "Official government open-data portals, university repositories, Zenodo records with explicit CC0/CC BY licenses, or manufacturer datasets with explicit redistribution grants.",
+    "external_research_required": true
+  },
+  {
+    "industry": "Construction Materials",
+    "category": "*",
+    "missing_knowledge": [
+      "Open licensed product catalog records",
+      "Deeper category-specific product specification data"
+    ],
+    "reason": "No clearly licensed real product/specification dataset found during bounded acquisition.",
+    "recommended_future_source": "Official government open-data portals, university repositories, Zenodo records with explicit CC0/CC BY licenses, or manufacturer datasets with explicit redistribution grants.",
+    "external_research_required": true
+  },
+  {
+    "industry": "Fasteners",
+    "category": "*",
+    "missing_knowledge": [
+      "Open licensed product catalog records",
+      "Category-specific attribute vocabulary"
+    ],
+    "reason": "No clearly licensed real product/specification dataset found during bounded acquisition.",
+    "recommended_future_source": "Official government open-data portals, university repositories, Zenodo records with explicit CC0/CC BY licenses, or manufacturer datasets with explicit redistribution grants.",
+    "external_research_required": true
+  },
+  {
+    "industry": "Packaging Equipment",
+    "category": "*",
+    "missing_knowledge": [
+      "Open licensed product catalog records",
+      "Deeper category-specific product specification data"
+    ],
+    "reason": "No clearly licensed real product/specification dataset found during bounded acquisition.",
+    "recommended_future_source": "Official government open-data portals, university repositories, Zenodo records with explicit CC0/CC BY licenses, or manufacturer datasets with explicit redistribution grants.",
+    "external_research_required": true
+  },
+  {
+    "industry": "Safety Equipment",
+    "category": "*",
+    "missing_knowledge": [
+      "Open licensed product catalog records",
+      "Category-specific attribute vocabulary"
+    ],
+    "reason": "No clearly licensed real product/specification dataset found during bounded acquisition.",
+    "recommended_future_source": "Official government open-data portals, university repositories, Zenodo records with explicit CC0/CC BY licenses, or manufacturer datasets with explicit redistribution grants.",
+    "external_research_required": true
+  }
+]

@@ -1,0 +1,4701 @@
+[
+  {
+    "id": 577839978,
+    "name": "ENERGY STAR Unique ID",
+    "dataTypeName": "number",
+    "description": "The ENERGY STAR Unique ID (ESUID) is a string of seven numbers EPA assigns to an ENERGY STAR model or set of models with unique performance characteristics. This ESUID is unique to both the model and product specification version and is assigned by EPA upon receipt of certification information from the certification body. Each row within the product list will have a unique ESUID. Developers may wish to use this ESUID to track information on certified models in their information systems.",
+    "fieldName": "pd_id",
+    "position": 1,
+    "renderTypeName": "number",
+    "tableColumnId": 142966729,
+    "width": 122,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "4691414",
+      "null": "0",
+      "top": [
+        {
+          "item": "4520401",
+          "count": "1"
+        },
+        {
+          "item": "3543899",
+          "count": "1"
+        },
+        {
+          "item": "4661474",
+          "count": "1"
+        },
+        {
+          "item": "2404172",
+          "count": "1"
+        },
+        {
+          "item": "2589803",
+          "count": "1"
+        },
+        {
+          "item": "4572878",
+          "count": "1"
+        },
+        {
+          "item": "3624363",
+          "count": "1"
+        },
+        {
+          "item": "2391534",
+          "count": "1"
+        },
+        {
+          "item": "3998764",
+          "count": "1"
+        },
+        {
+          "item": "2649796",
+          "count": "1"
+        },
+        {
+          "item": "4572925",
+          "count": "1"
+        },
+        {
+          "item": "3550111",
+          "count": "1"
+        },
+        {
+          "item": "3624316",
+          "count": "1"
+        },
+        {
+          "item": "2525457",
+          "count": "1"
+        },
+        {
+          "item": "4016500",
+          "count": "1"
+        },
+        {
+          "item": "3892125",
+          "count": "1"
+        },
+        {
+          "item": "3555241",
+          "count": "1"
+        },
+        {
+          "item": "3477606",
+          "count": "1"
+        },
+        {
+          "item": "2397552",
+          "count": "1"
+        },
+        {
+          "item": "2649804",
+          "count": "1"
+        }
+      ],
+      "smallest": "2323217",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "noCommas": "true",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839979,
+    "name": "ENERGY STAR Partner",
+    "dataTypeName": "text",
+    "description": "An organization that signed a Partnership Agreement with EPA to manufacture or private label ENERGY STAR qualified products.",
+    "fieldName": "energy_star_partner",
+    "position": 2,
+    "renderTypeName": "text",
+    "tableColumnId": 142966730,
+    "width": 209,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "Zhuzhou Zopoise Technology Co.,Ltd",
+      "null": "0",
+      "top": [
+        {
+          "item": "Autel Digital Power Co., Ltd.",
+          "count": "36"
+        },
+        {
+          "item": "SHENZHEN HB ELECTRONIC CO LTD",
+          "count": "21"
+        },
+        {
+          "item": "Lite-On Technology Corporation",
+          "count": "20"
+        },
+        {
+          "item": "SOARING SUNSHINE PTE. LTD.",
+          "count": "16"
+        },
+        {
+          "item": "Leviton Mfg Co., Inc.",
+          "count": "12"
+        },
+        {
+          "item": "Xiamen Joint Tech. Co., Ltd",
+          "count": "10"
+        },
+        {
+          "item": "Blink Network LLC",
+          "count": "10"
+        },
+        {
+          "item": "Dropcases Ltd. DBA Lectron",
+          "count": "10"
+        },
+        {
+          "item": "Broadband Telcom Power Inc. (BTCPower)",
+          "count": "8"
+        },
+        {
+          "item": "United Chargers Inc.",
+          "count": "8"
+        },
+        {
+          "item": "Maverick Energy Solutions International",
+          "count": "7"
+        },
+        {
+          "item": "RAB Lighting, Inc.",
+          "count": "7"
+        },
+        {
+          "item": "EvoCharge Inc.",
+          "count": "7"
+        },
+        {
+          "item": "ChargePoint, Inc.",
+          "count": "7"
+        },
+        {
+          "item": "SemaConnect, Inc.",
+          "count": "7"
+        },
+        {
+          "item": "Longhorn Intelligent Tech Co., Ltd",
+          "count": "7"
+        },
+        {
+          "item": "ABB E-mobility B.V.",
+          "count": "7"
+        },
+        {
+          "item": "PointGuard Energy Inc.",
+          "count": "6"
+        },
+        {
+          "item": "Shenzhen Topband Co., Ltd",
+          "count": "6"
+        },
+        {
+          "item": "AddÉnergie Technologies Inc.",
+          "count": "6"
+        }
+      ],
+      "smallest": "14821530 CANADA INC. DBA FractalEV",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839980,
+    "name": "Brand Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to a product or family/series of products for sales and marketing purposes.",
+    "fieldName": "brand_name",
+    "position": 3,
+    "renderTypeName": "text",
+    "tableColumnId": 142966731,
+    "width": 126,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "Zopoise,",
+      "null": "0",
+      "top": [
+        {
+          "item": "AUTEL",
+          "count": "36"
+        },
+        {
+          "item": "HBE",
+          "count": "21"
+        },
+        {
+          "item": "SOARING SUNSHINE",
+          "count": "16"
+        },
+        {
+          "item": "Leviton",
+          "count": "12"
+        },
+        {
+          "item": "LITE-ON Technology Corporation",
+          "count": "11"
+        },
+        {
+          "item": "Joint",
+          "count": "10"
+        },
+        {
+          "item": "Lectron",
+          "count": "10"
+        },
+        {
+          "item": "Grizzl-E",
+          "count": "8"
+        },
+        {
+          "item": "BTCPower",
+          "count": "8"
+        },
+        {
+          "item": "EvoCharge",
+          "count": "7"
+        },
+        {
+          "item": "SemaConnect",
+          "count": "7"
+        },
+        {
+          "item": "Longhorn",
+          "count": "7"
+        },
+        {
+          "item": "RAB",
+          "count": "7"
+        },
+        {
+          "item": "Lite-On",
+          "count": "7"
+        },
+        {
+          "item": "ChargePoint",
+          "count": "7"
+        },
+        {
+          "item": "MES",
+          "count": "7"
+        },
+        {
+          "item": "TOPBAND",
+          "count": "6"
+        },
+        {
+          "item": "PointGuard",
+          "count": "6"
+        },
+        {
+          "item": "Blink",
+          "count": "6"
+        },
+        {
+          "item": "REALSEE",
+          "count": "6"
+        }
+      ],
+      "smallest": "AA",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839981,
+    "name": "Model Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to a product or family/series of products for sales and marketing purposes.",
+    "fieldName": "model_name",
+    "position": 4,
+    "renderTypeName": "text",
+    "tableColumnId": 142966732,
+    "width": 146,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "ZJ-EV32A",
+      "null": "0",
+      "top": [
+        {
+          "item": "MaxiChager Single Charger",
+          "count": "22"
+        },
+        {
+          "item": "AC Electric Vehicle Supply Equipment",
+          "count": "16"
+        },
+        {
+          "item": "EV Charger",
+          "count": "12"
+        },
+        {
+          "item": "AC Electric Vehicle Charging Station (Electric Vehicle Charger)",
+          "count": "11"
+        },
+        {
+          "item": "SemaConnect",
+          "count": "7"
+        },
+        {
+          "item": "Electric Vehicle Supply Equipment",
+          "count": "4"
+        },
+        {
+          "item": "ELECTRIC VEHICLE SUPPLY EQUIPMENT",
+          "count": "4"
+        },
+        {
+          "item": "Electric Vehicle Charging Station",
+          "count": "3"
+        },
+        {
+          "item": "VersiCharge",
+          "count": "3"
+        },
+        {
+          "item": "Atlas_UL AC Commercial Charger",
+          "count": "3"
+        },
+        {
+          "item": "HBE-AC48A01HW-U-**E*N*",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC32A01HW-U-**E**4G*",
+          "count": "2"
+        },
+        {
+          "item": "PowerUp",
+          "count": "2"
+        },
+        {
+          "item": "Series 7",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC40A01HW-U-**E**4G*",
+          "count": "2"
+        },
+        {
+          "item": "NECS-ACW-11.5-1-US-####",
+          "count": "2"
+        },
+        {
+          "item": "VersiCharge Blue",
+          "count": "2"
+        },
+        {
+          "item": "EMEVSE1",
+          "count": "2"
+        },
+        {
+          "item": "30 amp single port L2 EVSE",
+          "count": "2"
+        },
+        {
+          "item": "AC010K-AU-35",
+          "count": "2"
+        }
+      ],
+      "smallest": "022-3017-XX-XX",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839982,
+    "name": "Model Number",
+    "dataTypeName": "text",
+    "description": "A distinguishing identifier, usually alphanumeric, assigned to a product by the manufacturer or private labeler. For light commercial HVAC models, model number indicates the outdoor model number.",
+    "fieldName": "model_number",
+    "position": 5,
+    "renderTypeName": "text",
+    "tableColumnId": 142966733,
+    "width": 159,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "ZJ-EV32A",
+      "null": "0",
+      "top": [
+        {
+          "item": "Maxi US AC W10-N14-H",
+          "count": "2"
+        },
+        {
+          "item": "EMEVSE1",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC32A01HW-U-**S*N*",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC40A01HW-U-**E**4G*",
+          "count": "2"
+        },
+        {
+          "item": "AXLU191001D",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC32A01HW-U-**E**4G*",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC48A01HW-U-**S*N*",
+          "count": "2"
+        },
+        {
+          "item": "NECS-ACW-11.5-1-US-####",
+          "count": "2"
+        },
+        {
+          "item": "780",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC48A01HW-U-**E*N*",
+          "count": "2"
+        },
+        {
+          "item": "AXLU111001D",
+          "count": "2"
+        },
+        {
+          "item": "CP6000",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC40A01HW-U-**S*N*",
+          "count": "2"
+        },
+        {
+          "item": "TBAC3111USH-LJK",
+          "count": "2"
+        },
+        {
+          "item": "EIAW-U11KSSU7E01",
+          "count": "2"
+        },
+        {
+          "item": "880",
+          "count": "2"
+        },
+        {
+          "item": "AC010K-AU-35",
+          "count": "2"
+        },
+        {
+          "item": "JNT-EVH007/48AC/01C/**/RF/WF/4G",
+          "count": "1"
+        },
+        {
+          "item": "EV80S",
+          "count": "1"
+        },
+        {
+          "item": "HOX6F2A1A1",
+          "count": "1"
+        }
+      ],
+      "smallest": "022-3017-XX-XX",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839983,
+    "name": "Additional Model Information",
+    "dataTypeName": "text",
+    "description": "This indicates for the qualified model or family, family members, additional model names, model numbers and other identifying information associated with a product or family/series of products for sales and marketing purposes. Other identifying information includes, but is not limited to, SKUs, UPC codes, retail numbers, and/or descriptions of models included/not included in the reported Model Family.",
+    "fieldName": "additional_model_information",
+    "position": 6,
+    "renderTypeName": "text",
+    "tableColumnId": 142966734,
+    "width": 239,
+    "cachedContents": {
+      "non_null": "239",
+      "largest": "ZJ-EV40A",
+      "null": "229",
+      "top": [
+        {
+          "item": "(## represent current rating and could be 48, 80; ***** represent communication and payment methods and could be blank, R, G, W, B, E, P.)",
+          "count": "6"
+        },
+        {
+          "item": "## represent current rating and could be 32, 40, 48, 80.",
+          "count": "3"
+        },
+        {
+          "item": "AXLU111001W",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC32A01HW-U-**E**; HBE-AC32A01HW-U-**E***; HBE-AC32A01HW-U-**E**#; HBE-AC32A01HW-U-**E**4G; HBE-AC32A01HW-U-**E**4G#",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC48A01HW-U-**E*N#",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC40A01HW-U-**S*N#",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC32A01HW-U-**S*N#",
+          "count": "2"
+        },
+        {
+          "item": "NECS-ACW-7-1-US-####; NECS-ACW-9.6-1-US-####",
+          "count": "2"
+        },
+        {
+          "item": "## represent current rating and could be 32, 40, 48, 64, 80, 96.",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC48A01HW-U-**S*N#",
+          "count": "2"
+        },
+        {
+          "item": "HBE-AC40A01HW-U-**E**; HBE-AC40A01HW-U-**E***; HBE-AC40A01HW-U-**E**#; HBE-AC40A01HW-U-**E**4G; HBE-AC40A01HW-U-**E**4G#",
+          "count": "2"
+        },
+        {
+          "item": "#### denotes end customer specific designators; EVP-2001-40-W-####,Wall mount; Listed model pedestal",
+          "count": "1"
+        },
+        {
+          "item": "TB-AC212US",
+          "count": "1"
+        },
+        {
+          "item": "Atlas_UL AC Commercial Charger,A7-OP-UL-Sp",
+          "count": "1"
+        },
+        {
+          "item": "022-3018-XX-XX; 022-3022-XX-XX; 022-3023-XX-XX",
+          "count": "1"
+        },
+        {
+          "item": "PUP1-U-1-5-0-002; PUP1-U-1-5-0-**2; PUP1-U-1-5-C-002; PUP1-U-1-5-C-**2; PUP1-U-1-5-G-002; PUP1-U-1-5-G-**2; PUP1-U-1-5-N-002; PUP1-U-1-5-N-**2; PUP1-U-1-6-0-002; PUP1-U-1-6-0-**2; PUP1-U-1-6-C-**2",
+          "count": "1"
+        },
+        {
+          "item": "EV-111A; EV-112A; EV-113A",
+          "count": "1"
+        },
+        {
+          "item": "AC003PNA11; AC003PNA7; AC003PNA9; AC003PT17; AC003PT19",
+          "count": "1"
+        },
+        {
+          "item": "EFAC40NA12",
+          "count": "1"
+        },
+        {
+          "item": "HBE-AC40A01HW-U-**E*N#",
+          "count": "1"
+        }
+      ],
+      "smallest": "022-3016-XX-XX; 022-3020-XX-XX; 022-3021-XX-XX",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839984,
+    "name": "UPC",
+    "dataTypeName": "text",
+    "description": "UPC codes provided by partners for ENERGY STAR certified products. The brand, model name and model number continue to serve as the identifiers used to establish certification. The UPC code data below is intended to aid in identification of ENERGY STAR models. UPC code data is not provided for all certified models.",
+    "fieldName": "upc",
+    "position": 7,
+    "renderTypeName": "text",
+    "tableColumnId": 142966735,
+    "cachedContents": {
+      "non_null": "27",
+      "largest": "8720938441004",
+      "null": "441",
+      "top": [
+        {
+          "item": "6975394262645;6975394262652;6975394262669;6975394262676",
+          "count": "2"
+        },
+        {
+          "item": "00195893718931",
+          "count": "1"
+        },
+        {
+          "item": "046135781469",
+          "count": "1"
+        },
+        {
+          "item": "1000001",
+          "count": "1"
+        },
+        {
+          "item": "195893843428",
+          "count": "1"
+        },
+        {
+          "item": "4613575899",
+          "count": "1"
+        },
+        {
+          "item": "4613575901",
+          "count": "1"
+        },
+        {
+          "item": "4613575902",
+          "count": "1"
+        },
+        {
+          "item": "4613578134",
+          "count": "1"
+        },
+        {
+          "item": "5065010000000",
+          "count": "1"
+        },
+        {
+          "item": "632275105502",
+          "count": "1"
+        },
+        {
+          "item": "649270693385;860007031519",
+          "count": "1"
+        },
+        {
+          "item": "715786248088",
+          "count": "1"
+        },
+        {
+          "item": "767461337396;767461337402",
+          "count": "1"
+        },
+        {
+          "item": "767461337419;767461337426",
+          "count": "1"
+        },
+        {
+          "item": "767461337433;767461337440",
+          "count": "1"
+        },
+        {
+          "item": "779605603922;779605603939;779605603946;779605603953;779605603960;779605603977;791126783853",
+          "count": "1"
+        },
+        {
+          "item": "786689667610;786689667627;786689667634;786689667641;786689667658;786689667665",
+          "count": "1"
+        },
+        {
+          "item": "786689728670;786689728687",
+          "count": "1"
+        },
+        {
+          "item": "786689728694;786689728700",
+          "count": "1"
+        }
+      ],
+      "smallest": "00195893599424",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {}
+  },
+  {
+    "id": 577839985,
+    "name": "Product Type",
+    "dataTypeName": "text",
+    "description": "This indicates which type of EVSE describes this model.",
+    "fieldName": "product_type",
+    "position": 8,
+    "renderTypeName": "text",
+    "tableColumnId": 142966736,
+    "width": 151,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "Level 2",
+      "null": "0",
+      "top": [
+        {
+          "item": "Level 2",
+          "count": "430"
+        },
+        {
+          "item": "Level 1/Level 2 Dual Input",
+          "count": "32"
+        },
+        {
+          "item": "Level 1",
+          "count": "6"
+        }
+      ],
+      "smallest": "Level 1",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839986,
+    "name": "Max Nameplate Output Current (A)",
+    "dataTypeName": "number",
+    "description": "This indicates the maximum nameplate current in Amperes.",
+    "fieldName": "max_nameplate_output_current_a",
+    "position": 9,
+    "renderTypeName": "number",
+    "tableColumnId": 142966737,
+    "width": 272,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "160.00",
+      "null": "0",
+      "top": [
+        {
+          "item": "48.00",
+          "count": "136"
+        },
+        {
+          "item": "80.00",
+          "count": "112"
+        },
+        {
+          "item": "40.00",
+          "count": "77"
+        },
+        {
+          "item": "50.00",
+          "count": "44"
+        },
+        {
+          "item": "16.00",
+          "count": "30"
+        },
+        {
+          "item": "32.00",
+          "count": "28"
+        },
+        {
+          "item": "30",
+          "count": "11"
+        },
+        {
+          "item": "96.00",
+          "count": "8"
+        },
+        {
+          "item": "160.00",
+          "count": "8"
+        },
+        {
+          "item": "15.00",
+          "count": "4"
+        },
+        {
+          "item": "64.00",
+          "count": "3"
+        },
+        {
+          "item": "12.00",
+          "count": "3"
+        },
+        {
+          "item": "70",
+          "count": "1"
+        },
+        {
+          "item": "82.00",
+          "count": "1"
+        },
+        {
+          "item": "65.00",
+          "count": "1"
+        },
+        {
+          "item": "60.00",
+          "count": "1"
+        }
+      ],
+      "smallest": "12.00",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839987,
+    "name": "Input Voltage (V)",
+    "dataTypeName": "number",
+    "description": "This indicates the input voltage.",
+    "fieldName": "input_voltage_v",
+    "position": 10,
+    "renderTypeName": "number",
+    "tableColumnId": 142966738,
+    "width": 189,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "280.00",
+      "null": "0",
+      "top": [
+        {
+          "item": "240.00",
+          "count": "426"
+        },
+        {
+          "item": "120.00",
+          "count": "36"
+        },
+        {
+          "item": "280.00",
+          "count": "3"
+        },
+        {
+          "item": "2.08",
+          "count": "2"
+        },
+        {
+          "item": "240.60",
+          "count": "1"
+        }
+      ],
+      "smallest": "2.08",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839988,
+    "name": "Maximum Output Power (kW)",
+    "dataTypeName": "number",
+    "description": "This indicates the maximum output power in kW.",
+    "fieldName": "maximum_output_power_kw",
+    "position": 11,
+    "renderTypeName": "number",
+    "tableColumnId": 142966739,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "38.4",
+      "null": "0",
+      "top": [
+        {
+          "item": "11.52",
+          "count": "134"
+        },
+        {
+          "item": "19.2",
+          "count": "110"
+        },
+        {
+          "item": "9.6",
+          "count": "77"
+        },
+        {
+          "item": "12",
+          "count": "44"
+        },
+        {
+          "item": "1.92",
+          "count": "29"
+        },
+        {
+          "item": "7.68",
+          "count": "28"
+        },
+        {
+          "item": "7.2",
+          "count": "10"
+        },
+        {
+          "item": "23.04",
+          "count": "8"
+        },
+        {
+          "item": "38.4",
+          "count": "8"
+        },
+        {
+          "item": "1.8",
+          "count": "4"
+        },
+        {
+          "item": "15.36",
+          "count": "3"
+        },
+        {
+          "item": "1.44",
+          "count": "3"
+        },
+        {
+          "item": "0.17",
+          "count": "2"
+        },
+        {
+          "item": "8.4",
+          "count": "1"
+        },
+        {
+          "item": "16.8",
+          "count": "1"
+        },
+        {
+          "item": "11.55",
+          "count": "1"
+        },
+        {
+          "item": "15.6",
+          "count": "1"
+        },
+        {
+          "item": "3.84",
+          "count": "1"
+        },
+        {
+          "item": "14.4",
+          "count": "1"
+        },
+        {
+          "item": "22.4",
+          "count": "1"
+        }
+      ],
+      "smallest": "0.17",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {}
+  },
+  {
+    "id": 577839989,
+    "name": "Number of Outputs",
+    "dataTypeName": "number",
+    "description": "This indicates the number of outputs available for this model.",
+    "fieldName": "number_of_outputs",
+    "position": 12,
+    "renderTypeName": "number",
+    "tableColumnId": 142966740,
+    "width": 180,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "3",
+      "null": "0",
+      "top": [
+        {
+          "item": "1",
+          "count": "414"
+        },
+        {
+          "item": "2",
+          "count": "50"
+        },
+        {
+          "item": "0",
+          "count": "3"
+        },
+        {
+          "item": "3",
+          "count": "1"
+        }
+      ],
+      "smallest": "0",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839990,
+    "name": "Maximum Output Cord Length (ft.)",
+    "dataTypeName": "number",
+    "description": "This indicates cord set length or mean cord set length, if multiple-output. If 0, there is no cord provided with the model during testing.",
+    "fieldName": "output_cord_length_ft",
+    "position": 13,
+    "renderTypeName": "number",
+    "tableColumnId": 142966741,
+    "width": 211,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "40",
+      "null": "0",
+      "top": [
+        {
+          "item": "25",
+          "count": "229"
+        },
+        {
+          "item": "18",
+          "count": "60"
+        },
+        {
+          "item": "24",
+          "count": "46"
+        },
+        {
+          "item": "16",
+          "count": "39"
+        },
+        {
+          "item": "23",
+          "count": "33"
+        },
+        {
+          "item": "15",
+          "count": "14"
+        },
+        {
+          "item": "22",
+          "count": "12"
+        },
+        {
+          "item": "26",
+          "count": "8"
+        },
+        {
+          "item": "17",
+          "count": "7"
+        },
+        {
+          "item": "20",
+          "count": "7"
+        },
+        {
+          "item": "0",
+          "count": "3"
+        },
+        {
+          "item": "40",
+          "count": "3"
+        },
+        {
+          "item": "30",
+          "count": "2"
+        },
+        {
+          "item": "29",
+          "count": "2"
+        },
+        {
+          "item": "37",
+          "count": "1"
+        },
+        {
+          "item": "19",
+          "count": "1"
+        },
+        {
+          "item": "21",
+          "count": "1"
+        }
+      ],
+      "smallest": "0",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839991,
+    "name": "Output Cord Gauge (AWG)",
+    "dataTypeName": "text",
+    "description": "The cord set American Wire Gauge (AWG) used for test or mean cord set AWG if multiple-output. If no cord was provided for testing, then there will be a NA.",
+    "fieldName": "output_cord_gauge_awg",
+    "position": 14,
+    "renderTypeName": "text",
+    "tableColumnId": 143496004,
+    "width": 225,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "9",
+      "null": "0",
+      "top": [
+        {
+          "item": "8",
+          "count": "147"
+        },
+        {
+          "item": "6",
+          "count": "127"
+        },
+        {
+          "item": "9",
+          "count": "72"
+        },
+        {
+          "item": "10",
+          "count": "63"
+        },
+        {
+          "item": "7",
+          "count": "22"
+        },
+        {
+          "item": "3",
+          "count": "6"
+        },
+        {
+          "item": "12",
+          "count": "6"
+        },
+        {
+          "item": "18",
+          "count": "5"
+        },
+        {
+          "item": "16",
+          "count": "4"
+        },
+        {
+          "item": "8/9",
+          "count": "4"
+        },
+        {
+          "item": "14",
+          "count": "3"
+        },
+        {
+          "item": "2",
+          "count": "3"
+        },
+        {
+          "item": "0",
+          "count": "3"
+        },
+        {
+          "item": "11",
+          "count": "2"
+        },
+        {
+          "item": "2x9",
+          "count": "1"
+        }
+      ],
+      "smallest": "0",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839992,
+    "name": "Screen Area, if EVSE has high res display (in2)",
+    "dataTypeName": "number",
+    "description": "The screen area, if the EVSE has a high resolution display.",
+    "fieldName": "screen_area_if_evse_has_high_res_display_in2",
+    "position": 15,
+    "renderTypeName": "number",
+    "tableColumnId": 142966743,
+    "width": 341,
+    "cachedContents": {
+      "non_null": "202",
+      "largest": "47.70",
+      "null": "266",
+      "top": [
+        {
+          "item": "7.93",
+          "count": "27"
+        },
+        {
+          "item": "8.15",
+          "count": "24"
+        },
+        {
+          "item": "20.23",
+          "count": "16"
+        },
+        {
+          "item": "11.06",
+          "count": "13"
+        },
+        {
+          "item": "8.14",
+          "count": "12"
+        },
+        {
+          "item": "21.60",
+          "count": "11"
+        },
+        {
+          "item": "8.54",
+          "count": "11"
+        },
+        {
+          "item": "0.00",
+          "count": "7"
+        },
+        {
+          "item": "20.52",
+          "count": "7"
+        },
+        {
+          "item": "10.77",
+          "count": "6"
+        },
+        {
+          "item": "21.70",
+          "count": "5"
+        },
+        {
+          "item": "27.20",
+          "count": "4"
+        },
+        {
+          "item": "21.52",
+          "count": "4"
+        },
+        {
+          "item": "42.63",
+          "count": "4"
+        },
+        {
+          "item": "30.53",
+          "count": "4"
+        },
+        {
+          "item": "7.94",
+          "count": "3"
+        },
+        {
+          "item": "7.90",
+          "count": "3"
+        },
+        {
+          "item": "10.84",
+          "count": "3"
+        },
+        {
+          "item": "10.47",
+          "count": "2"
+        },
+        {
+          "item": "43.25",
+          "count": "2"
+        }
+      ],
+      "smallest": "0.00",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839993,
+    "name": "Maximum (100%) Measured Luminance of the High Res Display (candelas per m2)",
+    "dataTypeName": "number",
+    "description": "Maximum luminance of the display, if EVSE has a high resolution display measured at maximum available brightness.",
+    "fieldName": "maximum_100_measured_luminance_of_the_high_res_display",
+    "position": 16,
+    "renderTypeName": "number",
+    "tableColumnId": 142966744,
+    "width": 420,
+    "cachedContents": {
+      "non_null": "188",
+      "largest": "3271.00",
+      "null": "280",
+      "top": [
+        {
+          "item": "120.00",
+          "count": "17"
+        },
+        {
+          "item": "19.19",
+          "count": "16"
+        },
+        {
+          "item": "844.90",
+          "count": "9"
+        },
+        {
+          "item": "244.70",
+          "count": "8"
+        },
+        {
+          "item": "295.20",
+          "count": "7"
+        },
+        {
+          "item": "16.52",
+          "count": "6"
+        },
+        {
+          "item": "246.70",
+          "count": "4"
+        },
+        {
+          "item": "523.40",
+          "count": "4"
+        },
+        {
+          "item": "829.18",
+          "count": "4"
+        },
+        {
+          "item": "812.79",
+          "count": "4"
+        },
+        {
+          "item": "826.47",
+          "count": "4"
+        },
+        {
+          "item": "640.10",
+          "count": "4"
+        },
+        {
+          "item": "1118.00",
+          "count": "3"
+        },
+        {
+          "item": "250.00",
+          "count": "3"
+        },
+        {
+          "item": "245.80",
+          "count": "3"
+        },
+        {
+          "item": "87.83",
+          "count": "3"
+        },
+        {
+          "item": "900.00",
+          "count": "3"
+        },
+        {
+          "item": "273.40",
+          "count": "2"
+        },
+        {
+          "item": "274.00",
+          "count": "2"
+        },
+        {
+          "item": "280.00",
+          "count": "2"
+        }
+      ],
+      "smallest": "0.00",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839994,
+    "name": "Automatic Brightness Control (ABC) Capable?",
+    "dataTypeName": "text",
+    "description": "This indicates if this model is capable of the self-acting mechanism that controls the brightness of a display or lamp as a function of ambient light.",
+    "fieldName": "automatic_brightness_control_abc_capable",
+    "position": 17,
+    "renderTypeName": "text",
+    "tableColumnId": 142966745,
+    "width": 333,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "Yes",
+      "null": "0",
+      "top": [
+        {
+          "item": "No",
+          "count": "430"
+        },
+        {
+          "item": "Yes",
+          "count": "38"
+        }
+      ],
+      "smallest": "No",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839995,
+    "name": "Connected Capable",
+    "dataTypeName": "text",
+    "description": "Indicates whether the model meets optional connected criteria as defined in the specification, which may include functions helpful to the electrical grid (standardized signals and responses to manage energy use) and those helpful to consumers, such as scheduling and energy reporting.",
+    "fieldName": "connected_functionality",
+    "position": 18,
+    "renderTypeName": "text",
+    "tableColumnId": 142966746,
+    "width": 262,
+    "cachedContents": {
+      "non_null": "116",
+      "largest": "Yes",
+      "null": "352",
+      "top": [
+        {
+          "item": "No",
+          "count": "78"
+        },
+        {
+          "item": "Yes",
+          "count": "38"
+        }
+      ],
+      "smallest": "No",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 577839996,
+    "name": "DR Protocol",
+    "dataTypeName": "text",
+    "description": "Indicates which standardized protocol is used to send load management messages to the unit.",
+    "fieldName": "communication_standard_application_layer",
+    "position": 19,
+    "renderTypeName": "text",
+    "tableColumnId": 142966748,
+    "cachedContents": {
+      "non_null": "44",
+      "largest": "Open Charge Point Protocol (OCPP)",
+      "null": "424",
+      "top": [
+        {
+          "item": "Open Charge Point Protocol (OCPP)",
+          "count": "35"
+        },
+        {
+          "item": "OpenADR",
+          "count": "7"
+        },
+        {
+          "item": ",?",
+          "count": "1"
+        },
+        {
+          "item": "Cellular pcba PN LNIC2B1B information available from manufacturer",
+          "count": "1"
+        }
+      ],
+      "smallest": ",?",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {}
+  },
+  {
+    "id": 577839997,
+    "name": "Connects Using",
+    "dataTypeName": "text",
+    "description": "System can communicate using these protocols for sending messages and requests, some of which work wirelessly and some with wires (communication standard media/network layer).",
+    "fieldName": "communication_standard_network_layer",
+    "position": 20,
+    "renderTypeName": "text",
+    "tableColumnId": 142966749,
+    "cachedContents": {
+      "non_null": "50",
+      "largest": "Wi-Fi,Wired Ethernet,User can connect system to backend services via Ethernet, Wi-Fi, or Cellular Connection.",
+      "null": "418",
+      "top": [
+        {
+          "item": "Wi-Fi",
+          "count": "31"
+        },
+        {
+          "item": "Cellular",
+          "count": "9"
+        },
+        {
+          "item": "Wi-Fi,Wired Ethernet",
+          "count": "5"
+        },
+        {
+          "item": "Wi-Fi,Wired Ethernet,User can connect system to backend services via Ethernet or Wi-Fi.",
+          "count": "2"
+        },
+        {
+          "item": "Wi-Fi,User can connect system to backend services via Cellular or WiFi.",
+          "count": "1"
+        },
+        {
+          "item": "Wi-Fi,Wired Ethernet,4G Cellular",
+          "count": "1"
+        },
+        {
+          "item": "Wi-Fi,Wired Ethernet,User can connect system to backend services via Ethernet, Wi-Fi, or Cellular Connection.",
+          "count": "1"
+        }
+      ],
+      "smallest": "Cellular",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {}
+  },
+  {
+    "id": 577839998,
+    "name": "Protocols Used to Support Smart Charging",
+    "dataTypeName": "text",
+    "description": "Indicates if the model has the transceiver and/or necessary hardware to support smart charging (i.e. beyond simple managed charging with pulse width modulation or CANBus) using any of these station-to-vehicle protocols.",
+    "fieldName": "protocols_used_to_support_smart_charging",
+    "position": 21,
+    "renderTypeName": "text",
+    "tableColumnId": 142966750,
+    "cachedContents": {
+      "non_null": "56",
+      "largest": "SAE J1772",
+      "null": "412",
+      "top": [
+        {
+          "item": "SAE J1772",
+          "count": "54"
+        },
+        {
+          "item": "OCPP (v1.6) - Communication towards Backend via WiFi \nSAE J1772 – Communication towards Vehicle (via CP signal)",
+          "count": "1"
+        },
+        {
+          "item": "OCPP (v1.6) - Communication towards Backend via WiFi SAE J1772 – Communication towards Vehicle (via CP signal)",
+          "count": "1"
+        }
+      ],
+      "smallest": "OCPP (v1.6) - Communication towards Backend via WiFi \nSAE J1772 – Communication towards Vehicle (via CP signal)",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {}
+  },
+  {
+    "id": 577839999,
+    "name": "Network Security Standards",
+    "dataTypeName": "text",
+    "description": "Describes the standards implemented in the product that provide privacy best practices and additional security by preventing or detecting network compromises.",
+    "fieldName": "network_security_standards",
+    "position": 22,
+    "renderTypeName": "text",
+    "tableColumnId": 147359295,
+    "cachedContents": {
+      "non_null": "32",
+      "largest": "Webasto Security Specification (non-public), including: Connected Wallbox Security Requirements - Embedded System Applications Specification - Operating System Requirements - Vehicle to Cloud Security Specification[You can use this information for the report if required]A threat analysis and risk assessment (TARA) according to ISO 21434 has been performed. After the risk treatment decision, measures have been assigned,",
+      "null": "436",
+      "top": [
+        {
+          "item": "NIST Cybersecurity Framework",
+          "count": "20"
+        },
+        {
+          "item": "ANSI/UL 2900",
+          "count": "5"
+        },
+        {
+          "item": "None",
+          "count": "3"
+        },
+        {
+          "item": "OpenADR, Payment Card Industry Self-Assessment",
+          "count": "2"
+        },
+        {
+          "item": "ISO 21434; \nFord Security Specification (non-public), including:\n  - Bluetooth Security Spec\n  - Connected Wallbox Security Requirements\n   - Embedded System Applications Specification\n  - Operating System Requirements\n  - Vehicle to Cloud Security Specification\n[You can use this information for the report if required]\nA threat analysis and risk assessment (TARA) according to ISO 21434 has been performed. After the risk treatment decision, measures have been assigned, following recommendations of BSI and/or NIST.\n“BSI” = „Bundesamt für Sicherheit in der Informationstechnik“; German federal office for security in Information Technology",
+          "count": "1"
+        },
+        {
+          "item": "Webasto Security Specification (non-public), including: Connected Wallbox Security Requirements - Embedded System Applications Specification - Operating System Requirements - Vehicle to Cloud Security Specification[You can use this information for the report if required]A threat analysis and risk assessment (TARA) according to ISO 21434 has been performed. After the risk treatment decision, measures have been assigned,",
+          "count": "1"
+        }
+      ],
+      "smallest": "ANSI/UL 2900",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {}
+  },
+  {
+    "id": 577840000,
+    "name": "Is Broadband Internet Connection Needed for Demand Response?",
+    "dataTypeName": "text",
+    "description": "Describes whether the product can participate in utility demand response programs without the home having a broadband connection.",
+    "fieldName": "broadband_connection_needed_for_demand_response",
+    "position": 23,
+    "renderTypeName": "text",
+    "tableColumnId": 147359294,
+    "cachedContents": {
+      "non_null": "51",
+      "largest": "Yes",
+      "null": "417",
+      "top": [
+        {
+          "item": "No",
+          "count": "31"
+        },
+        {
+          "item": "Yes",
+          "count": "20"
+        }
+      ],
+      "smallest": "No",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {}
+  },
+  {
+    "id": 577840001,
+    "name": "Auxiliary Product Features",
+    "dataTypeName": "text",
+    "description": "Indicates if the model has the auxiliary features to meet regulatory requirements such as credit card readers, revenue grade meters, ISO 15118 PLC boards, RFID and those helpful to consumers such as speakers, display, cameras and occupancy sensing.",
+    "fieldName": "auxiliary_product_features",
+    "position": 24,
+    "renderTypeName": "text",
+    "tableColumnId": 147359293,
+    "cachedContents": {
+      "non_null": "249",
+      "largest": "Revenue Grade Meter",
+      "null": "219",
+      "top": [
+        {
+          "item": "Radio Frequency Identification (RFID)",
+          "count": "72"
+        },
+        {
+          "item": "PLC Board (ISO 15118),Radio Frequency Identification (RFID),Revenue Grade Meter",
+          "count": "31"
+        },
+        {
+          "item": "None",
+          "count": "25"
+        },
+        {
+          "item": "High Resolution Display,Radio Frequency Identification (RFID)",
+          "count": "23"
+        },
+        {
+          "item": "High Resolution Display,PLC Board (ISO 15118),Radio Frequency Identification (RFID),Revenue Grade Meter",
+          "count": "20"
+        },
+        {
+          "item": "PLC Board (ISO 15118),Radio Frequency Identification (RFID)",
+          "count": "16"
+        },
+        {
+          "item": "High Resolution Display,PLC Board (ISO 15118),Radio Frequency Identification (RFID)",
+          "count": "11"
+        },
+        {
+          "item": "Credit Card Reader,High Resolution Display,PLC Board (ISO 15118),Radio Frequency Identification (RFID)",
+          "count": "6"
+        },
+        {
+          "item": "Radio Frequency Identification (RFID),Speaker",
+          "count": "4"
+        },
+        {
+          "item": "High Resolution Display,PLC Board (ISO 15118),Credit Card Reader,Radio Frequency Identification (RFID)",
+          "count": "4"
+        },
+        {
+          "item": "Credit Card Reader",
+          "count": "4"
+        },
+        {
+          "item": "PLC Board (ISO 15118)",
+          "count": "4"
+        },
+        {
+          "item": "Radio Frequency Identification (RFID),Revenue Grade Meter,Speaker",
+          "count": "4"
+        },
+        {
+          "item": "High Resolution Display,Credit Card Reader,Radio Frequency Identification (RFID)",
+          "count": "4"
+        },
+        {
+          "item": "Radio Frequency Identification (RFID),Revenue Grade Meter",
+          "count": "4"
+        },
+        {
+          "item": "PLC Board (ISO 15118),Credit Card Reader",
+          "count": "2"
+        },
+        {
+          "item": "Revenue Grade Meter",
+          "count": "2"
+        },
+        {
+          "item": "High Resolution Display",
+          "count": "2"
+        },
+        {
+          "item": "High Resolution Display,PLC Board (ISO 15118),Credit Card Reader,Radio Frequency Identification (RFID),Revenue Grade Meter,Speaker",
+          "count": "2"
+        },
+        {
+          "item": "High Resolution Display,PLC Board (ISO 15118),Radio Frequency Identification (RFID),Revenue Grade Meter,Speaker",
+          "count": "2"
+        }
+      ],
+      "smallest": "Camera/ Occupancy Sensing,High Resolution Display,PLC Board (ISO 15118),Credit Card Reader,Radio Frequency Identification (RFID),Revenue Grade Meter,Speaker",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {}
+  },
+  {
+    "id": 577840002,
+    "name": "Product Features",
+    "dataTypeName": "text",
+    "description": "This indicates other features of this EVSE (e.g., vehicle to grid capability, Smart Home Energy Management System (SHEMS) compatibility, etc.).",
+    "fieldName": "product_features",
+    "position": 25,
+    "renderTypeName": "text",
+    "tableColumnId": 142966751,
+    "cachedContents": {
+      "non_null": "46",
+      "largest": ",Wi-Fi / Ethernet",
+      "null": "422",
+      "top": [
+        {
+          "item": "None",
+          "count": "39"
+        },
+        {
+          "item": "Model is portable",
+          "count": "4"
+        },
+        {
+          "item": ",Wi-Fi / Ethernet",
+          "count": "2"
+        },
+        {
+          "item": "Electric Vehicle Supply Equipment",
+          "count": "1"
+        }
+      ],
+      "smallest": "Electric Vehicle Supply Equipment",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {}
+  },
+  {
+    "id": 577840003,
+    "name": "Network Capability",
+    "dataTypeName": "text",
+    "description": "Indicates whether the model is able to connect to a network.",
+    "fieldName": "network_capability",
+    "position": 26,
+    "renderTypeName": "text",
+    "tableColumnId": 147359292,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "Yes",
+      "null": "0",
+      "top": [
+        {
+          "item": "Yes",
+          "count": "390"
+        },
+        {
+          "item": "No",
+          "count": "78"
+        }
+      ],
+      "smallest": "No",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {}
+  },
+  {
+    "id": 577840004,
+    "name": "Network Connection Types Available",
+    "dataTypeName": "text",
+    "description": "This indicates which, if any, network protocols that the model is shipped with, and None if the model does not have any network connected capability.",
+    "fieldName": "network_protocol_with_wake_capability",
+    "position": 27,
+    "renderTypeName": "text",
+    "tableColumnId": 142966752,
+    "width": 298,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "Wi-Fi or Gigabit Ethernet,Other LAN (Local Area Network),Cellular",
+      "null": "0",
+      "top": [
+        {
+          "item": "Wi-Fi or Gigabit Ethernet",
+          "count": "190"
+        },
+        {
+          "item": "Wi-Fi or Gigabit Ethernet,Cellular",
+          "count": "105"
+        },
+        {
+          "item": "None",
+          "count": "77"
+        },
+        {
+          "item": "Wi-Fi or Gigabit Ethernet,Other LAN (Local Area Network),Cellular",
+          "count": "30"
+        },
+        {
+          "item": "Cellular",
+          "count": "29"
+        },
+        {
+          "item": "Wi-Fi or Gigabit Ethernet,Other LAN (Local Area Network)",
+          "count": "25"
+        },
+        {
+          "item": "Cellular,Other LAN (Local Area Network),Wi-Fi or Gigabit Ethernet",
+          "count": "7"
+        },
+        {
+          "item": "Cellular,Wi-Fi or Gigabit Ethernet",
+          "count": "2"
+        },
+        {
+          "item": "Other LAN (Local Area Network),Wi-Fi or Gigabit Ethernet",
+          "count": "1"
+        },
+        {
+          "item": "Other LAN (Local Area Network)",
+          "count": "1"
+        },
+        {
+          "item": "Wi-Fi or Gigabit Ethernet,None",
+          "count": "1"
+        }
+      ],
+      "smallest": "Cellular",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840005,
+    "name": "No Vehicle Mode Input Power (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the No Vehicle Mode Input Power for all models and for those with ABC enabled. For those with ABC enabled, this is the average Input Power for the high and low illuminance conditions.",
+    "fieldName": "no_vehicle_mode_input_power_w",
+    "position": 28,
+    "renderTypeName": "number",
+    "tableColumnId": 142966753,
+    "width": 261,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "14.57",
+      "null": "0",
+      "top": [
+        {
+          "item": "7.135",
+          "count": "16"
+        },
+        {
+          "item": "6.33",
+          "count": "7"
+        },
+        {
+          "item": "3.48",
+          "count": "6"
+        },
+        {
+          "item": "3.62",
+          "count": "6"
+        },
+        {
+          "item": "6.56",
+          "count": "6"
+        },
+        {
+          "item": "6.47",
+          "count": "6"
+        },
+        {
+          "item": "4.27",
+          "count": "6"
+        },
+        {
+          "item": "3.78",
+          "count": "5"
+        },
+        {
+          "item": "3.53",
+          "count": "5"
+        },
+        {
+          "item": "6.12",
+          "count": "5"
+        },
+        {
+          "item": "3.49",
+          "count": "5"
+        },
+        {
+          "item": "2.76",
+          "count": "5"
+        },
+        {
+          "item": "3.4",
+          "count": "5"
+        },
+        {
+          "item": "4.17",
+          "count": "5"
+        },
+        {
+          "item": "3.56",
+          "count": "4"
+        },
+        {
+          "item": "9.31",
+          "count": "4"
+        },
+        {
+          "item": "5.29",
+          "count": "4"
+        },
+        {
+          "item": "5.56",
+          "count": "4"
+        },
+        {
+          "item": "3.025",
+          "count": "4"
+        },
+        {
+          "item": "0",
+          "count": "4"
+        }
+      ],
+      "smallest": "0",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840006,
+    "name": "No Vehicle Mode Total Allowance (watts)",
+    "dataTypeName": "number",
+    "description": "The No Vehicle Mode Total Allowance is the maximum amount of power allowed in this mode for the model to be ENERGY STAR certified.",
+    "fieldName": "no_vehicle_mode_total_allowance_w",
+    "position": 29,
+    "renderTypeName": "number",
+    "tableColumnId": 142966754,
+    "width": 285,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "20.82",
+      "null": "0",
+      "top": [
+        {
+          "item": "6.50",
+          "count": "54"
+        },
+        {
+          "item": "3.60",
+          "count": "53"
+        },
+        {
+          "item": "5.00",
+          "count": "50"
+        },
+        {
+          "item": "4.00",
+          "count": "24"
+        },
+        {
+          "item": "8.50",
+          "count": "23"
+        },
+        {
+          "item": "7.50",
+          "count": "23"
+        },
+        {
+          "item": "7.41",
+          "count": "18"
+        },
+        {
+          "item": "6.00",
+          "count": "17"
+        },
+        {
+          "item": "10.99",
+          "count": "16"
+        },
+        {
+          "item": "8.55",
+          "count": "10"
+        },
+        {
+          "item": "8.41",
+          "count": "9"
+        },
+        {
+          "item": "2.60",
+          "count": "8"
+        },
+        {
+          "item": "4.81",
+          "count": "6"
+        },
+        {
+          "item": "4.60",
+          "count": "5"
+        },
+        {
+          "item": "4.43",
+          "count": "5"
+        },
+        {
+          "item": "5.43",
+          "count": "5"
+        },
+        {
+          "item": "7.33",
+          "count": "5"
+        },
+        {
+          "item": "7.10",
+          "count": "4"
+        },
+        {
+          "item": "7.00",
+          "count": "4"
+        },
+        {
+          "item": "9.60",
+          "count": "4"
+        }
+      ],
+      "smallest": "1.59",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840007,
+    "name": "No Vehicle Mode Power Factor",
+    "dataTypeName": "number",
+    "description": "This indicates the No Vehicle Mode Power Factor for all models and for those with ABC enabled. For those with ABC enabled, this is the average No Vehicle Mode Power Factor for the high and low illuminance conditions.",
+    "fieldName": "no_vehicle_mode_power_factor",
+    "position": 30,
+    "renderTypeName": "number",
+    "tableColumnId": 142966755,
+    "width": 260,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "6.78",
+      "null": "0",
+      "top": [
+        {
+          "item": "0.39",
+          "count": "22"
+        },
+        {
+          "item": "0.28",
+          "count": "22"
+        },
+        {
+          "item": "0.37",
+          "count": "21"
+        },
+        {
+          "item": "0.25",
+          "count": "21"
+        },
+        {
+          "item": "0.26",
+          "count": "19"
+        },
+        {
+          "item": "0.29",
+          "count": "17"
+        },
+        {
+          "item": "0.455",
+          "count": "17"
+        },
+        {
+          "item": "0.33",
+          "count": "17"
+        },
+        {
+          "item": "0.35",
+          "count": "15"
+        },
+        {
+          "item": "0.36",
+          "count": "15"
+        },
+        {
+          "item": "0.12",
+          "count": "15"
+        },
+        {
+          "item": "0.18",
+          "count": "13"
+        },
+        {
+          "item": "0.4",
+          "count": "13"
+        },
+        {
+          "item": "0.31",
+          "count": "12"
+        },
+        {
+          "item": "0.34",
+          "count": "12"
+        },
+        {
+          "item": "0.16",
+          "count": "11"
+        },
+        {
+          "item": "0.32",
+          "count": "10"
+        },
+        {
+          "item": "0.27",
+          "count": "10"
+        },
+        {
+          "item": "0.24",
+          "count": "9"
+        },
+        {
+          "item": "0.21",
+          "count": "9"
+        }
+      ],
+      "smallest": "0",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840008,
+    "name": "Partial On Mode Input Power (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the Partial On Mode Input Power for all models and for those with ABC enabled. For those with ABC enabled, this is the average Input Power for the high and low illuminance conditions.",
+    "fieldName": "partial_on_mode_input_power_w",
+    "position": 31,
+    "renderTypeName": "number",
+    "tableColumnId": 142966756,
+    "width": 257,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "14.91",
+      "null": "0",
+      "top": [
+        {
+          "item": "7.165",
+          "count": "16"
+        },
+        {
+          "item": "3.48",
+          "count": "7"
+        },
+        {
+          "item": "4.27",
+          "count": "7"
+        },
+        {
+          "item": "3.53",
+          "count": "7"
+        },
+        {
+          "item": "6.45",
+          "count": "7"
+        },
+        {
+          "item": "3.52",
+          "count": "6"
+        },
+        {
+          "item": "6.55",
+          "count": "6"
+        },
+        {
+          "item": "6.95",
+          "count": "6"
+        },
+        {
+          "item": "3.5",
+          "count": "6"
+        },
+        {
+          "item": "2.92",
+          "count": "6"
+        },
+        {
+          "item": "3.84",
+          "count": "5"
+        },
+        {
+          "item": "2.94",
+          "count": "5"
+        },
+        {
+          "item": "6.35",
+          "count": "5"
+        },
+        {
+          "item": "6.1",
+          "count": "5"
+        },
+        {
+          "item": "9.52",
+          "count": "4"
+        },
+        {
+          "item": "4.5",
+          "count": "4"
+        },
+        {
+          "item": "5.31",
+          "count": "4"
+        },
+        {
+          "item": "0",
+          "count": "4"
+        },
+        {
+          "item": "2.51",
+          "count": "4"
+        },
+        {
+          "item": "3.55",
+          "count": "4"
+        }
+      ],
+      "smallest": "0",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840009,
+    "name": "Partial On Mode Total Allowance (watts)",
+    "dataTypeName": "number",
+    "description": "The Partial On Mode Total Allowance is the maximum amount of power allowed in this mode for the model to be ENERGY STAR certified.",
+    "fieldName": "partial_on_mode_total_allowance_w",
+    "position": 32,
+    "renderTypeName": "number",
+    "tableColumnId": 142966757,
+    "width": 277,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "20.82",
+      "null": "0",
+      "top": [
+        {
+          "item": "6.50",
+          "count": "54"
+        },
+        {
+          "item": "3.60",
+          "count": "53"
+        },
+        {
+          "item": "5.00",
+          "count": "50"
+        },
+        {
+          "item": "4.00",
+          "count": "24"
+        },
+        {
+          "item": "8.50",
+          "count": "23"
+        },
+        {
+          "item": "7.50",
+          "count": "22"
+        },
+        {
+          "item": "7.41",
+          "count": "18"
+        },
+        {
+          "item": "6.00",
+          "count": "17"
+        },
+        {
+          "item": "10.99",
+          "count": "16"
+        },
+        {
+          "item": "8.55",
+          "count": "9"
+        },
+        {
+          "item": "8.41",
+          "count": "9"
+        },
+        {
+          "item": "2.60",
+          "count": "8"
+        },
+        {
+          "item": "4.43",
+          "count": "5"
+        },
+        {
+          "item": "4.81",
+          "count": "5"
+        },
+        {
+          "item": "7.33",
+          "count": "5"
+        },
+        {
+          "item": "5.43",
+          "count": "5"
+        },
+        {
+          "item": "4.60",
+          "count": "5"
+        },
+        {
+          "item": "7.10",
+          "count": "4"
+        },
+        {
+          "item": "9.60",
+          "count": "4"
+        },
+        {
+          "item": "14.88",
+          "count": "4"
+        }
+      ],
+      "smallest": "0.16",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840010,
+    "name": "Partial On Mode Power Factor",
+    "dataTypeName": "number",
+    "description": "This indicates the Partial On Mode Power Factor for all models and for those with ABC enabled. For those with ABC enabled, this is the average Partial On Mode Power Factor for the high and low illuminance conditions.",
+    "fieldName": "partial_on_mode_power_factor",
+    "position": 33,
+    "renderTypeName": "number",
+    "tableColumnId": 142966758,
+    "width": 240,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "8.55",
+      "null": "0",
+      "top": [
+        {
+          "item": "0.39",
+          "count": "25"
+        },
+        {
+          "item": "0.33",
+          "count": "20"
+        },
+        {
+          "item": "0.25",
+          "count": "20"
+        },
+        {
+          "item": "0.27",
+          "count": "18"
+        },
+        {
+          "item": "0.41",
+          "count": "18"
+        },
+        {
+          "item": "0.28",
+          "count": "18"
+        },
+        {
+          "item": "0.32",
+          "count": "17"
+        },
+        {
+          "item": "0.37",
+          "count": "17"
+        },
+        {
+          "item": "0.715",
+          "count": "16"
+        },
+        {
+          "item": "0.3",
+          "count": "16"
+        },
+        {
+          "item": "0.29",
+          "count": "15"
+        },
+        {
+          "item": "0.26",
+          "count": "15"
+        },
+        {
+          "item": "0.13",
+          "count": "14"
+        },
+        {
+          "item": "0.34",
+          "count": "13"
+        },
+        {
+          "item": "0.18",
+          "count": "11"
+        },
+        {
+          "item": "0.35",
+          "count": "11"
+        },
+        {
+          "item": "0.31",
+          "count": "11"
+        },
+        {
+          "item": "0.38",
+          "count": "10"
+        },
+        {
+          "item": "0.19",
+          "count": "10"
+        },
+        {
+          "item": "0.36",
+          "count": "10"
+        }
+      ],
+      "smallest": "0",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840011,
+    "name": "Idle Mode Input Power (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the Idle Mode Input Power for all models and for those with ABC enabled. For those with ABC enabled, this is the average Input Power for the high and low illuminance conditions.",
+    "fieldName": "idle_mode_input_power_w",
+    "position": 34,
+    "renderTypeName": "number",
+    "tableColumnId": 142966759,
+    "width": 234,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "25.9",
+      "null": "0",
+      "top": [
+        {
+          "item": "9.215",
+          "count": "16"
+        },
+        {
+          "item": "6.53",
+          "count": "10"
+        },
+        {
+          "item": "12.47",
+          "count": "6"
+        },
+        {
+          "item": "5.23",
+          "count": "6"
+        },
+        {
+          "item": "9.4",
+          "count": "6"
+        },
+        {
+          "item": "10.88",
+          "count": "6"
+        },
+        {
+          "item": "5.88",
+          "count": "6"
+        },
+        {
+          "item": "10.31",
+          "count": "5"
+        },
+        {
+          "item": "4.04",
+          "count": "5"
+        },
+        {
+          "item": "6.03",
+          "count": "5"
+        },
+        {
+          "item": "7.98",
+          "count": "4"
+        },
+        {
+          "item": "3.83",
+          "count": "4"
+        },
+        {
+          "item": "0",
+          "count": "4"
+        },
+        {
+          "item": "6.74",
+          "count": "4"
+        },
+        {
+          "item": "3.635",
+          "count": "4"
+        },
+        {
+          "item": "5.94",
+          "count": "4"
+        },
+        {
+          "item": "4.49",
+          "count": "4"
+        },
+        {
+          "item": "13.65",
+          "count": "4"
+        },
+        {
+          "item": "9.26",
+          "count": "4"
+        },
+        {
+          "item": "5.03",
+          "count": "4"
+        }
+      ],
+      "smallest": "0",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840012,
+    "name": "Idle Mode Total Allowance (watts)",
+    "dataTypeName": "number",
+    "description": "The Idle Mode Total Allowance is the maximum amount of power allowed in this mode for the model to be ENERGY STAR certified.",
+    "fieldName": "idle_mode_total_allowance_w",
+    "position": 35,
+    "renderTypeName": "number",
+    "tableColumnId": 142966760,
+    "width": 227,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "79.01",
+      "null": "0",
+      "top": [
+        {
+          "item": "25.70",
+          "count": "21"
+        },
+        {
+          "item": "24.20",
+          "count": "19"
+        },
+        {
+          "item": "22.50",
+          "count": "18"
+        },
+        {
+          "item": "22.80",
+          "count": "18"
+        },
+        {
+          "item": "42.99",
+          "count": "16"
+        },
+        {
+          "item": "21.00",
+          "count": "15"
+        },
+        {
+          "item": "28.50",
+          "count": "15"
+        },
+        {
+          "item": "39.50",
+          "count": "12"
+        },
+        {
+          "item": "35.60",
+          "count": "11"
+        },
+        {
+          "item": "16.40",
+          "count": "10"
+        },
+        {
+          "item": "14.81",
+          "count": "9"
+        },
+        {
+          "item": "19.60",
+          "count": "9"
+        },
+        {
+          "item": "20.00",
+          "count": "9"
+        },
+        {
+          "item": "24.55",
+          "count": "8"
+        },
+        {
+          "item": "26.50",
+          "count": "7"
+        },
+        {
+          "item": "13.81",
+          "count": "6"
+        },
+        {
+          "item": "26.70",
+          "count": "6"
+        },
+        {
+          "item": "12.40",
+          "count": "5"
+        },
+        {
+          "item": "23.63",
+          "count": "5"
+        },
+        {
+          "item": "24.00",
+          "count": "5"
+        }
+      ],
+      "smallest": "1.65",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840013,
+    "name": "Idle Mode Power Factor",
+    "dataTypeName": "number",
+    "description": "This indicates the Idle Mode Power Factor for all models and for those with ABC enabled. For those with ABC enabled, this is the average Idle Mode Power Factor for the high and low illuminance conditions.",
+    "fieldName": "idle_mode_power_factor",
+    "position": 36,
+    "renderTypeName": "number",
+    "tableColumnId": 142966761,
+    "width": 210,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "15.4",
+      "null": "0",
+      "top": [
+        {
+          "item": "0.49",
+          "count": "23"
+        },
+        {
+          "item": "0.36",
+          "count": "22"
+        },
+        {
+          "item": "0.45",
+          "count": "20"
+        },
+        {
+          "item": "0.32",
+          "count": "19"
+        },
+        {
+          "item": "0.41",
+          "count": "18"
+        },
+        {
+          "item": "0.34",
+          "count": "18"
+        },
+        {
+          "item": "0.33",
+          "count": "16"
+        },
+        {
+          "item": "0.37",
+          "count": "15"
+        },
+        {
+          "item": "0.48",
+          "count": "15"
+        },
+        {
+          "item": "0.43",
+          "count": "13"
+        },
+        {
+          "item": "0.29",
+          "count": "12"
+        },
+        {
+          "item": "0.39",
+          "count": "12"
+        },
+        {
+          "item": "0.23",
+          "count": "12"
+        },
+        {
+          "item": "0.52",
+          "count": "11"
+        },
+        {
+          "item": "0.25",
+          "count": "11"
+        },
+        {
+          "item": "0.38",
+          "count": "11"
+        },
+        {
+          "item": "0.46",
+          "count": "10"
+        },
+        {
+          "item": "0.3",
+          "count": "10"
+        },
+        {
+          "item": "0.4",
+          "count": "10"
+        },
+        {
+          "item": "0.24",
+          "count": "10"
+        }
+      ],
+      "smallest": "0",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840014,
+    "name": "Full Current Operation Mode Test: Total Loss (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the Full Current Operation Mode Total Loss for all models and for those with ABC enabled. For those with ABC enabled, this is the average Full Current Operation Mode Loss for the high and low illuminance conditions.",
+    "fieldName": "full_current_operation_mode_test_total_loss_w",
+    "position": 37,
+    "renderTypeName": "number",
+    "tableColumnId": 142966763,
+    "width": 341,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "11531.6",
+      "null": "0",
+      "top": [
+        {
+          "item": "16.665",
+          "count": "16"
+        },
+        {
+          "item": "22.34",
+          "count": "8"
+        },
+        {
+          "item": "27",
+          "count": "8"
+        },
+        {
+          "item": "10",
+          "count": "7"
+        },
+        {
+          "item": "191.61",
+          "count": "6"
+        },
+        {
+          "item": "21.33",
+          "count": "6"
+        },
+        {
+          "item": "78.9",
+          "count": "5"
+        },
+        {
+          "item": "338.44",
+          "count": "5"
+        },
+        {
+          "item": "14",
+          "count": "5"
+        },
+        {
+          "item": "44",
+          "count": "4"
+        },
+        {
+          "item": "39",
+          "count": "4"
+        },
+        {
+          "item": "20.24",
+          "count": "4"
+        },
+        {
+          "item": "82.49",
+          "count": "4"
+        },
+        {
+          "item": "136.72",
+          "count": "4"
+        },
+        {
+          "item": "21",
+          "count": "4"
+        },
+        {
+          "item": "198.29",
+          "count": "4"
+        },
+        {
+          "item": "21.69",
+          "count": "4"
+        },
+        {
+          "item": "157.7",
+          "count": "4"
+        },
+        {
+          "item": "0",
+          "count": "4"
+        },
+        {
+          "item": "43",
+          "count": "4"
+        }
+      ],
+      "smallest": "-304.4",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840015,
+    "name": "30 A Operation Mode Test: Total Loss (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the 30 A Operation Mode Total Loss for all models and for those with ABC enabled. For those with ABC enabled, this is the average Full Current Operation Mode Loss for the high and low illuminance conditions.",
+    "fieldName": "_30_a_operation_mode_test_total_loss_w",
+    "position": 38,
+    "renderTypeName": "number",
+    "tableColumnId": 142966765,
+    "width": 301,
+    "cachedContents": {
+      "non_null": "412",
+      "largest": "147.24",
+      "null": "56",
+      "top": [
+        {
+          "item": "25",
+          "count": "17"
+        },
+        {
+          "item": "12",
+          "count": "8"
+        },
+        {
+          "item": "23.17",
+          "count": "8"
+        },
+        {
+          "item": "24.47",
+          "count": "6"
+        },
+        {
+          "item": "20",
+          "count": "6"
+        },
+        {
+          "item": "55",
+          "count": "6"
+        },
+        {
+          "item": "83.06",
+          "count": "6"
+        },
+        {
+          "item": "73.92",
+          "count": "5"
+        },
+        {
+          "item": "68",
+          "count": "5"
+        },
+        {
+          "item": "50",
+          "count": "5"
+        },
+        {
+          "item": "33.7",
+          "count": "5"
+        },
+        {
+          "item": "4",
+          "count": "5"
+        },
+        {
+          "item": "61.5",
+          "count": "5"
+        },
+        {
+          "item": "36",
+          "count": "5"
+        },
+        {
+          "item": "56.29",
+          "count": "4"
+        },
+        {
+          "item": "64",
+          "count": "4"
+        },
+        {
+          "item": "25.4",
+          "count": "4"
+        },
+        {
+          "item": "21.53",
+          "count": "4"
+        },
+        {
+          "item": "57",
+          "count": "4"
+        },
+        {
+          "item": "83.29",
+          "count": "4"
+        }
+      ],
+      "smallest": "-87.87",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840016,
+    "name": "15 A Operation Mode Test: Total Loss (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the 15 A Operation Mode Total Loss for all models and for those with ABC enabled. For those with ABC enabled, this is the average Full Current Operation Mode Loss for the high and low illuminance conditions.",
+    "fieldName": "_15_a_operation_mode_test_total_loss_w",
+    "position": 39,
+    "renderTypeName": "number",
+    "tableColumnId": 142966767,
+    "width": 305,
+    "cachedContents": {
+      "non_null": "446",
+      "largest": "59.63",
+      "null": "22",
+      "top": [
+        {
+          "item": "34.355",
+          "count": "16"
+        },
+        {
+          "item": "16",
+          "count": "12"
+        },
+        {
+          "item": "20",
+          "count": "11"
+        },
+        {
+          "item": "12",
+          "count": "11"
+        },
+        {
+          "item": "20.26",
+          "count": "10"
+        },
+        {
+          "item": "13",
+          "count": "10"
+        },
+        {
+          "item": "22",
+          "count": "9"
+        },
+        {
+          "item": "14",
+          "count": "9"
+        },
+        {
+          "item": "17",
+          "count": "7"
+        },
+        {
+          "item": "18",
+          "count": "7"
+        },
+        {
+          "item": "15",
+          "count": "7"
+        },
+        {
+          "item": "28.47",
+          "count": "6"
+        },
+        {
+          "item": "28",
+          "count": "6"
+        },
+        {
+          "item": "22.93",
+          "count": "6"
+        },
+        {
+          "item": "24.48",
+          "count": "6"
+        },
+        {
+          "item": "40",
+          "count": "5"
+        },
+        {
+          "item": "22.25",
+          "count": "5"
+        },
+        {
+          "item": "10.5",
+          "count": "5"
+        },
+        {
+          "item": "2",
+          "count": "5"
+        },
+        {
+          "item": "21",
+          "count": "4"
+        }
+      ],
+      "smallest": "-17.84",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840017,
+    "name": "4 A Operation Mode Test: Total Loss (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the 4 A Operation Mode Total Loss for all models and for those with ABC enabled. For those with ABC enabled, this is the average Full Current Operation Mode Loss for the high and low illuminance conditions.",
+    "fieldName": "_4_a_operation_mode_test_total_loss_w",
+    "position": 40,
+    "renderTypeName": "number",
+    "tableColumnId": 142966769,
+    "width": 300,
+    "cachedContents": {
+      "non_null": "449",
+      "largest": "45.445",
+      "null": "19",
+      "top": [
+        {
+          "item": "8",
+          "count": "20"
+        },
+        {
+          "item": "6",
+          "count": "16"
+        },
+        {
+          "item": "4",
+          "count": "16"
+        },
+        {
+          "item": "37.475",
+          "count": "16"
+        },
+        {
+          "item": "5",
+          "count": "11"
+        },
+        {
+          "item": "7",
+          "count": "10"
+        },
+        {
+          "item": "9",
+          "count": "9"
+        },
+        {
+          "item": "27.46",
+          "count": "8"
+        },
+        {
+          "item": "12",
+          "count": "8"
+        },
+        {
+          "item": "11",
+          "count": "7"
+        },
+        {
+          "item": "1",
+          "count": "7"
+        },
+        {
+          "item": "13",
+          "count": "7"
+        },
+        {
+          "item": "25.44",
+          "count": "6"
+        },
+        {
+          "item": "12.2",
+          "count": "6"
+        },
+        {
+          "item": "4.8",
+          "count": "5"
+        },
+        {
+          "item": "11.24",
+          "count": "5"
+        },
+        {
+          "item": "11.5",
+          "count": "5"
+        },
+        {
+          "item": "26.29",
+          "count": "4"
+        },
+        {
+          "item": "3",
+          "count": "4"
+        },
+        {
+          "item": "18",
+          "count": "4"
+        }
+      ],
+      "smallest": "-13",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840018,
+    "name": "Dual Input Level 2: No Vehicle Mode Input Power (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the No Vehicle Mode Input Power for the Level 2 option of a dual input model. For those with ABC enabled, this is the average Input Power for the high and low illuminance conditions.",
+    "fieldName": "dual_input_level_2_no_vehicle_mode_input_power_w",
+    "position": 41,
+    "renderTypeName": "number",
+    "tableColumnId": 142966770,
+    "width": 378,
+    "cachedContents": {
+      "non_null": "33",
+      "largest": "7.04",
+      "null": "435",
+      "top": [
+        {
+          "item": "7.04",
+          "count": "6"
+        },
+        {
+          "item": "3.11",
+          "count": "3"
+        },
+        {
+          "item": "3.79",
+          "count": "2"
+        },
+        {
+          "item": "1.88",
+          "count": "2"
+        },
+        {
+          "item": "3.03",
+          "count": "2"
+        },
+        {
+          "item": "3.8",
+          "count": "2"
+        },
+        {
+          "item": "3.81",
+          "count": "2"
+        },
+        {
+          "item": "4.64",
+          "count": "2"
+        },
+        {
+          "item": "4.66",
+          "count": "2"
+        },
+        {
+          "item": "6.26",
+          "count": "2"
+        },
+        {
+          "item": "1.42",
+          "count": "1"
+        },
+        {
+          "item": "4.81",
+          "count": "1"
+        },
+        {
+          "item": "2.46",
+          "count": "1"
+        },
+        {
+          "item": "2.7",
+          "count": "1"
+        },
+        {
+          "item": "6.22",
+          "count": "1"
+        },
+        {
+          "item": "2.45",
+          "count": "1"
+        },
+        {
+          "item": "3.37",
+          "count": "1"
+        },
+        {
+          "item": "0.34",
+          "count": "1"
+        }
+      ],
+      "smallest": "0.34",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840019,
+    "name": "Dual Input No Vehicle Mode Total Allowance (watts)",
+    "dataTypeName": "number",
+    "description": "The No Vehicle Mode Total Allowance is the maximum amount of power allowed in this mode for the model to be ENERGY STAR certified for the Level 2 option of a dual input model.",
+    "fieldName": "dual_input_no_vehicle_mode_total_allowance_w",
+    "position": 42,
+    "renderTypeName": "number",
+    "tableColumnId": 142966771,
+    "width": 320,
+    "cachedContents": {
+      "non_null": "34",
+      "largest": "8.41",
+      "null": "434",
+      "top": [
+        {
+          "item": "8.41",
+          "count": "9"
+        },
+        {
+          "item": "5.00",
+          "count": "6"
+        },
+        {
+          "item": "7.41",
+          "count": "6"
+        },
+        {
+          "item": "6.00",
+          "count": "5"
+        },
+        {
+          "item": "4.00",
+          "count": "3"
+        },
+        {
+          "item": "7.50",
+          "count": "3"
+        },
+        {
+          "item": "1.38",
+          "count": "1"
+        },
+        {
+          "item": "3.60",
+          "count": "1"
+        }
+      ],
+      "smallest": "1.38",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840020,
+    "name": "Dual Input Level 2: No Vehicle Mode Power Factor",
+    "dataTypeName": "number",
+    "description": "This indicates the No Vehicle Mode Power Factor for the Level 2 option of a dual input model. For those with ABC enabled, this is the average No Vehicle Mode Power Factor for the high and low illuminance conditions.",
+    "fieldName": "dual_input_level_2_no_vehicle_mode_power_factor",
+    "position": 43,
+    "renderTypeName": "number",
+    "tableColumnId": 142966772,
+    "width": 361,
+    "cachedContents": {
+      "non_null": "34",
+      "largest": "4",
+      "null": "434",
+      "top": [
+        {
+          "item": "0.25",
+          "count": "6"
+        },
+        {
+          "item": "0.2",
+          "count": "4"
+        },
+        {
+          "item": "0.17",
+          "count": "4"
+        },
+        {
+          "item": "0.29",
+          "count": "3"
+        },
+        {
+          "item": "0.23",
+          "count": "3"
+        },
+        {
+          "item": "0.12",
+          "count": "2"
+        },
+        {
+          "item": "0.13",
+          "count": "2"
+        },
+        {
+          "item": "0.16",
+          "count": "2"
+        },
+        {
+          "item": "0.18",
+          "count": "2"
+        },
+        {
+          "item": "0.27",
+          "count": "1"
+        },
+        {
+          "item": "0.19",
+          "count": "1"
+        },
+        {
+          "item": "0.35",
+          "count": "1"
+        },
+        {
+          "item": "0.38",
+          "count": "1"
+        },
+        {
+          "item": "0.72",
+          "count": "1"
+        },
+        {
+          "item": "4",
+          "count": "1"
+        }
+      ],
+      "smallest": "0.12",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840021,
+    "name": "Dual Input Level 2: Partial On Mode Input Power (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the Partial On Mode Input Power for the Level 2 option of a dual input model. For those with ABC enabled, this is the average Input Power for the high and low illuminance conditions.",
+    "fieldName": "dual_input_level_2_partial_on_mode_input_power_w",
+    "position": 44,
+    "renderTypeName": "number",
+    "tableColumnId": 142966773,
+    "width": 364,
+    "cachedContents": {
+      "non_null": "34",
+      "largest": "7.14",
+      "null": "434",
+      "top": [
+        {
+          "item": "7.14",
+          "count": "6"
+        },
+        {
+          "item": "4.92",
+          "count": "4"
+        },
+        {
+          "item": "3.32",
+          "count": "3"
+        },
+        {
+          "item": "3.86",
+          "count": "2"
+        },
+        {
+          "item": "1.9",
+          "count": "2"
+        },
+        {
+          "item": "6.34",
+          "count": "2"
+        },
+        {
+          "item": "3.09",
+          "count": "2"
+        },
+        {
+          "item": "3.82",
+          "count": "2"
+        },
+        {
+          "item": "3.85",
+          "count": "2"
+        },
+        {
+          "item": "3.42",
+          "count": "1"
+        },
+        {
+          "item": "0.36",
+          "count": "1"
+        },
+        {
+          "item": "1.52",
+          "count": "1"
+        },
+        {
+          "item": "2.1",
+          "count": "1"
+        },
+        {
+          "item": "2.51",
+          "count": "1"
+        },
+        {
+          "item": "2.53",
+          "count": "1"
+        },
+        {
+          "item": "0.06",
+          "count": "1"
+        },
+        {
+          "item": "4.84",
+          "count": "1"
+        },
+        {
+          "item": "6.53",
+          "count": "1"
+        }
+      ],
+      "smallest": "0.06",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840022,
+    "name": "Dual Input Partial On Mode Total Allowance (watts)",
+    "dataTypeName": "number",
+    "description": "The Partial On Mode Total Allowance is the maximum amount of power allowed in this mode for the model to be ENERGY STAR certified for the Level 2 option of a dual input model.",
+    "fieldName": "dual_input_partial_on_mode_total_allowance_w",
+    "position": 45,
+    "renderTypeName": "number",
+    "tableColumnId": 142966774,
+    "width": 349,
+    "cachedContents": {
+      "non_null": "34",
+      "largest": "8.41",
+      "null": "434",
+      "top": [
+        {
+          "item": "8.41",
+          "count": "9"
+        },
+        {
+          "item": "5.00",
+          "count": "6"
+        },
+        {
+          "item": "7.41",
+          "count": "6"
+        },
+        {
+          "item": "6.00",
+          "count": "5"
+        },
+        {
+          "item": "4.00",
+          "count": "3"
+        },
+        {
+          "item": "7.50",
+          "count": "3"
+        },
+        {
+          "item": "1.40",
+          "count": "1"
+        },
+        {
+          "item": "3.60",
+          "count": "1"
+        }
+      ],
+      "smallest": "1.40",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840023,
+    "name": "Dual Input Level 2:  Partial On Mode Power Factor",
+    "dataTypeName": "number",
+    "description": "This indicates the Partial On Mode Power Factor for the Level 2 option of a dual input model. For those with ABC enabled, this is the average Partial On Mode Power Factor for the high and low illuminance conditions.",
+    "fieldName": "dual_input_level_2_partial_on_mode_power_factor",
+    "position": 46,
+    "renderTypeName": "number",
+    "tableColumnId": 142966775,
+    "width": 344,
+    "cachedContents": {
+      "non_null": "34",
+      "largest": "0.72",
+      "null": "434",
+      "top": [
+        {
+          "item": "0.18",
+          "count": "6"
+        },
+        {
+          "item": "0.26",
+          "count": "6"
+        },
+        {
+          "item": "0.24",
+          "count": "3"
+        },
+        {
+          "item": "0.3",
+          "count": "3"
+        },
+        {
+          "item": "0.13",
+          "count": "3"
+        },
+        {
+          "item": "0.22",
+          "count": "2"
+        },
+        {
+          "item": "0.21",
+          "count": "2"
+        },
+        {
+          "item": "0.16",
+          "count": "2"
+        },
+        {
+          "item": "0.72",
+          "count": "1"
+        },
+        {
+          "item": "0.12",
+          "count": "1"
+        },
+        {
+          "item": "0.2",
+          "count": "1"
+        },
+        {
+          "item": "0.28",
+          "count": "1"
+        },
+        {
+          "item": "0.32",
+          "count": "1"
+        },
+        {
+          "item": "0.38",
+          "count": "1"
+        },
+        {
+          "item": "0.07",
+          "count": "1"
+        }
+      ],
+      "smallest": "0.07",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840024,
+    "name": "Dual Input Level 2:  Idle Mode Input Power (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the Idle Mode Input Power for the Level 2 option of a dual input model. For those with ABC enabled, this is the average Input Power for the high and low illuminance conditions.",
+    "fieldName": "dual_input_level_2_idle_mode_input_power_w",
+    "position": 47,
+    "renderTypeName": "number",
+    "tableColumnId": 142966776,
+    "width": 332,
+    "cachedContents": {
+      "non_null": "34",
+      "largest": "11.99",
+      "null": "434",
+      "top": [
+        {
+          "item": "11.83",
+          "count": "6"
+        },
+        {
+          "item": "5.02",
+          "count": "3"
+        },
+        {
+          "item": "11.99",
+          "count": "2"
+        },
+        {
+          "item": "3.71",
+          "count": "2"
+        },
+        {
+          "item": "8.43",
+          "count": "2"
+        },
+        {
+          "item": "9.26",
+          "count": "2"
+        },
+        {
+          "item": "9.64",
+          "count": "2"
+        },
+        {
+          "item": "9.72",
+          "count": "2"
+        },
+        {
+          "item": "10.2",
+          "count": "2"
+        },
+        {
+          "item": "10.33",
+          "count": "2"
+        },
+        {
+          "item": "10.23",
+          "count": "1"
+        },
+        {
+          "item": "2.42",
+          "count": "1"
+        },
+        {
+          "item": "3.68",
+          "count": "1"
+        },
+        {
+          "item": "3.31",
+          "count": "1"
+        },
+        {
+          "item": "4.6",
+          "count": "1"
+        },
+        {
+          "item": "3.46",
+          "count": "1"
+        },
+        {
+          "item": "7.94",
+          "count": "1"
+        },
+        {
+          "item": "7.95",
+          "count": "1"
+        },
+        {
+          "item": "11.94",
+          "count": "1"
+        }
+      ],
+      "smallest": "2.42",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840025,
+    "name": "Dual Input Idle Mode Total Allowance (watts)",
+    "dataTypeName": "number",
+    "description": "The Idle Mode Total Allowance is the maximum amount of power allowed in this mode for the model to be ENERGY STAR certified for the Level 2 option of a dual input model.",
+    "fieldName": "dual_input_idle_mode_total_allowance_w",
+    "position": 48,
+    "renderTypeName": "number",
+    "tableColumnId": 142966777,
+    "width": 289,
+    "cachedContents": {
+      "non_null": "34",
+      "largest": "35.60",
+      "null": "434",
+      "top": [
+        {
+          "item": "27.61",
+          "count": "6"
+        },
+        {
+          "item": "20.00",
+          "count": "3"
+        },
+        {
+          "item": "26.70",
+          "count": "3"
+        },
+        {
+          "item": "21.00",
+          "count": "2"
+        },
+        {
+          "item": "18.80",
+          "count": "2"
+        },
+        {
+          "item": "22.00",
+          "count": "2"
+        },
+        {
+          "item": "23.41",
+          "count": "2"
+        },
+        {
+          "item": "24.41",
+          "count": "2"
+        },
+        {
+          "item": "24.20",
+          "count": "2"
+        },
+        {
+          "item": "26.61",
+          "count": "2"
+        },
+        {
+          "item": "20.21",
+          "count": "2"
+        },
+        {
+          "item": "35.60",
+          "count": "1"
+        },
+        {
+          "item": "11.40",
+          "count": "1"
+        },
+        {
+          "item": "17.80",
+          "count": "1"
+        },
+        {
+          "item": "21.21",
+          "count": "1"
+        },
+        {
+          "item": "25.20",
+          "count": "1"
+        },
+        {
+          "item": "8.80",
+          "count": "1"
+        }
+      ],
+      "smallest": "8.80",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840026,
+    "name": "Dual Input Level 2:  Idle Mode Power Factor",
+    "dataTypeName": "number",
+    "description": "This indicates the Idle Mode Power Factor for the Level 2 option of a dual input model. For those with ABC enabled, this is the average Idle Mode Power Factor for the high and low illuminance conditions.",
+    "fieldName": "dual_input_level_2_idle_mode_power_factor",
+    "position": 49,
+    "renderTypeName": "number",
+    "tableColumnId": 142966778,
+    "width": 314,
+    "cachedContents": {
+      "non_null": "34",
+      "largest": "0.72",
+      "null": "434",
+      "top": [
+        {
+          "item": "0.34",
+          "count": "6"
+        },
+        {
+          "item": "0.37",
+          "count": "6"
+        },
+        {
+          "item": "0.35",
+          "count": "5"
+        },
+        {
+          "item": "0.31",
+          "count": "3"
+        },
+        {
+          "item": "0.33",
+          "count": "3"
+        },
+        {
+          "item": "0.2",
+          "count": "2"
+        },
+        {
+          "item": "0.36",
+          "count": "2"
+        },
+        {
+          "item": "0.72",
+          "count": "1"
+        },
+        {
+          "item": "0.32",
+          "count": "1"
+        },
+        {
+          "item": "0.39",
+          "count": "1"
+        },
+        {
+          "item": "0.45",
+          "count": "1"
+        },
+        {
+          "item": "0.53",
+          "count": "1"
+        },
+        {
+          "item": "0.55",
+          "count": "1"
+        },
+        {
+          "item": "0.16",
+          "count": "1"
+        }
+      ],
+      "smallest": "0.16",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840027,
+    "name": "Dual Input Level 2: Full Current Operation Mode Test: Total Loss (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the Full Current Operation Mode Total Loss for the Level 2 option of a dual input model. For those with ABC enabled, this is the average Full Current Operation Mode Loss for the high and low illuminance conditions.",
+    "fieldName": "dual_input_level_2_full_currop_mode_test_total_lo",
+    "position": 50,
+    "renderTypeName": "number",
+    "tableColumnId": 142966780,
+    "width": 450,
+    "cachedContents": {
+      "non_null": "33",
+      "largest": "-1.04",
+      "null": "435",
+      "top": [
+        {
+          "item": "-93",
+          "count": "6"
+        },
+        {
+          "item": "-143.15",
+          "count": "3"
+        },
+        {
+          "item": "-101",
+          "count": "3"
+        },
+        {
+          "item": "-63",
+          "count": "2"
+        },
+        {
+          "item": "-94",
+          "count": "2"
+        },
+        {
+          "item": "-82",
+          "count": "2"
+        },
+        {
+          "item": "-77",
+          "count": "2"
+        },
+        {
+          "item": "-79",
+          "count": "2"
+        },
+        {
+          "item": "-104",
+          "count": "2"
+        },
+        {
+          "item": "-70",
+          "count": "2"
+        },
+        {
+          "item": "-1.04",
+          "count": "1"
+        },
+        {
+          "item": "-118",
+          "count": "1"
+        },
+        {
+          "item": "-95",
+          "count": "1"
+        },
+        {
+          "item": "-73",
+          "count": "1"
+        },
+        {
+          "item": "-69",
+          "count": "1"
+        },
+        {
+          "item": "-7.6",
+          "count": "1"
+        },
+        {
+          "item": "-266.79",
+          "count": "1"
+        }
+      ],
+      "smallest": "-266.79",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840028,
+    "name": "Dual Input Level 2: 30 A Operation Mode Test: Total Loss (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the 30 A Operation Mode Total Loss for the Level 2 option of a dual input model. For those with ABC enabled, this is the average Full Current Operation Mode Loss for the high and low illuminance conditions.",
+    "fieldName": "dual_input_level_2_30_a_op_mode_test_total_loss",
+    "position": 51,
+    "renderTypeName": "number",
+    "tableColumnId": 142966782,
+    "width": 414,
+    "cachedContents": {
+      "non_null": "31",
+      "largest": "-35",
+      "null": "437",
+      "top": [
+        {
+          "item": "-45",
+          "count": "6"
+        },
+        {
+          "item": "-46",
+          "count": "4"
+        },
+        {
+          "item": "-60.47",
+          "count": "3"
+        },
+        {
+          "item": "-41",
+          "count": "2"
+        },
+        {
+          "item": "-79",
+          "count": "2"
+        },
+        {
+          "item": "-57",
+          "count": "2"
+        },
+        {
+          "item": "-55",
+          "count": "2"
+        },
+        {
+          "item": "-44",
+          "count": "2"
+        },
+        {
+          "item": "-59",
+          "count": "2"
+        },
+        {
+          "item": "-35",
+          "count": "1"
+        },
+        {
+          "item": "-69",
+          "count": "1"
+        },
+        {
+          "item": "-64",
+          "count": "1"
+        },
+        {
+          "item": "-41.36",
+          "count": "1"
+        },
+        {
+          "item": "-39",
+          "count": "1"
+        },
+        {
+          "item": "-82",
+          "count": "1"
+        }
+      ],
+      "smallest": "-82",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840029,
+    "name": "Dual Input Level 2: 15 A Operation Mode Test: Total Loss (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the 15 A Operation Mode Total Loss for the Level 2 option of a dual input model. For those with ABC enabled, this is the average Full Current Operation Mode Loss for the high and low illuminance conditions.",
+    "fieldName": "dual_input_level_2_15_a_op_mode_test_total_loss",
+    "position": 52,
+    "renderTypeName": "number",
+    "tableColumnId": 142966784,
+    "width": 411,
+    "cachedContents": {
+      "non_null": "32",
+      "largest": "-7.7",
+      "null": "436",
+      "top": [
+        {
+          "item": "-18",
+          "count": "11"
+        },
+        {
+          "item": "-19",
+          "count": "6"
+        },
+        {
+          "item": "-21",
+          "count": "3"
+        },
+        {
+          "item": "-19.62",
+          "count": "3"
+        },
+        {
+          "item": "-22",
+          "count": "2"
+        },
+        {
+          "item": "-25",
+          "count": "2"
+        },
+        {
+          "item": "-7.7",
+          "count": "1"
+        },
+        {
+          "item": "-20",
+          "count": "1"
+        },
+        {
+          "item": "-15",
+          "count": "1"
+        },
+        {
+          "item": "-14.76",
+          "count": "1"
+        },
+        {
+          "item": "-36",
+          "count": "1"
+        }
+      ],
+      "smallest": "-36",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840030,
+    "name": "Dual Input Level 2: 4 A Operation Mode Test: Total Loss (watts)",
+    "dataTypeName": "number",
+    "description": "This indicates the 4 A Operation Mode Total Loss for the Level 2 option of a dual input model. For those with ABC enabled, this is the average Full Current Operation Mode Loss for the high and low illuminance conditions.",
+    "fieldName": "dual_input_level_2_4_a_op_mode_test_total_loss",
+    "position": 53,
+    "renderTypeName": "number",
+    "tableColumnId": 142966786,
+    "width": 404,
+    "cachedContents": {
+      "non_null": "33",
+      "largest": "17",
+      "null": "435",
+      "top": [
+        {
+          "item": "8",
+          "count": "7"
+        },
+        {
+          "item": "17",
+          "count": "6"
+        },
+        {
+          "item": "9",
+          "count": "5"
+        },
+        {
+          "item": "6.27",
+          "count": "3"
+        },
+        {
+          "item": "10",
+          "count": "3"
+        },
+        {
+          "item": "11",
+          "count": "3"
+        },
+        {
+          "item": "7",
+          "count": "2"
+        },
+        {
+          "item": "5.2",
+          "count": "2"
+        },
+        {
+          "item": "6.37",
+          "count": "1"
+        },
+        {
+          "item": "2.12",
+          "count": "1"
+        }
+      ],
+      "smallest": "2.12",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840031,
+    "name": "Date Available on Market",
+    "dataTypeName": "calendar_date",
+    "description": "The date that the model is available for purchase.\n",
+    "fieldName": "date_available_on_market",
+    "position": 54,
+    "renderTypeName": "calendar_date",
+    "tableColumnId": 142966787,
+    "width": 218,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "2026-08-13T00:00:00.000",
+      "null": "0",
+      "top": [
+        {
+          "item": "2025-03-24T00:00:00.000",
+          "count": "17"
+        },
+        {
+          "item": "2025-05-08T00:00:00.000",
+          "count": "12"
+        },
+        {
+          "item": "2025-11-04T00:00:00.000",
+          "count": "10"
+        },
+        {
+          "item": "2024-11-12T00:00:00.000",
+          "count": "7"
+        },
+        {
+          "item": "2026-03-02T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2023-09-04T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2024-05-23T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2026-07-07T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2024-11-11T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2022-04-19T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2025-01-14T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2023-08-31T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2024-06-13T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2024-07-23T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2020-03-24T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2022-10-24T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2024-08-23T00:00:00.000",
+          "count": "4"
+        },
+        {
+          "item": "2025-11-11T00:00:00.000",
+          "count": "4"
+        },
+        {
+          "item": "2023-09-26T00:00:00.000",
+          "count": "4"
+        },
+        {
+          "item": "2023-12-27T00:00:00.000",
+          "count": "4"
+        }
+      ],
+      "smallest": "2018-07-17T00:00:00.000",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "view": "date",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840032,
+    "name": "Date Certified",
+    "dataTypeName": "calendar_date",
+    "description": "The date on which the product was confirmed to meet the ENERGY STAR specification.",
+    "fieldName": "date_qualified",
+    "position": 55,
+    "renderTypeName": "calendar_date",
+    "tableColumnId": 142966788,
+    "width": 218,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "2026-08-13T00:00:00.000",
+      "null": "0",
+      "top": [
+        {
+          "item": "2025-03-24T00:00:00.000",
+          "count": "17"
+        },
+        {
+          "item": "2025-05-08T00:00:00.000",
+          "count": "12"
+        },
+        {
+          "item": "2025-11-04T00:00:00.000",
+          "count": "10"
+        },
+        {
+          "item": "2024-11-12T00:00:00.000",
+          "count": "7"
+        },
+        {
+          "item": "2026-03-02T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2023-09-04T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2024-05-23T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2026-07-07T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2024-11-11T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2022-04-19T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2025-01-14T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2023-08-31T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2024-06-13T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2024-07-23T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2020-03-24T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2022-10-24T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2024-08-23T00:00:00.000",
+          "count": "4"
+        },
+        {
+          "item": "2025-11-11T00:00:00.000",
+          "count": "4"
+        },
+        {
+          "item": "2023-09-26T00:00:00.000",
+          "count": "4"
+        },
+        {
+          "item": "2023-12-27T00:00:00.000",
+          "count": "4"
+        }
+      ],
+      "smallest": "2018-07-17T00:00:00.000",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "view": "date",
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840033,
+    "name": "Markets",
+    "dataTypeName": "text",
+    "description": "Includes products sold in the U.S. and/or Canada and other ENERGY STAR partner countries.\n",
+    "fieldName": "markets",
+    "position": 56,
+    "renderTypeName": "text",
+    "tableColumnId": 142966789,
+    "width": 131,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "United States, Canada",
+      "null": "0",
+      "top": [
+        {
+          "item": "United States, Canada",
+          "count": "438"
+        },
+        {
+          "item": "United States",
+          "count": "29"
+        },
+        {
+          "item": "Canada",
+          "count": "1"
+        }
+      ],
+      "smallest": "Canada",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 577840034,
+    "name": "CB Model Identifier",
+    "dataTypeName": "text",
+    "description": "A unique string of characters assigned by certification bodies (CBs) to identify a model or set of models with the same performance characteristics. This identifier should remain the same for a model even if it is recertified to a new version of an ENERGY STAR specification. This string of characters is determined by CBs and is not the ENERGY STAR Unique ID assigned by EPA.\n",
+    "fieldName": "energy_star_model_identifier",
+    "position": 57,
+    "renderTypeName": "text",
+    "tableColumnId": 142966790,
+    "width": 242,
+    "cachedContents": {
+      "non_null": "468",
+      "largest": "ES_95903_CCS-C80-LTE_20240131140931_1934203",
+      "null": "0",
+      "top": [
+        {
+          "item": "ES_1092555_8EM1312 5CF18 0FA3_072820231711981_5815616",
+          "count": "1"
+        },
+        {
+          "item": "ES_1137922_Model 620_01222019101510_1010101",
+          "count": "1"
+        },
+        {
+          "item": "ES_1149963_ZJ-EV32A_03072025162451_7093927",
+          "count": "1"
+        },
+        {
+          "item": "ES_1152591_ACULC-12C0xy_07202026134545_80242275",
+          "count": "1"
+        },
+        {
+          "item": "ES_1145792_E800-1027_06062025164606_971598922",
+          "count": "1"
+        },
+        {
+          "item": "ES_1150109_KW11DAC/01C/XX/RF/WF/4G_02012024122751_9615442",
+          "count": "1"
+        },
+        {
+          "item": "ES_1149581_L2C40S_11262024134126_5233270",
+          "count": "1"
+        },
+        {
+          "item": "ES_1042248_EV32W_10212022112550_8373834",
+          "count": "1"
+        },
+        {
+          "item": "ES_1129430_TB-AC240US_03212024104146_6106988",
+          "count": "1"
+        },
+        {
+          "item": "ES_1147352_JNT-EVC10/48AC/01C/SR/RF/4G_04132022192107_812951",
+          "count": "1"
+        },
+        {
+          "item": "ES_1152532_920160_09232025014810_1010101",
+          "count": "1"
+        },
+        {
+          "item": "ES_1152591_ACULC-12N0xy_07202026134545_80242275",
+          "count": "1"
+        },
+        {
+          "item": "ES_1149464_SEA240/48I-U-HY_01152024170241_3576928",
+          "count": "1"
+        },
+        {
+          "item": "ES_1150715_A11-OP-UL-SH_07052024130400_0000001",
+          "count": "1"
+        },
+        {
+          "item": "ES_1147564_UW12-N0700C0B002_11052025120822_80267540",
+          "count": "1"
+        },
+        {
+          "item": "ES_1143056_EVP-2002-30-P-0002_10202021103203_1010101",
+          "count": "1"
+        },
+        {
+          "item": "ES_1148950_1734412-##*_01112024141455_5557367",
+          "count": "1"
+        },
+        {
+          "item": "ES_1150725_PG EVAC 11.5 WI T1 WH_06122024132801_5844079",
+          "count": "1"
+        },
+        {
+          "item": "ES_1145609_MES-EV-LH-SG80_01072025125520_6894915",
+          "count": "1"
+        },
+        {
+          "item": "ES_1147623_WPTAC-9KW-S24-TD_06172022134300_4742242",
+          "count": "1"
+        }
+      ],
+      "smallest": "ES_0022220_EVRBA48ANAMJ1772_01082026104349_80259936",
+      "count": "468",
+      "cardinality": "468"
+    },
+    "format": {
+      "align": "left"
+    }
+  }
+]

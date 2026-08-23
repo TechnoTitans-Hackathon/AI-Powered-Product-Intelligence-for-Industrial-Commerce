@@ -1,0 +1,98 @@
+[
+  {
+    "query": "electric motor product type rated voltage",
+    "total_found": 5,
+    "top_sources": [
+      "energy_star_evse_dc_public_domain",
+      "energy_star_evse_dc_public_domain",
+      "energy_star_evse_dc_public_domain"
+    ],
+    "top_scores": [
+      0.9,
+      0.9,
+      0.9
+    ],
+    "bearing_bias_detected": false,
+    "status": "PASS"
+  },
+  {
+    "query": "centrifugal pump flow rate head impeller",
+    "total_found": 5,
+    "top_sources": [
+      "energy_star_light_commercial_hvac_public_domain",
+      "energy_star_light_commercial_hvac_public_domain",
+      "energy_star_light_commercial_hvac_public_domain"
+    ],
+    "top_scores": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "bearing_bias_detected": false,
+    "status": "PASS"
+  },
+  {
+    "query": "butterfly valve pressure rating body material",
+    "total_found": 5,
+    "top_sources": [
+      "qudt_units_quantity_kinds_cc_by_4",
+      "qudt_units_quantity_kinds_cc_by_4",
+      "qudt_units_quantity_kinds_cc_by_4"
+    ],
+    "top_scores": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "bearing_bias_detected": false,
+    "status": "PASS"
+  },
+  {
+    "query": "industrial sensor output signal accuracy",
+    "total_found": 5,
+    "top_sources": [
+      "energy_star_ventilating_fans_public_domain",
+      "energy_star_ventilating_fans_public_domain",
+      "energy_star_ventilating_fans_public_domain"
+    ],
+    "top_scores": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "bearing_bias_detected": false,
+    "status": "PASS"
+  },
+  {
+    "query": "fastener thread size grade material",
+    "total_found": 5,
+    "top_sources": [
+      "qudt_units_quantity_kinds_cc_by_4",
+      "energy_star_ventilating_fans_public_domain",
+      "energy_star_ventilating_fans_public_domain"
+    ],
+    "top_scores": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "bearing_bias_detected": false,
+    "status": "PASS"
+  },
+  {
+    "query": "HVAC ventilating fan boiler heat pump",
+    "total_found": 5,
+    "top_sources": [
+      "energy_star_ventilating_fans_public_domain",
+      "energy_star_ventilating_fans_public_domain",
+      "energy_star_light_commercial_hvac_public_domain"
+    ],
+    "top_scores": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "bearing_bias_detected": false,
+    "status": "PASS"
+  }
+]

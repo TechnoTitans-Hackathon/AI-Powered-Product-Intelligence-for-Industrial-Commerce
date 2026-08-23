@@ -1,20 +1,43 @@
-# Dataset Licenses
+# DATASET LICENSES
 
-This document outlines the licensing status for the datasets and validation assets included in this repository.
+This document details the licenses of the 8 offline datasets acquired for the UniHack product intelligence corpus.
 
-## Project Created Data
-**Assets:**
-- `test_files/catalog.csv`
-- `test_files/document.pdf`
-- `test_files/image.png`
-- `test_files/video.mp4`
-- `data_storage/validation/real_data_manifest.json`
-- `Frontend+Backend + Ai Engine/test_product.json`
+## 1. QUDT Units and Quantity Kinds
+- **License:** CC BY 4.0
+- **License URL:** https://github.com/qudt/qudt-public-repo/blob/main/LICENSE.md
+- **License Notes:** QUDT repository LICENSE.md states Creative Commons Attribution 4.0 with attribution to QUDT.org.
 
-**License**: These files were generated synthetically by the UniHack team (TechnoTitans) specifically for testing. They are distributed under the same license as the rest of the project source code.
+## 2. North American Industry Classification System 2022
+- **License:** Public Domain
+- **License URL:** https://data.colorado.gov/Business/North-American-Industry-Classification-System-2022/i2mk-94p9
+- **License Notes:** Colorado Open Data page marks the NAICS 2022 dataset license as Public Domain and cites the Census source link.
 
-## Third-Party Reference Data
-**Assets:**
-- `data_storage/validation/pico-datasheet.pdf`
+## 3. ENERGY STAR Certified Commercial Boilers
+- **License:** U.S. Public Domain / EPA Standard Open Data License
+- **License URL:** https://edg.epa.gov/EPA_Data_License.html
+- **License Notes:** EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.
 
-**License**: Copyright © Raspberry Pi Ltd. This is an official, unmodified technical datasheet provided by Raspberry Pi Ltd. It is included unchanged as a real-world reference document for validation testing. For full terms of use, please refer to the authoritative source at [raspberrypi.com](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf).
+## 4. ENERGY STAR Certified Ventilating Fans
+- **License:** U.S. Public Domain / EPA Standard Open Data License
+- **License URL:** https://edg.epa.gov/EPA_Data_License.html
+- **License Notes:** EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.
+
+## 5. ENERGY STAR Certified Light Commercial HVAC
+- **License:** U.S. Public Domain / EPA Standard Open Data License
+- **License URL:** https://edg.epa.gov/EPA_Data_License.html
+- **License Notes:** EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.
+
+## 6. ENERGY STAR Certified Electric Vehicle Supply Equipment - AC-Output
+- **License:** U.S. Public Domain / EPA Standard Open Data License
+- **License URL:** https://edg.epa.gov/EPA_Data_License.html
+- **License Notes:** EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.
+
+## 7. ENERGY STAR Certified Electric Vehicle Supply Equipment - DC-Output
+- **License:** U.S. Public Domain / EPA Standard Open Data License
+- **License URL:** https://edg.epa.gov/EPA_Data_License.html
+- **License Notes:** EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.
+
+## 8. ENERGY STAR Certified Data Center Storage - File I/O
+- **License:** U.S. Public Domain / EPA Standard Open Data License
+- **License URL:** https://edg.epa.gov/EPA_Data_License.html
+- **License Notes:** EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.

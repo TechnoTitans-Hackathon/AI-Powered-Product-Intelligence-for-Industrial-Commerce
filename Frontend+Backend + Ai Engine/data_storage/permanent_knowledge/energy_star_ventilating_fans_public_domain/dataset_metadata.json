@@ -1,0 +1,44 @@
+{
+  "dataset_id": "energy_star_ventilating_fans_public_domain",
+  "name": "ENERGY STAR Certified Ventilating Fans",
+  "source": "U.S. Environmental Protection Agency ENERGY STAR",
+  "source_url": "https://catalog.data.gov/dataset/energy-star-certified-ventilating-fans",
+  "download_url": "https://data.energystar.gov/api/v3/views/8dv7-nngq/export.csv?accessType=DOWNLOAD",
+  "license": "U.S. Public Domain / EPA Standard Open Data License",
+  "license_url": "https://edg.epa.gov/EPA_Data_License.html",
+  "license_verified": true,
+  "license_notes": "EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.",
+  "version": "modified 2026-07-28",
+  "published_at": "2021-09-07",
+  "downloaded_at": "2026-08-23T08:08:52+00:00",
+  "sha256": "8fb38f8d7708fd0d1e1c9314a85d8567372537c8c09982466616a86c17c41f37",
+  "size_bytes": 420205,
+  "format": "CSV",
+  "industries": [
+    "HVAC",
+    "Industrial Equipment"
+  ],
+  "categories": [
+    "Ventilation",
+    "Fans"
+  ],
+  "description": "Certified ventilating fan product records and efficiency/airflow attributes.",
+  "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+  "storage_class": "PERMANENT_BASELINE",
+  "knowledge_type": "PRODUCT_CATALOG",
+  "quality_scores": {
+    "LICENSE_CONFIDENCE": 5,
+    "SOURCE_AUTHORITY": 5,
+    "PRODUCT_RELEVANCE": 4,
+    "INDUSTRY_COVERAGE": 4,
+    "ATTRIBUTE_VALUE": 5,
+    "DUPLICATION_RISK": 1,
+    "SIZE_EFFICIENCY": 5,
+    "PROVENANCE_QUALITY": 5
+  },
+  "files": [
+    "energy_star_ventilating_fans_public_domain\\columns.json",
+    "energy_star_ventilating_fans_public_domain\\energy_star_ventilating_fans_public_domain.csv",
+    "energy_star_ventilating_fans_public_domain\\metadata.json"
+  ]
+}

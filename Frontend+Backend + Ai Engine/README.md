@@ -60,3 +60,9 @@ To safely verify system integration without consuming Gemini quota:
 ```bash
 python scripts/unihack_acceptance_runner.py
 ```
+
+---
+
+## 📚 Offline Knowledge Layer
+
+The UniHack system relies on a locally stored offline knowledge corpus (located in `data_storage/permanent_knowledge/`) containing open-licensed industry taxonomy, standard units, and certified product records. The retrieval system utilizes `InMemoryVectorStore` to index and retrieve baseline engineering knowledge during the AI inference pipeline, ensuring accurate intelligence gathering without relying entirely on external web search.

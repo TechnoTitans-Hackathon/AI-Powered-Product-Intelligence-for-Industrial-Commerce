@@ -452,8 +452,7 @@ def export_product_xlsx(
         raise HTTPException(status_code=400, detail="Product has no commerce output generated.")
 
     try:
-        adapter = CommerceOutputAdapter()
-        df = adapter.create_commerce_dataframe([product.commerce_json])
+        df = pd.DataFrame([product.commerce_json])
 
         if len(df.columns) != 252:
             raise HTTPException(status_code=500, detail=f"Internal schema error: export has {len(df.columns)} columns instead of 252.")

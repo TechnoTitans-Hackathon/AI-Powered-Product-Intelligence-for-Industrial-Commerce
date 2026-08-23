@@ -1,0 +1,76 @@
+[
+  {
+    "name": "UNSPSC commodity taxonomy",
+    "source": "UNSPSC",
+    "url": "https://www.unspsc.org/",
+    "reason": "LICENSE_UNCLEAR",
+    "license_status": "Public viewing exists, but redistribution/offline retention terms were not accepted as clearly open.",
+    "size_if_known": null
+  },
+  {
+    "name": "ECLASS standard product classification",
+    "source": "ECLASS e.V.",
+    "url": "https://eclass.eu/",
+    "reason": "PROPRIETARY",
+    "license_status": "Standard/taxonomy licensing is not openly reusable for this offline baseline.",
+    "size_if_known": null
+  },
+  {
+    "name": "GS1 Global Product Classification",
+    "source": "GS1",
+    "url": "https://www.gs1.org/standards/gpc",
+    "reason": "LICENSE_INCOMPATIBLE",
+    "license_status": "Terms are not a simple permissive open-data license for permanent redistribution.",
+    "size_if_known": null
+  },
+  {
+    "name": "Manufacturer PDF catalogs and datasheets",
+    "source": "Various manufacturers",
+    "url": "",
+    "reason": "PROPRIETARY",
+    "license_status": "Publicly visible documents usually retain copyright and did not provide explicit redistribution rights.",
+    "size_if_known": null
+  },
+  {
+    "name": "CWRU Bearing Data Center fault data",
+    "source": "Case Western Reserve University",
+    "url": "https://engineering.case.edu/bearingdatacenter",
+    "reason": "LICENSE_UNCLEAR",
+    "license_status": "Useful for failure/time-series research, but license was not accepted as clearly permitting offline redistribution.",
+    "size_if_known": null
+  },
+  {
+    "name": "MIMII Dataset",
+    "source": "Research dataset",
+    "url": "https://zenodo.org/",
+    "reason": "LOW_RELEVANCE",
+    "license_status": "Machine-sound/anomaly dataset; not product identification/specification knowledge and large relative to value.",
+    "size_if_known": null
+  },
+  {
+    "name": "Kaggle industrial product datasets",
+    "source": "Kaggle",
+    "url": "https://www.kaggle.com/",
+    "reason": "LICENSE_UNCLEAR",
+    "license_status": "Candidate datasets require per-dataset login/terms verification; skipped rather than assuming rights.",
+    "size_if_known": null
+  },
+  {
+    "name": "wikidata",
+    "source": "",
+    "url": "",
+    "reason": "UNAVAILABLE",
+    "license_status": "Approved source candidate failed during bounded acquisition.",
+    "size_if_known": null,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "name": "wikipedia",
+    "source": "",
+    "url": "",
+    "reason": "UNAVAILABLE",
+    "license_status": "Approved source candidate failed during bounded acquisition.",
+    "size_if_known": null,
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+]

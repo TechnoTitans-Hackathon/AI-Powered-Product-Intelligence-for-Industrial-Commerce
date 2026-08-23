@@ -1,0 +1,1277 @@
+[
+  {
+    "id": 548209990,
+    "name": "ENERGY STAR Unique ID",
+    "dataTypeName": "number",
+    "description": "The ENERGY STAR Unique ID (ESUID) is a string of seven numbers EPA assigns to an ENERGY STAR model or set of models with unique performance characteristics. This ESUID is unique to both the model and product specification version and is assigned by EPA upon receipt of certification information from the certification body. Each row within the product list will have a unique ESUID. Developers may wish to use this ESUID to track information on certified models in their information systems.",
+    "fieldName": "pd_id",
+    "position": 1,
+    "renderTypeName": "number",
+    "tableColumnId": 43227615,
+    "width": 160,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "4682314",
+      "null": "0",
+      "top": [
+        {
+          "item": "2318311",
+          "count": "1"
+        },
+        {
+          "item": "3555520",
+          "count": "1"
+        },
+        {
+          "item": "2853329",
+          "count": "1"
+        },
+        {
+          "item": "2346545",
+          "count": "1"
+        },
+        {
+          "item": "2647498",
+          "count": "1"
+        },
+        {
+          "item": "2682265",
+          "count": "1"
+        },
+        {
+          "item": "4480936",
+          "count": "1"
+        },
+        {
+          "item": "3557054",
+          "count": "1"
+        },
+        {
+          "item": "2682266",
+          "count": "1"
+        },
+        {
+          "item": "4480931",
+          "count": "1"
+        },
+        {
+          "item": "2407767",
+          "count": "1"
+        },
+        {
+          "item": "2369079",
+          "count": "1"
+        },
+        {
+          "item": "4615199",
+          "count": "1"
+        },
+        {
+          "item": "4480934",
+          "count": "1"
+        },
+        {
+          "item": "2339374",
+          "count": "1"
+        },
+        {
+          "item": "2318297",
+          "count": "1"
+        },
+        {
+          "item": "4682294",
+          "count": "1"
+        },
+        {
+          "item": "2409591",
+          "count": "1"
+        },
+        {
+          "item": "3619540",
+          "count": "1"
+        },
+        {
+          "item": "2318315",
+          "count": "1"
+        }
+      ],
+      "smallest": "2318280",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "noCommas": "true",
+      "align": "left"
+    }
+  },
+  {
+    "id": 548209991,
+    "name": "ENERGY STAR Partner",
+    "dataTypeName": "text",
+    "description": "An organization that signed a Partnership Agreement with EPA to manufacture or private label ENERGY STAR qualified products.",
+    "fieldName": "energy_star_partner",
+    "position": 2,
+    "renderTypeName": "text",
+    "tableColumnId": 43227617,
+    "width": 328,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "Viessmann Manufacturing Company",
+      "null": "0",
+      "top": [
+        {
+          "item": "Thermal Solutions Products LLC",
+          "count": "89"
+        },
+        {
+          "item": "Lochinvar, LLC",
+          "count": "65"
+        },
+        {
+          "item": "Mestek, Inc.",
+          "count": "62"
+        },
+        {
+          "item": "NY Thermal Inc.",
+          "count": "25"
+        },
+        {
+          "item": "Raypak Inc.",
+          "count": "22"
+        },
+        {
+          "item": "The Marley Company",
+          "count": "15"
+        },
+        {
+          "item": "P. B. Heat, LLC",
+          "count": "14"
+        },
+        {
+          "item": "IBC Technologies Inc.",
+          "count": "9"
+        },
+        {
+          "item": "LAARS Heating Systems Company",
+          "count": "8"
+        },
+        {
+          "item": "Riello Canada Inc.",
+          "count": "8"
+        },
+        {
+          "item": "Fulton Thermal Corporation",
+          "count": "8"
+        },
+        {
+          "item": "Bradford White Corporation",
+          "count": "8"
+        },
+        {
+          "item": "Velocity Boiler Works",
+          "count": "7"
+        },
+        {
+          "item": "Ariston USA LLC",
+          "count": "7"
+        },
+        {
+          "item": "ECR International",
+          "count": "7"
+        },
+        {
+          "item": "U.S. Boiler Company, LLC",
+          "count": "7"
+        },
+        {
+          "item": "Viessmann Manufacturing Company",
+          "count": "6"
+        },
+        {
+          "item": "Navien, Inc.",
+          "count": "6"
+        },
+        {
+          "item": "Rinnai America Corporation",
+          "count": "5"
+        },
+        {
+          "item": "Cleaver-Brooks, Inc.",
+          "count": "5"
+        }
+      ],
+      "smallest": "Ariston USA LLC",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 548209992,
+    "name": "Brand Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to a product or family/series of products for sales and marketing purposes.",
+    "fieldName": "brand_name",
+    "position": 3,
+    "renderTypeName": "text",
+    "tableColumnId": 43227619,
+    "width": 160,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "Weil-McLain",
+      "null": "0",
+      "top": [
+        {
+          "item": "Lochinvar",
+          "count": "65"
+        },
+        {
+          "item": "RBI WATER HEATERS",
+          "count": "40"
+        },
+        {
+          "item": "THERMAL SOLUTIONS",
+          "count": "29"
+        },
+        {
+          "item": "Velocity Boiler Works",
+          "count": "26"
+        },
+        {
+          "item": "Hamilton Engineering",
+          "count": "22"
+        },
+        {
+          "item": "BRYAN STEAM",
+          "count": "19"
+        },
+        {
+          "item": "NTI",
+          "count": "17"
+        },
+        {
+          "item": "Raypak",
+          "count": "16"
+        },
+        {
+          "item": "U.S. Boiler Company",
+          "count": "16"
+        },
+        {
+          "item": "Weil-McLain",
+          "count": "15"
+        },
+        {
+          "item": "Peerless",
+          "count": "14"
+        },
+        {
+          "item": "Burnham by U.S. Boiler",
+          "count": "12"
+        },
+        {
+          "item": "IBC Technologies",
+          "count": "11"
+        },
+        {
+          "item": "HTP",
+          "count": "9"
+        },
+        {
+          "item": "Laars",
+          "count": "8"
+        },
+        {
+          "item": "Bradford White",
+          "count": "8"
+        },
+        {
+          "item": "FULTON HEATING SOLUTIONS",
+          "count": "8"
+        },
+        {
+          "item": "Navien",
+          "count": "6"
+        },
+        {
+          "item": "Viessmann",
+          "count": "6"
+        },
+        {
+          "item": "Trinity",
+          "count": "6"
+        }
+      ],
+      "smallest": "Bosch",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 548209993,
+    "name": "Model Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to a product or family/series of products for sales and marketing purposes.",
+    "fieldName": "model_name",
+    "position": 4,
+    "renderTypeName": "text",
+    "tableColumnId": 43227620,
+    "width": 220,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "XVERS w/ KOR",
+      "null": "0",
+      "top": [
+        {
+          "item": "AMP",
+          "count": "36"
+        },
+        {
+          "item": "Crest",
+          "count": "36"
+        },
+        {
+          "item": "Citadel",
+          "count": "21"
+        },
+        {
+          "item": "Knight XL",
+          "count": "20"
+        },
+        {
+          "item": "Torus Indoor Series",
+          "count": "17"
+        },
+        {
+          "item": "NTI",
+          "count": "17"
+        },
+        {
+          "item": "Torus Outdoor Series",
+          "count": "17"
+        },
+        {
+          "item": "Phantom-XL",
+          "count": "14"
+        },
+        {
+          "item": "BFIT",
+          "count": "14"
+        },
+        {
+          "item": "PureFire",
+          "count": "14"
+        },
+        {
+          "item": "Endura XE",
+          "count": "8"
+        },
+        {
+          "item": "Alpine",
+          "count": "7"
+        },
+        {
+          "item": "FTXL",
+          "count": "7"
+        },
+        {
+          "item": "Elite XL",
+          "count": "7"
+        },
+        {
+          "item": "TFTN",
+          "count": "6"
+        },
+        {
+          "item": "Brute XTR",
+          "count": "6"
+        },
+        {
+          "item": "XFIIRE",
+          "count": "6"
+        },
+        {
+          "item": "Encore Outdoor Series",
+          "count": "6"
+        },
+        {
+          "item": "NeoTherm XTR",
+          "count": "6"
+        },
+        {
+          "item": "Encore Indoor Series",
+          "count": "6"
+        }
+      ],
+      "smallest": "Alpine",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 548209994,
+    "name": "Model Number",
+    "dataTypeName": "text",
+    "description": "A distinguishing, alphanumeric identifier, assigned to a product by the manufacturer or private labeler. The model number may include a wildcard that can be replaced by any letter or digit and still accurately capture what is covered by the model’s ENERGY STAR certification; an asterisk symbol (*) represents a letter, and a number symbol (#) a digit.",
+    "fieldName": "model_number",
+    "position": 5,
+    "renderTypeName": "text",
+    "tableColumnId": 43227623,
+    "width": 244,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "WHB399N",
+      "null": "0",
+      "top": [
+        {
+          "item": "CH-399",
+          "count": "3"
+        },
+        {
+          "item": "CH-499",
+          "count": "3"
+        },
+        {
+          "item": "LX500",
+          "count": "2"
+        },
+        {
+          "item": "LX400",
+          "count": "2"
+        },
+        {
+          "item": "TFT399",
+          "count": "2"
+        },
+        {
+          "item": "LX800",
+          "count": "2"
+        },
+        {
+          "item": "LX600",
+          "count": "2"
+        },
+        {
+          "item": "TFT340",
+          "count": "2"
+        },
+        {
+          "item": "FTX500(N,L)",
+          "count": "1"
+        },
+        {
+          "item": "AMP1500",
+          "count": "1"
+        },
+        {
+          "item": "HTH 00500 AX",
+          "count": "1"
+        },
+        {
+          "item": "HTH 00300 AX",
+          "count": "1"
+        },
+        {
+          "item": "CTD1000C-O",
+          "count": "1"
+        },
+        {
+          "item": "STEEL PRO 150",
+          "count": "1"
+        },
+        {
+          "item": "WB0500X",
+          "count": "1"
+        },
+        {
+          "item": "PFC-1000-NAT",
+          "count": "1"
+        },
+        {
+          "item": "OFN1251",
+          "count": "1"
+        },
+        {
+          "item": "RB0350X",
+          "count": "1"
+        },
+        {
+          "item": "PFC-625-LP",
+          "count": "1"
+        },
+        {
+          "item": "H7-500B*",
+          "count": "1"
+        }
+      ],
+      "smallest": "ALP399C",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 548209995,
+    "name": "Additional Model Information",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to a product or family/series of products for sales and marketing purposes. This column includes alternative means to identify the model/model family (e.g., additional model names, additional model numbers, retailer SKUs, product descriptions).",
+    "fieldName": "additional_model_information",
+    "position": 6,
+    "renderTypeName": "text",
+    "tableColumnId": 43227624,
+    "width": 436,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "386",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 548210005,
+    "name": "UPC",
+    "dataTypeName": "text",
+    "description": "UPC codes provided by partners for ENERGY STAR certified products. The brand, model name and model number continue to serve as the identifiers used to establish certification. The UPC code data below is intended to aid in identification of ENERGY STAR models. UPC code data is not provided for all certified models.",
+    "fieldName": "upc",
+    "position": 7,
+    "renderTypeName": "text",
+    "tableColumnId": 139496898,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "386",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {}
+  },
+  {
+    "id": 548209996,
+    "name": "Full Load Input Rate (kBtu/hr)",
+    "dataTypeName": "number",
+    "description": "The maximum full load firing input rate (kBtu/hr).",
+    "fieldName": "full_load_input_rate_btu_hr",
+    "position": 8,
+    "renderTypeName": "number",
+    "tableColumnId": 43227626,
+    "width": 448,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "2500",
+      "null": "0",
+      "top": [
+        {
+          "item": "399",
+          "count": "60"
+        },
+        {
+          "item": "500",
+          "count": "41"
+        },
+        {
+          "item": "1500",
+          "count": "35"
+        },
+        {
+          "item": "999",
+          "count": "33"
+        },
+        {
+          "item": "800",
+          "count": "30"
+        },
+        {
+          "item": "650",
+          "count": "26"
+        },
+        {
+          "item": "1250",
+          "count": "22"
+        },
+        {
+          "item": "1999",
+          "count": "16"
+        },
+        {
+          "item": "1000",
+          "count": "12"
+        },
+        {
+          "item": "750",
+          "count": "11"
+        },
+        {
+          "item": "850",
+          "count": "9"
+        },
+        {
+          "item": "725",
+          "count": "9"
+        },
+        {
+          "item": "1750",
+          "count": "9"
+        },
+        {
+          "item": "2000",
+          "count": "8"
+        },
+        {
+          "item": "600",
+          "count": "8"
+        },
+        {
+          "item": "349",
+          "count": "6"
+        },
+        {
+          "item": "300",
+          "count": "6"
+        },
+        {
+          "item": "625",
+          "count": "5"
+        },
+        {
+          "item": "340",
+          "count": "4"
+        },
+        {
+          "item": "301",
+          "count": "4"
+        }
+      ],
+      "smallest": "300",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "noCommas": "false",
+      "align": "left"
+    }
+  },
+  {
+    "id": 548209997,
+    "name": "Thermal Efficiency (%)",
+    "dataTypeName": "number",
+    "description": "The ratio fo heat energy (Btu/hr) absorbed by the water, or the water and steam, to the higher value of the fuel burned.",
+    "fieldName": "reported_thermal_efficiency_te",
+    "position": 9,
+    "renderTypeName": "number",
+    "tableColumnId": 43227627,
+    "width": 484,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "98.70",
+      "null": "0",
+      "top": [
+        {
+          "item": "97.00",
+          "count": "108"
+        },
+        {
+          "item": "96.00",
+          "count": "46"
+        },
+        {
+          "item": "96.20",
+          "count": "27"
+        },
+        {
+          "item": "96.50",
+          "count": "21"
+        },
+        {
+          "item": "96.30",
+          "count": "20"
+        },
+        {
+          "item": "98.00",
+          "count": "17"
+        },
+        {
+          "item": "95.0",
+          "count": "15"
+        },
+        {
+          "item": "97.50",
+          "count": "12"
+        },
+        {
+          "item": "96.10",
+          "count": "11"
+        },
+        {
+          "item": "94.0",
+          "count": "10"
+        },
+        {
+          "item": "95.40",
+          "count": "10"
+        },
+        {
+          "item": "96.40",
+          "count": "6"
+        },
+        {
+          "item": "95.10",
+          "count": "6"
+        },
+        {
+          "item": "96.70",
+          "count": "6"
+        },
+        {
+          "item": "95.20",
+          "count": "6"
+        },
+        {
+          "item": "97.30",
+          "count": "5"
+        },
+        {
+          "item": "95.50",
+          "count": "4"
+        },
+        {
+          "item": "97.70",
+          "count": "4"
+        },
+        {
+          "item": "96.60",
+          "count": "4"
+        },
+        {
+          "item": "95.60",
+          "count": "4"
+        }
+      ],
+      "smallest": "94.00",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 548209998,
+    "name": "Turndown Ratio",
+    "dataTypeName": "number",
+    "description": "The ratio of a boiler's maximum nameplate firing rate (Btu/hr) to the lowest nameplate firing rate (Btu/hr).",
+    "fieldName": "turndown_ratio",
+    "position": 10,
+    "renderTypeName": "number",
+    "tableColumnId": 43227628,
+    "width": 268,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "30.00",
+      "null": "0",
+      "top": [
+        {
+          "item": "10.00",
+          "count": "204"
+        },
+        {
+          "item": "5.00",
+          "count": "50"
+        },
+        {
+          "item": "9.00",
+          "count": "38"
+        },
+        {
+          "item": "7.00",
+          "count": "15"
+        },
+        {
+          "item": "25.00",
+          "count": "12"
+        },
+        {
+          "item": "15.00",
+          "count": "12"
+        },
+        {
+          "item": "8.00",
+          "count": "12"
+        },
+        {
+          "item": "11.00",
+          "count": "7"
+        },
+        {
+          "item": "6.00",
+          "count": "7"
+        },
+        {
+          "item": "19.00",
+          "count": "7"
+        },
+        {
+          "item": "24.00",
+          "count": "7"
+        },
+        {
+          "item": "20.00",
+          "count": "6"
+        },
+        {
+          "item": "12.00",
+          "count": "4"
+        },
+        {
+          "item": "14.00",
+          "count": "3"
+        },
+        {
+          "item": "13.00",
+          "count": "1"
+        },
+        {
+          "item": "30.00",
+          "count": "1"
+        }
+      ],
+      "smallest": "5.00",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 548209999,
+    "name": "Control Type",
+    "dataTypeName": "text",
+    "description": "Controls that allow the boiler to operate as single-, dual-, or multi-stage levels.",
+    "fieldName": "control_type",
+    "position": 11,
+    "renderTypeName": "text",
+    "tableColumnId": 43227630,
+    "width": 244,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "Multi-stage",
+      "null": "0",
+      "top": [
+        {
+          "item": "Multi-stage",
+          "count": "386"
+        }
+      ],
+      "smallest": "Multi-stage",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 548210000,
+    "name": "Application",
+    "dataTypeName": "text",
+    "description": "The environment in which the boiler is designed to operate.  ",
+    "fieldName": "application",
+    "position": 12,
+    "renderTypeName": "text",
+    "tableColumnId": 43228427,
+    "width": 100,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "Outdoor",
+      "null": "0",
+      "top": [
+        {
+          "item": "Indoor",
+          "count": "305"
+        },
+        {
+          "item": "Outdoor",
+          "count": "81"
+        }
+      ],
+      "smallest": "Indoor",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {}
+  },
+  {
+    "id": 548210001,
+    "name": "Date Available on Market",
+    "dataTypeName": "calendar_date",
+    "description": "The date that the model is available for purchase.",
+    "fieldName": "date_available_on_market",
+    "position": 13,
+    "renderTypeName": "calendar_date",
+    "tableColumnId": 43227631,
+    "width": 388,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "2026-04-01T00:00:00.000",
+      "null": "0",
+      "top": [
+        {
+          "item": "2023-10-12T00:00:00.000",
+          "count": "34"
+        },
+        {
+          "item": "2025-08-01T00:00:00.000",
+          "count": "34"
+        },
+        {
+          "item": "2014-10-06T00:00:00.000",
+          "count": "30"
+        },
+        {
+          "item": "2021-01-01T00:00:00.000",
+          "count": "20"
+        },
+        {
+          "item": "2026-03-16T00:00:00.000",
+          "count": "16"
+        },
+        {
+          "item": "2025-09-01T00:00:00.000",
+          "count": "16"
+        },
+        {
+          "item": "2021-07-21T00:00:00.000",
+          "count": "12"
+        },
+        {
+          "item": "2023-01-01T00:00:00.000",
+          "count": "12"
+        },
+        {
+          "item": "2022-09-15T00:00:00.000",
+          "count": "10"
+        },
+        {
+          "item": "2023-07-01T00:00:00.000",
+          "count": "10"
+        },
+        {
+          "item": "2021-05-01T00:00:00.000",
+          "count": "10"
+        },
+        {
+          "item": "2020-09-09T00:00:00.000",
+          "count": "8"
+        },
+        {
+          "item": "2021-06-01T00:00:00.000",
+          "count": "7"
+        },
+        {
+          "item": "2017-11-01T00:00:00.000",
+          "count": "7"
+        },
+        {
+          "item": "2023-04-24T00:00:00.000",
+          "count": "7"
+        },
+        {
+          "item": "2021-06-05T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2023-08-28T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2024-10-04T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2010-09-03T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2019-02-01T00:00:00.000",
+          "count": "6"
+        }
+      ],
+      "smallest": "2008-01-12T00:00:00.000",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 548210002,
+    "name": "Date Qualified",
+    "dataTypeName": "calendar_date",
+    "description": "The date on which the product was confirmed to meet the ENERGY STAR specification.",
+    "fieldName": "date_qualified",
+    "position": 14,
+    "renderTypeName": "calendar_date",
+    "tableColumnId": 43227632,
+    "width": 268,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "2026-08-04T00:00:00.000",
+      "null": "0",
+      "top": [
+        {
+          "item": "2021-11-08T00:00:00.000",
+          "count": "92"
+        },
+        {
+          "item": "2021-11-09T00:00:00.000",
+          "count": "49"
+        },
+        {
+          "item": "2026-08-04T00:00:00.000",
+          "count": "41"
+        },
+        {
+          "item": "2025-07-31T00:00:00.000",
+          "count": "22"
+        },
+        {
+          "item": "2023-12-13T00:00:00.000",
+          "count": "20"
+        },
+        {
+          "item": "2026-04-27T00:00:00.000",
+          "count": "15"
+        },
+        {
+          "item": "2023-03-01T00:00:00.000",
+          "count": "12"
+        },
+        {
+          "item": "2024-12-18T00:00:00.000",
+          "count": "10"
+        },
+        {
+          "item": "2023-01-19T00:00:00.000",
+          "count": "10"
+        },
+        {
+          "item": "2025-07-23T00:00:00.000",
+          "count": "9"
+        },
+        {
+          "item": "2026-05-21T00:00:00.000",
+          "count": "8"
+        },
+        {
+          "item": "2025-08-11T00:00:00.000",
+          "count": "8"
+        },
+        {
+          "item": "2020-11-04T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2023-03-29T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2018-04-10T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2023-08-28T00:00:00.000",
+          "count": "6"
+        },
+        {
+          "item": "2023-07-10T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2024-07-16T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2023-10-12T00:00:00.000",
+          "count": "5"
+        },
+        {
+          "item": "2025-06-26T00:00:00.000",
+          "count": "4"
+        }
+      ],
+      "smallest": "2018-04-10T00:00:00.000",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 548210003,
+    "name": "Markets",
+    "dataTypeName": "text",
+    "description": "Includes products sold in the U.S. and/or Canada and other ENERGY STAR partner countries.",
+    "fieldName": "markets",
+    "position": 15,
+    "renderTypeName": "text",
+    "tableColumnId": 43227633,
+    "width": 184,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "United States, Canada",
+      "null": "0",
+      "top": [
+        {
+          "item": "United States, Canada",
+          "count": "377"
+        },
+        {
+          "item": "United States",
+          "count": "7"
+        },
+        {
+          "item": "Canada",
+          "count": "2"
+        }
+      ],
+      "smallest": "Canada",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 548210004,
+    "name": "CB Model Identifier",
+    "dataTypeName": "text",
+    "description": "A unique string of characters assigned by certification bodies (CBs) to identify a model or set of models with the same performance characteristics. This identifier should remain the same for a model even if it is recertified to a new version of an ENERGY STAR specification. This string of characters is determined by CBs and is not the ENERGY STAR Unique ID assigned by EPA. ",
+    "fieldName": "energy_star_model_identifier",
+    "position": 16,
+    "renderTypeName": "text",
+    "tableColumnId": 43227634,
+    "width": 436,
+    "cachedContents": {
+      "non_null": "386",
+      "largest": "ES_97439_RCB750AN_07022024015017_7905134",
+      "null": "0",
+      "top": [
+        {
+          "item": "ES_1028919_OFN0751_09172019143107_3575758",
+          "count": "1"
+        },
+        {
+          "item": "ES_1028919_OFL1501_09172019143137_4168638",
+          "count": "1"
+        },
+        {
+          "item": "ES_1136570_PHNTM500C_07312018235340_5201219",
+          "count": "1"
+        },
+        {
+          "item": "ES_1147067_AMP2500_06072022163337_8662405",
+          "count": "1"
+        },
+        {
+          "item": "ES_1125479_EK 499-CHB_06152018154341_7421090",
+          "count": "1"
+        },
+        {
+          "item": "ES_1088187_H7-726L*_02062020183816_1699660",
+          "count": "1"
+        },
+        {
+          "item": "ES_1083631_WB2000_10122023115043_1112470",
+          "count": "1"
+        },
+        {
+          "item": "ES_1028919_KBX0800N-O SERIES 1**_08272020020244_6914273",
+          "count": "1"
+        },
+        {
+          "item": "ES_1017619_CH-499_07032024003348_961509",
+          "count": "1"
+        },
+        {
+          "item": "ES_23449_ALP500C_04102018174752_1033193",
+          "count": "1"
+        },
+        {
+          "item": "ES_1028919_FBL1001_04102018180236_2684220",
+          "count": "1"
+        },
+        {
+          "item": "ES_1017619_CH-499_07032024003351_3051381",
+          "count": "1"
+        },
+        {
+          "item": "ES_1115867_PFC-850-LP_06012021092117_5528836",
+          "count": "1"
+        },
+        {
+          "item": "ES_1083631_HTH 01251 A_07212026010147_10218687537",
+          "count": "1"
+        },
+        {
+          "item": "ES_1028919_FCB1000N_06032021014812_2950109",
+          "count": "1"
+        },
+        {
+          "item": "ES_1028919_FBN1001_04102018180229_7996110",
+          "count": "1"
+        },
+        {
+          "item": "ES_1136570_PHNTM600C_08122019234256_0050240",
+          "count": "1"
+        },
+        {
+          "item": "ES_1083631_HTH 00300 A_07212026010147_10218687530",
+          "count": "1"
+        },
+        {
+          "item": "ES_1016238_TFTN500_11192022003701_5666595",
+          "count": "1"
+        },
+        {
+          "item": "ES_1141772_SSB 1000 TL_09142023124337_5661280",
+          "count": "1"
+        }
+      ],
+      "smallest": "ES_1016238_EFW-340WBN_01092024223907_6749630",
+      "count": "386",
+      "cardinality": "386"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  }
+]

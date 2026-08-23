@@ -1,0 +1,44 @@
+{
+  "dataset_id": "energy_star_data_center_storage_public_domain",
+  "name": "ENERGY STAR Certified Data Center Storage - File I/O",
+  "source": "U.S. Environmental Protection Agency ENERGY STAR",
+  "source_url": "https://catalog.data.gov/dataset/energy-star-certified-data-center-storage-file-i-o",
+  "download_url": "https://data.energystar.gov/api/v3/views/put7-uu67/export.csv?accessType=DOWNLOAD",
+  "license": "U.S. Public Domain / EPA Standard Open Data License",
+  "license_url": "https://edg.epa.gov/EPA_Data_License.html",
+  "license_verified": true,
+  "license_notes": "EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.",
+  "version": "modified 2026-08-11",
+  "published_at": "2021-09-09",
+  "downloaded_at": "2026-08-23T08:09:20+00:00",
+  "sha256": "8e976c0ebb528747529b1b7688c767c654b14188b81af2ffc0c179912402e31f",
+  "size_bytes": 169490,
+  "format": "CSV",
+  "industries": [
+    "Electrical Components",
+    "Industrial Automation"
+  ],
+  "categories": [
+    "Electrical Equipment",
+    "Data Center Storage"
+  ],
+  "description": "Certified data center storage product records and energy efficiency attributes.",
+  "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+  "storage_class": "PERMANENT_BASELINE",
+  "knowledge_type": "PRODUCT_CATALOG",
+  "quality_scores": {
+    "LICENSE_CONFIDENCE": 5,
+    "SOURCE_AUTHORITY": 5,
+    "PRODUCT_RELEVANCE": 4,
+    "INDUSTRY_COVERAGE": 4,
+    "ATTRIBUTE_VALUE": 5,
+    "DUPLICATION_RISK": 1,
+    "SIZE_EFFICIENCY": 5,
+    "PROVENANCE_QUALITY": 5
+  },
+  "files": [
+    "energy_star_data_center_storage_public_domain\\columns.json",
+    "energy_star_data_center_storage_public_domain\\energy_star_data_center_storage_public_domain.csv",
+    "energy_star_data_center_storage_public_domain\\metadata.json"
+  ]
+}

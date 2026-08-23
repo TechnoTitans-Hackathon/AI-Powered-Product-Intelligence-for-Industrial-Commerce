@@ -25,8 +25,8 @@ USER_AGENT = "UniHack-2026-Permanent-Knowledge-Acquisition/1.0 (license-verified
 ROOT = Path(__file__).resolve().parents[1]
 PERM_DIR = ROOT / "data_storage" / "permanent_knowledge"
 STAGING_DIR = ROOT / "data_storage" / "permanent_acquisition_staging"
-BASELINE_TAXONOMY = ROOT / "app" / "knowledge" / "baseline" / "industry_taxonomy.json"
-BASELINE_ATTRIBUTES = ROOT / "app" / "knowledge" / "baseline" / "attribute_patterns.json"
+BASELINE_TAXONOMY = ROOT / "backend" / "knowledge" / "baseline" / "industry_taxonomy.json"
+BASELINE_ATTRIBUTES = ROOT / "backend" / "knowledge" / "baseline" / "attribute_patterns.json"
 DB_PATH = ROOT / "unihack_backend.db"
 
 

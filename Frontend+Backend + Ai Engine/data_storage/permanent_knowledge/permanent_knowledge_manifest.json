@@ -1,0 +1,846 @@
+{
+  "total_bytes": 16365219,
+  "limit_bytes": 2147483648,
+  "dataset_count": 8,
+  "industries": [
+    "Agricultural Equipment",
+    "Automotive Components",
+    "Chemicals and Materials",
+    "Construction Materials",
+    "Electrical Components",
+    "HVAC",
+    "Industrial Automation",
+    "Industrial Equipment",
+    "Manufacturing Equipment",
+    "Medical and Regulated Products",
+    "Packaging Equipment",
+    "Power Equipment"
+  ],
+  "categories": [
+    "Attribute Vocabulary",
+    "Boilers",
+    "Cooling",
+    "Data Center Storage",
+    "EVSE",
+    "Electrical",
+    "Electrical Equipment",
+    "Fans",
+    "Heating",
+    "Industry Classification",
+    "Quantity Kinds",
+    "Units",
+    "Ventilation"
+  ],
+  "datasets": [
+    {
+      "dataset_id": "qudt_units_quantity_kinds_cc_by_4",
+      "name": "QUDT Units and Quantity Kinds",
+      "source": "QUDT.org GitHub public repository",
+      "source_url": "https://github.com/qudt/qudt-public-repo",
+      "download_url": "https://raw.githubusercontent.com/qudt/qudt-public-repo/main/src/main/rdf/vocab/unit/VOCAB_QUDT-UNITS-ALL.ttl, https://raw.githubusercontent.com/qudt/qudt-public-repo/main/src/main/rdf/vocab/quantitykinds/VOCAB_QUDT-QUANTITY-KINDS-ALL.ttl",
+      "license": "CC BY 4.0",
+      "license_url": "https://github.com/qudt/qudt-public-repo/blob/main/LICENSE.md",
+      "license_verified": true,
+      "license_notes": "QUDT repository LICENSE.md states Creative Commons Attribution 4.0 with attribution to QUDT.org.",
+      "version": "main branch snapshot",
+      "published_at": null,
+      "downloaded_at": "2026-08-23T08:08:38+00:00",
+      "sha256": "4c38dc6a111219639db2a05b8051db1cea448cd49b8efb6573accd69c36bf602",
+      "size_bytes": 5095847,
+      "format": "TTL+JSONL",
+      "industries": [
+        "Industrial Equipment",
+        "Industrial Automation",
+        "Electrical Components",
+        "HVAC",
+        "Manufacturing Equipment",
+        "Power Equipment",
+        "Chemicals and Materials",
+        "Medical and Regulated Products"
+      ],
+      "categories": [
+        "Units",
+        "Quantity Kinds",
+        "Attribute Vocabulary"
+      ],
+      "description": "Machine-readable unit and quantity-kind vocabulary for measurement and attribute interpretation.",
+      "attribution": "QUDT.org",
+      "storage_class": "PERMANENT_BASELINE",
+      "knowledge_type": "ENGINEERING_REFERENCE",
+      "quality_scores": {
+        "LICENSE_CONFIDENCE": 5,
+        "SOURCE_AUTHORITY": 5,
+        "PRODUCT_RELEVANCE": 3,
+        "INDUSTRY_COVERAGE": 4,
+        "ATTRIBUTE_VALUE": 5,
+        "DUPLICATION_RISK": 1,
+        "SIZE_EFFICIENCY": 5,
+        "PROVENANCE_QUALITY": 5
+      },
+      "files": [
+        "qudt_units_quantity_kinds_cc_by_4\\metadata.json",
+        "qudt_units_quantity_kinds_cc_by_4\\qudt_units_quantity_kinds_labels.jsonl",
+        "qudt_units_quantity_kinds_cc_by_4\\VOCAB_QUDT-QUANTITY-KINDS-ALL.ttl",
+        "qudt_units_quantity_kinds_cc_by_4\\VOCAB_QUDT-UNITS-ALL.ttl"
+      ]
+    },
+    {
+      "dataset_id": "colorado_naics_2022_public_domain",
+      "name": "North American Industry Classification System 2022",
+      "source": "State of Colorado Open Data Portal",
+      "source_url": "https://data.colorado.gov/Business/North-American-Industry-Classification-System-2022/i2mk-94p9",
+      "download_url": "https://data.colorado.gov/api/views/i2mk-94p9/rows.csv?accessType=DOWNLOAD",
+      "license": "Public Domain",
+      "license_url": "https://data.colorado.gov/Business/North-American-Industry-Classification-System-2022/i2mk-94p9",
+      "license_verified": true,
+      "license_notes": "Colorado Open Data page marks the NAICS 2022 dataset license as Public Domain and cites the Census source link.",
+      "version": "2022",
+      "published_at": null,
+      "downloaded_at": "2026-08-23T08:08:43+00:00",
+      "sha256": "329f9b216425e4e60fb369c115a746dd17ef4ae79fe7ef4f0c004f3fa91da219",
+      "size_bytes": 5249110,
+      "format": "CSV",
+      "industries": [
+        "Agricultural Equipment",
+        "Construction Materials",
+        "Manufacturing Equipment",
+        "Automotive Components",
+        "Power Equipment",
+        "Chemicals and Materials",
+        "Medical and Regulated Products",
+        "Packaging Equipment"
+      ],
+      "categories": [
+        "Industry Classification"
+      ],
+      "description": "Public-domain NAICS industry code/title/description reference for classifying industrial domains.",
+      "attribution": "State of Colorado Open Data Portal; source link to U.S. Census NAICS.",
+      "storage_class": "PERMANENT_BASELINE",
+      "knowledge_type": "TAXONOMY",
+      "quality_scores": {
+        "LICENSE_CONFIDENCE": 5,
+        "SOURCE_AUTHORITY": 5,
+        "PRODUCT_RELEVANCE": 3,
+        "INDUSTRY_COVERAGE": 4,
+        "ATTRIBUTE_VALUE": 3,
+        "DUPLICATION_RISK": 1,
+        "SIZE_EFFICIENCY": 5,
+        "PROVENANCE_QUALITY": 5
+      },
+      "files": [
+        "colorado_naics_2022_public_domain\\metadata.json",
+        "colorado_naics_2022_public_domain\\north_american_industry_classification_system_2022.csv"
+      ]
+    },
+    {
+      "dataset_id": "energy_star_commercial_boilers_public_domain",
+      "name": "ENERGY STAR Certified Commercial Boilers",
+      "source": "U.S. Environmental Protection Agency ENERGY STAR",
+      "source_url": "https://catalog.data.gov/dataset/energy-star-certified-commercial-boilers",
+      "download_url": "https://data.energystar.gov/api/v3/views/3393-mxju/export.csv?accessType=DOWNLOAD",
+      "license": "U.S. Public Domain / EPA Standard Open Data License",
+      "license_url": "https://edg.epa.gov/EPA_Data_License.html",
+      "license_verified": true,
+      "license_notes": "EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.",
+      "version": "modified 2026-07-28",
+      "published_at": "2021-09-15",
+      "downloaded_at": "2026-08-23T08:08:47+00:00",
+      "sha256": "17100cb6344343a83477d919c45c4d3f07a3c96be025d27256b151c44b3e6804",
+      "size_bytes": 124314,
+      "format": "CSV",
+      "industries": [
+        "HVAC",
+        "Power Equipment"
+      ],
+      "categories": [
+        "Heating",
+        "Boilers"
+      ],
+      "description": "Certified commercial boiler product records and efficiency attributes.",
+      "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+      "storage_class": "PERMANENT_BASELINE",
+      "knowledge_type": "PRODUCT_CATALOG",
+      "quality_scores": {
+        "LICENSE_CONFIDENCE": 5,
+        "SOURCE_AUTHORITY": 5,
+        "PRODUCT_RELEVANCE": 4,
+        "INDUSTRY_COVERAGE": 4,
+        "ATTRIBUTE_VALUE": 5,
+        "DUPLICATION_RISK": 1,
+        "SIZE_EFFICIENCY": 5,
+        "PROVENANCE_QUALITY": 5
+      },
+      "files": [
+        "energy_star_commercial_boilers_public_domain\\columns.json",
+        "energy_star_commercial_boilers_public_domain\\energy_star_commercial_boilers_public_domain.csv",
+        "energy_star_commercial_boilers_public_domain\\metadata.json"
+      ]
+    },
+    {
+      "dataset_id": "energy_star_ventilating_fans_public_domain",
+      "name": "ENERGY STAR Certified Ventilating Fans",
+      "source": "U.S. Environmental Protection Agency ENERGY STAR",
+      "source_url": "https://catalog.data.gov/dataset/energy-star-certified-ventilating-fans",
+      "download_url": "https://data.energystar.gov/api/v3/views/8dv7-nngq/export.csv?accessType=DOWNLOAD",
+      "license": "U.S. Public Domain / EPA Standard Open Data License",
+      "license_url": "https://edg.epa.gov/EPA_Data_License.html",
+      "license_verified": true,
+      "license_notes": "EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.",
+      "version": "modified 2026-07-28",
+      "published_at": "2021-09-07",
+      "downloaded_at": "2026-08-23T08:08:52+00:00",
+      "sha256": "8fb38f8d7708fd0d1e1c9314a85d8567372537c8c09982466616a86c17c41f37",
+      "size_bytes": 421997,
+      "format": "CSV",
+      "industries": [
+        "HVAC",
+        "Industrial Equipment"
+      ],
+      "categories": [
+        "Ventilation",
+        "Fans"
+      ],
+      "description": "Certified ventilating fan product records and efficiency/airflow attributes.",
+      "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+      "storage_class": "PERMANENT_BASELINE",
+      "knowledge_type": "PRODUCT_CATALOG",
+      "quality_scores": {
+        "LICENSE_CONFIDENCE": 5,
+        "SOURCE_AUTHORITY": 5,
+        "PRODUCT_RELEVANCE": 4,
+        "INDUSTRY_COVERAGE": 4,
+        "ATTRIBUTE_VALUE": 5,
+        "DUPLICATION_RISK": 1,
+        "SIZE_EFFICIENCY": 5,
+        "PROVENANCE_QUALITY": 5
+      },
+      "files": [
+        "energy_star_ventilating_fans_public_domain\\columns.json",
+        "energy_star_ventilating_fans_public_domain\\energy_star_ventilating_fans_public_domain.csv",
+        "energy_star_ventilating_fans_public_domain\\metadata.json"
+      ]
+    },
+    {
+      "dataset_id": "energy_star_light_commercial_hvac_public_domain",
+      "name": "ENERGY STAR Certified Light Commercial HVAC",
+      "source": "U.S. Environmental Protection Agency ENERGY STAR",
+      "source_url": "https://catalog.data.gov/dataset/energy-star-certified-light-commercial-hvac",
+      "download_url": "https://data.energystar.gov/api/v3/views/e4mh-a2u3/export.csv?accessType=DOWNLOAD",
+      "license": "U.S. Public Domain / EPA Standard Open Data License",
+      "license_url": "https://edg.epa.gov/EPA_Data_License.html",
+      "license_verified": true,
+      "license_notes": "EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.",
+      "version": "modified 2026-08-04",
+      "published_at": "2022-11-28",
+      "downloaded_at": "2026-08-23T08:08:59+00:00",
+      "sha256": "03ca9095c27643bbc27add41faaefb8e65f9dec7b32e1bc04f2774635aadd16c",
+      "size_bytes": 4496119,
+      "format": "CSV",
+      "industries": [
+        "HVAC"
+      ],
+      "categories": [
+        "Cooling",
+        "Heating"
+      ],
+      "description": "Certified light commercial HVAC product records and performance attributes.",
+      "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+      "storage_class": "PERMANENT_BASELINE",
+      "knowledge_type": "PRODUCT_CATALOG",
+      "quality_scores": {
+        "LICENSE_CONFIDENCE": 5,
+        "SOURCE_AUTHORITY": 5,
+        "PRODUCT_RELEVANCE": 4,
+        "INDUSTRY_COVERAGE": 4,
+        "ATTRIBUTE_VALUE": 5,
+        "DUPLICATION_RISK": 1,
+        "SIZE_EFFICIENCY": 5,
+        "PROVENANCE_QUALITY": 5
+      },
+      "files": [
+        "energy_star_light_commercial_hvac_public_domain\\columns.json",
+        "energy_star_light_commercial_hvac_public_domain\\energy_star_light_commercial_hvac_public_domain.csv",
+        "energy_star_light_commercial_hvac_public_domain\\metadata.json"
+      ]
+    },
+    {
+      "dataset_id": "energy_star_evse_ac_public_domain",
+      "name": "ENERGY STAR Certified Electric Vehicle Supply Equipment - AC-Output",
+      "source": "U.S. Environmental Protection Agency ENERGY STAR",
+      "source_url": "https://catalog.data.gov/dataset/energy-star-certified-electric-vehicle-supply-equipment-ac-output",
+      "download_url": "https://data.energystar.gov/api/v3/views/5jwe-c8xm/export.csv?accessType=DOWNLOAD",
+      "license": "U.S. Public Domain / EPA Standard Open Data License",
+      "license_url": "https://edg.epa.gov/EPA_Data_License.html",
+      "license_verified": true,
+      "license_notes": "EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.",
+      "version": "modified 2026-08-02",
+      "published_at": "2023-07-07",
+      "downloaded_at": "2026-08-23T08:09:07+00:00",
+      "sha256": "fecf568ceab7d0478714fee17d6cd34d2621c6c59e1434f1ab22147c3ccbf52f",
+      "size_bytes": 351514,
+      "format": "CSV",
+      "industries": [
+        "Electrical Components",
+        "Power Equipment",
+        "Automotive Components"
+      ],
+      "categories": [
+        "Electrical",
+        "EVSE"
+      ],
+      "description": "Certified AC-output EVSE product records and electrical performance attributes.",
+      "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+      "storage_class": "PERMANENT_BASELINE",
+      "knowledge_type": "PRODUCT_CATALOG",
+      "quality_scores": {
+        "LICENSE_CONFIDENCE": 5,
+        "SOURCE_AUTHORITY": 5,
+        "PRODUCT_RELEVANCE": 4,
+        "INDUSTRY_COVERAGE": 4,
+        "ATTRIBUTE_VALUE": 5,
+        "DUPLICATION_RISK": 1,
+        "SIZE_EFFICIENCY": 5,
+        "PROVENANCE_QUALITY": 5
+      },
+      "files": [
+        "energy_star_evse_ac_public_domain\\columns.json",
+        "energy_star_evse_ac_public_domain\\energy_star_evse_ac_public_domain.csv",
+        "energy_star_evse_ac_public_domain\\metadata.json"
+      ]
+    },
+    {
+      "dataset_id": "energy_star_evse_dc_public_domain",
+      "name": "ENERGY STAR Certified Electric Vehicle Supply Equipment - DC-Output",
+      "source": "U.S. Environmental Protection Agency ENERGY STAR",
+      "source_url": "https://catalog.data.gov/dataset/energy-star-certified-electric-vehicle-supply-equipment-dc-output",
+      "download_url": "https://data.energystar.gov/api/v3/views/t3a6-mkxz/export.csv?accessType=DOWNLOAD",
+      "license": "U.S. Public Domain / EPA Standard Open Data License",
+      "license_url": "https://edg.epa.gov/EPA_Data_License.html",
+      "license_verified": true,
+      "license_notes": "EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.",
+      "version": "modified 2026-07-29",
+      "published_at": "2023-07-07",
+      "downloaded_at": "2026-08-23T08:09:14+00:00",
+      "sha256": "9f348ff5bbfafb282772c8c0ee54e6511ebd7e642cf9c9a5c7f0637e9df84dda",
+      "size_bytes": 389165,
+      "format": "CSV",
+      "industries": [
+        "Electrical Components",
+        "Power Equipment",
+        "Automotive Components"
+      ],
+      "categories": [
+        "Electrical",
+        "EVSE"
+      ],
+      "description": "Certified DC-output EVSE product records and electrical performance attributes.",
+      "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+      "storage_class": "PERMANENT_BASELINE",
+      "knowledge_type": "PRODUCT_CATALOG",
+      "quality_scores": {
+        "LICENSE_CONFIDENCE": 5,
+        "SOURCE_AUTHORITY": 5,
+        "PRODUCT_RELEVANCE": 4,
+        "INDUSTRY_COVERAGE": 4,
+        "ATTRIBUTE_VALUE": 5,
+        "DUPLICATION_RISK": 1,
+        "SIZE_EFFICIENCY": 5,
+        "PROVENANCE_QUALITY": 5
+      },
+      "files": [
+        "energy_star_evse_dc_public_domain\\columns.json",
+        "energy_star_evse_dc_public_domain\\energy_star_evse_dc_public_domain.csv",
+        "energy_star_evse_dc_public_domain\\metadata.json"
+      ]
+    },
+    {
+      "dataset_id": "energy_star_data_center_storage_public_domain",
+      "name": "ENERGY STAR Certified Data Center Storage - File I/O",
+      "source": "U.S. Environmental Protection Agency ENERGY STAR",
+      "source_url": "https://catalog.data.gov/dataset/energy-star-certified-data-center-storage-file-i-o",
+      "download_url": "https://data.energystar.gov/api/v3/views/put7-uu67/export.csv?accessType=DOWNLOAD",
+      "license": "U.S. Public Domain / EPA Standard Open Data License",
+      "license_url": "https://edg.epa.gov/EPA_Data_License.html",
+      "license_verified": true,
+      "license_notes": "EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.",
+      "version": "modified 2026-08-11",
+      "published_at": "2021-09-09",
+      "downloaded_at": "2026-08-23T08:09:20+00:00",
+      "sha256": "8e976c0ebb528747529b1b7688c767c654b14188b81af2ffc0c179912402e31f",
+      "size_bytes": 171368,
+      "format": "CSV",
+      "industries": [
+        "Electrical Components",
+        "Industrial Automation"
+      ],
+      "categories": [
+        "Electrical Equipment",
+        "Data Center Storage"
+      ],
+      "description": "Certified data center storage product records and energy efficiency attributes.",
+      "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+      "storage_class": "PERMANENT_BASELINE",
+      "knowledge_type": "PRODUCT_CATALOG",
+      "quality_scores": {
+        "LICENSE_CONFIDENCE": 5,
+        "SOURCE_AUTHORITY": 5,
+        "PRODUCT_RELEVANCE": 4,
+        "INDUSTRY_COVERAGE": 4,
+        "ATTRIBUTE_VALUE": 5,
+        "DUPLICATION_RISK": 1,
+        "SIZE_EFFICIENCY": 5,
+        "PROVENANCE_QUALITY": 5
+      },
+      "files": [
+        "energy_star_data_center_storage_public_domain\\columns.json",
+        "energy_star_data_center_storage_public_domain\\energy_star_data_center_storage_public_domain.csv",
+        "energy_star_data_center_storage_public_domain\\metadata.json"
+      ]
+    }
+  ],
+  "licenses": [
+    "CC BY 4.0",
+    "Public Domain",
+    "U.S. Public Domain / EPA Standard Open Data License"
+  ],
+  "sources": [
+    "QUDT.org GitHub public repository",
+    "State of Colorado Open Data Portal",
+    "U.S. Environmental Protection Agency ENERGY STAR"
+  ],
+  "checksums": {
+    "qudt_units_quantity_kinds_cc_by_4": "4c38dc6a111219639db2a05b8051db1cea448cd49b8efb6573accd69c36bf602",
+    "colorado_naics_2022_public_domain": "329f9b216425e4e60fb369c115a746dd17ef4ae79fe7ef4f0c004f3fa91da219",
+    "energy_star_commercial_boilers_public_domain": "17100cb6344343a83477d919c45c4d3f07a3c96be025d27256b151c44b3e6804",
+    "energy_star_ventilating_fans_public_domain": "8fb38f8d7708fd0d1e1c9314a85d8567372537c8c09982466616a86c17c41f37",
+    "energy_star_light_commercial_hvac_public_domain": "03ca9095c27643bbc27add41faaefb8e65f9dec7b32e1bc04f2774635aadd16c",
+    "energy_star_evse_ac_public_domain": "fecf568ceab7d0478714fee17d6cd34d2621c6c59e1434f1ab22147c3ccbf52f",
+    "energy_star_evse_dc_public_domain": "9f348ff5bbfafb282772c8c0ee54e6511ebd7e642cf9c9a5c7f0637e9df84dda",
+    "energy_star_data_center_storage_public_domain": "8e976c0ebb528747529b1b7688c767c654b14188b81af2ffc0c179912402e31f"
+  },
+  "attribution": {
+    "qudt_units_quantity_kinds_cc_by_4": "QUDT.org",
+    "colorado_naics_2022_public_domain": "State of Colorado Open Data Portal; source link to U.S. Census NAICS.",
+    "energy_star_commercial_boilers_public_domain": "U.S. Environmental Protection Agency ENERGY STAR program",
+    "energy_star_ventilating_fans_public_domain": "U.S. Environmental Protection Agency ENERGY STAR program",
+    "energy_star_light_commercial_hvac_public_domain": "U.S. Environmental Protection Agency ENERGY STAR program",
+    "energy_star_evse_ac_public_domain": "U.S. Environmental Protection Agency ENERGY STAR program",
+    "energy_star_evse_dc_public_domain": "U.S. Environmental Protection Agency ENERGY STAR program",
+    "energy_star_data_center_storage_public_domain": "U.S. Environmental Protection Agency ENERGY STAR program"
+  },
+  "acquisition_timestamps": {
+    "qudt_units_quantity_kinds_cc_by_4": "2026-08-23T08:08:38+00:00",
+    "colorado_naics_2022_public_domain": "2026-08-23T08:08:43+00:00",
+    "energy_star_commercial_boilers_public_domain": "2026-08-23T08:08:47+00:00",
+    "energy_star_ventilating_fans_public_domain": "2026-08-23T08:08:52+00:00",
+    "energy_star_light_commercial_hvac_public_domain": "2026-08-23T08:08:59+00:00",
+    "energy_star_evse_ac_public_domain": "2026-08-23T08:09:07+00:00",
+    "energy_star_evse_dc_public_domain": "2026-08-23T08:09:14+00:00",
+    "energy_star_data_center_storage_public_domain": "2026-08-23T08:09:20+00:00"
+  },
+  "rejected_datasets": [
+    {
+      "name": "UNSPSC commodity taxonomy",
+      "source": "UNSPSC",
+      "url": "https://www.unspsc.org/",
+      "reason": "LICENSE_UNCLEAR",
+      "license_status": "Public viewing exists, but redistribution/offline retention terms were not accepted as clearly open.",
+      "size_if_known": null
+    },
+    {
+      "name": "ECLASS standard product classification",
+      "source": "ECLASS e.V.",
+      "url": "https://eclass.eu/",
+      "reason": "PROPRIETARY",
+      "license_status": "Standard/taxonomy licensing is not openly reusable for this offline baseline.",
+      "size_if_known": null
+    },
+    {
+      "name": "GS1 Global Product Classification",
+      "source": "GS1",
+      "url": "https://www.gs1.org/standards/gpc",
+      "reason": "LICENSE_INCOMPATIBLE",
+      "license_status": "Terms are not a simple permissive open-data license for permanent redistribution.",
+      "size_if_known": null
+    },
+    {
+      "name": "Manufacturer PDF catalogs and datasheets",
+      "source": "Various manufacturers",
+      "url": "",
+      "reason": "PROPRIETARY",
+      "license_status": "Publicly visible documents usually retain copyright and did not provide explicit redistribution rights.",
+      "size_if_known": null
+    },
+    {
+      "name": "CWRU Bearing Data Center fault data",
+      "source": "Case Western Reserve University",
+      "url": "https://engineering.case.edu/bearingdatacenter",
+      "reason": "LICENSE_UNCLEAR",
+      "license_status": "Useful for failure/time-series research, but license was not accepted as clearly permitting offline redistribution.",
+      "size_if_known": null
+    },
+    {
+      "name": "MIMII Dataset",
+      "source": "Research dataset",
+      "url": "https://zenodo.org/",
+      "reason": "LOW_RELEVANCE",
+      "license_status": "Machine-sound/anomaly dataset; not product identification/specification knowledge and large relative to value.",
+      "size_if_known": null
+    },
+    {
+      "name": "Kaggle industrial product datasets",
+      "source": "Kaggle",
+      "url": "https://www.kaggle.com/",
+      "reason": "LICENSE_UNCLEAR",
+      "license_status": "Candidate datasets require per-dataset login/terms verification; skipped rather than assuming rights.",
+      "size_if_known": null
+    },
+    {
+      "name": "wikidata",
+      "source": "",
+      "url": "",
+      "reason": "UNAVAILABLE",
+      "license_status": "Approved source candidate failed during bounded acquisition.",
+      "size_if_known": null,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "wikipedia",
+      "source": "",
+      "url": "",
+      "reason": "UNAVAILABLE",
+      "license_status": "Approved source candidate failed during bounded acquisition.",
+      "size_if_known": null,
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "knowledge_gaps": [
+    {
+      "industry": "Agricultural Equipment",
+      "category": "*",
+      "missing_knowledge": [
+        "Open licensed product catalog records",
+        "Deeper category-specific product specification data"
+      ],
+      "reason": "No clearly licensed real product/specification dataset found during bounded acquisition.",
+      "recommended_future_source": "Official government open-data portals, university repositories, Zenodo records with explicit CC0/CC BY licenses, or manufacturer datasets with explicit redistribution grants.",
+      "external_research_required": true
+    },
+    {
+      "industry": "Construction Materials",
+      "category": "*",
+      "missing_knowledge": [
+        "Open licensed product catalog records",
+        "Deeper category-specific product specification data"
+      ],
+      "reason": "No clearly licensed real product/specification dataset found during bounded acquisition.",
+      "recommended_future_source": "Official government open-data portals, university repositories, Zenodo records with explicit CC0/CC BY licenses, or manufacturer datasets with explicit redistribution grants.",
+      "external_research_required": true
+    },
+    {
+      "industry": "Fasteners",
+      "category": "*",
+      "missing_knowledge": [
+        "Open licensed product catalog records",
+        "Category-specific attribute vocabulary"
+      ],
+      "reason": "No clearly licensed real product/specification dataset found during bounded acquisition.",
+      "recommended_future_source": "Official government open-data portals, university repositories, Zenodo records with explicit CC0/CC BY licenses, or manufacturer datasets with explicit redistribution grants.",
+      "external_research_required": true
+    },
+    {
+      "industry": "Packaging Equipment",
+      "category": "*",
+      "missing_knowledge": [
+        "Open licensed product catalog records",
+        "Deeper category-specific product specification data"
+      ],
+      "reason": "No clearly licensed real product/specification dataset found during bounded acquisition.",
+      "recommended_future_source": "Official government open-data portals, university repositories, Zenodo records with explicit CC0/CC BY licenses, or manufacturer datasets with explicit redistribution grants.",
+      "external_research_required": true
+    },
+    {
+      "industry": "Safety Equipment",
+      "category": "*",
+      "missing_knowledge": [
+        "Open licensed product catalog records",
+        "Category-specific attribute vocabulary"
+      ],
+      "reason": "No clearly licensed real product/specification dataset found during bounded acquisition.",
+      "recommended_future_source": "Official government open-data portals, university repositories, Zenodo records with explicit CC0/CC BY licenses, or manufacturer datasets with explicit redistribution grants.",
+      "external_research_required": true
+    }
+  ],
+  "existing_registry_records": [
+    {
+      "id": "3edc7a97fd8d8986c369123c770e5ff7",
+      "dataset_id": "qudt_units_quantity_kinds_cc_by_4",
+      "name": "QUDT Units and Quantity Kinds",
+      "source": "QUDT.org GitHub public repository",
+      "source_url": "https://github.com/qudt/qudt-public-repo",
+      "license": "CC BY 4.0",
+      "size_bytes": 5095847,
+      "checksum": "4c38dc6a111219639db2a05b8051db1cea448cd49b8efb6573accd69c36bf602",
+      "version": "main branch snapshot",
+      "industries": "[\"Industrial Equipment\", \"Industrial Automation\", \"Electrical Components\", \"HVAC\", \"Manufacturing Equipment\", \"Power Equipment\", \"Chemicals and Materials\", \"Medical and Regulated Products\"]",
+      "categories": "[\"Units\", \"Quantity Kinds\", \"Attribute Vocabulary\"]",
+      "description": "Machine-readable unit and quantity-kind vocabulary for measurement and attribute interpretation.",
+      "purpose": "engineering_reference",
+      "permanent": 1,
+      "status": "active",
+      "storage_class": "PERMANENT_BASELINE",
+      "attribution": "QUDT.org",
+      "downloaded_at": "2026-08-23T08:08:38+00:00",
+      "created_at": "2026-08-23T08:09:20+00:00"
+    },
+    {
+      "id": "fac8ee7e922363b1c927a71419eb2f71",
+      "dataset_id": "colorado_naics_2022_public_domain",
+      "name": "North American Industry Classification System 2022",
+      "source": "State of Colorado Open Data Portal",
+      "source_url": "https://data.colorado.gov/Business/North-American-Industry-Classification-System-2022/i2mk-94p9",
+      "license": "Public Domain",
+      "size_bytes": 5249110,
+      "checksum": "329f9b216425e4e60fb369c115a746dd17ef4ae79fe7ef4f0c004f3fa91da219",
+      "version": "2022",
+      "industries": "[\"Agricultural Equipment\", \"Construction Materials\", \"Manufacturing Equipment\", \"Automotive Components\", \"Power Equipment\", \"Chemicals and Materials\", \"Medical and Regulated Products\", \"Packaging Equipment\"]",
+      "categories": "[\"Industry Classification\"]",
+      "description": "Public-domain NAICS industry code/title/description reference for classifying industrial domains.",
+      "purpose": "taxonomy",
+      "permanent": 1,
+      "status": "active",
+      "storage_class": "PERMANENT_BASELINE",
+      "attribution": "State of Colorado Open Data Portal; source link to U.S. Census NAICS.",
+      "downloaded_at": "2026-08-23T08:08:43+00:00",
+      "created_at": "2026-08-23T08:09:20+00:00"
+    },
+    {
+      "id": "20ad5c1151b3a3a5e15ea6f1fd6d2121",
+      "dataset_id": "energy_star_commercial_boilers_public_domain",
+      "name": "ENERGY STAR Certified Commercial Boilers",
+      "source": "U.S. Environmental Protection Agency ENERGY STAR",
+      "source_url": "https://catalog.data.gov/dataset/energy-star-certified-commercial-boilers",
+      "license": "U.S. Public Domain / EPA Standard Open Data License",
+      "size_bytes": 124314,
+      "checksum": "17100cb6344343a83477d919c45c4d3f07a3c96be025d27256b151c44b3e6804",
+      "version": "modified 2026-07-28",
+      "industries": "[\"HVAC\", \"Power Equipment\"]",
+      "categories": "[\"Heating\", \"Boilers\"]",
+      "description": "Certified commercial boiler product records and efficiency attributes.",
+      "purpose": "product_catalog",
+      "permanent": 1,
+      "status": "active",
+      "storage_class": "PERMANENT_BASELINE",
+      "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+      "downloaded_at": "2026-08-23T08:08:47+00:00",
+      "created_at": "2026-08-23T08:09:20+00:00"
+    },
+    {
+      "id": "2b01dbae3936f19c948bcce8eeed09da",
+      "dataset_id": "energy_star_ventilating_fans_public_domain",
+      "name": "ENERGY STAR Certified Ventilating Fans",
+      "source": "U.S. Environmental Protection Agency ENERGY STAR",
+      "source_url": "https://catalog.data.gov/dataset/energy-star-certified-ventilating-fans",
+      "license": "U.S. Public Domain / EPA Standard Open Data License",
+      "size_bytes": 421997,
+      "checksum": "8fb38f8d7708fd0d1e1c9314a85d8567372537c8c09982466616a86c17c41f37",
+      "version": "modified 2026-07-28",
+      "industries": "[\"HVAC\", \"Industrial Equipment\"]",
+      "categories": "[\"Ventilation\", \"Fans\"]",
+      "description": "Certified ventilating fan product records and efficiency/airflow attributes.",
+      "purpose": "product_catalog",
+      "permanent": 1,
+      "status": "active",
+      "storage_class": "PERMANENT_BASELINE",
+      "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+      "downloaded_at": "2026-08-23T08:08:52+00:00",
+      "created_at": "2026-08-23T08:09:20+00:00"
+    },
+    {
+      "id": "d2a5581d7c778b3bcdb43c421a11efbd",
+      "dataset_id": "energy_star_light_commercial_hvac_public_domain",
+      "name": "ENERGY STAR Certified Light Commercial HVAC",
+      "source": "U.S. Environmental Protection Agency ENERGY STAR",
+      "source_url": "https://catalog.data.gov/dataset/energy-star-certified-light-commercial-hvac",
+      "license": "U.S. Public Domain / EPA Standard Open Data License",
+      "size_bytes": 4496119,
+      "checksum": "03ca9095c27643bbc27add41faaefb8e65f9dec7b32e1bc04f2774635aadd16c",
+      "version": "modified 2026-08-04",
+      "industries": "[\"HVAC\"]",
+      "categories": "[\"Cooling\", \"Heating\"]",
+      "description": "Certified light commercial HVAC product records and performance attributes.",
+      "purpose": "product_catalog",
+      "permanent": 1,
+      "status": "active",
+      "storage_class": "PERMANENT_BASELINE",
+      "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+      "downloaded_at": "2026-08-23T08:08:59+00:00",
+      "created_at": "2026-08-23T08:09:20+00:00"
+    },
+    {
+      "id": "a0faf670602a44597a97e8245c417c8b",
+      "dataset_id": "energy_star_evse_ac_public_domain",
+      "name": "ENERGY STAR Certified Electric Vehicle Supply Equipment - AC-Output",
+      "source": "U.S. Environmental Protection Agency ENERGY STAR",
+      "source_url": "https://catalog.data.gov/dataset/energy-star-certified-electric-vehicle-supply-equipment-ac-output",
+      "license": "U.S. Public Domain / EPA Standard Open Data License",
+      "size_bytes": 351514,
+      "checksum": "fecf568ceab7d0478714fee17d6cd34d2621c6c59e1434f1ab22147c3ccbf52f",
+      "version": "modified 2026-08-02",
+      "industries": "[\"Electrical Components\", \"Power Equipment\", \"Automotive Components\"]",
+      "categories": "[\"Electrical\", \"EVSE\"]",
+      "description": "Certified AC-output EVSE product records and electrical performance attributes.",
+      "purpose": "product_catalog",
+      "permanent": 1,
+      "status": "active",
+      "storage_class": "PERMANENT_BASELINE",
+      "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+      "downloaded_at": "2026-08-23T08:09:07+00:00",
+      "created_at": "2026-08-23T08:09:20+00:00"
+    },
+    {
+      "id": "62cd970e3a68c19a4267ef21239e1b3c",
+      "dataset_id": "energy_star_evse_dc_public_domain",
+      "name": "ENERGY STAR Certified Electric Vehicle Supply Equipment - DC-Output",
+      "source": "U.S. Environmental Protection Agency ENERGY STAR",
+      "source_url": "https://catalog.data.gov/dataset/energy-star-certified-electric-vehicle-supply-equipment-dc-output",
+      "license": "U.S. Public Domain / EPA Standard Open Data License",
+      "size_bytes": 389165,
+      "checksum": "9f348ff5bbfafb282772c8c0ee54e6511ebd7e642cf9c9a5c7f0637e9df84dda",
+      "version": "modified 2026-07-29",
+      "industries": "[\"Electrical Components\", \"Power Equipment\", \"Automotive Components\"]",
+      "categories": "[\"Electrical\", \"EVSE\"]",
+      "description": "Certified DC-output EVSE product records and electrical performance attributes.",
+      "purpose": "product_catalog",
+      "permanent": 1,
+      "status": "active",
+      "storage_class": "PERMANENT_BASELINE",
+      "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+      "downloaded_at": "2026-08-23T08:09:14+00:00",
+      "created_at": "2026-08-23T08:09:20+00:00"
+    },
+    {
+      "id": "6da29f824d9e4456286c523c4bfe6802",
+      "dataset_id": "energy_star_data_center_storage_public_domain",
+      "name": "ENERGY STAR Certified Data Center Storage - File I/O",
+      "source": "U.S. Environmental Protection Agency ENERGY STAR",
+      "source_url": "https://catalog.data.gov/dataset/energy-star-certified-data-center-storage-file-i-o",
+      "license": "U.S. Public Domain / EPA Standard Open Data License",
+      "size_bytes": 171368,
+      "checksum": "8e976c0ebb528747529b1b7688c767c654b14188b81af2ffc0c179912402e31f",
+      "version": "modified 2026-08-11",
+      "industries": "[\"Electrical Components\", \"Industrial Automation\"]",
+      "categories": "[\"Electrical Equipment\", \"Data Center Storage\"]",
+      "description": "Certified data center storage product records and energy efficiency attributes.",
+      "purpose": "product_catalog",
+      "permanent": 1,
+      "status": "active",
+      "storage_class": "PERMANENT_BASELINE",
+      "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+      "downloaded_at": "2026-08-23T08:09:20+00:00",
+      "created_at": "2026-08-23T08:09:20+00:00"
+    }
+  ],
+  "fabrication_audit": {
+    "fabrication_detected": false,
+    "hits": []
+  },
+  "retrieval_verification": [
+    {
+      "query": "electric motor product type rated voltage",
+      "total_found": 5,
+      "top_sources": [
+        "energy_star_evse_dc_public_domain",
+        "energy_star_evse_dc_public_domain",
+        "energy_star_evse_dc_public_domain"
+      ],
+      "top_scores": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "bearing_bias_detected": false,
+      "status": "PASS"
+    },
+    {
+      "query": "centrifugal pump flow rate head impeller",
+      "total_found": 5,
+      "top_sources": [
+        "energy_star_light_commercial_hvac_public_domain",
+        "energy_star_light_commercial_hvac_public_domain",
+        "energy_star_light_commercial_hvac_public_domain"
+      ],
+      "top_scores": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "bearing_bias_detected": false,
+      "status": "PASS"
+    },
+    {
+      "query": "butterfly valve pressure rating body material",
+      "total_found": 5,
+      "top_sources": [
+        "qudt_units_quantity_kinds_cc_by_4",
+        "qudt_units_quantity_kinds_cc_by_4",
+        "qudt_units_quantity_kinds_cc_by_4"
+      ],
+      "top_scores": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "bearing_bias_detected": false,
+      "status": "PASS"
+    },
+    {
+      "query": "industrial sensor output signal accuracy",
+      "total_found": 5,
+      "top_sources": [
+        "energy_star_ventilating_fans_public_domain",
+        "energy_star_ventilating_fans_public_domain",
+        "energy_star_ventilating_fans_public_domain"
+      ],
+      "top_scores": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "bearing_bias_detected": false,
+      "status": "PASS"
+    },
+    {
+      "query": "fastener thread size grade material",
+      "total_found": 5,
+      "top_sources": [
+        "qudt_units_quantity_kinds_cc_by_4",
+        "energy_star_ventilating_fans_public_domain",
+        "energy_star_ventilating_fans_public_domain"
+      ],
+      "top_scores": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "bearing_bias_detected": false,
+      "status": "PASS"
+    },
+    {
+      "query": "HVAC ventilating fan boiler heat pump",
+      "total_found": 5,
+      "top_sources": [
+        "energy_star_ventilating_fans_public_domain",
+        "energy_star_ventilating_fans_public_domain",
+        "energy_star_light_commercial_hvac_public_domain"
+      ],
+      "top_scores": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "bearing_bias_detected": false,
+      "status": "PASS"
+    }
+  ]
+}

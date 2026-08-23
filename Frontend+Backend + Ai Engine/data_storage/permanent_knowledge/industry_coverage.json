@@ -1,0 +1,277 @@
+[
+  {
+    "industry": "Agricultural Equipment",
+    "categories": [
+      "Harvesting",
+      "Irrigation",
+      "Planting",
+      "Tillage"
+    ],
+    "dataset_count": 1,
+    "bytes": 5249110,
+    "coverage_level": "LOW",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": [
+      "TAXONOMY"
+    ]
+  },
+  {
+    "industry": "Automotive Components",
+    "categories": [
+      "Braking",
+      "Electrical",
+      "Engine",
+      "Suspension"
+    ],
+    "dataset_count": 3,
+    "bytes": 5989789,
+    "coverage_level": "MEDIUM",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": [
+      "PRODUCT_CATALOG",
+      "TAXONOMY"
+    ]
+  },
+  {
+    "industry": "Chemicals and Materials",
+    "categories": [
+      "Adhesives",
+      "Coatings",
+      "Lubricants"
+    ],
+    "dataset_count": 2,
+    "bytes": 10344957,
+    "coverage_level": "MEDIUM",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": [
+      "ENGINEERING_REFERENCE",
+      "TAXONOMY"
+    ]
+  },
+  {
+    "industry": "Construction Materials",
+    "categories": [
+      "Concrete",
+      "Insulation",
+      "Roofing",
+      "Structural Steel"
+    ],
+    "dataset_count": 1,
+    "bytes": 5249110,
+    "coverage_level": "LOW",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": [
+      "TAXONOMY"
+    ]
+  },
+  {
+    "industry": "Electrical Components",
+    "categories": [
+      "Circuit Protection",
+      "Switching",
+      "Transformers",
+      "Wiring"
+    ],
+    "dataset_count": 4,
+    "bytes": 6007894,
+    "coverage_level": "HIGH",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": [
+      "ENGINEERING_REFERENCE",
+      "PRODUCT_CATALOG"
+    ]
+  },
+  {
+    "industry": "Fasteners",
+    "categories": [
+      "Bolts",
+      "Nuts",
+      "Rivets",
+      "Screws",
+      "Washers"
+    ],
+    "dataset_count": 0,
+    "bytes": 0,
+    "coverage_level": "NONE",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": []
+  },
+  {
+    "industry": "HVAC",
+    "categories": [
+      "Cooling",
+      "Heating",
+      "Refrigeration",
+      "Ventilation"
+    ],
+    "dataset_count": 4,
+    "bytes": 10138277,
+    "coverage_level": "HIGH",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": [
+      "ENGINEERING_REFERENCE",
+      "PRODUCT_CATALOG"
+    ]
+  },
+  {
+    "industry": "Industrial Automation",
+    "categories": [
+      "Controllers",
+      "Drives",
+      "HMI",
+      "Robots",
+      "Sensors"
+    ],
+    "dataset_count": 2,
+    "bytes": 5267215,
+    "coverage_level": "MEDIUM",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": [
+      "ENGINEERING_REFERENCE",
+      "PRODUCT_CATALOG"
+    ]
+  },
+  {
+    "industry": "Industrial Equipment",
+    "categories": [
+      "Bearings",
+      "Couplings",
+      "Electric Motors",
+      "Gearboxes",
+      "Pumps",
+      "Seals",
+      "Valves"
+    ],
+    "dataset_count": 2,
+    "bytes": 5517844,
+    "coverage_level": "MEDIUM",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": [
+      "ENGINEERING_REFERENCE",
+      "PRODUCT_CATALOG"
+    ]
+  },
+  {
+    "industry": "Manufacturing Equipment",
+    "categories": [
+      "CNC Machines",
+      "Material Handling",
+      "Welding"
+    ],
+    "dataset_count": 2,
+    "bytes": 10344957,
+    "coverage_level": "MEDIUM",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": [
+      "ENGINEERING_REFERENCE",
+      "TAXONOMY"
+    ]
+  },
+  {
+    "industry": "Medical and Regulated Products",
+    "categories": [
+      "Diagnostic Equipment",
+      "Sterilization",
+      "Surgical Instruments"
+    ],
+    "dataset_count": 2,
+    "bytes": 10344957,
+    "coverage_level": "MEDIUM",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": [
+      "ENGINEERING_REFERENCE",
+      "TAXONOMY"
+    ]
+  },
+  {
+    "industry": "Packaging Equipment",
+    "categories": [
+      "Filling",
+      "Labeling",
+      "Sealing",
+      "Wrapping"
+    ],
+    "dataset_count": 1,
+    "bytes": 5249110,
+    "coverage_level": "LOW",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": [
+      "TAXONOMY"
+    ]
+  },
+  {
+    "industry": "Power Equipment",
+    "categories": [
+      "Generators",
+      "Switchgear",
+      "UPS Systems"
+    ],
+    "dataset_count": 5,
+    "bytes": 11209950,
+    "coverage_level": "HIGH",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": [
+      "ENGINEERING_REFERENCE",
+      "PRODUCT_CATALOG",
+      "TAXONOMY"
+    ]
+  },
+  {
+    "industry": "Safety Equipment",
+    "categories": [
+      "Eye Protection",
+      "Fall Protection",
+      "Hand Protection",
+      "Head Protection",
+      "Hearing Protection",
+      "Respiratory Protection"
+    ],
+    "dataset_count": 0,
+    "bytes": 0,
+    "coverage_level": "NONE",
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets",
+      "No category-specific attribute pattern in baseline code"
+    ],
+    "knowledge_types": []
+  }
+]

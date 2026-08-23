@@ -1,0 +1,48 @@
+{
+  "dataset_id": "colorado_naics_2022_public_domain",
+  "name": "North American Industry Classification System 2022",
+  "source": "State of Colorado Open Data Portal",
+  "source_url": "https://data.colorado.gov/Business/North-American-Industry-Classification-System-2022/i2mk-94p9",
+  "download_url": "https://data.colorado.gov/api/views/i2mk-94p9/rows.csv?accessType=DOWNLOAD",
+  "license": "Public Domain",
+  "license_url": "https://data.colorado.gov/Business/North-American-Industry-Classification-System-2022/i2mk-94p9",
+  "license_verified": true,
+  "license_notes": "Colorado Open Data page marks the NAICS 2022 dataset license as Public Domain and cites the Census source link.",
+  "version": "2022",
+  "published_at": null,
+  "downloaded_at": "2026-08-23T08:08:43+00:00",
+  "sha256": "329f9b216425e4e60fb369c115a746dd17ef4ae79fe7ef4f0c004f3fa91da219",
+  "size_bytes": 5247145,
+  "format": "CSV",
+  "industries": [
+    "Agricultural Equipment",
+    "Construction Materials",
+    "Manufacturing Equipment",
+    "Automotive Components",
+    "Power Equipment",
+    "Chemicals and Materials",
+    "Medical and Regulated Products",
+    "Packaging Equipment"
+  ],
+  "categories": [
+    "Industry Classification"
+  ],
+  "description": "Public-domain NAICS industry code/title/description reference for classifying industrial domains.",
+  "attribution": "State of Colorado Open Data Portal; source link to U.S. Census NAICS.",
+  "storage_class": "PERMANENT_BASELINE",
+  "knowledge_type": "TAXONOMY",
+  "quality_scores": {
+    "LICENSE_CONFIDENCE": 5,
+    "SOURCE_AUTHORITY": 5,
+    "PRODUCT_RELEVANCE": 3,
+    "INDUSTRY_COVERAGE": 4,
+    "ATTRIBUTE_VALUE": 3,
+    "DUPLICATION_RISK": 1,
+    "SIZE_EFFICIENCY": 5,
+    "PROVENANCE_QUALITY": 5
+  },
+  "files": [
+    "colorado_naics_2022_public_domain\\metadata.json",
+    "colorado_naics_2022_public_domain\\north_american_industry_classification_system_2022.csv"
+  ]
+}

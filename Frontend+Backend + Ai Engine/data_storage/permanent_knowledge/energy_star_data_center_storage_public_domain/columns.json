@@ -1,0 +1,4940 @@
+[
+  {
+    "id": 547891959,
+    "name": "PD_ID",
+    "dataTypeName": "number",
+    "description": "The ENERGY STAR Unique ID (ESUID) is a string of seven numbers EPA assigns to an ENERGY STAR model or set of models with unique performance characteristics. This ESUID is unique to both the model and product specification version and is assigned by EPA upon receipt of certification information from the certification body. Each row within the product list will have a unique ESUID. Developers may wish to use this ESUID to track information on certified models in their information systems.",
+    "fieldName": "pd_id",
+    "position": 1,
+    "renderTypeName": "number",
+    "tableColumnId": 110306103,
+    "width": 160,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "4618434",
+      "null": "0",
+      "top": [
+        {
+          "item": "2384461",
+          "count": "1"
+        },
+        {
+          "item": "4481045",
+          "count": "1"
+        },
+        {
+          "item": "4429173",
+          "count": "1"
+        },
+        {
+          "item": "2385114",
+          "count": "1"
+        },
+        {
+          "item": "3629242",
+          "count": "1"
+        },
+        {
+          "item": "2501844",
+          "count": "1"
+        },
+        {
+          "item": "2385113",
+          "count": "1"
+        },
+        {
+          "item": "2501845",
+          "count": "1"
+        },
+        {
+          "item": "4576656",
+          "count": "1"
+        },
+        {
+          "item": "2397182",
+          "count": "1"
+        },
+        {
+          "item": "3999749",
+          "count": "1"
+        },
+        {
+          "item": "4586581",
+          "count": "1"
+        },
+        {
+          "item": "2365886",
+          "count": "1"
+        },
+        {
+          "item": "4481046",
+          "count": "1"
+        },
+        {
+          "item": "4510407",
+          "count": "1"
+        },
+        {
+          "item": "3629403",
+          "count": "1"
+        },
+        {
+          "item": "2649779",
+          "count": "1"
+        },
+        {
+          "item": "3999750",
+          "count": "1"
+        },
+        {
+          "item": "4586582",
+          "count": "1"
+        },
+        {
+          "item": "4596054",
+          "count": "1"
+        }
+      ],
+      "smallest": "2365885",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891960,
+    "name": "ENERGY STAR Partner",
+    "dataTypeName": "text",
+    "description": "An organization that signed a Partnership Agreement with EPA to manufacture or private label ENERGY STAR qualified products.",
+    "fieldName": "energy_star_partner",
+    "position": 2,
+    "renderTypeName": "text",
+    "tableColumnId": 110306104,
+    "width": 328,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "Viking Enterprise Solutions, a division of Sanmina Corp",
+      "null": "0",
+      "top": [
+        {
+          "item": "Dell Inc.",
+          "count": "16"
+        },
+        {
+          "item": "Huawei Technologies Co., Ltd.",
+          "count": "6"
+        },
+        {
+          "item": "NetApp, Inc.",
+          "count": "6"
+        },
+        {
+          "item": "EMC Corporation",
+          "count": "3"
+        },
+        {
+          "item": "Pure Storage, Inc.",
+          "count": "3"
+        },
+        {
+          "item": "Viking Enterprise Solutions, a division of Sanmina Corp",
+          "count": "1"
+        }
+      ],
+      "smallest": "Dell Inc.",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891961,
+    "name": "Brand Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to a product or family/series of products for sales and marketing purposes.",
+    "fieldName": "brand_name",
+    "position": 3,
+    "renderTypeName": "text",
+    "tableColumnId": 110306105,
+    "width": 220,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "Viking Enterprise Solutions",
+      "null": "0",
+      "top": [
+        {
+          "item": "DELL",
+          "count": "17"
+        },
+        {
+          "item": "HUAWEI",
+          "count": "6"
+        },
+        {
+          "item": "NetApp",
+          "count": "6"
+        },
+        {
+          "item": "Pure Storage",
+          "count": "3"
+        },
+        {
+          "item": "DELL EMC",
+          "count": "2"
+        },
+        {
+          "item": "Viking Enterprise Solutions",
+          "count": "1"
+        }
+      ],
+      "smallest": "DELL",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891962,
+    "name": "Model Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to a product or family/series of products for sales and marketing purposes.",
+    "fieldName": "model_name",
+    "position": 4,
+    "renderTypeName": "text",
+    "tableColumnId": 110306106,
+    "width": 220,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "VDS2249R",
+      "null": "0",
+      "top": [
+        {
+          "item": "OceanStor Pacific 9550",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale A300",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F710",
+          "count": "1"
+        },
+        {
+          "item": "FAS2800-Series",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H700",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H7100",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale A310",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H7000",
+          "count": "1"
+        },
+        {
+          "item": "OceanStor Dorado 2020",
+          "count": "1"
+        },
+        {
+          "item": "NX440",
+          "count": "1"
+        },
+        {
+          "item": "NX3240",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F210",
+          "count": "1"
+        },
+        {
+          "item": "Flashblade S500",
+          "count": "1"
+        },
+        {
+          "item": "AFF A30",
+          "count": "1"
+        },
+        {
+          "item": "FAS Series",
+          "count": "1"
+        },
+        {
+          "item": "NX3340",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale A3100",
+          "count": "1"
+        },
+        {
+          "item": "VDS2249R",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F910",
+          "count": "1"
+        },
+        {
+          "item": "AFF A800",
+          "count": "1"
+        }
+      ],
+      "smallest": "AFF A20",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891963,
+    "name": "Model Number",
+    "dataTypeName": "text",
+    "description": "A distinguishing identifier, usually alphanumeric, assigned to a product by the manufacturer or private labeler.",
+    "fieldName": "model_number",
+    "position": 5,
+    "renderTypeName": "text",
+    "tableColumnId": 110306107,
+    "width": 244,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "VDS2249R",
+      "null": "0",
+      "top": [
+        {
+          "item": "PowerScale H700",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H7100",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale A310",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H7000",
+          "count": "1"
+        },
+        {
+          "item": "OceanStor Dorado 2020",
+          "count": "1"
+        },
+        {
+          "item": "NX440",
+          "count": "1"
+        },
+        {
+          "item": "NX3240",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F210",
+          "count": "1"
+        },
+        {
+          "item": "Flashblade S500",
+          "count": "1"
+        },
+        {
+          "item": "AFF A30",
+          "count": "1"
+        },
+        {
+          "item": "NX3340",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale A3100",
+          "count": "1"
+        },
+        {
+          "item": "VDS2249R",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F910",
+          "count": "1"
+        },
+        {
+          "item": "FAS2820",
+          "count": "1"
+        },
+        {
+          "item": "AFF A800",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H710",
+          "count": "1"
+        },
+        {
+          "item": "FlashBlade//E",
+          "count": "1"
+        },
+        {
+          "item": "FAS2720",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale  A3000",
+          "count": "1"
+        }
+      ],
+      "smallest": "AFF A20",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891964,
+    "name": "Additional Model Information",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to a product or family/series of products for sales and marketing purposes. This column includes alternative means to identify the model/model family (e.g., additional model names, additional model numbers, retailer SKUs, product descriptions).",
+    "fieldName": "additional_model_information",
+    "position": 6,
+    "renderTypeName": "text",
+    "tableColumnId": 110306108,
+    "width": 436,
+    "cachedContents": {
+      "non_null": "10",
+      "largest": "OceanStor 510; OceanStor 5120; OceanStor 520; OceanStor 5210; OceanStor 5220; OceanStor Dorado 200; OceanStor Dorado 2000; OceanStor Dorado 2100; SPE26C0212; SPE26C0225",
+      "null": "25",
+      "top": [
+        {
+          "item": "ASA A20,ASA A20,Marketing purposes",
+          "count": "1"
+        },
+        {
+          "item": "DPE80000; OceanStor Pacific 9350",
+          "count": "1"
+        },
+        {
+          "item": "DPE70000; OceanStor Pacific 9546",
+          "count": "1"
+        },
+        {
+          "item": "BSP-14,HPE",
+          "count": "1"
+        },
+        {
+          "item": "AFF C30; ASA A30; ASA C30",
+          "count": "1"
+        },
+        {
+          "item": "AFF C800,AFF C800",
+          "count": "1"
+        },
+        {
+          "item": "OceanStor 510; OceanStor 5120; OceanStor 520; OceanStor 5210; OceanStor 5220; OceanStor Dorado 200; OceanStor Dorado 2000; OceanStor Dorado 2100; SPE26C0212; SPE26C0225",
+          "count": "1"
+        },
+        {
+          "item": "FlashBlade//EC,FlashBlade//EC; FlashBlade//EX,FlashBlade//EX",
+          "count": "1"
+        },
+        {
+          "item": "DPE60100",
+          "count": "1"
+        },
+        {
+          "item": "DPE60000",
+          "count": "1"
+        }
+      ],
+      "smallest": "AFF C30; ASA A30; ASA C30",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892102,
+    "name": "UPC",
+    "dataTypeName": "text",
+    "description": "UPC codes provided by partners for ENERGY STAR certified products. The brand, model name and model number continue to serve as the identifiers used to establish certification. The UPC code data below is intended to aid in identification of ENERGY STAR models. UPC code data is not provided for all certified models.",
+    "fieldName": "upc",
+    "position": 7,
+    "renderTypeName": "text",
+    "tableColumnId": 139323742,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {}
+  },
+  {
+    "id": 547891965,
+    "name": "SNIA Online Taxonomy Category",
+    "dataTypeName": "text",
+    "description": "The SNIA Taxonomy is a categorization scheme for use in segmenting the data center storage market by end-use application and key product characteristics.  The three categories eligible for ENERGY STAR certification are Online 2, Online 3, and Online 4.",
+    "fieldName": "snia_online_taxonomy_category",
+    "position": 8,
+    "renderTypeName": "text",
+    "tableColumnId": 110306110,
+    "width": 448,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "NVSS Disk Set Online 4",
+      "null": "0",
+      "top": [
+        {
+          "item": "NVSS Disk Set Online 4",
+          "count": "29"
+        },
+        {
+          "item": "NVSS Disk Set Online 2",
+          "count": "4"
+        },
+        {
+          "item": "Disk Set Online 3",
+          "count": "2"
+        }
+      ],
+      "smallest": "Disk Set Online 3",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891966,
+    "name": "Storage Controller Implementation",
+    "dataTypeName": "text",
+    "description": "A storage controller can be implemented in two different ways.  Scale-up storage is a storage product comprised of a discreet storage controller (with or without redundancy), which has a full view of all the storage devices in the storage product. Incremental storage capacity is added by the addition of storage devices under the control of the existing storage controller.  While Scale-out storage is a storage product capable of being comprised of two or more discreet storage controllers (with or without redundancy), combined with an overall integration or aggregation function resulting in a single storage product view for attached servers. Each discreet storage controller often has a partial view to a partition of the overall system's storage devices, but this is not a fixed requirement. Incremental storage capacity is added by the addition of storage devices under the control of the existing storage controller(s) and/or addition of additional storage devices along with additional controller(s).",
+    "fieldName": "storage_controller_implementation",
+    "position": 9,
+    "renderTypeName": "text",
+    "tableColumnId": 110306112,
+    "width": 496,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "Scale-Up Storage",
+      "null": "0",
+      "top": [
+        {
+          "item": "Scale-Out Storage",
+          "count": "34"
+        },
+        {
+          "item": "Scale-Up Storage",
+          "count": "1"
+        }
+      ],
+      "smallest": "Scale-Out Storage",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891967,
+    "name": "Storage Controller Manufacturer Name",
+    "dataTypeName": "text",
+    "description": "The manufacturer of the installed storage controller(s).",
+    "fieldName": "storage_controller_manufacturer_name",
+    "position": 10,
+    "renderTypeName": "text",
+    "tableColumnId": 110306113,
+    "width": 532,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "Viking Enterprise Solutions",
+      "null": "0",
+      "top": [
+        {
+          "item": "Dell EMC Corporation",
+          "count": "19"
+        },
+        {
+          "item": "HUAWEI",
+          "count": "6"
+        },
+        {
+          "item": "Pure Storage",
+          "count": "3"
+        },
+        {
+          "item": "NetApp Inc",
+          "count": "2"
+        },
+        {
+          "item": "NetApp",
+          "count": "2"
+        },
+        {
+          "item": "Viking Enterprise Solutions",
+          "count": "1"
+        },
+        {
+          "item": "NetApp, Inc",
+          "count": "1"
+        },
+        {
+          "item": "NetApp Inc.",
+          "count": "1"
+        }
+      ],
+      "smallest": "Dell EMC Corporation",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891968,
+    "name": "Storage Controller Model Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to the storage controller or family/series of storage controllers for sales and marketing purposes.",
+    "fieldName": "storage_controller_model_name",
+    "position": 11,
+    "renderTypeName": "text",
+    "tableColumnId": 110306114,
+    "width": 448,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "Powerscale PA110 Accelerator with PowerScale F210",
+      "null": "0",
+      "top": [
+        {
+          "item": "AFF A50",
+          "count": "3"
+        },
+        {
+          "item": "PowerScale H7100",
+          "count": "1"
+        },
+        {
+          "item": "FlashBlade",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale A310",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H7000",
+          "count": "1"
+        },
+        {
+          "item": "NVMEOF SFF JBOF",
+          "count": "1"
+        },
+        {
+          "item": "NX440",
+          "count": "1"
+        },
+        {
+          "item": "NX3240",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F210",
+          "count": "1"
+        },
+        {
+          "item": "FAS Series",
+          "count": "1"
+        },
+        {
+          "item": "NX3340",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale A3100",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F910",
+          "count": "1"
+        },
+        {
+          "item": "AFF A800",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H710",
+          "count": "1"
+        },
+        {
+          "item": "FlashBlade//E",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale  A3000",
+          "count": "1"
+        },
+        {
+          "item": "OceanStor Pacific 9926",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F900 with P100 Accelerator",
+          "count": "1"
+        },
+        {
+          "item": "OceanStor Dorado 2100",
+          "count": "1"
+        }
+      ],
+      "smallest": "AFF A50",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891969,
+    "name": "Storage Controller Model Number",
+    "dataTypeName": "text",
+    "description": "A distinguishing identifier, usually alphanumeric, assigned to the storage controller(s) by the manufacturer or private labeler.",
+    "fieldName": "storage_controller_model_number",
+    "position": 12,
+    "renderTypeName": "text",
+    "tableColumnId": 110306115,
+    "width": 472,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "VDS2249R",
+      "null": "0",
+      "top": [
+        {
+          "item": "AFF A50",
+          "count": "3"
+        },
+        {
+          "item": "PowerScale H7100",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale A310",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H7000",
+          "count": "1"
+        },
+        {
+          "item": "NX440",
+          "count": "1"
+        },
+        {
+          "item": "NX3240",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F210",
+          "count": "1"
+        },
+        {
+          "item": "NX3340",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale A3100",
+          "count": "1"
+        },
+        {
+          "item": "VDS2249R",
+          "count": "1"
+        },
+        {
+          "item": "S200",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F910",
+          "count": "1"
+        },
+        {
+          "item": "FAS2820",
+          "count": "1"
+        },
+        {
+          "item": "AFF A800",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H710",
+          "count": "1"
+        },
+        {
+          "item": "FlashBlade//E",
+          "count": "1"
+        },
+        {
+          "item": "FAS2720",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale  A3000",
+          "count": "1"
+        },
+        {
+          "item": "OceanStor Pacific 9926",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F900 with P100 Accelerator",
+          "count": "1"
+        }
+      ],
+      "smallest": "AFF A50",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891970,
+    "name": "Storage Controller Advanced Data Recovery Type",
+    "dataTypeName": "text",
+    "description": "Advanced Data Recovery Capability is a collective term used in this specification to refer to error detection and correction features such as RAID, mirroring / grid technology, or other comparable advanced error detection and recovery systems.",
+    "fieldName": "storage_controller_advanced_data_recovery_type",
+    "position": 13,
+    "renderTypeName": "text",
+    "tableColumnId": 110306116,
+    "width": 652,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "VSS",
+      "null": "0",
+      "top": [
+        {
+          "item": "OneFS Data Protection",
+          "count": "16"
+        },
+        {
+          "item": "EC",
+          "count": "6"
+        },
+        {
+          "item": "RAID",
+          "count": "5"
+        },
+        {
+          "item": "All-Flash Arrays",
+          "count": "3"
+        },
+        {
+          "item": "VSS",
+          "count": "3"
+        },
+        {
+          "item": "no",
+          "count": "1"
+        },
+        {
+          "item": "Snapshot",
+          "count": "1"
+        }
+      ],
+      "smallest": "All-Flash Arrays",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891971,
+    "name": "Capacity Optimizing Methods (COMs)",
+    "dataTypeName": "text",
+    "description": "Capacity Optimizing Methods (COMs) are the reduction of data stored on storage devices through a combination of hardware and / or software.  Common COMs include thin provisioning, data deduplication, compression, and delta snapshots.",
+    "fieldName": "capacity_optimizing_methods_coms",
+    "position": 14,
+    "renderTypeName": "text",
+    "tableColumnId": 110306117,
+    "width": 508,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "Thin Provisioning,Data Deduplication",
+      "null": "0",
+      "top": [
+        {
+          "item": "Delta Snapshots,Thin Provisioning,Compression,Data Deduplication",
+          "count": "16"
+        },
+        {
+          "item": "Delta Snapshots,Thin Provisioning,Compression",
+          "count": "8"
+        },
+        {
+          "item": "Thin Provisioning,Compression,Data Deduplication",
+          "count": "6"
+        },
+        {
+          "item": "Thin Provisioning,Data Deduplication",
+          "count": "2"
+        },
+        {
+          "item": "Compression,Data Deduplication,Thin Provisioning",
+          "count": "1"
+        },
+        {
+          "item": "Compression,Delta Snapshots,Thin Provisioning",
+          "count": "1"
+        },
+        {
+          "item": "Data Deduplication",
+          "count": "1"
+        }
+      ],
+      "smallest": "Compression,Data Deduplication,Thin Provisioning",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891972,
+    "name": "Workload Optimization Type",
+    "dataTypeName": "text",
+    "description": "A configuration provided by the manufacturer may be optimized for the following workload types: transaction, streaming, or capacity.  Transaction is a workload type optimized for random I/O usage measured in I/O per second per watt.  Streaming is a workload type optimized primarily for sequential I/O usage, measured in MiB per second per watt.  Capacity is a workload type optimized for maximum storage as measured by GB (Raw Capacity) per watt.",
+    "fieldName": "workload_optimization_type",
+    "position": 15,
+    "renderTypeName": "text",
+    "tableColumnId": 110306118,
+    "width": 412,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "Transaction",
+      "null": "0",
+      "top": [
+        {
+          "item": "Composite",
+          "count": "29"
+        },
+        {
+          "item": "Transaction",
+          "count": "6"
+        }
+      ],
+      "smallest": "Composite",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891973,
+    "name": "Automated Storage Tiering Capable",
+    "dataTypeName": "text",
+    "description": "Automated Storage Tiering is the automatic movement of data between different types of storage devices. Tiering may occur within a single storage product or may span multiple storage products. For the purposes of ENERGY STAR certification, only tiering within a single storage product is applicable.",
+    "fieldName": "automated_storage_tiering_capable",
+    "position": 16,
+    "renderTypeName": "text",
+    "tableColumnId": 110306120,
+    "width": 496,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "Yes",
+      "null": "0",
+      "top": [
+        {
+          "item": "Yes",
+          "count": "25"
+        },
+        {
+          "item": "No",
+          "count": "10"
+        }
+      ],
+      "smallest": "No",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891974,
+    "name": "Automated Storage Tiering Enabled in Hardware on Shipment",
+    "dataTypeName": "text",
+    "description": "If Intelligent Power Distribution Unit (iPDU) is enabled in hardware on shipment.",
+    "fieldName": "automated_storage_tiering_enabled_in_hardware_on_shipment",
+    "position": 17,
+    "renderTypeName": "text",
+    "tableColumnId": 110306121,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "27",
+      "largest": "Yes",
+      "null": "8",
+      "top": [
+        {
+          "item": "Yes",
+          "count": "18"
+        },
+        {
+          "item": "No",
+          "count": "9"
+        }
+      ],
+      "smallest": "No",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891975,
+    "name": "Software Operating Environment Name",
+    "dataTypeName": "text",
+    "description": "Software operating environment/system name supported by storage configuration(s).",
+    "fieldName": "software_operating_environment_name",
+    "position": 18,
+    "renderTypeName": "text",
+    "tableColumnId": 110306122,
+    "width": 520,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "Purity//FB",
+      "null": "0",
+      "top": [
+        {
+          "item": "OneFS",
+          "count": "16"
+        },
+        {
+          "item": "EulerOS",
+          "count": "6"
+        },
+        {
+          "item": "ONTAP",
+          "count": "6"
+        },
+        {
+          "item": "Microsoft Windows Storage Server 2016",
+          "count": "3"
+        },
+        {
+          "item": "Purity / FB",
+          "count": "2"
+        },
+        {
+          "item": "Purity//FB",
+          "count": "1"
+        },
+        {
+          "item": "penBMC",
+          "count": "1"
+        }
+      ],
+      "smallest": "EulerOS",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891976,
+    "name": "Software Operating Environment Version",
+    "dataTypeName": "text",
+    "description": "Software operating environment/system version supported by storage configuration(s).",
+    "fieldName": "software_operating_environment_version",
+    "position": 19,
+    "renderTypeName": "text",
+    "tableColumnId": 110306123,
+    "width": 556,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "Standard Edition",
+      "null": "0",
+      "top": [
+        {
+          "item": "9.111.0.0.002",
+          "count": "4"
+        },
+        {
+          "item": "9.8.0.0",
+          "count": "4"
+        },
+        {
+          "item": "9.2.1.0",
+          "count": "3"
+        },
+        {
+          "item": "2.0 (SP13)",
+          "count": "3"
+        },
+        {
+          "item": "2.0 (SP12)",
+          "count": "3"
+        },
+        {
+          "item": "Standard Edition",
+          "count": "3"
+        },
+        {
+          "item": "9.2.0.0",
+          "count": "3"
+        },
+        {
+          "item": "9.18.1",
+          "count": "2"
+        },
+        {
+          "item": "4.0.2",
+          "count": "2"
+        },
+        {
+          "item": "9.16.1",
+          "count": "1"
+        },
+        {
+          "item": "1.18.21",
+          "count": "1"
+        },
+        {
+          "item": "9.3.0.1",
+          "count": "1"
+        },
+        {
+          "item": "9.3.0.0",
+          "count": "1"
+        },
+        {
+          "item": "9.9.1",
+          "count": "1"
+        },
+        {
+          "item": "4.2.0",
+          "count": "1"
+        },
+        {
+          "item": "9.15.1",
+          "count": "1"
+        },
+        {
+          "item": "9.13.1",
+          "count": "1"
+        }
+      ],
+      "smallest": "1.18.21",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891977,
+    "name": "Active or Passive Cooling Enabled in Hardware on Shipment",
+    "dataTypeName": "text",
+    "description": "If Active Cooling, Passive Cooling, or both is enabled in hardware on shipment.",
+    "fieldName": "active_or_passive_cooling_enabled_in_hardware_on_shipment",
+    "position": 20,
+    "renderTypeName": "text",
+    "tableColumnId": 110306125,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "Both",
+      "null": "0",
+      "top": [
+        {
+          "item": "Active Cooling",
+          "count": "32"
+        },
+        {
+          "item": "Both",
+          "count": "3"
+        }
+      ],
+      "smallest": "Active Cooling",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891978,
+    "name": "Length of Rolling Average for Input Power (s)",
+    "dataTypeName": "text",
+    "description": "If configuration(s) is/are capable of calculating an input power rolling average, the length of the rolling average is provided here.",
+    "fieldName": "length_of_rolling_average_for_input_power_s",
+    "position": 21,
+    "renderTypeName": "text",
+    "tableColumnId": 110306127,
+    "width": 640,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "User Selectable",
+      "null": "0",
+      "top": [
+        {
+          "item": "10",
+          "count": "16"
+        },
+        {
+          "item": "3",
+          "count": "6"
+        },
+        {
+          "item": "User Selectable",
+          "count": "3"
+        },
+        {
+          "item": "No",
+          "count": "3"
+        },
+        {
+          "item": "1",
+          "count": "2"
+        },
+        {
+          "item": "not capable",
+          "count": "2"
+        },
+        {
+          "item": "no",
+          "count": "1"
+        },
+        {
+          "item": "0",
+          "count": "1"
+        },
+        {
+          "item": "Real Time",
+          "count": "1"
+        }
+      ],
+      "smallest": "0",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891979,
+    "name": "Length of Rolling Average for Inlet Air Temperature (s)",
+    "dataTypeName": "text",
+    "description": "If configuration(s) is/are capable of calculating an inlet air temperature, the length of the rolling average is provided here.",
+    "fieldName": "length_of_rolling_average_for_inlet_air_temperature_s",
+    "position": 22,
+    "renderTypeName": "text",
+    "tableColumnId": 110306129,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "User Selectable",
+      "null": "0",
+      "top": [
+        {
+          "item": "10",
+          "count": "16"
+        },
+        {
+          "item": "30",
+          "count": "5"
+        },
+        {
+          "item": "No",
+          "count": "3"
+        },
+        {
+          "item": "User Selectable",
+          "count": "3"
+        },
+        {
+          "item": "not capable",
+          "count": "2"
+        },
+        {
+          "item": "1",
+          "count": "2"
+        },
+        {
+          "item": "no",
+          "count": "1"
+        },
+        {
+          "item": "3",
+          "count": "1"
+        },
+        {
+          "item": "0",
+          "count": "1"
+        },
+        {
+          "item": "Real Time",
+          "count": "1"
+        }
+      ],
+      "smallest": "0",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891980,
+    "name": "Power and Temperature Reporting Additional Information",
+    "dataTypeName": "text",
+    "description": "If additional Power and Temperature Reporting information is available, it is provided here.",
+    "fieldName": "power_and_temperature_reporting_additional_information",
+    "position": 23,
+    "renderTypeName": "text",
+    "tableColumnId": 110306130,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "1",
+      "largest": "real time",
+      "null": "34",
+      "top": [
+        {
+          "item": "real time",
+          "count": "1"
+        }
+      ],
+      "smallest": "real time",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891981,
+    "name": "Trans Model Number or Config ID",
+    "dataTypeName": "text",
+    "description": "A distinguishing identifier, usually alphanumeric, assigned to the model or configuration by the manufacturer or private labeler.  Trans indicates that this information is for the Transaction Workload Optimization Type.",
+    "fieldName": "trans_model_number_or_config_id",
+    "position": 24,
+    "renderTypeName": "text",
+    "tableColumnId": 110306131,
+    "width": 472,
+    "cachedContents": {
+      "non_null": "4",
+      "largest": "X4024S173A1T9NTE",
+      "null": "31",
+      "top": [
+        {
+          "item": "X4024S173A1T9NTE",
+          "count": "3"
+        },
+        {
+          "item": "AFF A800",
+          "count": "1"
+        }
+      ],
+      "smallest": "AFF A800",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891982,
+    "name": "Trans Power Supply Unit (PSU) Type",
+    "dataTypeName": "text",
+    "description": "The type(s) of power supply unit(s) installed.  A Power Supply Unit (PSU) is a device that converts ac or dc input power to one or more dc power outputs for the purpose of powering a storage product. A storage PSU must be self-contained and physically separable from the system and must connect to the system via a removable or hard-wired electrical connection.  If there is more than one power supply, each power supply's type will be separated by a semicolon.",
+    "fieldName": "trans_power_supply_unit_psu_type",
+    "position": 25,
+    "renderTypeName": "text",
+    "tableColumnId": 110306132,
+    "width": 508,
+    "cachedContents": {
+      "non_null": "5",
+      "largest": "Single-Output",
+      "null": "30",
+      "top": [
+        {
+          "item": "Single-Output",
+          "count": "2"
+        },
+        {
+          "item": "Multi-Output",
+          "count": "1"
+        },
+        {
+          "item": "Internal",
+          "count": "1"
+        },
+        {
+          "item": "Ac-Dc",
+          "count": "1"
+        }
+      ],
+      "smallest": "Ac-Dc",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891983,
+    "name": "Trans PSU Manufacturer Name",
+    "dataTypeName": "text",
+    "description": "The manufacturer of the installed PSU(s).  If there is more than one power supply, each power supply's manufacturer name will be separated by a semicolon.",
+    "fieldName": "trans_psu_manufacturer_name",
+    "position": 26,
+    "renderTypeName": "text",
+    "tableColumnId": 110306133,
+    "width": 424,
+    "cachedContents": {
+      "non_null": "5",
+      "largest": "Delta, QCS",
+      "null": "30",
+      "top": [
+        {
+          "item": "Delta, QCS",
+          "count": "2"
+        },
+        {
+          "item": "Delta",
+          "count": "1"
+        },
+        {
+          "item": "Delta Electronics (Thailand) PCL",
+          "count": "1"
+        },
+        {
+          "item": "Delta & QCS",
+          "count": "1"
+        }
+      ],
+      "smallest": "Delta",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891984,
+    "name": "Trans PSU Model Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to the PSU(s) for sales and marketing purposes.  If there is more than one power supply, each power supply's model name will be separated by a semicolon.",
+    "fieldName": "trans_psu_model_name",
+    "position": 27,
+    "renderTypeName": "text",
+    "tableColumnId": 110306134,
+    "width": 340,
+    "cachedContents": {
+      "non_null": "4",
+      "largest": "TDPS-900DB A",
+      "null": "31",
+      "top": [
+        {
+          "item": "TDPS-1600GB A, DCJ16002-06",
+          "count": "1"
+        },
+        {
+          "item": "TDPS-1600GB A & DCJ16002-06",
+          "count": "1"
+        },
+        {
+          "item": "TDPS-900DB A",
+          "count": "1"
+        },
+        {
+          "item": "TDPS1600GB A",
+          "count": "1"
+        }
+      ],
+      "smallest": "TDPS1600GB A",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891985,
+    "name": "Trans PSU Model Number",
+    "dataTypeName": "text",
+    "description": "A distinguishing identifier, usually alphanumeric, assigned to the PSU(s) by the manufacturer or private labeler.  If there is more than one power supply, each power supply's model number will be separated by a semicolon.",
+    "fieldName": "trans_psu_model_number",
+    "position": 28,
+    "renderTypeName": "text",
+    "tableColumnId": 110306135,
+    "width": 364,
+    "cachedContents": {
+      "non_null": "5",
+      "largest": "TDPS-900DB A",
+      "null": "30",
+      "top": [
+        {
+          "item": "TDPS-1600GB A, DCJ16002-06",
+          "count": "2"
+        },
+        {
+          "item": "TDPS-1600GB A & DCJ16002-06",
+          "count": "1"
+        },
+        {
+          "item": "TDPS-900DB A",
+          "count": "1"
+        },
+        {
+          "item": "TDPS1600GB A",
+          "count": "1"
+        }
+      ],
+      "smallest": "TDPS1600GB A",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891986,
+    "name": "Trans PSU Rated Output (W)",
+    "dataTypeName": "text",
+    "description": "The Rated Output per installed PSU in watts.  If there is more than one power supply, each power supply's rated output will be separated by a semicolon.",
+    "fieldName": "trans_psu_rated_output_w",
+    "position": 29,
+    "renderTypeName": "text",
+    "tableColumnId": 110306136,
+    "width": 412,
+    "cachedContents": {
+      "non_null": "3",
+      "largest": "900",
+      "null": "32",
+      "top": [
+        {
+          "item": "1600",
+          "count": "2"
+        },
+        {
+          "item": "900",
+          "count": "1"
+        }
+      ],
+      "smallest": "1600",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891987,
+    "name": "Trans PSUs 80PLUS Certification",
+    "dataTypeName": "text",
+    "description": "The 80PLUS certification level achieved by the PSU(s) installed.  If there is more than one power supply, each power supply's certification level will be separated by a semicolon.",
+    "fieldName": "trans_psus_80plus_certification",
+    "position": 30,
+    "renderTypeName": "text",
+    "tableColumnId": 110306137,
+    "width": 472,
+    "cachedContents": {
+      "non_null": "4",
+      "largest": "Titanium Certification",
+      "null": "31",
+      "top": [
+        {
+          "item": "Titanium",
+          "count": "1"
+        },
+        {
+          "item": "Platinum",
+          "count": "1"
+        },
+        {
+          "item": "1,600 Watts",
+          "count": "1"
+        },
+        {
+          "item": "Titanium Certification",
+          "count": "1"
+        }
+      ],
+      "smallest": "1,600 Watts",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891988,
+    "name": "Trans Total Amount of Cache (GB)",
+    "dataTypeName": "text",
+    "description": "The total amount of cache available in GB.  Cache is temporary storage used to transparently store transitory data and which is not directly addressable by end-user applications. Primarily used for expediting access to or from (typically) slower devices.",
+    "fieldName": "trans_total_amount_of_cache_gb",
+    "position": 31,
+    "renderTypeName": "text",
+    "tableColumnId": 110306138,
+    "width": 484,
+    "cachedContents": {
+      "non_null": "4",
+      "largest": "1374.389535",
+      "null": "31",
+      "top": [
+        {
+          "item": "137.4389535",
+          "count": "3"
+        },
+        {
+          "item": "1374.389535",
+          "count": "1"
+        }
+      ],
+      "smallest": "137.4389535",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891989,
+    "name": "Trans Devices Used for Cache",
+    "dataTypeName": "text",
+    "description": "The devices used for cache are identified here.  This can be DRAM, SSD, or Other device.",
+    "fieldName": "trans_devices_used_for_cache",
+    "position": 32,
+    "renderTypeName": "text",
+    "tableColumnId": 110306139,
+    "width": 436,
+    "cachedContents": {
+      "non_null": "4",
+      "largest": "SSD",
+      "null": "31",
+      "top": [
+        {
+          "item": "SSD",
+          "count": "3"
+        },
+        {
+          "item": "Other",
+          "count": "1"
+        }
+      ],
+      "smallest": "Other",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891990,
+    "name": "Trans Other Devices Used for Cache",
+    "dataTypeName": "text",
+    "description": "If Other was chosen for Trans Device Used for Cache, the type of Other device is identified here.",
+    "fieldName": "trans_other_devices_used_for_cache",
+    "position": 33,
+    "renderTypeName": "text",
+    "tableColumnId": 110306140,
+    "width": 508,
+    "cachedContents": {
+      "non_null": "1",
+      "largest": "RAM",
+      "null": "34",
+      "top": [
+        {
+          "item": "RAM",
+          "count": "1"
+        }
+      ],
+      "smallest": "RAM",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891991,
+    "name": "Trans Total Num Installed Storage Devices Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of storage devices installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "trans_total_num_installed_storage_devices_optimal_point",
+    "position": 34,
+    "renderTypeName": "text",
+    "tableColumnId": 110306147,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "4",
+      "largest": "48",
+      "null": "31",
+      "top": [
+        {
+          "item": "24",
+          "count": "3"
+        },
+        {
+          "item": "48",
+          "count": "1"
+        }
+      ],
+      "smallest": "24",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891992,
+    "name": "Trans Ratio Devices Mixed Optimal Point",
+    "dataTypeName": "text",
+    "description": "The ratio of installed storage devices with addressable storage (not used for cache) during testing of the highest predicted deployed device(s) optimal point.  If there is more than one device in the highest predicted deployed storage device, the ratio of each storage device is separated by a semicolon.",
+    "fieldName": "trans_ratio_devices_mixed_optimal_point",
+    "position": 35,
+    "renderTypeName": "text",
+    "tableColumnId": 110306148,
+    "width": 568,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891993,
+    "name": "Trans Installed Solid State Devices in Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of Solid State Devices installed during testing of the highest predicted deployed device(s) optimal point.  If there is more than one device in the highest predicted deployed storage device, each device's number of solid state drives is separated by a semicolon. ",
+    "fieldName": "trans_installed_solid_state_devices_in_optimal_point",
+    "position": 36,
+    "renderTypeName": "text",
+    "tableColumnId": 110306149,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "2",
+      "largest": "48",
+      "null": "33",
+      "top": [
+        {
+          "item": "24",
+          "count": "1"
+        },
+        {
+          "item": "48",
+          "count": "1"
+        }
+      ],
+      "smallest": "24",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891994,
+    "name": "Trans Installed Rotational Devices in Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of rotational devices installed during testing of the highest predicted deployed device(s) optimal point.  If there is more than one device in the highest predicted deployed storage device, each device's number of rotational drives is separated by a semicolon.",
+    "fieldName": "trans_installed_rotational_devices_in_optimal_point",
+    "position": 37,
+    "renderTypeName": "text",
+    "tableColumnId": 110306150,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891995,
+    "name": "Trans Num of Controllers in Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of controllers installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "trans_num_of_controllers_in_optimal_point",
+    "position": 38,
+    "renderTypeName": "text",
+    "tableColumnId": 110306151,
+    "width": 592,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891996,
+    "name": "Trans Num Redundant Controllers Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of redundant controllers installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "trans_num_redundant_controllers_optimal_point",
+    "position": 39,
+    "renderTypeName": "text",
+    "tableColumnId": 110306152,
+    "width": 640,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891997,
+    "name": "Trans Number of PSUs Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of PSUs installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "trans_number_of_psus_optimal_point",
+    "position": 40,
+    "renderTypeName": "text",
+    "tableColumnId": 110306153,
+    "width": 508,
+    "cachedContents": {
+      "non_null": "1",
+      "largest": "4",
+      "null": "34",
+      "top": [
+        {
+          "item": "4",
+          "count": "1"
+        }
+      ],
+      "smallest": "4",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891998,
+    "name": "Trans Number of Redundant PSUs Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of redundant PSUs installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "trans_number_of_redundant_psus_optimal_point",
+    "position": 41,
+    "renderTypeName": "text",
+    "tableColumnId": 110306154,
+    "width": 628,
+    "cachedContents": {
+      "non_null": "1",
+      "largest": "1",
+      "null": "34",
+      "top": [
+        {
+          "item": "1",
+          "count": "1"
+        }
+      ],
+      "smallest": "1",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547891999,
+    "name": "Trans Auto Tiering Enabled Optimal Point",
+    "dataTypeName": "text",
+    "description": "If automated storage tiering (auto-tiering) was enabled during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "trans_auto_tiering_enabled_optimal_point",
+    "position": 42,
+    "renderTypeName": "text",
+    "tableColumnId": 110306155,
+    "width": 580,
+    "cachedContents": {
+      "non_null": "3",
+      "largest": "Yes",
+      "null": "32",
+      "top": [
+        {
+          "item": "Yes",
+          "count": "3"
+        }
+      ],
+      "smallest": "Yes",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892000,
+    "name": "Trans Optimal Point DATABASE Workload Test",
+    "dataTypeName": "text",
+    "description": "The DATABASE measurement for the highest predicted deployed storage device optimal point. \n",
+    "fieldName": "trans_optimal_point_database_workload_test",
+    "position": 43,
+    "renderTypeName": "text",
+    "tableColumnId": 110306156,
+    "width": 604,
+    "cachedContents": {
+      "non_null": "2",
+      "largest": "765.04",
+      "null": "33",
+      "top": [
+        {
+          "item": "0.35",
+          "count": "1"
+        },
+        {
+          "item": "765.04",
+          "count": "1"
+        }
+      ],
+      "smallest": "0.35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892001,
+    "name": "Trans Optimal Point VDI Workload Test",
+    "dataTypeName": "text",
+    "description": "The VDI measurement for the highest predicted deployed storage device optimal point. \n",
+    "fieldName": "trans_optimal_point_vdi_workload_test",
+    "position": 44,
+    "renderTypeName": "text",
+    "tableColumnId": 110306157,
+    "width": 544,
+    "cachedContents": {
+      "non_null": "2",
+      "largest": "770.84",
+      "null": "33",
+      "top": [
+        {
+          "item": "0.31",
+          "count": "1"
+        },
+        {
+          "item": "770.84",
+          "count": "1"
+        }
+      ],
+      "smallest": "0.31",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892002,
+    "name": "Trans Optimal Point Ready Idle Workload Test (GB/W)",
+    "dataTypeName": "text",
+    "description": "The ready idle measurement for the highest predicted deployed storage device optimal point in GB per watt. \n",
+    "fieldName": "trans_optimal_point_ready_idle_workload_test_gb_w",
+    "position": 45,
+    "renderTypeName": "text",
+    "tableColumnId": 110306158,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "2",
+      "largest": "750.97",
+      "null": "33",
+      "top": [
+        {
+          "item": "425.36",
+          "count": "1"
+        },
+        {
+          "item": "750.97",
+          "count": "1"
+        }
+      ],
+      "smallest": "425.36",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892003,
+    "name": "Trans Storage Device 1 Type",
+    "dataTypeName": "text",
+    "description": "The type of storage device can be either a Hard Disk Drive (HDD) or a Solid State Drive (SSD).  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_storage_device_1_type",
+    "position": 46,
+    "renderTypeName": "text",
+    "tableColumnId": 110306159,
+    "width": 424,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892004,
+    "name": "Trans Storage Device 1 Form Factor",
+    "dataTypeName": "text",
+    "description": "The form factor of storage device 1 is either 2.5 inch, 3.5 inch, or Other.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_storage_device_1_form_factor",
+    "position": 47,
+    "renderTypeName": "text",
+    "tableColumnId": 110306160,
+    "width": 508,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892005,
+    "name": "Trans Storage Device 1 Rated Speed (RPM)",
+    "dataTypeName": "text",
+    "description": "The rated speed of storage device 1 in RPM.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_storage_device_1_rated_speed_rpm",
+    "position": 48,
+    "renderTypeName": "text",
+    "tableColumnId": 110306161,
+    "width": 580,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892006,
+    "name": "Trans Storage Device 1 Raw Capacity (GB)",
+    "dataTypeName": "text",
+    "description": "The raw capacity of storage device 1 in GB.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_storage_device_1_raw_capacity_gb",
+    "position": 49,
+    "renderTypeName": "text",
+    "tableColumnId": 110306162,
+    "width": 580,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892007,
+    "name": "Trans Num Devices Storage Device 1 Optimal Point",
+    "dataTypeName": "text",
+    "description": "The number of devices installed in storage device 1 optimal point.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_num_devices_storage_device_1_optimal_point",
+    "position": 50,
+    "renderTypeName": "text",
+    "tableColumnId": 110306163,
+    "width": 676,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892008,
+    "name": "Trans Physical or Modeled Data Device 1 Optimal Point",
+    "dataTypeName": "text",
+    "description": "The data for the storage device 1 optimal point is obtained by physically testing the system or through the use of modeled data.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_physical_or_modeled_data_device_1_optimal_point",
+    "position": 51,
+    "renderTypeName": "text",
+    "tableColumnId": 110306164,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892009,
+    "name": "Trans Automated Tiering Enabled During Testing Device 1",
+    "dataTypeName": "text",
+    "description": "If automated storage tiering (auto-tiering) was enabled during testing of the storage device 1.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_automated_tiering_enabled_during_testing_device_1",
+    "position": 52,
+    "renderTypeName": "text",
+    "tableColumnId": 110306165,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892010,
+    "name": "Trans Device 1 Optimal Point DATABASE Workload Test",
+    "dataTypeName": "text",
+    "description": "DATABASE measurement for storage device 1 optimal point.",
+    "fieldName": "trans_device_1_optimal_point_database_workload_test",
+    "position": 53,
+    "renderTypeName": "text",
+    "tableColumnId": 110306166,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892011,
+    "name": "Trans Device 1 Optimal Point VDI Workload Test",
+    "dataTypeName": "text",
+    "description": "The VDI measurement for the highest predicted deployed storage device optimal point. ",
+    "fieldName": "trans_device_1_optimal_point_vdi_workload_test",
+    "position": 54,
+    "renderTypeName": "text",
+    "tableColumnId": 110306167,
+    "width": 652,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892012,
+    "name": "Trans Device 1 Optimal Point Ready Idle Wrkld Test (GB/W)",
+    "dataTypeName": "text",
+    "description": "The ready idle measurement for storage device 1 optimal point in GB per watt.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_device_1_optimal_point_ready_idle_wrkld_test_gb_w",
+    "position": 55,
+    "renderTypeName": "text",
+    "tableColumnId": 110306168,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892013,
+    "name": "Trans Storage Device 2 Type",
+    "dataTypeName": "text",
+    "description": "The type of storage device can be either a Hard Disk Drive (HDD) or a Solid State Drive (SSD).  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_storage_device_2_type",
+    "position": 56,
+    "renderTypeName": "text",
+    "tableColumnId": 110306169,
+    "width": 424,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892014,
+    "name": "Trans Storage Device 2 Form Factor",
+    "dataTypeName": "text",
+    "description": "The form factor of storage device 2 is either 2.5 inch, 3.5 inch, or Other.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_storage_device_2_form_factor",
+    "position": 57,
+    "renderTypeName": "text",
+    "tableColumnId": 110306171,
+    "width": 508,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892015,
+    "name": "Trans Storage Device 2 Rated Speed (RPM)",
+    "dataTypeName": "text",
+    "description": "The rated speed of storage device 2 in RPM.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_storage_device_2_rated_speed_rpm",
+    "position": 58,
+    "renderTypeName": "text",
+    "tableColumnId": 110306173,
+    "width": 580,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892016,
+    "name": "Trans Storage Device 2 Raw Capacity (GB)",
+    "dataTypeName": "text",
+    "description": "The raw capacity of storage device 2 in GB.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_storage_device_2_raw_capacity_gb",
+    "position": 59,
+    "renderTypeName": "text",
+    "tableColumnId": 110306174,
+    "width": 580,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892017,
+    "name": "Trans Num Devices Storage Device 2 Optimal Point",
+    "dataTypeName": "text",
+    "description": "The number of devices installed in storage device 2 optimal point.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_num_devices_storage_device_2_optimal_point",
+    "position": 60,
+    "renderTypeName": "text",
+    "tableColumnId": 110306175,
+    "width": 676,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892018,
+    "name": "Trans Physical or Modeled Data Device 2 Optimal Point",
+    "dataTypeName": "text",
+    "description": "The data for the storage device 2 optimal point is obtained by physically testing the system or through the use of modeled data.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_physical_or_modeled_data_device_2_optimal_point",
+    "position": 61,
+    "renderTypeName": "text",
+    "tableColumnId": 110306176,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892019,
+    "name": "Trans Automated Tiering Enabled During Testing Device 2",
+    "dataTypeName": "text",
+    "description": "If automated storage tiering (auto-tiering) was enabled during testing of the storage device 2.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_automated_tiering_enabled_during_testing_device_2",
+    "position": 62,
+    "renderTypeName": "text",
+    "tableColumnId": 110306177,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892020,
+    "name": "Trans Device 2 Optimal Point DATABASE Workload Test",
+    "dataTypeName": "text",
+    "description": "DATABASE measurement for storage device 2 optimal point. Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_device_2_optimal_point_database_workload_test",
+    "position": 63,
+    "renderTypeName": "text",
+    "tableColumnId": 110306178,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892021,
+    "name": "Trans Device 2 Optimal Point VDI Workload Test",
+    "dataTypeName": "text",
+    "description": "The VDI measurement for the highest predicted deployed storage device optimal point. Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_device_2_optimal_point_vdi_workload_test",
+    "position": 64,
+    "renderTypeName": "text",
+    "tableColumnId": 110306179,
+    "width": 652,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892022,
+    "name": "Trans Device 2 Optimal Point Ready Idle Wrkld Test (GB/W)",
+    "dataTypeName": "text",
+    "description": "The ready idle measurement for storage device 2 optimal point in GB per watt.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "trans_device_2_optimal_point_ready_idle_wrkld_test_gb_w",
+    "position": 65,
+    "renderTypeName": "text",
+    "tableColumnId": 110306180,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892023,
+    "name": "Stream Model Number or Config ID",
+    "dataTypeName": "text",
+    "description": "A distinguishing identifier, usually alphanumeric, assigned to the model or configuration by the manufacturer or private labeler.  Stream indicates that this information is for the Streaming Workload Optimization Type.",
+    "fieldName": "stream_model_number_or_config_id",
+    "position": 66,
+    "renderTypeName": "text",
+    "tableColumnId": 110306221,
+    "width": 484,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892024,
+    "name": "Stream Power Supply Unit (PSU) Type",
+    "dataTypeName": "text",
+    "description": "The type(s) of power supply unit(s) installed.  A Power Supply Unit (PSU) is a device that converts ac or dc input power to one or more dc power outputs for the purpose of powering a storage product. A storage PSU must be self-contained and physically separable from the system and must connect to the system via a removable or hard-wired electrical connection.  If there is more than one power supply, each power supply's type will be separated by a semicolon.",
+    "fieldName": "stream_power_supply_unit_psu_type",
+    "position": 67,
+    "renderTypeName": "text",
+    "tableColumnId": 110306222,
+    "width": 520,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892025,
+    "name": "Stream PSU Manufacturer Name",
+    "dataTypeName": "text",
+    "description": "The manufacturer of the installed PSU(s).  If there is more than one power supply, each power supply's manufacturer name will be separated by a semicolon.",
+    "fieldName": "stream_psu_manufacturer_name",
+    "position": 68,
+    "renderTypeName": "text",
+    "tableColumnId": 110306223,
+    "width": 436,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892026,
+    "name": "Stream PSU Model Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to the PSU(s) for sales and marketing purposes.  If there is more than one power supply, each power supply's model name will be separated by a semicolon.",
+    "fieldName": "stream_psu_model_name",
+    "position": 69,
+    "renderTypeName": "text",
+    "tableColumnId": 110306224,
+    "width": 352,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892027,
+    "name": "Stream PSU Model Number",
+    "dataTypeName": "text",
+    "description": "A distinguishing identifier, usually alphanumeric, assigned to the PSU(s) by the manufacturer or private labeler.  If there is more than one power supply, each power supply's model number will be separated by a semicolon.",
+    "fieldName": "stream_psu_model_number",
+    "position": 70,
+    "renderTypeName": "text",
+    "tableColumnId": 110306225,
+    "width": 376,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892028,
+    "name": "Stream PSU Rated Output (W)",
+    "dataTypeName": "text",
+    "description": "The Rated Output per installed PSU in watts.  If there is more than one power supply, each power supply's rated output will be separated by a semicolon.",
+    "fieldName": "stream_psu_rated_output_w",
+    "position": 71,
+    "renderTypeName": "text",
+    "tableColumnId": 110306226,
+    "width": 424,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892029,
+    "name": "Stream PSUs 80PLUS Certification",
+    "dataTypeName": "text",
+    "description": "The 80PLUS certification level achieved by the PSU(s) installed.  If there is more than one power supply, each power supply's certification level will be separated by a semicolon.",
+    "fieldName": "stream_psus_80plus_certification",
+    "position": 72,
+    "renderTypeName": "text",
+    "tableColumnId": 110306227,
+    "width": 484,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892030,
+    "name": "Stream Total Amount of Cache (GB)",
+    "dataTypeName": "text",
+    "description": "The total amount of cache available in GB.  Cache is temporary storage used to transparently store transitory data and which is not directly addressable by end-user applications. Primarily used for expediting access to or from (typically) slower devices.",
+    "fieldName": "stream_total_amount_of_cache_gb",
+    "position": 73,
+    "renderTypeName": "text",
+    "tableColumnId": 110306228,
+    "width": 496,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892031,
+    "name": "Stream Devices Used for Cache",
+    "dataTypeName": "text",
+    "description": "The devices used for cache are identified here.  This can be DRAM, SSD, or Other device.",
+    "fieldName": "stream_devices_used_for_cache",
+    "position": 74,
+    "renderTypeName": "text",
+    "tableColumnId": 110306229,
+    "width": 448,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892032,
+    "name": "Stream Other Devices Used for Cache",
+    "dataTypeName": "text",
+    "description": "If Other was chosen for Trans Device Used for Cache, the type of Other device is identified here.",
+    "fieldName": "stream_other_devices_used_for_cache",
+    "position": 75,
+    "renderTypeName": "text",
+    "tableColumnId": 110306230,
+    "width": 520,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892033,
+    "name": "Stream Total Num Installed Storage Devices Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of storage devices installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "stream_total_num_installed_storage_devices_optimal_point",
+    "position": 76,
+    "renderTypeName": "text",
+    "tableColumnId": 110306237,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892034,
+    "name": "Stream Ratio Devices Mixed Optimal Point",
+    "dataTypeName": "text",
+    "description": "The ratio of installed storage devices with addressable storage (not used for cache) during testing of the highest predicted deployed device(s) optimal point.  If there is more than one device in the highest predicted deployed storage device, the ratio of each storage device is separated by a semicolon.",
+    "fieldName": "stream_ratio_devices_mixed_optimal_point",
+    "position": 77,
+    "renderTypeName": "text",
+    "tableColumnId": 110306238,
+    "width": 580,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892035,
+    "name": "Stream Installed Solid State Devices in Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of Solid State Devices installed during testing of the highest predicted deployed device(s) optimal point.  If there is more than one device in the highest predicted deployed storage device, each device's number of solid state drives is separated by a semicolon. ",
+    "fieldName": "stream_installed_solid_state_devices_in_optimal_point",
+    "position": 78,
+    "renderTypeName": "text",
+    "tableColumnId": 110306239,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892036,
+    "name": "Stream Installed Rotational Devices in Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of rotational devices installed during testing of the highest predicted deployed device(s) optimal point.  If there is more than one device in the highest predicted deployed storage device, each device's number of rotational drives is separated by a semicolon.",
+    "fieldName": "stream_installed_rotational_devices_in_optimal_point",
+    "position": 79,
+    "renderTypeName": "text",
+    "tableColumnId": 110306240,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892037,
+    "name": "Stream Num of Controllers in Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of controllers installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "stream_num_of_controllers_in_optimal_point",
+    "position": 80,
+    "renderTypeName": "text",
+    "tableColumnId": 110306241,
+    "width": 604,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892038,
+    "name": "Stream Num Redundant Controllers Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of redundant controllers installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "stream_num_redundant_controllers_optimal_point",
+    "position": 81,
+    "renderTypeName": "text",
+    "tableColumnId": 110306242,
+    "width": 652,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892039,
+    "name": "Stream Number of PSUs Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of PSUs installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "stream_number_of_psus_optimal_point",
+    "position": 82,
+    "renderTypeName": "text",
+    "tableColumnId": 110306243,
+    "width": 520,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892040,
+    "name": "Stream Number of Redundant PSUs Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of redundant PSUs installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "stream_number_of_redundant_psus_optimal_point",
+    "position": 83,
+    "renderTypeName": "text",
+    "tableColumnId": 110306244,
+    "width": 640,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892041,
+    "name": "Stream Auto Tiering Enabled Optimal Point",
+    "dataTypeName": "text",
+    "description": "If automated storage tiering (auto-tiering) was enabled during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "stream_auto_tiering_enabled_optimal_point",
+    "position": 84,
+    "renderTypeName": "text",
+    "tableColumnId": 110306245,
+    "width": 592,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892042,
+    "name": "Stream Optimal Point VDA Workload Test",
+    "dataTypeName": "text",
+    "description": "The VDA measurement for the highest predicted deployed storage device optimal point. \n",
+    "fieldName": "stream_optimal_point_vda_workload_test",
+    "position": 85,
+    "renderTypeName": "text",
+    "tableColumnId": 110306246,
+    "width": 556,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892043,
+    "name": "Stream Optimal Point Ready Idle Workload Test (GB/W)",
+    "dataTypeName": "text",
+    "description": "The ready idle measurement for the highest predicted deployed storage device optimal point in GB per watt. \n",
+    "fieldName": "stream_optimal_point_ready_idle_workload_test_gb_w",
+    "position": 86,
+    "renderTypeName": "text",
+    "tableColumnId": 110306247,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892044,
+    "name": "Stream Storage Device 1 Type",
+    "dataTypeName": "text",
+    "description": "The type of storage device can be either a Hard Disk Drive (HDD) or a Solid State Drive (SSD).  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_storage_device_1_type",
+    "position": 87,
+    "renderTypeName": "text",
+    "tableColumnId": 110306248,
+    "width": 436,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892045,
+    "name": "Stream Storage Device 1 Form Factor",
+    "dataTypeName": "text",
+    "description": "The form factor of storage device 1 is either 2.5 inch, 3.5 inch, or Other.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_storage_device_1_form_factor",
+    "position": 88,
+    "renderTypeName": "text",
+    "tableColumnId": 110306249,
+    "width": 520,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892046,
+    "name": "Stream Storage Device 1 Rated Speed (RPM)",
+    "dataTypeName": "text",
+    "description": "The rated speed of storage device 1 in RPM.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_storage_device_1_rated_speed_rpm",
+    "position": 89,
+    "renderTypeName": "text",
+    "tableColumnId": 110306250,
+    "width": 592,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892047,
+    "name": "Stream Storage Device 1 Raw Capacity (GB)",
+    "dataTypeName": "text",
+    "description": "The raw capacity of storage device 1 in GB.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_storage_device_1_raw_capacity_gb",
+    "position": 90,
+    "renderTypeName": "text",
+    "tableColumnId": 110306251,
+    "width": 592,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892048,
+    "name": "Stream Num Devices Storage Device 1 Optimal Point",
+    "dataTypeName": "text",
+    "description": "The number of devices installed in storage device 1 optimal point.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_num_devices_storage_device_1_optimal_point",
+    "position": 91,
+    "renderTypeName": "text",
+    "tableColumnId": 110306252,
+    "width": 688,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892049,
+    "name": "Stream Physical or Modeled Data Device 1 Optimal Point",
+    "dataTypeName": "text",
+    "description": "The data for the storage device 1 optimal point is obtained by physically testing the system or through the use of modeled data.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_physical_or_modeled_data_device_1_optimal_point",
+    "position": 92,
+    "renderTypeName": "text",
+    "tableColumnId": 110306253,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892050,
+    "name": "Stream Automated Tiering Enabled During Testing Device 1",
+    "dataTypeName": "text",
+    "description": "If automated storage tiering (auto-tiering) was enabled during testing of the storage device 1.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_automated_tiering_enabled_during_testing_device_1",
+    "position": 93,
+    "renderTypeName": "text",
+    "tableColumnId": 110306254,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892051,
+    "name": "Stream Device 1 Optimal Point VDA Workload Test",
+    "dataTypeName": "text",
+    "description": "The VDA measurement for the highest predicted deployed storage device optimal point. ",
+    "fieldName": "stream_device_1_optimal_point_vda_workload_test",
+    "position": 94,
+    "renderTypeName": "text",
+    "tableColumnId": 110306255,
+    "width": 664,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892052,
+    "name": "Stream Device 1 Optimal Point Ready Idle Wrkld Test (GB/W)",
+    "dataTypeName": "text",
+    "description": "The ready idle measurement for the highest predicted deployed storage device optimal point in GB per watt. \n",
+    "fieldName": "stream_device_1_optimal_point_ready_idle_wrkld_test_gb_w",
+    "position": 95,
+    "renderTypeName": "text",
+    "tableColumnId": 110306256,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892053,
+    "name": "Stream Storage Device 2 Type",
+    "dataTypeName": "text",
+    "description": "The type of storage device can be either a Hard Disk Drive (HDD) or a Solid State Drive (SSD).  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_storage_device_2_type",
+    "position": 96,
+    "renderTypeName": "text",
+    "tableColumnId": 110306257,
+    "width": 436,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892054,
+    "name": "Stream Storage Device 2 Form Factor",
+    "dataTypeName": "text",
+    "description": "The form factor of storage device 2 is either 2.5 inch, 3.5 inch, or Other.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_storage_device_2_form_factor",
+    "position": 97,
+    "renderTypeName": "text",
+    "tableColumnId": 110306258,
+    "width": 520,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892055,
+    "name": "Stream Storage Device 2 Rated Speed (RPM)",
+    "dataTypeName": "text",
+    "description": "The rated speed of storage device 2 in RPM.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_storage_device_2_rated_speed_rpm",
+    "position": 98,
+    "renderTypeName": "text",
+    "tableColumnId": 110306259,
+    "width": 592,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892056,
+    "name": "Stream Storage Device 2 Raw Capacity (GB)",
+    "dataTypeName": "text",
+    "description": "The raw capacity of storage device 2 in GB.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_storage_device_2_raw_capacity_gb",
+    "position": 99,
+    "renderTypeName": "text",
+    "tableColumnId": 110306260,
+    "width": 592,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892057,
+    "name": "Stream Num Devices Storage Device 2 Optimal Point",
+    "dataTypeName": "text",
+    "description": "The number of devices installed in storage device 2 optimal point.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_num_devices_storage_device_2_optimal_point",
+    "position": 100,
+    "renderTypeName": "text",
+    "tableColumnId": 110306261,
+    "width": 688,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892058,
+    "name": "Stream Physical or Modeled Data Device 2 Optimal Point",
+    "dataTypeName": "text",
+    "description": "The data for the storage device 2 optimal point is obtained by physically testing the system or through the use of modeled data.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_physical_or_modeled_data_device_2_optimal_point",
+    "position": 101,
+    "renderTypeName": "text",
+    "tableColumnId": 110306262,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892059,
+    "name": "Stream Automated Tiering Enabled During Testing Device 2",
+    "dataTypeName": "text",
+    "description": "If automated storage tiering (auto-tiering) was enabled during testing of the storage device 2.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "stream_automated_tiering_enabled_during_testing_device_2",
+    "position": 102,
+    "renderTypeName": "text",
+    "tableColumnId": 110306263,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892060,
+    "name": "Stream Device 2 Optimal Point VDA Workload Test",
+    "dataTypeName": "text",
+    "description": "The VDA measurement for the highest predicted deployed storage device optimal point. \n",
+    "fieldName": "stream_device_2_optimal_point_vda_workload_test",
+    "position": 103,
+    "renderTypeName": "text",
+    "tableColumnId": 110306264,
+    "width": 664,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892061,
+    "name": "Stream Device 2 Optimal Point Ready Idle Wrkld Test (GB/W)",
+    "dataTypeName": "text",
+    "description": "The ready idle measurement for the highest predicted deployed storage device optimal point in GB per watt. \n",
+    "fieldName": "stream_device_2_optimal_point_ready_idle_wrkld_test_gb_w",
+    "position": 104,
+    "renderTypeName": "text",
+    "tableColumnId": 110306265,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892062,
+    "name": "Comp Model Number or Config ID",
+    "dataTypeName": "text",
+    "description": "A distinguishing identifier, usually alphanumeric, assigned to the model or configuration by the manufacturer or private labeler.  ",
+    "fieldName": "comp_model_number_or_config_id",
+    "position": 105,
+    "renderTypeName": "text",
+    "tableColumnId": 110306302,
+    "width": 460,
+    "cachedContents": {
+      "non_null": "28",
+      "largest": "Powerscale PA110 Accelerator with PowerScale F210",
+      "null": "7",
+      "top": [
+        {
+          "item": "OceanStor Pacific 9928",
+          "count": "2"
+        },
+        {
+          "item": "FlashBlade / S500",
+          "count": "1"
+        },
+        {
+          "item": "OceanStor Pacific 9550",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale A300",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F710",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H710",
+          "count": "1"
+        },
+        {
+          "item": "FlashBlade//E",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H700",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale  A3000",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H7100",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale A310",
+          "count": "1"
+        },
+        {
+          "item": "PowerScale H7000",
+          "count": "1"
+        },
+        {
+          "item": "OceanStor Dorado 2100",
+          "count": "1"
+        },
+        {
+          "item": "OceanStor Pacific 9920",
+          "count": "1"
+        },
+        {
+          "item": "FlashBlade / S200",
+          "count": "1"
+        },
+        {
+          "item": "NX440",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F200",
+          "count": "1"
+        },
+        {
+          "item": "NX3240",
+          "count": "1"
+        },
+        {
+          "item": "Powerscale F210",
+          "count": "1"
+        },
+        {
+          "item": "OceanStor Pacific 9346",
+          "count": "1"
+        }
+      ],
+      "smallest": "FlashBlade//E",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892063,
+    "name": "Comp Power Supply Unit (PSU) Type",
+    "dataTypeName": "text",
+    "description": "The type(s) of power supply unit(s) installed.  A Power Supply Unit (PSU) is a device that converts ac or dc input power to one or more dc power outputs for the purpose of powering a storage product. A storage PSU must be self-contained and physically separable from the system and must connect to the system via a removable or hard-wired electrical connection.  If there is more than one power supply, each power supply's type will be separated by a semicolon.",
+    "fieldName": "comp_power_supply_unit_psu_type",
+    "position": 106,
+    "renderTypeName": "text",
+    "tableColumnId": 110306303,
+    "width": 496,
+    "cachedContents": {
+      "non_null": "29",
+      "largest": "Single-output\n(Ac-Dc)",
+      "null": "6",
+      "top": [
+        {
+          "item": "Multi Output",
+          "count": "19"
+        },
+        {
+          "item": "Single-output\n(Ac-Dc)",
+          "count": "6"
+        },
+        {
+          "item": "Multi-Output",
+          "count": "4"
+        }
+      ],
+      "smallest": "Multi Output",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892064,
+    "name": "Comp PSU Manufacturer Name",
+    "dataTypeName": "text",
+    "description": "The manufacturer of the installed PSU(s).  ",
+    "fieldName": "comp_psu_manufacturer_name",
+    "position": 107,
+    "renderTypeName": "text",
+    "tableColumnId": 110306304,
+    "width": 412,
+    "cachedContents": {
+      "non_null": "29",
+      "largest": "Lite-On Power Technology",
+      "null": "6",
+      "top": [
+        {
+          "item": "HUAWEI",
+          "count": "6"
+        },
+        {
+          "item": "Artesyn",
+          "count": "6"
+        },
+        {
+          "item": "Lite-On Power Technology",
+          "count": "4"
+        },
+        {
+          "item": "Delta",
+          "count": "4"
+        },
+        {
+          "item": "Artesyn Embedded Technolgies",
+          "count": "3"
+        },
+        {
+          "item": "Lite-On",
+          "count": "3"
+        },
+        {
+          "item": "AcBel",
+          "count": "2"
+        },
+        {
+          "item": "Delta Electronics",
+          "count": "1"
+        }
+      ],
+      "smallest": "AcBel",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892065,
+    "name": "Comp PSU Model Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to the PSU(s) for sales and marketing purposes.  ",
+    "fieldName": "comp_psu_model_name",
+    "position": 108,
+    "renderTypeName": "text",
+    "tableColumnId": 110306305,
+    "width": 328,
+    "cachedContents": {
+      "non_null": "24",
+      "largest": "TDPS-900AB A",
+      "null": "11",
+      "top": [
+        {
+          "item": "CSU2400AP-3-400",
+          "count": "3"
+        },
+        {
+          "item": "E750-S1",
+          "count": "2"
+        },
+        {
+          "item": "L1100E-S1",
+          "count": "2"
+        },
+        {
+          "item": "700-015603",
+          "count": "2"
+        },
+        {
+          "item": "DPS-800AB-46 A",
+          "count": "2"
+        },
+        {
+          "item": "SGK002 071-000-770-02",
+          "count": "2"
+        },
+        {
+          "item": "DPS-1400AB-7 A",
+          "count": "2"
+        },
+        {
+          "item": "PAC800D1205-CE",
+          "count": "1"
+        },
+        {
+          "item": "L750E-S0",
+          "count": "1"
+        },
+        {
+          "item": "1100W PSU",
+          "count": "1"
+        },
+        {
+          "item": "E750E-S1",
+          "count": "1"
+        },
+        {
+          "item": "700-013850--0100",
+          "count": "1"
+        },
+        {
+          "item": "071-000-712-01",
+          "count": "1"
+        },
+        {
+          "item": "TDPS-900AB A",
+          "count": "1"
+        },
+        {
+          "item": "L350E-S1",
+          "count": "1"
+        },
+        {
+          "item": "071-000-722",
+          "count": "1"
+        }
+      ],
+      "smallest": "071-000-712-01",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892066,
+    "name": "Comp PSU Model Number",
+    "dataTypeName": "text",
+    "description": "A distinguishing identifier, usually alphanumeric, assigned to the PSU(s) by the manufacturer or private labeler.  If there is more than one power supply, each power supply's model number will be separated by a semicolon.",
+    "fieldName": "comp_psu_model_number",
+    "position": 109,
+    "renderTypeName": "text",
+    "tableColumnId": 110306306,
+    "width": 352,
+    "cachedContents": {
+      "non_null": "29",
+      "largest": "TDPS-900AB A",
+      "null": "6",
+      "top": [
+        {
+          "item": "PAC2000S12-B1",
+          "count": "5"
+        },
+        {
+          "item": "CSU2400AP-3-400",
+          "count": "3"
+        },
+        {
+          "item": "700-015603",
+          "count": "2"
+        },
+        {
+          "item": "E750-S1",
+          "count": "2"
+        },
+        {
+          "item": "DPS-1400AB-7 A",
+          "count": "2"
+        },
+        {
+          "item": "PS-2112-13D-LF",
+          "count": "2"
+        },
+        {
+          "item": "DPS-800AB-46 A",
+          "count": "2"
+        },
+        {
+          "item": "SGK002 071-000-770-02",
+          "count": "2"
+        },
+        {
+          "item": "PAC800D1205-CE",
+          "count": "1"
+        },
+        {
+          "item": "PS-2751-13D1",
+          "count": "1"
+        },
+        {
+          "item": "700-013850--0100",
+          "count": "1"
+        },
+        {
+          "item": "071-000-712-01",
+          "count": "1"
+        },
+        {
+          "item": "TDPS-900AB A",
+          "count": "1"
+        },
+        {
+          "item": "700-013850-0100",
+          "count": "1"
+        },
+        {
+          "item": "700-013536-0500",
+          "count": "1"
+        },
+        {
+          "item": "D350E-S1",
+          "count": "1"
+        },
+        {
+          "item": "071-000-722",
+          "count": "1"
+        }
+      ],
+      "smallest": "071-000-712-01",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892067,
+    "name": "Comp PSU Rated Output (W)",
+    "dataTypeName": "text",
+    "description": "The Rated Output per installed PSU in watts.  If there is more than one power supply, each power supply's rated output will be separated by a semicolon.",
+    "fieldName": "comp_psu_rated_output_w",
+    "position": 110,
+    "renderTypeName": "text",
+    "tableColumnId": 110306307,
+    "width": 400,
+    "cachedContents": {
+      "non_null": "29",
+      "largest": "900",
+      "null": "6",
+      "top": [
+        {
+          "item": "1100",
+          "count": "6"
+        },
+        {
+          "item": "2000",
+          "count": "5"
+        },
+        {
+          "item": "1450",
+          "count": "3"
+        },
+        {
+          "item": "800",
+          "count": "3"
+        },
+        {
+          "item": "2400",
+          "count": "3"
+        },
+        {
+          "item": "750W",
+          "count": "3"
+        },
+        {
+          "item": "1400",
+          "count": "2"
+        },
+        {
+          "item": "350W",
+          "count": "1"
+        },
+        {
+          "item": "1050",
+          "count": "1"
+        },
+        {
+          "item": "900",
+          "count": "1"
+        },
+        {
+          "item": "750",
+          "count": "1"
+        }
+      ],
+      "smallest": "1050",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892068,
+    "name": "Comp PSUs 80PLUS Certification",
+    "dataTypeName": "text",
+    "description": "The 80PLUS certification level achieved by the PSU(s) installed.  If there is more than one power supply, each power supply's certification level will be separated by a semicolon.",
+    "fieldName": "comp_psus_80plus_certification",
+    "position": 111,
+    "renderTypeName": "text",
+    "tableColumnId": 110306308,
+    "width": 460,
+    "cachedContents": {
+      "non_null": "28",
+      "largest": "Titanium",
+      "null": "7",
+      "top": [
+        {
+          "item": "Platinum",
+          "count": "24"
+        },
+        {
+          "item": "Titanium",
+          "count": "4"
+        }
+      ],
+      "smallest": "Platinum",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892069,
+    "name": "Comp Total Amount of Cache (GiB)",
+    "dataTypeName": "text",
+    "description": "The total amount of cache available in GB.  Cache is temporary storage used to transparently store transitory data and which is not directly addressable by end-user applications. Primarily used for expediting access to or from (typically) slower devices.",
+    "fieldName": "comp_total_amount_of_cache_gib",
+    "position": 112,
+    "renderTypeName": "text",
+    "tableColumnId": 110306309,
+    "width": 484,
+    "cachedContents": {
+      "non_null": "28",
+      "largest": "768.00",
+      "null": "7",
+      "top": [
+        {
+          "item": "384.00",
+          "count": "7"
+        },
+        {
+          "item": "1536.00",
+          "count": "5"
+        },
+        {
+          "item": "256.00",
+          "count": "3"
+        },
+        {
+          "item": "512.00",
+          "count": "2"
+        },
+        {
+          "item": "640.00",
+          "count": "2"
+        },
+        {
+          "item": "2160.00",
+          "count": "2"
+        },
+        {
+          "item": "288.00",
+          "count": "1"
+        },
+        {
+          "item": "32.00",
+          "count": "1"
+        },
+        {
+          "item": "768.00",
+          "count": "1"
+        },
+        {
+          "item": "128.00",
+          "count": "1"
+        },
+        {
+          "item": "64.00",
+          "count": "1"
+        },
+        {
+          "item": "1280.00",
+          "count": "1"
+        },
+        {
+          "item": "16.00",
+          "count": "1"
+        }
+      ],
+      "smallest": "128.00",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892070,
+    "name": "Comp Devices Used for Cache",
+    "dataTypeName": "text",
+    "description": "The devices used for cache are identified here.  This can be DRAM, SSD, or Other device.",
+    "fieldName": "comp_devices_used_for_cache",
+    "position": 113,
+    "renderTypeName": "text",
+    "tableColumnId": 110306310,
+    "width": 424,
+    "cachedContents": {
+      "non_null": "28",
+      "largest": "DRAM",
+      "null": "7",
+      "top": [
+        {
+          "item": "DRAM",
+          "count": "28"
+        }
+      ],
+      "smallest": "DRAM",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892071,
+    "name": "Comp Other Devices Used for Cache",
+    "dataTypeName": "text",
+    "description": "If Other was chosen for Trans Device Used for Cache, the type of Other device is identified here.",
+    "fieldName": "comp_other_devices_used_for_cache",
+    "position": 114,
+    "renderTypeName": "text",
+    "tableColumnId": 110306311,
+    "width": 496,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892072,
+    "name": "Comp Installed Rotational Devices in Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of rotational devices installed during testing of the highest predicted deployed device(s) optimal point.  If there is more than one device in the highest predicted deployed storage device, each device's number of rotational drives is separated by a semicolon.",
+    "fieldName": "comp_installed_rotational_devices_in_optimal_point",
+    "position": 115,
+    "renderTypeName": "text",
+    "tableColumnId": 110306321,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "20",
+      "largest": "80",
+      "null": "15",
+      "top": [
+        {
+          "item": "0",
+          "count": "8"
+        },
+        {
+          "item": "80",
+          "count": "5"
+        },
+        {
+          "item": "4",
+          "count": "3"
+        },
+        {
+          "item": "60",
+          "count": "3"
+        },
+        {
+          "item": "16",
+          "count": "1"
+        }
+      ],
+      "smallest": "0",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892073,
+    "name": "Comp Num of Controllers in Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of controllers installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "comp_num_of_controllers_in_optimal_point",
+    "position": 116,
+    "renderTypeName": "text",
+    "tableColumnId": 110306322,
+    "width": 580,
+    "cachedContents": {
+      "non_null": "22",
+      "largest": "6",
+      "null": "13",
+      "top": [
+        {
+          "item": "4",
+          "count": "8"
+        },
+        {
+          "item": "1",
+          "count": "8"
+        },
+        {
+          "item": "3",
+          "count": "2"
+        },
+        {
+          "item": "6",
+          "count": "2"
+        },
+        {
+          "item": "2",
+          "count": "2"
+        }
+      ],
+      "smallest": "1",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892074,
+    "name": "Comp Num Redundant Controllers Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of redundant controllers installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "comp_num_redundant_controllers_optimal_point",
+    "position": 117,
+    "renderTypeName": "text",
+    "tableColumnId": 110306323,
+    "width": 628,
+    "cachedContents": {
+      "non_null": "22",
+      "largest": "2",
+      "null": "13",
+      "top": [
+        {
+          "item": "0",
+          "count": "19"
+        },
+        {
+          "item": "1",
+          "count": "2"
+        },
+        {
+          "item": "2",
+          "count": "1"
+        }
+      ],
+      "smallest": "0",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892075,
+    "name": "Comp Number of PSUs Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of PSUs installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "comp_number_of_psus_optimal_point",
+    "position": 118,
+    "renderTypeName": "text",
+    "tableColumnId": 110306324,
+    "width": 496,
+    "cachedContents": {
+      "non_null": "22",
+      "largest": "4",
+      "null": "13",
+      "top": [
+        {
+          "item": "2",
+          "count": "12"
+        },
+        {
+          "item": "4",
+          "count": "10"
+        }
+      ],
+      "smallest": "2",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892076,
+    "name": "Comp Number of Redundant PSUs Optimal Point",
+    "dataTypeName": "text",
+    "description": "The total number of redundant PSUs installed during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "comp_number_of_redundant_psus_optimal_point",
+    "position": 119,
+    "renderTypeName": "text",
+    "tableColumnId": 110306325,
+    "width": 616,
+    "cachedContents": {
+      "non_null": "22",
+      "largest": "4",
+      "null": "13",
+      "top": [
+        {
+          "item": "2",
+          "count": "19"
+        },
+        {
+          "item": "4",
+          "count": "3"
+        }
+      ],
+      "smallest": "2",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892077,
+    "name": "Comp Auto Tiering Enabled Optimal Point",
+    "dataTypeName": "text",
+    "description": "If automated storage tiering (auto-tiering) was enabled during testing of the highest predicted deployed device(s) optimal point.",
+    "fieldName": "comp_auto_tiering_enabled_optimal_point",
+    "position": 120,
+    "renderTypeName": "text",
+    "tableColumnId": 110306326,
+    "width": 568,
+    "cachedContents": {
+      "non_null": "20",
+      "largest": "No",
+      "null": "15",
+      "top": [
+        {
+          "item": "No",
+          "count": "20"
+        }
+      ],
+      "smallest": "No",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892078,
+    "name": "Comp Optimal Point SW Build  Workload Test",
+    "dataTypeName": "text",
+    "description": "The SW Build measurement for the highest predicted deployed storage device optimal point",
+    "fieldName": "comp_optimal_point_sw_build_workload_test",
+    "position": 121,
+    "renderTypeName": "text",
+    "tableColumnId": 110306327,
+    "width": 604,
+    "cachedContents": {
+      "non_null": "28",
+      "largest": "2.60",
+      "null": "7",
+      "top": [
+        {
+          "item": "0.03",
+          "count": "4"
+        },
+        {
+          "item": "0.02",
+          "count": "2"
+        },
+        {
+          "item": "0.05",
+          "count": "2"
+        },
+        {
+          "item": "0.14",
+          "count": "2"
+        },
+        {
+          "item": "0.01",
+          "count": "2"
+        },
+        {
+          "item": "0.07",
+          "count": "1"
+        },
+        {
+          "item": "0.93",
+          "count": "1"
+        },
+        {
+          "item": "0.13",
+          "count": "1"
+        },
+        {
+          "item": "0.12",
+          "count": "1"
+        },
+        {
+          "item": "2.60",
+          "count": "1"
+        },
+        {
+          "item": "0.45",
+          "count": "1"
+        },
+        {
+          "item": "0.08",
+          "count": "1"
+        },
+        {
+          "item": "0.27",
+          "count": "1"
+        },
+        {
+          "item": "2.33",
+          "count": "1"
+        },
+        {
+          "item": "0.04",
+          "count": "1"
+        },
+        {
+          "item": "0.06",
+          "count": "1"
+        },
+        {
+          "item": "0.11",
+          "count": "1"
+        },
+        {
+          "item": "0.82",
+          "count": "1"
+        },
+        {
+          "item": "0.39",
+          "count": "1"
+        },
+        {
+          "item": "0.76",
+          "count": "1"
+        }
+      ],
+      "smallest": "0.01",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892079,
+    "name": "Comp Optimal Point Ready Idle Workload Test (GB/W)",
+    "dataTypeName": "text",
+    "description": "The ready idle measurement for the highest predicted deployed storage device optimal point in GB per watt.",
+    "fieldName": "comp_optimal_point_ready_idle_workload_test_gb_w",
+    "position": 122,
+    "renderTypeName": "text",
+    "tableColumnId": 110306328,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "28",
+      "largest": "974.62",
+      "null": "7",
+      "top": [
+        {
+          "item": "318.23",
+          "count": "2"
+        },
+        {
+          "item": "86.14",
+          "count": "1"
+        },
+        {
+          "item": "145.89",
+          "count": "1"
+        },
+        {
+          "item": "226.18",
+          "count": "1"
+        },
+        {
+          "item": "1012.90",
+          "count": "1"
+        },
+        {
+          "item": "696.89",
+          "count": "1"
+        },
+        {
+          "item": "974.62",
+          "count": "1"
+        },
+        {
+          "item": "94.50",
+          "count": "1"
+        },
+        {
+          "item": "786.90",
+          "count": "1"
+        },
+        {
+          "item": "173.08",
+          "count": "1"
+        },
+        {
+          "item": "103.91",
+          "count": "1"
+        },
+        {
+          "item": "18.58",
+          "count": "1"
+        },
+        {
+          "item": "38.50",
+          "count": "1"
+        },
+        {
+          "item": "2156.12",
+          "count": "1"
+        },
+        {
+          "item": "85.22",
+          "count": "1"
+        },
+        {
+          "item": "164.13",
+          "count": "1"
+        },
+        {
+          "item": "322.80",
+          "count": "1"
+        },
+        {
+          "item": "66.38",
+          "count": "1"
+        },
+        {
+          "item": "157.81",
+          "count": "1"
+        },
+        {
+          "item": "1077.44",
+          "count": "1"
+        }
+      ],
+      "smallest": "1012.90",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892080,
+    "name": "Comp Storage Device 1 Type",
+    "dataTypeName": "text",
+    "description": "The type of storage device can be either a Hard Disk Drive (HDD) or a Solid State Drive (SSD).  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_storage_device_1_type",
+    "position": 123,
+    "renderTypeName": "text",
+    "tableColumnId": 110306329,
+    "width": 412,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892081,
+    "name": "Comp Storage Device 1 Form Factor",
+    "dataTypeName": "text",
+    "description": "The form factor of storage device 1 is either 2.5 inch, 3.5 inch, or Other.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_storage_device_1_form_factor",
+    "position": 124,
+    "renderTypeName": "text",
+    "tableColumnId": 110306330,
+    "width": 496,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892082,
+    "name": "Comp Storage Device 1 Rated Speed (RPM)",
+    "dataTypeName": "text",
+    "description": "The rated speed of storage device 1 in RPM.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_storage_device_1_rated_speed_rpm",
+    "position": 125,
+    "renderTypeName": "text",
+    "tableColumnId": 110306331,
+    "width": 568,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892083,
+    "name": "Comp Storage Device 1 Raw Capacity (GiB)",
+    "dataTypeName": "text",
+    "description": "The raw capacity of storage device 1 in GB.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_storage_device_1_raw_capacity_gib",
+    "position": 126,
+    "renderTypeName": "text",
+    "tableColumnId": 110306332,
+    "width": 580,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892084,
+    "name": "Comp Num Devices Storage Device 1 Optimal Point",
+    "dataTypeName": "text",
+    "description": "The number of devices installed in storage device 1 optimal point.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_num_devices_storage_device_1_optimal_point",
+    "position": 127,
+    "renderTypeName": "text",
+    "tableColumnId": 110306333,
+    "width": 664,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892085,
+    "name": "Comp Physical or Modeled Data Device 1 Optimal Point",
+    "dataTypeName": "text",
+    "description": "The data for the storage device 1 optimal point is obtained by physically testing the system or through the use of modeled data.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_physical_or_modeled_data_device_1_optimal_point",
+    "position": 128,
+    "renderTypeName": "text",
+    "tableColumnId": 110306334,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892086,
+    "name": "Comp Automated Tiering Enabled During Testing Device 1",
+    "dataTypeName": "text",
+    "description": "If automated storage tiering (auto-tiering) was enabled during testing of the storage device 1.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_automated_tiering_enabled_during_testing_device_1",
+    "position": 129,
+    "renderTypeName": "text",
+    "tableColumnId": 110306335,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892087,
+    "name": "Comp Device 1 Optimal Point SW Build Workload Test",
+    "dataTypeName": "text",
+    "description": "The SW Build measurement for the highest predicted deployed storage device optimal point\n",
+    "fieldName": "comp_device_1_optimal_point_sw_build_workload_test",
+    "position": 130,
+    "renderTypeName": "text",
+    "tableColumnId": 110306336,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892088,
+    "name": "Comp Device 1 Optimal Point Ready Idle Workload Test (GB/W)",
+    "dataTypeName": "text",
+    "description": "The ready idle measurement for storage device 1 optimal point in GB per watt.  Storage device 1 is the first device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_device_1_optimal_point_ready_idle_workload_test_gb_w",
+    "position": 131,
+    "renderTypeName": "text",
+    "tableColumnId": 110306337,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892089,
+    "name": "Comp Storage Device 2 Type",
+    "dataTypeName": "text",
+    "description": "The type of storage device can be either a Hard Disk Drive (HDD) or a Solid State Drive (SSD).  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_storage_device_2_type",
+    "position": 132,
+    "renderTypeName": "text",
+    "tableColumnId": 110306338,
+    "width": 412,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892090,
+    "name": "Comp Storage Device 2 Form Factor",
+    "dataTypeName": "text",
+    "description": "The form factor of storage device 2 is either 2.5 inch, 3.5 inch, or Other.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_storage_device_2_form_factor",
+    "position": 133,
+    "renderTypeName": "text",
+    "tableColumnId": 110306339,
+    "width": 496,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892091,
+    "name": "Comp Storage Device 2 Rated Speed (RPM)",
+    "dataTypeName": "text",
+    "description": "The rated speed of storage device 2 in RPM.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_storage_device_2_rated_speed_rpm",
+    "position": 134,
+    "renderTypeName": "text",
+    "tableColumnId": 110306340,
+    "width": 568,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892092,
+    "name": "Cap Storage Device 2 Raw Capacity (GB)",
+    "dataTypeName": "text",
+    "description": "The raw capacity of storage device 2 in GB.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "cap_storage_device_2_raw_capacity_gb",
+    "position": 135,
+    "renderTypeName": "text",
+    "tableColumnId": 110306341,
+    "width": 556,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892093,
+    "name": "Comp Num Devices Storage Device 2 Optimal Point",
+    "dataTypeName": "text",
+    "description": "The number of devices installed in storage device 2 optimal point.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_num_devices_storage_device_2_optimal_point",
+    "position": 136,
+    "renderTypeName": "text",
+    "tableColumnId": 110306342,
+    "width": 664,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892094,
+    "name": "Comp Physical or Modeled Data Device 2 Optimal Point",
+    "dataTypeName": "text",
+    "description": "The data for the storage device 2 optimal point is obtained by physically testing the system or through the use of modeled data.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_physical_or_modeled_data_device_2_optimal_point",
+    "position": 137,
+    "renderTypeName": "text",
+    "tableColumnId": 110306343,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892095,
+    "name": "Comp Automated Tiering Enabled During Testing Device 2",
+    "dataTypeName": "text",
+    "description": "If automated storage tiering (auto-tiering) was enabled during testing of the storage device 2.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_automated_tiering_enabled_during_testing_device_2",
+    "position": 138,
+    "renderTypeName": "text",
+    "tableColumnId": 110306344,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892096,
+    "name": "Comp Device 2 Optimal Point SW Build  Workload Test",
+    "dataTypeName": "text",
+    "description": "The SW Build measurement for the highest predicted deployed storage device optimal point",
+    "fieldName": "comp_device_2_optimal_point_sw_build_workload_test",
+    "position": 139,
+    "renderTypeName": "text",
+    "tableColumnId": 110306345,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892097,
+    "name": "Comp Device 2 Optimal Point Ready Idle Workload Test (GB/W)",
+    "dataTypeName": "text",
+    "description": "The ready idle measurement for storage device 2 optimal point in GB per watt.  Storage device 2 is the second device in addition to the highest predicted deployed storage device.",
+    "fieldName": "comp_device_2_optimal_point_ready_idle_workload_test_gb_w",
+    "position": 140,
+    "renderTypeName": "text",
+    "tableColumnId": 110306346,
+    "width": 700,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "35",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892098,
+    "name": "Date Available On Market",
+    "dataTypeName": "calendar_date",
+    "description": "The date that the model is available for purchase.",
+    "fieldName": "date_available_on_market",
+    "position": 141,
+    "renderTypeName": "calendar_date",
+    "tableColumnId": 110306383,
+    "width": 388,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "2026-03-10T00:00:00.000",
+      "null": "0",
+      "top": [
+        {
+          "item": "2025-06-27T00:00:00.000",
+          "count": "4"
+        },
+        {
+          "item": "2025-03-24T00:00:00.000",
+          "count": "3"
+        },
+        {
+          "item": "2021-09-07T00:00:00.000",
+          "count": "3"
+        },
+        {
+          "item": "2023-09-01T00:00:00.000",
+          "count": "3"
+        },
+        {
+          "item": "2025-09-30T00:00:00.000",
+          "count": "2"
+        },
+        {
+          "item": "2020-06-16T00:00:00.000",
+          "count": "2"
+        },
+        {
+          "item": "2025-01-01T00:00:00.000",
+          "count": "2"
+        },
+        {
+          "item": "2018-05-01T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2018-05-11T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2022-07-20T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2023-01-30T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2023-04-01T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2021-04-11T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2023-06-26T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2025-08-25T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2021-05-11T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2019-05-14T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2025-05-28T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2026-03-10T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2021-12-01T00:00:00.000",
+          "count": "1"
+        }
+      ],
+      "smallest": "2018-05-01T00:00:00.000",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892099,
+    "name": "Date Qualified",
+    "dataTypeName": "calendar_date",
+    "description": "The date on which the product was confirmed to meet the ENERGY STAR specification.",
+    "fieldName": "date_qualified",
+    "position": 142,
+    "renderTypeName": "calendar_date",
+    "tableColumnId": 110306384,
+    "width": 268,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "2026-05-29T00:00:00.000",
+      "null": "0",
+      "top": [
+        {
+          "item": "2025-03-13T00:00:00.000",
+          "count": "3"
+        },
+        {
+          "item": "2021-09-21T00:00:00.000",
+          "count": "3"
+        },
+        {
+          "item": "2024-09-18T00:00:00.000",
+          "count": "2"
+        },
+        {
+          "item": "2023-05-25T00:00:00.000",
+          "count": "2"
+        },
+        {
+          "item": "2020-09-10T00:00:00.000",
+          "count": "2"
+        },
+        {
+          "item": "2026-04-10T00:00:00.000",
+          "count": "2"
+        },
+        {
+          "item": "2021-10-07T00:00:00.000",
+          "count": "2"
+        },
+        {
+          "item": "2025-07-31T00:00:00.000",
+          "count": "2"
+        },
+        {
+          "item": "2023-08-30T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2021-08-06T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2023-08-01T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2022-05-19T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2023-01-30T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2021-05-28T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2026-03-11T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2025-06-11T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2025-09-29T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2026-05-04T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2025-08-25T00:00:00.000",
+          "count": "1"
+        },
+        {
+          "item": "2022-03-01T00:00:00.000",
+          "count": "1"
+        }
+      ],
+      "smallest": "2020-09-09T00:00:00.000",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892100,
+    "name": "Markets",
+    "dataTypeName": "text",
+    "description": "Includes products sold in the U.S. and/or Canada and other ENERGY STAR partner countries.",
+    "fieldName": "markets",
+    "position": 143,
+    "renderTypeName": "text",
+    "tableColumnId": 110306385,
+    "width": 184,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "United States, Canada",
+      "null": "0",
+      "top": [
+        {
+          "item": "United States, Canada",
+          "count": "32"
+        },
+        {
+          "item": "United States",
+          "count": "3"
+        }
+      ],
+      "smallest": "United States",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547892101,
+    "name": "ENERGY STAR Model Identifier",
+    "dataTypeName": "text",
+    "description": "A unique string of characters assigned by certificationbodies (CBs) to identify a model or set of models with the same performancecharacteristics. This identifier should remain the same for a model even if itis recertified to a new version of an ENERGY STAR specification. This string ofcharacters is determined by CBs and is not the ENERGY STAR Unique ID assignedby EPA.",
+    "fieldName": "energy_star_model_identifier",
+    "position": 144,
+    "renderTypeName": "text",
+    "tableColumnId": 110306386,
+    "width": 436,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "Flashblade S500",
+      "null": "0",
+      "top": [
+        {
+          "item": "ES_1026289_NX3340_09152020122704_7490868",
+          "count": "1"
+        },
+        {
+          "item": "ES_1100906_OceanStor Pacific 9346, OceanStor Pacific 9546, DPE70000_03042025154633_3755609",
+          "count": "1"
+        },
+        {
+          "item": "ES_29573_PowerScale H710_08252025151816_4780706",
+          "count": "1"
+        },
+        {
+          "item": "ES_1100906_OceanStor Pacific 9926_04092026151514_5178644",
+          "count": "1"
+        },
+        {
+          "item": "ES_29573_Powerscale F910_09182024104259_7096259",
+          "count": "1"
+        },
+        {
+          "item": "Flashblade S500",
+          "count": "1"
+        },
+        {
+          "item": "ES_29573_Powerscale H700_09212021152600_6968701",
+          "count": "1"
+        },
+        {
+          "item": "ES_29573_Powerscale F600_09212021150440_9310369",
+          "count": "1"
+        },
+        {
+          "item": "ES_1100906_OceanStor Pacific 9920, DPE60000_02282025104109_493585",
+          "count": "1"
+        },
+        {
+          "item": "ES_29573_Powerscale P100 Accelerator and Powerscale F900_03012022165111_8131564",
+          "count": "1"
+        },
+        {
+          "item": "ES_29573_Isilon H7000_10072021155849_4891109",
+          "count": "1"
+        },
+        {
+          "item": "ES_29573_Powerscale F210_09182024105138_9516432",
+          "count": "1"
+        },
+        {
+          "item": "ES_1100906_OceanStor Dorado 2020_04302026153253_4481927",
+          "count": "1"
+        },
+        {
+          "item": "ES_1093185_AFF A50_082820251830738_4914447",
+          "count": "1"
+        },
+        {
+          "item": "ES_29573_Powerscale F900_09212021151924_3594628",
+          "count": "1"
+        },
+        {
+          "item": "ES_29573_Powerscale F200_08062021151110_1740944",
+          "count": "1"
+        },
+        {
+          "item": "ES_29573_Powerscale PA110 Accelerator with PowerScale F210_06112025150458_3639479",
+          "count": "1"
+        },
+        {
+          "item": "FlashBlade//E",
+          "count": "1"
+        },
+        {
+          "item": "ES_1093185_FAS2820_20237101105227_3574705",
+          "count": "1"
+        },
+        {
+          "item": "ES_29573_PowerScale A3100_07312025142522_4842204",
+          "count": "1"
+        }
+      ],
+      "smallest": "ES_1026289_NX3240_09152020120905_2335871",
+      "count": "35",
+      "cardinality": "35"
+    },
+    "format": {
+      "align": "left"
+    }
+  }
+]

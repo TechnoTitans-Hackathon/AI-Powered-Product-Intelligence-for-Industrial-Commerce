@@ -1,0 +1,2160 @@
+[
+  {
+    "id": 568389647,
+    "name": "ENERGY STAR Unique ID",
+    "dataTypeName": "number",
+    "description": "The ENERGY STAR Unique ID (ESUID) is a string of seven numbers EPA assigns to an ENERGY STAR model or set of models with unique performance characteristics. This ESUID is unique to both the model and product specification version and is assigned by EPA upon receipt of certification information from the certification body. Each row within the product list will have a unique ESUID. Developers may wish to use this ESUID to track information on certified models in their information systems.\n",
+    "fieldName": "pd_id",
+    "position": 1,
+    "renderTypeName": "number",
+    "tableColumnId": 52327907,
+    "width": 160,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "4683037",
+      "null": "0",
+      "top": [
+        {
+          "item": "4521120",
+          "count": "1"
+        },
+        {
+          "item": "4430452",
+          "count": "1"
+        },
+        {
+          "item": "4519983",
+          "count": "1"
+        },
+        {
+          "item": "4430741",
+          "count": "1"
+        },
+        {
+          "item": "4021344",
+          "count": "1"
+        },
+        {
+          "item": "4521024",
+          "count": "1"
+        },
+        {
+          "item": "3894073",
+          "count": "1"
+        },
+        {
+          "item": "4516111",
+          "count": "1"
+        },
+        {
+          "item": "4527155",
+          "count": "1"
+        },
+        {
+          "item": "4525983",
+          "count": "1"
+        },
+        {
+          "item": "4517623",
+          "count": "1"
+        },
+        {
+          "item": "4431121",
+          "count": "1"
+        },
+        {
+          "item": "4522273",
+          "count": "1"
+        },
+        {
+          "item": "4528257",
+          "count": "1"
+        },
+        {
+          "item": "4525315",
+          "count": "1"
+        },
+        {
+          "item": "4497126",
+          "count": "1"
+        },
+        {
+          "item": "4520897",
+          "count": "1"
+        },
+        {
+          "item": "4021446",
+          "count": "1"
+        },
+        {
+          "item": "4523166",
+          "count": "1"
+        },
+        {
+          "item": "4526059",
+          "count": "1"
+        }
+      ],
+      "smallest": "3354888",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "noCommas": "true",
+      "align": "right"
+    }
+  },
+  {
+    "id": 568389648,
+    "name": "ENERGY STAR Partner",
+    "dataTypeName": "text",
+    "description": "An organization that signed a Partnership Agreement with EPA to manufacture or private label ENERGY STAR qualified products.\n",
+    "fieldName": "energy_star_partner",
+    "position": 2,
+    "renderTypeName": "text",
+    "tableColumnId": 52327908,
+    "width": 328,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "Lennox Industries",
+      "null": "0",
+      "top": [
+        {
+          "item": "Carrier Corporation",
+          "count": "8512"
+        },
+        {
+          "item": "Lennox Industries",
+          "count": "1889"
+        },
+        {
+          "item": "Allied Air Enterprises",
+          "count": "1571"
+        },
+        {
+          "item": "Daikin Comfort Technologies Manufacturing, L.P.",
+          "count": "12"
+        },
+        {
+          "item": "GE Appliances, a Haier Company",
+          "count": "10"
+        }
+      ],
+      "smallest": "Allied Air Enterprises",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 568389649,
+    "name": "Brand Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to a product or family/series of products for sales and marketing purposes.",
+    "fieldName": "brand_name",
+    "position": 3,
+    "renderTypeName": "text",
+    "tableColumnId": 52327909,
+    "width": 260,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "WEATHERMAKER",
+      "null": "0",
+      "top": [
+        {
+          "item": "Lennox",
+          "count": "1745"
+        },
+        {
+          "item": "ALLIED COMMERCIAL",
+          "count": "1715"
+        },
+        {
+          "item": "Carrier",
+          "count": "806"
+        },
+        {
+          "item": "Kenmore",
+          "count": "724"
+        },
+        {
+          "item": "BRYANT HEATING AND COOLING SYSTEMS",
+          "count": "723"
+        },
+        {
+          "item": "Airquest",
+          "count": "710"
+        },
+        {
+          "item": "Arcoaire",
+          "count": "695"
+        },
+        {
+          "item": "Day & Night",
+          "count": "695"
+        },
+        {
+          "item": "Tempstar",
+          "count": "695"
+        },
+        {
+          "item": "Comfortmaker",
+          "count": "695"
+        },
+        {
+          "item": "Keeprite",
+          "count": "695"
+        },
+        {
+          "item": "Heil",
+          "count": "695"
+        },
+        {
+          "item": "MARATHERM",
+          "count": "491"
+        },
+        {
+          "item": "ACIQ",
+          "count": "478"
+        },
+        {
+          "item": "WEATHERMAKER",
+          "count": "128"
+        },
+        {
+          "item": "PAYNE HEATING AND COOLING",
+          "count": "127"
+        },
+        {
+          "item": "BROCK",
+          "count": "124"
+        },
+        {
+          "item": "SMART COMFORT",
+          "count": "16"
+        },
+        {
+          "item": "Daikin",
+          "count": "12"
+        },
+        {
+          "item": "Bryant Heating & Cooling Systems",
+          "count": "12"
+        }
+      ],
+      "smallest": "ACIQ",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 568389650,
+    "name": "Model Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to a product or family/series of products for sales and marketing purposes.\n",
+    "fieldName": "model_name",
+    "position": 4,
+    "renderTypeName": "text",
+    "tableColumnId": 52327910,
+    "width": 220,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "SHH060U5E**J",
+      "null": "0",
+      "top": [
+        {
+          "item": "PERFORMANCE 13.4 SEER2 AC",
+          "count": "6404"
+        },
+        {
+          "item": "Merit ML17KC2 SERIES",
+          "count": "921"
+        },
+        {
+          "item": "COMFORT 13.4 SEER2 AC",
+          "count": "762"
+        },
+        {
+          "item": "Merit ML17KC2 Series",
+          "count": "641"
+        },
+        {
+          "item": "13.4 SEER2 AC",
+          "count": "593"
+        },
+        {
+          "item": "LEGACY 13.4 SEER2 AC",
+          "count": "460"
+        },
+        {
+          "item": "ML14KP1 Series",
+          "count": "341"
+        },
+        {
+          "item": "MERIT ML14KP1 Series",
+          "count": "339"
+        },
+        {
+          "item": "ML17KC2 SERIES",
+          "count": "336"
+        },
+        {
+          "item": "MERIT ML13KC1 SERIES",
+          "count": "212"
+        },
+        {
+          "item": "Merit ML13KC1 Series",
+          "count": "182"
+        },
+        {
+          "item": "PERFORMANCE 16 SEER2 HP",
+          "count": "143"
+        },
+        {
+          "item": "ML13KC1 SERIES",
+          "count": "121"
+        },
+        {
+          "item": "ML13KC1-042-230A**",
+          "count": "77"
+        },
+        {
+          "item": "1082495",
+          "count": "49"
+        },
+        {
+          "item": "MERIT ML18XC2 SERIES",
+          "count": "48"
+        },
+        {
+          "item": "15 SEER2 HP",
+          "count": "26"
+        },
+        {
+          "item": "LEGACY 15 SEER2 HP",
+          "count": "17"
+        },
+        {
+          "item": "COMFORT 15 SEER2 HP",
+          "count": "14"
+        },
+        {
+          "item": "Performance AC",
+          "count": "12"
+        }
+      ],
+      "smallest": "1082495",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 568389651,
+    "name": "Model Number",
+    "dataTypeName": "text",
+    "description": "A distinguishing, alphanumeric identifier, assigned to a product by the manufacturer or private labeler. The model number may include a wildcard that can be replaced by any letter or digit and still accurately capture what is covered by the model’s ENERGY STAR certification; an asterisk symbol (*) represents a letter, and a number symbol (#) a digit. For light commercial HVAC models, model number indicates the outdoor model number.",
+    "fieldName": "model_number",
+    "position": 5,
+    "renderTypeName": "text",
+    "tableColumnId": 52327911,
+    "width": 244,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "SHH060U5E**J",
+      "null": "0",
+      "top": [
+        {
+          "item": "N5A4S36*L*NAA*",
+          "count": "2154"
+        },
+        {
+          "item": "N5A4S36*H*NAA*",
+          "count": "2154"
+        },
+        {
+          "item": "N5A4S36*S*NAA*",
+          "count": "1933"
+        },
+        {
+          "item": "ML17KC2-036-233A**",
+          "count": "1467"
+        },
+        {
+          "item": "PA4SAP536**NA*",
+          "count": "592"
+        },
+        {
+          "item": "ML17KC2-048-233A**",
+          "count": "430"
+        },
+        {
+          "item": "ML13KC1-036-233A**",
+          "count": "429"
+        },
+        {
+          "item": "26SCA436N**60*",
+          "count": "240"
+        },
+        {
+          "item": "26SCA436N**50*",
+          "count": "240"
+        },
+        {
+          "item": "26SCA436N**10*",
+          "count": "240"
+        },
+        {
+          "item": "134SEP036**NA*",
+          "count": "230"
+        },
+        {
+          "item": "134SAP036**NA*",
+          "count": "230"
+        },
+        {
+          "item": "ML14KP1-042-463A**",
+          "count": "176"
+        },
+        {
+          "item": "ML14KP1-042-233A**",
+          "count": "176"
+        },
+        {
+          "item": "ML13KC1-042-233A**",
+          "count": "163"
+        },
+        {
+          "item": "ML14KP1-036-233A**",
+          "count": "139"
+        },
+        {
+          "item": "ML14KP1-036-463A**",
+          "count": "138"
+        },
+        {
+          "item": "N5A4S48*S*NAA*",
+          "count": "117"
+        },
+        {
+          "item": "ML14KP1-048-463A**",
+          "count": "58"
+        },
+        {
+          "item": "ML14KP1-048-233A**",
+          "count": "56"
+        }
+      ],
+      "smallest": "134SAP036**NA*",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 568389652,
+    "name": "Additional Model Information",
+    "dataTypeName": "text",
+    "description": "This column includes for the qualified model or family, family members, additional model names, model numbers and other identifying information associated with a product or family/series of products for sales and marketing purposes. Other identifying information includes, but is not limited to, SKUs, retail numbers, and/or descriptions of models included/not included in the reported Model Family.",
+    "fieldName": "additional_model_information",
+    "position": 6,
+    "renderTypeName": "text",
+    "tableColumnId": 52327912,
+    "width": 431,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "11994",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 568389653,
+    "name": "UPC",
+    "dataTypeName": "text",
+    "description": "UPC codes provided by partners for ENERGY STAR certified products. The brand, model name and model number continue to serve as the identifiers used to establish certification. The UPC code data below is intended to aid in identification of ENERGY STAR models. UPC code data is not provided for all certified models.",
+    "fieldName": "upc",
+    "position": 7,
+    "renderTypeName": "text",
+    "tableColumnId": 139506829,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "11994",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389654,
+    "name": "Type",
+    "dataTypeName": "text",
+    "description": "An air conditioner model consists of one or more factory-made assemblies that normally include an evaporator or cooling coil(s), compressor(s), and condenser(s) to provide the function of air cooling. A heat pump model is similar but also provides the function of air heating. Air conditioners and heat pumps may additionally include the functions of air circulation, air cleaning, dehumidifying, or humidifying. A variable refrigerant flow multi-split (VRF) model consists of a unit of commercial package air-conditioning and heating equipment that is configured as a split system incorporating a single refrigerant circuit, with one or more outdoor units, at least one variable-speed compressor or an alternate compressor combination for varying the capacity of the system by three or more steps, and multiple indoor fan coil units, each of which is individually metered and individually controlled by an integral control device and common communications network and which can operate independently in response to multiple indoor thermostats. Very Small: <65,000 BTU/h Small: ≥65,000 BTU/h and <135,000 BTU/h Large: ≥135,000 BTU/h and <240,000 BTU/h",
+    "fieldName": "type",
+    "position": 8,
+    "renderTypeName": "text",
+    "tableColumnId": 52327913,
+    "width": 148,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "Very Small HP",
+      "null": "0",
+      "top": [
+        {
+          "item": "Very Small AC",
+          "count": "10966"
+        },
+        {
+          "item": "Very Small HP",
+          "count": "993"
+        },
+        {
+          "item": "Small or Large AC",
+          "count": "24"
+        },
+        {
+          "item": "Small or Large HP",
+          "count": "11"
+        }
+      ],
+      "smallest": "Small or Large AC",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 568389673,
+    "name": "Split System or Single Package",
+    "dataTypeName": "text",
+    "description": "This column identifies whether the system uses a split system arrangement (remote condensing unit) or a single package system (all components are stored in a single cabinet). All VRF models are required to be listed as \"Split System\".",
+    "fieldName": "split_system_or_single_package",
+    "position": 9,
+    "renderTypeName": "text",
+    "tableColumnId": 144758880,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "Split",
+      "null": "0",
+      "top": [
+        {
+          "item": "Split",
+          "count": "11700"
+        },
+        {
+          "item": "Packaged",
+          "count": "294"
+        }
+      ],
+      "smallest": "Packaged",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389655,
+    "name": "Cooling Capacity (kBtu/h)",
+    "dataTypeName": "number",
+    "description": "The capacity associated with the change in air enthalpy between the air entering the unit and the air leaving the unit, which includes both the latent (change in humidity ratio) and sensible (change in dry-bulb temperature) capacities expressed in Btu/h and include the heat of circulation fan(s) and motor(s). \n",
+    "fieldName": "cooling_capacity_kbtu_h",
+    "position": 10,
+    "renderTypeName": "number",
+    "tableColumnId": 52327914,
+    "width": 225,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "228",
+      "null": "0",
+      "top": [
+        {
+          "item": "0",
+          "count": "11863"
+        },
+        {
+          "item": "58",
+          "count": "24"
+        },
+        {
+          "item": "57",
+          "count": "12"
+        },
+        {
+          "item": "36",
+          "count": "12"
+        },
+        {
+          "item": "59",
+          "count": "10"
+        },
+        {
+          "item": "58.5",
+          "count": "8"
+        },
+        {
+          "item": "228",
+          "count": "7"
+        },
+        {
+          "item": "46",
+          "count": "6"
+        },
+        {
+          "item": "49",
+          "count": "6"
+        },
+        {
+          "item": "57.5",
+          "count": "6"
+        },
+        {
+          "item": "60",
+          "count": "6"
+        },
+        {
+          "item": "34",
+          "count": "6"
+        },
+        {
+          "item": "200",
+          "count": "4"
+        },
+        {
+          "item": "172",
+          "count": "4"
+        },
+        {
+          "item": "97",
+          "count": "4"
+        },
+        {
+          "item": "150",
+          "count": "4"
+        },
+        {
+          "item": "88",
+          "count": "4"
+        },
+        {
+          "item": "176",
+          "count": "3"
+        },
+        {
+          "item": "156",
+          "count": "3"
+        },
+        {
+          "item": "136",
+          "count": "2"
+        }
+      ],
+      "smallest": "0",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "noCommas": "false",
+      "align": "right"
+    }
+  },
+  {
+    "id": 568389680,
+    "name": "Heating Capacity at 47°F (kBtu/h)",
+    "dataTypeName": "number",
+    "description": "The ability of the system to deliver sensible and latent heating when the outside air temperature is 47 F.",
+    "fieldName": "heating_capacity_at_47f_kbtu_h",
+    "position": 11,
+    "renderTypeName": "number",
+    "tableColumnId": 144758887,
+    "cachedContents": {
+      "non_null": "11",
+      "largest": "226",
+      "null": "11983",
+      "top": [
+        {
+          "item": "150",
+          "count": "3"
+        },
+        {
+          "item": "176",
+          "count": "3"
+        },
+        {
+          "item": "226",
+          "count": "3"
+        },
+        {
+          "item": "128",
+          "count": "2"
+        }
+      ],
+      "smallest": "128",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389679,
+    "name": "Heating Capacity at 17°F (kBtu/h)",
+    "dataTypeName": "number",
+    "description": "The ability of the system to deliver sensible and latent heating when the outside air temperature is 17 F.",
+    "fieldName": "heating_capacity_at_17f_kbtu_h",
+    "position": 12,
+    "renderTypeName": "number",
+    "tableColumnId": 144758886,
+    "cachedContents": {
+      "non_null": "1004",
+      "largest": "128",
+      "null": "10990",
+      "top": [
+        {
+          "item": "25",
+          "count": "134"
+        },
+        {
+          "item": "20.4",
+          "count": "127"
+        },
+        {
+          "item": "25.2",
+          "count": "104"
+        },
+        {
+          "item": "30.8",
+          "count": "86"
+        },
+        {
+          "item": "20.2",
+          "count": "82"
+        },
+        {
+          "item": "30",
+          "count": "48"
+        },
+        {
+          "item": "29.8",
+          "count": "46"
+        },
+        {
+          "item": "25.4",
+          "count": "43"
+        },
+        {
+          "item": "20",
+          "count": "38"
+        },
+        {
+          "item": "24.8",
+          "count": "36"
+        },
+        {
+          "item": "22.4",
+          "count": "35"
+        },
+        {
+          "item": "24.6",
+          "count": "32"
+        },
+        {
+          "item": "21.6",
+          "count": "30"
+        },
+        {
+          "item": "22.2",
+          "count": "27"
+        },
+        {
+          "item": "20.6",
+          "count": "26"
+        },
+        {
+          "item": "30.2",
+          "count": "24"
+        },
+        {
+          "item": "25.8",
+          "count": "16"
+        },
+        {
+          "item": "19",
+          "count": "12"
+        },
+        {
+          "item": "33",
+          "count": "12"
+        },
+        {
+          "item": "30.6",
+          "count": "10"
+        }
+      ],
+      "smallest": "19",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389678,
+    "name": "Heating Capacity at 5°F (kBtu/h)",
+    "dataTypeName": "number",
+    "description": "The ability of the system to deliver sensible and latent heating when the outside air temperature is 5 F.",
+    "fieldName": "heating_capacity_at_5f_kbtu_h",
+    "position": 13,
+    "renderTypeName": "number",
+    "tableColumnId": 144758885,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "11994",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389656,
+    "name": "Heating Section Type",
+    "dataTypeName": "text",
+    "description": "The type of heating section the LCHVAC systems uses. Central air conditioners and heat pumps systems can use either all other heating section types (propane, gas, oil), electric resistance, or none. VRF Multi-Split systems either come with heat recovery or without heat recovery.",
+    "fieldName": "heating_section_type",
+    "position": 14,
+    "renderTypeName": "text",
+    "tableColumnId": 52327915,
+    "width": 239,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "None",
+      "null": "0",
+      "top": [
+        {
+          "item": "All Other",
+          "count": "8814"
+        },
+        {
+          "item": "None",
+          "count": "2548"
+        },
+        {
+          "item": "Electric Resistance",
+          "count": "632"
+        }
+      ],
+      "smallest": "All Other",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 568389671,
+    "name": "Cold Climate",
+    "dataTypeName": "text",
+    "description": "Indicates heat pumps that meet the ENERGY STAR cold climate criteria; cold climate heat pumps will provide better heating performance in low ambient temperatures, making these products an excellent choice for cold climate installations where the heat pump will be the sole heating source.",
+    "fieldName": "cold_climate",
+    "position": 15,
+    "renderTypeName": "text",
+    "tableColumnId": 144758878,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "No",
+      "null": "0",
+      "top": [
+        {
+          "item": "NA",
+          "count": "10990"
+        },
+        {
+          "item": "No",
+          "count": "1004"
+        }
+      ],
+      "smallest": "NA",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389670,
+    "name": "Meets Peak Cooling Requirements",
+    "dataTypeName": "text",
+    "description": "Meets EER2 requirements for efficient cooling at 95F.",
+    "fieldName": "meets_peak_cooling_requirements",
+    "position": 16,
+    "renderTypeName": "text",
+    "tableColumnId": 144758877,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "Yes",
+      "null": "0",
+      "top": [
+        {
+          "item": "Yes",
+          "count": "11994"
+        }
+      ],
+      "smallest": "Yes",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389657,
+    "name": "EER Rating (Btu/Wh)",
+    "dataTypeName": "number",
+    "description": "The ratio of the produced cooling effect of an air conditioner or heat pump to its net work input, expressed in Btu/watt-hour using 10 CFR part 431, Subpart F, §431.96, Table 1.",
+    "fieldName": "eer_rating_btu_wh",
+    "position": 17,
+    "renderTypeName": "number",
+    "tableColumnId": 52327916,
+    "width": 194,
+    "cachedContents": {
+      "non_null": "131",
+      "largest": "15",
+      "null": "11863",
+      "top": [
+        {
+          "item": "12.2",
+          "count": "38"
+        },
+        {
+          "item": "12.5",
+          "count": "26"
+        },
+        {
+          "item": "12.7",
+          "count": "10"
+        },
+        {
+          "item": "12.8",
+          "count": "10"
+        },
+        {
+          "item": "12",
+          "count": "8"
+        },
+        {
+          "item": "13.3",
+          "count": "6"
+        },
+        {
+          "item": "11.1",
+          "count": "6"
+        },
+        {
+          "item": "14.5",
+          "count": "4"
+        },
+        {
+          "item": "13.9",
+          "count": "4"
+        },
+        {
+          "item": "13",
+          "count": "4"
+        },
+        {
+          "item": "13.7",
+          "count": "4"
+        },
+        {
+          "item": "15",
+          "count": "2"
+        },
+        {
+          "item": "12.1",
+          "count": "2"
+        },
+        {
+          "item": "14",
+          "count": "2"
+        },
+        {
+          "item": "14.2",
+          "count": "2"
+        },
+        {
+          "item": "10.9",
+          "count": "2"
+        },
+        {
+          "item": "11.9",
+          "count": "1"
+        }
+      ],
+      "smallest": "10.9",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "noCommas": "false",
+      "align": "right"
+    }
+  },
+  {
+    "id": 568389672,
+    "name": "EER2 Rating (Btu/Wh)",
+    "dataTypeName": "number",
+    "description": "The ratio of the produced cooling effect of an air conditioner or heat pump to its net work input, expressed in Btu/watt-hour using Proposed Appendix B1 at 86 FR 70316, 70346-70347 (Dec. 9, 2021).",
+    "fieldName": "eer2_rating_btu_wh",
+    "position": 18,
+    "renderTypeName": "number",
+    "tableColumnId": 144758879,
+    "cachedContents": {
+      "non_null": "11923",
+      "largest": "14.3",
+      "null": "71",
+      "top": [
+        {
+          "item": "12.5",
+          "count": "6636"
+        },
+        {
+          "item": "13",
+          "count": "2597"
+        },
+        {
+          "item": "12.8",
+          "count": "684"
+        },
+        {
+          "item": "12",
+          "count": "512"
+        },
+        {
+          "item": "13.2",
+          "count": "352"
+        },
+        {
+          "item": "12.6",
+          "count": "314"
+        },
+        {
+          "item": "12.4",
+          "count": "266"
+        },
+        {
+          "item": "13.4",
+          "count": "243"
+        },
+        {
+          "item": "12.2",
+          "count": "196"
+        },
+        {
+          "item": "11.5",
+          "count": "55"
+        },
+        {
+          "item": "11.8",
+          "count": "25"
+        },
+        {
+          "item": "13.5",
+          "count": "16"
+        },
+        {
+          "item": "13.6",
+          "count": "12"
+        },
+        {
+          "item": "14.3",
+          "count": "6"
+        },
+        {
+          "item": "11.2",
+          "count": "4"
+        },
+        {
+          "item": "12.1",
+          "count": "4"
+        },
+        {
+          "item": "13.8",
+          "count": "1"
+        }
+      ],
+      "smallest": "11.2",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389677,
+    "name": "SEER Rating (Btu/Wh)",
+    "dataTypeName": "number",
+    "description": "The ratio of the total heat removed from the conditioned space during the annual cooling season to the total electrical energy consumed by the air conditioner or heat pump during the same season, expressed in Btu/Wh using 10 CFR part 431, Subpart F, §431.96, Table 1.",
+    "fieldName": "seer_rating_btu_wh",
+    "position": 19,
+    "renderTypeName": "number",
+    "tableColumnId": 144758884,
+    "cachedContents": {
+      "non_null": "96",
+      "largest": "22.5",
+      "null": "11898",
+      "top": [
+        {
+          "item": "15.5",
+          "count": "30"
+        },
+        {
+          "item": "16",
+          "count": "16"
+        },
+        {
+          "item": "17",
+          "count": "12"
+        },
+        {
+          "item": "17.4",
+          "count": "4"
+        },
+        {
+          "item": "22",
+          "count": "4"
+        },
+        {
+          "item": "17.8",
+          "count": "4"
+        },
+        {
+          "item": "18.6",
+          "count": "4"
+        },
+        {
+          "item": "19.5",
+          "count": "4"
+        },
+        {
+          "item": "20.2",
+          "count": "4"
+        },
+        {
+          "item": "22.5",
+          "count": "2"
+        },
+        {
+          "item": "17.1",
+          "count": "2"
+        },
+        {
+          "item": "17.6",
+          "count": "2"
+        },
+        {
+          "item": "19.3",
+          "count": "2"
+        },
+        {
+          "item": "20",
+          "count": "2"
+        },
+        {
+          "item": "21",
+          "count": "2"
+        },
+        {
+          "item": "15.1",
+          "count": "2"
+        }
+      ],
+      "smallest": "15.1",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389676,
+    "name": "SEER2 Rating (Btu/Wh)",
+    "dataTypeName": "number",
+    "description": "The ratio of the total heat removed from the conditioned space during the annual cooling season to the total electrical energy consumed by the air conditioner or heat pump during the same season, expressed in Btu/Wh using Proposed Appendix B1 at 86 FR 70316, 70346-70347 (Dec. 9, 2021).",
+    "fieldName": "seer2_rating_btu_wh",
+    "position": 20,
+    "renderTypeName": "number",
+    "tableColumnId": 144758883,
+    "cachedContents": {
+      "non_null": "11923",
+      "largest": "21.2",
+      "null": "71",
+      "top": [
+        {
+          "item": "15.2",
+          "count": "9185"
+        },
+        {
+          "item": "15.5",
+          "count": "1496"
+        },
+        {
+          "item": "16",
+          "count": "784"
+        },
+        {
+          "item": "16.5",
+          "count": "254"
+        },
+        {
+          "item": "15.4",
+          "count": "82"
+        },
+        {
+          "item": "16.8",
+          "count": "15"
+        },
+        {
+          "item": "15.6",
+          "count": "14"
+        },
+        {
+          "item": "17",
+          "count": "14"
+        },
+        {
+          "item": "16.4",
+          "count": "12"
+        },
+        {
+          "item": "17.5",
+          "count": "12"
+        },
+        {
+          "item": "17.3",
+          "count": "12"
+        },
+        {
+          "item": "16.3",
+          "count": "6"
+        },
+        {
+          "item": "16.6",
+          "count": "6"
+        },
+        {
+          "item": "21.2",
+          "count": "6"
+        },
+        {
+          "item": "19.5",
+          "count": "6"
+        },
+        {
+          "item": "19.9",
+          "count": "6"
+        },
+        {
+          "item": "16.2",
+          "count": "6"
+        },
+        {
+          "item": "16.1",
+          "count": "4"
+        },
+        {
+          "item": "15.3",
+          "count": "3"
+        }
+      ],
+      "smallest": "15.2",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389658,
+    "name": "IEER Rating (Btu/Wh)",
+    "dataTypeName": "number",
+    "description": "IEER is a measure that expresses cooling part-load EER efficiency for commercial air-conditioners, heat pumps, and VRF Multi-Splits on the basis of weighted operation at various load capacities using 10 CFR part 431, Subpart F, §431.96, Table 1.",
+    "fieldName": "ieer_rating",
+    "position": 21,
+    "renderTypeName": "number",
+    "tableColumnId": 52327917,
+    "width": 202,
+    "cachedContents": {
+      "non_null": "35",
+      "largest": "21.00",
+      "null": "11959",
+      "top": [
+        {
+          "item": "21.00",
+          "count": "8"
+        },
+        {
+          "item": "17.50",
+          "count": "4"
+        },
+        {
+          "item": "19.00",
+          "count": "4"
+        },
+        {
+          "item": "15.50",
+          "count": "4"
+        },
+        {
+          "item": "15.20",
+          "count": "3"
+        },
+        {
+          "item": "18.00",
+          "count": "2"
+        },
+        {
+          "item": "18.40",
+          "count": "2"
+        },
+        {
+          "item": "18.50",
+          "count": "2"
+        },
+        {
+          "item": "18.80",
+          "count": "2"
+        },
+        {
+          "item": "15.40",
+          "count": "2"
+        },
+        {
+          "item": "15.30",
+          "count": "2"
+        }
+      ],
+      "smallest": "15.20",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "noCommas": "false",
+      "align": "right"
+    }
+  },
+  {
+    "id": 568389675,
+    "name": "HSPF Rating (Btu/Wh)",
+    "dataTypeName": "number",
+    "description": "The total heating output of a central air-conditioning heat pump during its normal annual usage period for heating, expressed in Btu's and divided by the total electric power input, expressed in Btu/Wh using 10 CFR part 431, Subpart F, §431.96, Table 1.",
+    "fieldName": "hspf_rating_btu_wh",
+    "position": 22,
+    "renderTypeName": "number",
+    "tableColumnId": 144758882,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "11994",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389674,
+    "name": "HSPF2 Rating (Btu/Wh)",
+    "dataTypeName": "number",
+    "description": "The total heating output of a central air-conditioning heat pump during its normal annual usage period for heating, expressed in Btu's and divided by the total electric power input, expressed in Btu/Wh using Proposed Appendix B1 at 86 FR 70316, 70346-70347 (Dec. 9, 2021).",
+    "fieldName": "hspf2_rating_btu_wh",
+    "position": 23,
+    "renderTypeName": "number",
+    "tableColumnId": 144758881,
+    "cachedContents": {
+      "non_null": "993",
+      "largest": "8.2",
+      "null": "11001",
+      "top": [
+        {
+          "item": "7.8",
+          "count": "764"
+        },
+        {
+          "item": "8",
+          "count": "125"
+        },
+        {
+          "item": "7.2",
+          "count": "41"
+        },
+        {
+          "item": "8.2",
+          "count": "38"
+        },
+        {
+          "item": "8.1",
+          "count": "16"
+        },
+        {
+          "item": "7.6",
+          "count": "8"
+        },
+        {
+          "item": "7.7",
+          "count": "1"
+        }
+      ],
+      "smallest": "7.2",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389659,
+    "name": "COP Rating at 47°F",
+    "dataTypeName": "number",
+    "description": "A measure of efficiency in the heating mode that represents the ratio of total heating capacity to electrical energy input, measured at 47 degrees F.\n",
+    "fieldName": "cop_rating",
+    "position": 24,
+    "renderTypeName": "number",
+    "tableColumnId": 52327918,
+    "width": 214,
+    "cachedContents": {
+      "non_null": "11",
+      "largest": "3.40",
+      "null": "11983",
+      "top": [
+        {
+          "item": "3.40",
+          "count": "11"
+        }
+      ],
+      "smallest": "3.40",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "noCommas": "false",
+      "align": "right"
+    }
+  },
+  {
+    "id": 568389660,
+    "name": "COP Rating at 17°F",
+    "dataTypeName": "number",
+    "description": "A measure of efficiency in the heating mode that represents the ratio of total heating capacity to electrical energy input, measured at 17 degrees F.\n",
+    "fieldName": "cop_rating_at_17_f",
+    "position": 25,
+    "renderTypeName": "number",
+    "tableColumnId": 52327919,
+    "width": 205,
+    "cachedContents": {
+      "non_null": "11",
+      "largest": "2.10",
+      "null": "11983",
+      "top": [
+        {
+          "item": "2.10",
+          "count": "11"
+        }
+      ],
+      "smallest": "2.10",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "noCommas": "false",
+      "align": "right"
+    }
+  },
+  {
+    "id": 568389669,
+    "name": "COP Rating at 5°F",
+    "dataTypeName": "number",
+    "description": "A measure of efficiency in the heating mode that represents the ratio of total heating capacity to electrical energy input, measured at 5 degrees F.",
+    "fieldName": "cop_rating_at_5_f",
+    "position": 26,
+    "renderTypeName": "number",
+    "tableColumnId": 144758876,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "11994",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389661,
+    "name": "Indoor Unit Model Number",
+    "dataTypeName": "text",
+    "description": "",
+    "fieldName": "indoor_unit_model_number",
+    "position": 27,
+    "renderTypeName": "text",
+    "tableColumnId": 52327920,
+    "width": 243,
+    "cachedContents": {
+      "non_null": "11700",
+      "largest": "PF5TNXC48L*",
+      "null": "294",
+      "top": [
+        {
+          "item": "EVD5X42M24A*",
+          "count": "1405"
+        },
+        {
+          "item": "EVM5X44M21A*",
+          "count": "1353"
+        },
+        {
+          "item": "EVD5X49M24A*",
+          "count": "1344"
+        },
+        {
+          "item": "EVM5X49M21A*",
+          "count": "1292"
+        },
+        {
+          "item": "CVAVA4224XMA*",
+          "count": "393"
+        },
+        {
+          "item": "CVAMA4421XMA*",
+          "count": "381"
+        },
+        {
+          "item": "CVAVA4924XMA*",
+          "count": "378"
+        },
+        {
+          "item": "CVAMA4921XMA*",
+          "count": "360"
+        },
+        {
+          "item": "7E[C,U]48CX-**+TDR",
+          "count": "217"
+        },
+        {
+          "item": "7E[C,U]49CX-**+TDR",
+          "count": "206"
+        },
+        {
+          "item": "CK40[C,U]T-48C-**+TDR",
+          "count": "197"
+        },
+        {
+          "item": "EVD5X48M24A*",
+          "count": "197"
+        },
+        {
+          "item": "CK40[C,U]T-49C-**+TDR",
+          "count": "189"
+        },
+        {
+          "item": "EVD5X38M17A*",
+          "count": "171"
+        },
+        {
+          "item": "EA*5X43M21A*",
+          "count": "168"
+        },
+        {
+          "item": "7EH42CX-**+TDR",
+          "count": "161"
+        },
+        {
+          "item": "CK40HT-42C-**+TDR",
+          "count": "140"
+        },
+        {
+          "item": "EA*5X37M21A*",
+          "count": "139"
+        },
+        {
+          "item": "7EH42BX-**+TDR",
+          "count": "112"
+        },
+        {
+          "item": "CK40HT-42B-**+TDR",
+          "count": "110"
+        }
+      ],
+      "smallest": "7AH1AE30PX-**",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389662,
+    "name": "VRF Indoor Model Type",
+    "dataTypeName": "text",
+    "description": "",
+    "fieldName": "vrf_indoor_model_type",
+    "position": 28,
+    "renderTypeName": "text",
+    "tableColumnId": 52327921,
+    "width": 223,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "11994",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389663,
+    "name": "VRF Outdoor Model Number(s)",
+    "dataTypeName": "text",
+    "description": "",
+    "fieldName": "vrf_outdoor_model_number_s",
+    "position": 29,
+    "renderTypeName": "text",
+    "tableColumnId": 52327922,
+    "width": 258,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "11994",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389664,
+    "name": "Furnace Model Number",
+    "dataTypeName": "text",
+    "description": "",
+    "fieldName": "furnace_model_number",
+    "position": 30,
+    "renderTypeName": "text",
+    "tableColumnId": 52327923,
+    "width": 203,
+    "cachedContents": {
+      "non_null": "10390",
+      "largest": "SLP99UH135XV60D*",
+      "null": "1604",
+      "top": [
+        {
+          "item": "*80MS(N,L)1102120A*",
+          "count": "203"
+        },
+        {
+          "item": "*97VTN1002122A*",
+          "count": "182"
+        },
+        {
+          "item": "*96VTN1002122B*",
+          "count": "182"
+        },
+        {
+          "item": "*92MSN1002120A*",
+          "count": "174"
+        },
+        {
+          "item": "*80MSU0802120A*",
+          "count": "168"
+        },
+        {
+          "item": "*92MSN0802120A*",
+          "count": "145"
+        },
+        {
+          "item": "*80MS(N,L)1102420A*",
+          "count": "126"
+        },
+        {
+          "item": "*80MSU0601716A*",
+          "count": "116"
+        },
+        {
+          "item": "*95MSU1002122A*",
+          "count": "116"
+        },
+        {
+          "item": "*80MS(N,L)0902120A*",
+          "count": "116"
+        },
+        {
+          "item": "*95MSU0802120A*",
+          "count": "116"
+        },
+        {
+          "item": "*95CSU1002122B*",
+          "count": "116"
+        },
+        {
+          "item": "*92MSN1002122A*",
+          "count": "116"
+        },
+        {
+          "item": "*97CTN0802120A*",
+          "count": "116"
+        },
+        {
+          "item": "*96CTN1002122B*",
+          "count": "116"
+        },
+        {
+          "item": "*80MS(N,L)0702116A*",
+          "count": "116"
+        },
+        {
+          "item": "*80CTL0902120B*",
+          "count": "116"
+        },
+        {
+          "item": "*80CTL1102120B*",
+          "count": "116"
+        },
+        {
+          "item": "*96CTN0802120B*",
+          "count": "116"
+        },
+        {
+          "item": "*96MSN1002122A*",
+          "count": "116"
+        }
+      ],
+      "smallest": "58S(B,C)*B070M17**12",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389682,
+    "name": "Refrigerant Type",
+    "dataTypeName": "text",
+    "description": "Indicates the type of refrigerant used in the model. ",
+    "fieldName": "refrigerant_type",
+    "position": 31,
+    "renderTypeName": "text",
+    "tableColumnId": 144758889,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "R-454B",
+      "null": "0",
+      "top": [
+        {
+          "item": "R-454B",
+          "count": "11856"
+        },
+        {
+          "item": "R-410A",
+          "count": "126"
+        },
+        {
+          "item": "R-32",
+          "count": "12"
+        }
+      ],
+      "smallest": "R-32",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389681,
+    "name": "Refrigerant with GWP",
+    "dataTypeName": "text",
+    "description": "Refrigerants are substances that cool or heat and are often used in refrigeration and HVAC equipment. Many refrigerants are harmful atmospheric pollutants that have a high global warming potential (GWP). Lower-GWP alternative refrigerant options for light commercial HVAC include R-32 and R-454B.",
+    "fieldName": "refrigerant_with_gwp",
+    "position": 32,
+    "renderTypeName": "text",
+    "tableColumnId": 144758888,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "R-454B (GWP:470 | Lower GWP)",
+      "null": "0",
+      "top": [
+        {
+          "item": "R-454B (GWP:470 | Lower GWP)",
+          "count": "11856"
+        },
+        {
+          "item": "R-410A (GWP:2088)",
+          "count": "126"
+        },
+        {
+          "item": "R-32 (GWP:675 | Lower GWP)",
+          "count": "12"
+        }
+      ],
+      "smallest": "R-32 (GWP:675 | Lower GWP)",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {}
+  },
+  {
+    "id": 568389665,
+    "name": "Date Available On Market",
+    "dataTypeName": "calendar_date",
+    "description": "The date that the model is available for purchase.\n",
+    "fieldName": "date_available_on_market",
+    "position": 33,
+    "renderTypeName": "calendar_date",
+    "tableColumnId": 52327924,
+    "width": 237,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "2026-05-20T00:00:00.000",
+      "null": "0",
+      "top": [
+        {
+          "item": "2024-12-09T00:00:00.000",
+          "count": "8219"
+        },
+        {
+          "item": "2024-11-12T00:00:00.000",
+          "count": "1898"
+        },
+        {
+          "item": "2024-10-01T00:00:00.000",
+          "count": "729"
+        },
+        {
+          "item": "2024-09-17T00:00:00.000",
+          "count": "408"
+        },
+        {
+          "item": "2025-02-04T00:00:00.000",
+          "count": "176"
+        },
+        {
+          "item": "2024-09-13T00:00:00.000",
+          "count": "163"
+        },
+        {
+          "item": "2025-06-06T00:00:00.000",
+          "count": "48"
+        },
+        {
+          "item": "2022-09-15T00:00:00.000",
+          "count": "48"
+        },
+        {
+          "item": "2024-12-16T00:00:00.000",
+          "count": "36"
+        },
+        {
+          "item": "2025-01-02T00:00:00.000",
+          "count": "36"
+        },
+        {
+          "item": "2024-12-13T00:00:00.000",
+          "count": "35"
+        },
+        {
+          "item": "2025-03-03T00:00:00.000",
+          "count": "24"
+        },
+        {
+          "item": "2023-07-01T00:00:00.000",
+          "count": "18"
+        },
+        {
+          "item": "2021-05-01T00:00:00.000",
+          "count": "18"
+        },
+        {
+          "item": "2023-01-01T00:00:00.000",
+          "count": "18"
+        },
+        {
+          "item": "2024-12-12T00:00:00.000",
+          "count": "18"
+        },
+        {
+          "item": "2025-03-31T00:00:00.000",
+          "count": "12"
+        },
+        {
+          "item": "2023-09-15T00:00:00.000",
+          "count": "12"
+        },
+        {
+          "item": "2024-11-25T00:00:00.000",
+          "count": "12"
+        },
+        {
+          "item": "2020-01-01T00:00:00.000",
+          "count": "12"
+        }
+      ],
+      "smallest": "2020-01-01T00:00:00.000",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "view": "date_time",
+      "align": "left"
+    }
+  },
+  {
+    "id": 568389666,
+    "name": "Date Certified",
+    "dataTypeName": "calendar_date",
+    "description": "The date on which the product was confirmed to meet the ENERGY STAR specification.\n",
+    "fieldName": "date_qualified",
+    "position": 34,
+    "renderTypeName": "calendar_date",
+    "tableColumnId": 52327925,
+    "width": 164,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "2026-08-05T00:00:00.000",
+      "null": "0",
+      "top": [
+        {
+          "item": "2026-01-20T00:00:00.000",
+          "count": "3735"
+        },
+        {
+          "item": "2026-07-14T00:00:00.000",
+          "count": "2058"
+        },
+        {
+          "item": "2026-02-27T00:00:00.000",
+          "count": "1270"
+        },
+        {
+          "item": "2025-11-26T00:00:00.000",
+          "count": "1243"
+        },
+        {
+          "item": "2025-06-09T00:00:00.000",
+          "count": "938"
+        },
+        {
+          "item": "2026-07-15T00:00:00.000",
+          "count": "666"
+        },
+        {
+          "item": "2026-01-06T00:00:00.000",
+          "count": "474"
+        },
+        {
+          "item": "2025-05-13T00:00:00.000",
+          "count": "457"
+        },
+        {
+          "item": "2025-12-02T00:00:00.000",
+          "count": "354"
+        },
+        {
+          "item": "2025-05-12T00:00:00.000",
+          "count": "225"
+        },
+        {
+          "item": "2025-08-25T00:00:00.000",
+          "count": "198"
+        },
+        {
+          "item": "2025-01-14T00:00:00.000",
+          "count": "72"
+        },
+        {
+          "item": "2026-05-07T00:00:00.000",
+          "count": "52"
+        },
+        {
+          "item": "2025-06-06T00:00:00.000",
+          "count": "45"
+        },
+        {
+          "item": "2026-04-09T00:00:00.000",
+          "count": "38"
+        },
+        {
+          "item": "2025-01-23T00:00:00.000",
+          "count": "35"
+        },
+        {
+          "item": "2024-01-04T00:00:00.000",
+          "count": "30"
+        },
+        {
+          "item": "2025-04-09T00:00:00.000",
+          "count": "20"
+        },
+        {
+          "item": "2025-03-20T00:00:00.000",
+          "count": "17"
+        },
+        {
+          "item": "2026-07-07T00:00:00.000",
+          "count": "16"
+        }
+      ],
+      "smallest": "2024-01-04T00:00:00.000",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "view": "date_time",
+      "align": "left"
+    }
+  },
+  {
+    "id": 568389667,
+    "name": "Markets",
+    "dataTypeName": "text",
+    "description": "Includes products sold in the U.S. and/or Canada and other ENERGY STAR partner countries.\n",
+    "fieldName": "markets",
+    "position": 35,
+    "renderTypeName": "text",
+    "tableColumnId": 52327926,
+    "width": 184,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "United States, Canada",
+      "null": "0",
+      "top": [
+        {
+          "item": "United States, Canada",
+          "count": "10222"
+        },
+        {
+          "item": "United States",
+          "count": "1772"
+        }
+      ],
+      "smallest": "United States",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  },
+  {
+    "id": 568389668,
+    "name": "ENERGY STAR Model Identifier",
+    "dataTypeName": "text",
+    "description": "A unique string of characters assigned by certification bodies (CBs) to identify a model or set of models with the same performance characteristics. This identifier should remain the same for a model even if it is recertified to a new version of an ENERGY STAR specification. This string of characters is determined by CBs and is not the ENERGY STAR Unique ID assigned by EPA.\n",
+    "fieldName": "energy_star_model_identifier",
+    "position": 36,
+    "renderTypeName": "text",
+    "tableColumnId": 52327927,
+    "width": 281,
+    "cachedContents": {
+      "non_null": "11994",
+      "largest": "ES_1123206_ML14KP1-048-463A**_03232026090002_21218332530",
+      "null": "0",
+      "top": [
+        {
+          "item": "ES_1020846_26SCA436N**60*_10072025023852_19217830407",
+          "count": "1"
+        },
+        {
+          "item": "ES_1082495_ML14KP1-048-463A**_07192025013142_21217602491",
+          "count": "1"
+        },
+        {
+          "item": "ES_1102531_ML13KC1-042-233A**_05062025015427_19217359073",
+          "count": "1"
+        },
+        {
+          "item": "ES_1020846_PA4SAP536**NA*_10072025030624_19217863431",
+          "count": "1"
+        },
+        {
+          "item": "ES_1020846_N5H5S48*H*AAA*_02212025013535_21217033778",
+          "count": "1"
+        },
+        {
+          "item": "ES_1020846_N5A4S36*H*NAA*_10072025031148_19217860303",
+          "count": "1"
+        },
+        {
+          "item": "ES_1082495_ML17KC2-048-233A**_04272025010534_19217318506",
+          "count": "1"
+        },
+        {
+          "item": "ES_1020846_N5A4S36*L*NAA*_10072025024559_19217837540",
+          "count": "1"
+        },
+        {
+          "item": "ES_1020846_N5A4S36*S*NAA*_10072025033101_19217880360",
+          "count": "1"
+        },
+        {
+          "item": "ES_1102531_ML17KC2-036-233A**_05062025015441_19217360284",
+          "count": "1"
+        },
+        {
+          "item": "ES_1020846_26SCA436N**60*_10072025024606_19217837600",
+          "count": "1"
+        },
+        {
+          "item": "ES_1020846_N5A4S36*L*NAA*_12052025010517_19218015033",
+          "count": "1"
+        },
+        {
+          "item": "ES_11025312_ML17KC2-036-233A**_05012025010256_19217335923",
+          "count": "1"
+        },
+        {
+          "item": "ES_1020846_N5A4S36*H*NAA*_10072025030524_19217860434",
+          "count": "1"
+        },
+        {
+          "item": "ES_1020846_N5A4S36*L*NAA*_10072025024332_19217830610",
+          "count": "1"
+        },
+        {
+          "item": "ES_1020846_N5A4S36*H*NAA*_12052025010636_19218015517",
+          "count": "1"
+        },
+        {
+          "item": "ES_1102531_ML14KP1-042-233A**_08042025143257_21217631386",
+          "count": "1"
+        },
+        {
+          "item": "ES_1020846_N5A4S36*L*NAA*_10072025024251_19217835621",
+          "count": "1"
+        },
+        {
+          "item": "ES_1020846_PA4SAP536**NA*_10072025031053_19217862833",
+          "count": "1"
+        },
+        {
+          "item": "ES_1020846_N5A4S36*H*NAA*_10072025030334_19217854261",
+          "count": "1"
+        }
+      ],
+      "smallest": "ES_1020846_134SAP036**NA*_10072025024537_19217840167",
+      "count": "11994",
+      "cardinality": "11994"
+    },
+    "format": {
+      "displayStyle": "plain",
+      "align": "left"
+    }
+  }
+]

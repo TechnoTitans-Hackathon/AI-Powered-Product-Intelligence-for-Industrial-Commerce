@@ -191,28 +191,41 @@ export const triggerProductReprocess = async (
 };
 
 export const exportProductXlsx = async (id: string): Promise<void> => {
-  const res = await api.get(`/products/${id}/export/xlsx`, {
-    responseType: 'blob',
-  });
-  const url = window.URL.createObjectURL(new Blob([res.data]));
-  const link = document.createElement('a');
-  link.href = url;
+  try {
+    const res = await api.get(`/products/${id}/export/xlsx`, {
+      responseType: 'blob',
+    });
+    const url = window.URL.createObjectURL(new Blob([res.data]));
+    const link = document.createElement('a');
+    link.href = url;
 
-  // Extract filename from Content-Disposition header if possible
-  const contentDisposition = res.headers['content-disposition'];
-  let filename = `Unihack_Export_${id}.xlsx`;
-  if (contentDisposition) {
-    const filenameMatch = contentDisposition.match(/filename="?([^"]+)"?/);
-    if (filenameMatch && filenameMatch.length === 2) {
-      filename = filenameMatch[1];
+    // Extract filename from Content-Disposition header if possible
+    const contentDisposition = res.headers['content-disposition'];
+    let filename = `Unihack_Export_${id}.xlsx`;
+    if (contentDisposition) {
+      const filenameMatch = contentDisposition.match(/filename="?([^"]+)"?/);
+      if (filenameMatch && filenameMatch.length === 2) {
+        filename = filenameMatch[1];
+      }
     }
-  }
 
-  link.setAttribute('download', filename);
-  document.body.appendChild(link);
-  link.click();
-  link.remove();
-  window.URL.revokeObjectURL(url);
+    link.setAttribute('download', filename);
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    window.URL.revokeObjectURL(url);
+  } catch (error: any) {
+    if (error.response && error.response.data instanceof Blob) {
+      const text = await error.response.data.text();
+      try {
+        const json = JSON.parse(text);
+        throw new Error(json.detail || 'Export failed');
+      } catch (e) {
+        throw new Error('Export failed');
+      }
+    }
+    throw error;
+  }
 };
 
 // ─── File Uploads API ─────────────────────────────────────────────────────────

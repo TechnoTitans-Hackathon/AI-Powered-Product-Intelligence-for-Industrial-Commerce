@@ -1,0 +1,45 @@
+{
+  "dataset_id": "energy_star_evse_dc_public_domain",
+  "name": "ENERGY STAR Certified Electric Vehicle Supply Equipment - DC-Output",
+  "source": "U.S. Environmental Protection Agency ENERGY STAR",
+  "source_url": "https://catalog.data.gov/dataset/energy-star-certified-electric-vehicle-supply-equipment-dc-output",
+  "download_url": "https://data.energystar.gov/api/v3/views/t3a6-mkxz/export.csv?accessType=DOWNLOAD",
+  "license": "U.S. Public Domain / EPA Standard Open Data License",
+  "license_url": "https://edg.epa.gov/EPA_Data_License.html",
+  "license_verified": true,
+  "license_notes": "EPA data is public domain unless otherwise specified under the EPA Standard Open Data License.",
+  "version": "modified 2026-07-29",
+  "published_at": "2023-07-07",
+  "downloaded_at": "2026-08-23T08:09:14+00:00",
+  "sha256": "9f348ff5bbfafb282772c8c0ee54e6511ebd7e642cf9c9a5c7f0637e9df84dda",
+  "size_bytes": 387318,
+  "format": "CSV",
+  "industries": [
+    "Electrical Components",
+    "Power Equipment",
+    "Automotive Components"
+  ],
+  "categories": [
+    "Electrical",
+    "EVSE"
+  ],
+  "description": "Certified DC-output EVSE product records and electrical performance attributes.",
+  "attribution": "U.S. Environmental Protection Agency ENERGY STAR program",
+  "storage_class": "PERMANENT_BASELINE",
+  "knowledge_type": "PRODUCT_CATALOG",
+  "quality_scores": {
+    "LICENSE_CONFIDENCE": 5,
+    "SOURCE_AUTHORITY": 5,
+    "PRODUCT_RELEVANCE": 4,
+    "INDUSTRY_COVERAGE": 4,
+    "ATTRIBUTE_VALUE": 5,
+    "DUPLICATION_RISK": 1,
+    "SIZE_EFFICIENCY": 5,
+    "PROVENANCE_QUALITY": 5
+  },
+  "files": [
+    "energy_star_evse_dc_public_domain\\columns.json",
+    "energy_star_evse_dc_public_domain\\energy_star_evse_dc_public_domain.csv",
+    "energy_star_evse_dc_public_domain\\metadata.json"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "dataset_id": "qudt_units_quantity_kinds_cc_by_4",
+  "name": "QUDT Units and Quantity Kinds",
+  "source": "QUDT.org GitHub public repository",
+  "source_url": "https://github.com/qudt/qudt-public-repo",
+  "download_url": "https://raw.githubusercontent.com/qudt/qudt-public-repo/main/src/main/rdf/vocab/unit/VOCAB_QUDT-UNITS-ALL.ttl, https://raw.githubusercontent.com/qudt/qudt-public-repo/main/src/main/rdf/vocab/quantitykinds/VOCAB_QUDT-QUANTITY-KINDS-ALL.ttl",
+  "license": "CC BY 4.0",
+  "license_url": "https://github.com/qudt/qudt-public-repo/blob/main/LICENSE.md",
+  "license_verified": true,
+  "license_notes": "QUDT repository LICENSE.md states Creative Commons Attribution 4.0 with attribution to QUDT.org.",
+  "version": "main branch snapshot",
+  "published_at": null,
+  "downloaded_at": "2026-08-23T08:08:38+00:00",
+  "sha256": "4c38dc6a111219639db2a05b8051db1cea448cd49b8efb6573accd69c36bf602",
+  "size_bytes": 5093730,
+  "format": "TTL+JSONL",
+  "industries": [
+    "Industrial Equipment",
+    "Industrial Automation",
+    "Electrical Components",
+    "HVAC",
+    "Manufacturing Equipment",
+    "Power Equipment",
+    "Chemicals and Materials",
+    "Medical and Regulated Products"
+  ],
+  "categories": [
+    "Units",
+    "Quantity Kinds",
+    "Attribute Vocabulary"
+  ],
+  "description": "Machine-readable unit and quantity-kind vocabulary for measurement and attribute interpretation.",
+  "attribution": "QUDT.org",
+  "storage_class": "PERMANENT_BASELINE",
+  "knowledge_type": "ENGINEERING_REFERENCE",
+  "quality_scores": {
+    "LICENSE_CONFIDENCE": 5,
+    "SOURCE_AUTHORITY": 5,
+    "PRODUCT_RELEVANCE": 3,
+    "INDUSTRY_COVERAGE": 4,
+    "ATTRIBUTE_VALUE": 5,
+    "DUPLICATION_RISK": 1,
+    "SIZE_EFFICIENCY": 5,
+    "PROVENANCE_QUALITY": 5
+  },
+  "files": [
+    "qudt_units_quantity_kinds_cc_by_4\\metadata.json",
+    "qudt_units_quantity_kinds_cc_by_4\\qudt_units_quantity_kinds_labels.jsonl",
+    "qudt_units_quantity_kinds_cc_by_4\\VOCAB_QUDT-QUANTITY-KINDS-ALL.ttl",
+    "qudt_units_quantity_kinds_cc_by_4\\VOCAB_QUDT-UNITS-ALL.ttl"
+  ]
+}

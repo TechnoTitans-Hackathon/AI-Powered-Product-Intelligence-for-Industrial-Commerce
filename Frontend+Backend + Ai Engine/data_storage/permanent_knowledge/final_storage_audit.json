@@ -1,0 +1,12 @@
+{
+  "filesystem_bytes": 16403274,
+  "manifest_bytes": 16403274,
+  "registry_bytes": 16299434,
+  "limit_bytes": 2147483648,
+  "remaining_bytes": 2131080374,
+  "usage_percent": 0.7638,
+  "actual_gib": 0.015276739373803139,
+  "installed_dataset_count": 8,
+  "fabrication_detected": false,
+  "storage_limit_ok": true
+}

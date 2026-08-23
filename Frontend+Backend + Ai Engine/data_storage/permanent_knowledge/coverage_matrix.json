@@ -1,0 +1,1424 @@
+[
+  {
+    "industry": "Industrial Equipment",
+    "category": "Bearings",
+    "product_types": [
+      "Deep Groove Ball Bearings",
+      "Angular Contact Ball Bearings",
+      "Cylindrical Roller Bearings",
+      "Tapered Roller Bearings",
+      "Spherical Roller Bearings",
+      "Thrust Bearings",
+      "Needle Roller Bearings",
+      "Linear Bearings"
+    ],
+    "expected_attributes": [
+      {
+        "key": "Bore Diameter",
+        "unit": "mm",
+        "data_type": "numeric",
+        "type": "dimension"
+      },
+      {
+        "key": "Outside Diameter",
+        "unit": "mm",
+        "data_type": "numeric",
+        "type": "dimension"
+      },
+      {
+        "key": "Width",
+        "unit": "mm",
+        "data_type": "numeric",
+        "type": "dimension"
+      },
+      {
+        "key": "Dynamic Load Rating",
+        "unit": "kN",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Static Load Rating",
+        "unit": "kN",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Limiting Speed",
+        "unit": "rpm",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Mass",
+        "unit": "kg",
+        "data_type": "numeric",
+        "type": "physical"
+      },
+      {
+        "key": "Seal Type",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Cage Material",
+        "unit": null,
+        "data_type": "string",
+        "type": "material"
+      },
+      {
+        "key": "Internal Clearance",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      }
+    ],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "HIGH"
+  },
+  {
+    "industry": "Industrial Equipment",
+    "category": "Electric Motors",
+    "product_types": [
+      "AC Induction Motors",
+      "DC Motors",
+      "Servo Motors",
+      "Stepper Motors",
+      "Gear Motors",
+      "Synchronous Motors",
+      "Explosion-Proof Motors"
+    ],
+    "expected_attributes": [
+      {
+        "key": "Rated Power",
+        "unit": "kW",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Rated Voltage",
+        "unit": "V",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Rated Current",
+        "unit": "A",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Speed",
+        "unit": "rpm",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Frequency",
+        "unit": "Hz",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Efficiency",
+        "unit": "%",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Power Factor",
+        "unit": null,
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Frame Size",
+        "unit": null,
+        "data_type": "string",
+        "type": "dimension"
+      },
+      {
+        "key": "Enclosure",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Mounting",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Insulation Class",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "IP Rating",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Mass",
+        "unit": "kg",
+        "data_type": "numeric",
+        "type": "physical"
+      }
+    ],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "HIGH"
+  },
+  {
+    "industry": "Industrial Equipment",
+    "category": "Pumps",
+    "product_types": [
+      "Centrifugal Pumps",
+      "Positive Displacement Pumps",
+      "Submersible Pumps",
+      "Diaphragm Pumps",
+      "Gear Pumps",
+      "Peristaltic Pumps",
+      "Vacuum Pumps"
+    ],
+    "expected_attributes": [
+      {
+        "key": "Flow Rate",
+        "unit": "m³/h",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Head",
+        "unit": "m",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Pressure",
+        "unit": "bar",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Speed",
+        "unit": "rpm",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Power",
+        "unit": "kW",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "NPSH Required",
+        "unit": "m",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Impeller Diameter",
+        "unit": "mm",
+        "data_type": "numeric",
+        "type": "dimension"
+      },
+      {
+        "key": "Inlet Size",
+        "unit": "mm",
+        "data_type": "numeric",
+        "type": "dimension"
+      },
+      {
+        "key": "Outlet Size",
+        "unit": "mm",
+        "data_type": "numeric",
+        "type": "dimension"
+      },
+      {
+        "key": "Material",
+        "unit": null,
+        "data_type": "string",
+        "type": "material"
+      },
+      {
+        "key": "Seal Type",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      }
+    ],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "HIGH"
+  },
+  {
+    "industry": "Industrial Equipment",
+    "category": "Valves",
+    "product_types": [
+      "Gate Valves",
+      "Globe Valves",
+      "Ball Valves",
+      "Butterfly Valves",
+      "Check Valves",
+      "Control Valves",
+      "Relief Valves",
+      "Solenoid Valves"
+    ],
+    "expected_attributes": [
+      {
+        "key": "Nominal Size",
+        "unit": "mm",
+        "data_type": "string",
+        "type": "dimension"
+      },
+      {
+        "key": "Pressure Rating",
+        "unit": "bar",
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Body Material",
+        "unit": null,
+        "data_type": "string",
+        "type": "material"
+      },
+      {
+        "key": "End Connection",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Cv/Kv",
+        "unit": null,
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Temperature Range",
+        "unit": "°C",
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Actuation",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      }
+    ],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "HIGH"
+  },
+  {
+    "industry": "Industrial Equipment",
+    "category": "Gearboxes",
+    "product_types": [
+      "Helical Gearboxes",
+      "Worm Gearboxes",
+      "Bevel Gearboxes",
+      "Planetary Gearboxes"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Industrial Equipment",
+    "category": "Couplings",
+    "product_types": [
+      "Jaw Couplings",
+      "Gear Couplings",
+      "Disc Couplings",
+      "Fluid Couplings"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Industrial Equipment",
+    "category": "Seals",
+    "product_types": [
+      "Mechanical Seals",
+      "O-Rings",
+      "Gaskets",
+      "Oil Seals",
+      "Lip Seals"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Industrial Automation",
+    "category": "Sensors",
+    "product_types": [
+      "Temperature Sensors",
+      "Pressure Sensors",
+      "Proximity Sensors",
+      "Level Sensors",
+      "Flow Sensors",
+      "Vibration Sensors",
+      "Optical Sensors"
+    ],
+    "expected_attributes": [
+      {
+        "key": "Measurement Range",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Accuracy",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Resolution",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Output Signal",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Supply Voltage",
+        "unit": "V",
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Response Time",
+        "unit": "ms",
+        "data_type": "numeric",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Operating Temperature",
+        "unit": "°C",
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "IP Rating",
+        "unit": null,
+        "data_type": "string",
+        "type": "technical_spec"
+      },
+      {
+        "key": "Process Connection",
+        "unit": null,
+        "data_type": "string",
+        "type": "dimension"
+      }
+    ],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "HIGH"
+  },
+  {
+    "industry": "Industrial Automation",
+    "category": "Controllers",
+    "product_types": [
+      "PLCs",
+      "DCS Systems",
+      "SCADA Systems",
+      "Motion Controllers",
+      "PACs"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Industrial Automation",
+    "category": "Drives",
+    "product_types": [
+      "Variable Frequency Drives",
+      "Servo Drives",
+      "DC Drives",
+      "Soft Starters"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Industrial Automation",
+    "category": "HMI",
+    "product_types": [
+      "Touch Panels",
+      "Operator Terminals",
+      "Industrial PCs"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Industrial Automation",
+    "category": "Robots",
+    "product_types": [
+      "Articulated Robots",
+      "SCARA Robots",
+      "Collaborative Robots",
+      "Delta Robots"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Electrical Components",
+    "category": "Circuit Protection",
+    "product_types": [
+      "Circuit Breakers",
+      "Fuses",
+      "Surge Protectors",
+      "RCDs"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "HIGH"
+  },
+  {
+    "industry": "Electrical Components",
+    "category": "Switching",
+    "product_types": [
+      "Contactors",
+      "Relays",
+      "Disconnect Switches",
+      "Transfer Switches"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "HIGH"
+  },
+  {
+    "industry": "Electrical Components",
+    "category": "Wiring",
+    "product_types": [
+      "Cables",
+      "Connectors",
+      "Terminal Blocks",
+      "Cable Trays"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "HIGH"
+  },
+  {
+    "industry": "Electrical Components",
+    "category": "Transformers",
+    "product_types": [
+      "Power Transformers",
+      "Instrument Transformers",
+      "Isolation Transformers"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "HIGH"
+  },
+  {
+    "industry": "Fasteners",
+    "category": "Bolts",
+    "product_types": [
+      "Hex Bolts",
+      "Socket Head Cap Screws",
+      "Carriage Bolts",
+      "U-Bolts",
+      "Anchor Bolts"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Fasteners",
+    "category": "Nuts",
+    "product_types": [
+      "Hex Nuts",
+      "Lock Nuts",
+      "Flange Nuts",
+      "Wing Nuts"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Fasteners",
+    "category": "Screws",
+    "product_types": [
+      "Machine Screws",
+      "Self-Tapping Screws",
+      "Set Screws",
+      "Wood Screws"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Fasteners",
+    "category": "Washers",
+    "product_types": [
+      "Flat Washers",
+      "Lock Washers",
+      "Spring Washers",
+      "Belleville Washers"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Fasteners",
+    "category": "Rivets",
+    "product_types": [
+      "Blind Rivets",
+      "Solid Rivets",
+      "Drive Rivets"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "HVAC",
+    "category": "Cooling",
+    "product_types": [
+      "Chillers",
+      "Cooling Towers",
+      "Air Handling Units",
+      "Fan Coil Units"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "HIGH"
+  },
+  {
+    "industry": "HVAC",
+    "category": "Heating",
+    "product_types": [
+      "Boilers",
+      "Heat Exchangers",
+      "Furnaces",
+      "Heat Pumps"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "HIGH"
+  },
+  {
+    "industry": "HVAC",
+    "category": "Ventilation",
+    "product_types": [
+      "Fans",
+      "Blowers",
+      "Dampers",
+      "Ductwork"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "HIGH"
+  },
+  {
+    "industry": "HVAC",
+    "category": "Refrigeration",
+    "product_types": [
+      "Compressors",
+      "Condensers",
+      "Evaporators",
+      "Expansion Valves"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Safety Equipment",
+    "category": "Head Protection",
+    "product_types": [
+      "Hard Hats",
+      "Bump Caps",
+      "Welding Helmets"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Safety Equipment",
+    "category": "Eye Protection",
+    "product_types": [
+      "Safety Glasses",
+      "Goggles",
+      "Face Shields"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Safety Equipment",
+    "category": "Hearing Protection",
+    "product_types": [
+      "Earplugs",
+      "Earmuffs",
+      "Electronic Hearing Protection"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Safety Equipment",
+    "category": "Respiratory Protection",
+    "product_types": [
+      "Dust Masks",
+      "Half-Face Respirators",
+      "Full-Face Respirators",
+      "PAPR"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Safety Equipment",
+    "category": "Fall Protection",
+    "product_types": [
+      "Harnesses",
+      "Lanyards",
+      "Self-Retracting Lifelines",
+      "Anchor Points"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Safety Equipment",
+    "category": "Hand Protection",
+    "product_types": [
+      "Work Gloves",
+      "Chemical Gloves",
+      "Cut-Resistant Gloves"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Automotive Components",
+    "category": "Engine",
+    "product_types": [
+      "Spark Plugs",
+      "Fuel Injectors",
+      "Turbochargers",
+      "Oil Filters",
+      "Air Filters"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Automotive Components",
+    "category": "Braking",
+    "product_types": [
+      "Brake Pads",
+      "Brake Rotors",
+      "Brake Calipers",
+      "Brake Lines"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Automotive Components",
+    "category": "Suspension",
+    "product_types": [
+      "Shock Absorbers",
+      "Struts",
+      "Control Arms",
+      "Ball Joints"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Automotive Components",
+    "category": "Electrical",
+    "product_types": [
+      "Alternators",
+      "Starters",
+      "Ignition Coils",
+      "Sensors"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Construction Materials",
+    "category": "Structural Steel",
+    "product_types": [
+      "I-Beams",
+      "Channels",
+      "Angles",
+      "Plates",
+      "Tubes"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Construction Materials",
+    "category": "Concrete",
+    "product_types": [
+      "Ready-Mix Concrete",
+      "Precast Elements",
+      "Rebar",
+      "Cement"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Construction Materials",
+    "category": "Insulation",
+    "product_types": [
+      "Fiberglass",
+      "Mineral Wool",
+      "Foam Board",
+      "Spray Foam"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Construction Materials",
+    "category": "Roofing",
+    "product_types": [
+      "Metal Roofing",
+      "Shingles",
+      "Membrane Roofing",
+      "Flashing"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Power Equipment",
+    "category": "Generators",
+    "product_types": [
+      "Diesel Generators",
+      "Gas Generators",
+      "Portable Generators",
+      "Standby Generators"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Power Equipment",
+    "category": "UPS Systems",
+    "product_types": [
+      "Online UPS",
+      "Line-Interactive UPS",
+      "Offline UPS"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Power Equipment",
+    "category": "Switchgear",
+    "product_types": [
+      "Low Voltage Switchgear",
+      "Medium Voltage Switchgear",
+      "Motor Control Centers"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Agricultural Equipment",
+    "category": "Tillage",
+    "product_types": [
+      "Plows",
+      "Harrows",
+      "Cultivators"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Agricultural Equipment",
+    "category": "Planting",
+    "product_types": [
+      "Seeders",
+      "Planters",
+      "Transplanters"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Agricultural Equipment",
+    "category": "Harvesting",
+    "product_types": [
+      "Combines",
+      "Forage Harvesters",
+      "Cotton Pickers"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Agricultural Equipment",
+    "category": "Irrigation",
+    "product_types": [
+      "Sprinklers",
+      "Drip Systems",
+      "Pivot Systems"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Packaging Equipment",
+    "category": "Filling",
+    "product_types": [
+      "Liquid Fillers",
+      "Powder Fillers",
+      "Volumetric Fillers"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Packaging Equipment",
+    "category": "Sealing",
+    "product_types": [
+      "Heat Sealers",
+      "Induction Sealers",
+      "Ultrasonic Sealers"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Packaging Equipment",
+    "category": "Labeling",
+    "product_types": [
+      "Pressure-Sensitive Labelers",
+      "Shrink Sleeve Labelers"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Packaging Equipment",
+    "category": "Wrapping",
+    "product_types": [
+      "Stretch Wrappers",
+      "Shrink Wrappers",
+      "Flow Wrappers"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Manufacturing Equipment",
+    "category": "CNC Machines",
+    "product_types": [
+      "CNC Lathes",
+      "CNC Mills",
+      "CNC Routers",
+      "CNC Grinders"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Manufacturing Equipment",
+    "category": "Welding",
+    "product_types": [
+      "MIG Welders",
+      "TIG Welders",
+      "Stick Welders",
+      "Spot Welders"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Manufacturing Equipment",
+    "category": "Material Handling",
+    "product_types": [
+      "Conveyor Systems",
+      "Hoists",
+      "Cranes",
+      "Forklifts"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Chemicals and Materials",
+    "category": "Lubricants",
+    "product_types": [
+      "Bearing Greases",
+      "Hydraulic Oils",
+      "Gear Oils",
+      "Cutting Fluids"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Chemicals and Materials",
+    "category": "Adhesives",
+    "product_types": [
+      "Epoxy",
+      "Cyanoacrylate",
+      "Polyurethane",
+      "Anaerobic"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Chemicals and Materials",
+    "category": "Coatings",
+    "product_types": [
+      "Paints",
+      "Primers",
+      "Powder Coatings",
+      "Protective Coatings"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Medical and Regulated Products",
+    "category": "Diagnostic Equipment",
+    "product_types": [
+      "Monitors",
+      "Analyzers",
+      "Imaging Systems"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Medical and Regulated Products",
+    "category": "Surgical Instruments",
+    "product_types": [
+      "Scalpels",
+      "Forceps",
+      "Clamps"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  },
+  {
+    "industry": "Medical and Regulated Products",
+    "category": "Sterilization",
+    "product_types": [
+      "Autoclaves",
+      "UV Sterilizers",
+      "Chemical Sterilizers"
+    ],
+    "expected_attributes": [],
+    "existing_offline_knowledge": [
+      "baseline_baseline_industry_taxonomy.json"
+    ],
+    "knowledge_gaps": [
+      "No category-specific attribute pattern in baseline code",
+      "Limited or no real open product records unless covered by acquired datasets"
+    ],
+    "priority": "MEDIUM"
+  }
+]

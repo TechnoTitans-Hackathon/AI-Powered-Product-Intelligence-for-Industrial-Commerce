@@ -1,0 +1,3120 @@
+[
+  {
+    "id": 547814413,
+    "name": "ENERGY STAR Unique ID",
+    "dataTypeName": "number",
+    "description": "The ENERGY STAR Unique ID (ESUID) is a string of\nseven numbers EPA assigns to an ENERGY STAR model or set of models with unique\nperformance characteristics. This ESUID is unique to both the model and product\nspecification version and is assigned by EPA upon receipt of certification\ninformation from the certification body. Each row within the product list will\nhave a unique ESUID. Developers may wish to use this ESUID to track information\non certified models in their information systems.\n",
+    "fieldName": "pd_id",
+    "position": 1,
+    "renderTypeName": "number",
+    "tableColumnId": 10027099,
+    "width": 81,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "4518687",
+      "null": "0",
+      "top": [
+        {
+          "item": "2339161",
+          "count": "1"
+        },
+        {
+          "item": "4439171",
+          "count": "1"
+        },
+        {
+          "item": "2326653",
+          "count": "1"
+        },
+        {
+          "item": "2381976",
+          "count": "1"
+        },
+        {
+          "item": "3629818",
+          "count": "1"
+        },
+        {
+          "item": "2403417",
+          "count": "1"
+        },
+        {
+          "item": "2407421",
+          "count": "1"
+        },
+        {
+          "item": "3417667",
+          "count": "1"
+        },
+        {
+          "item": "2248864",
+          "count": "1"
+        },
+        {
+          "item": "3417435",
+          "count": "1"
+        },
+        {
+          "item": "2287983",
+          "count": "1"
+        },
+        {
+          "item": "2405790",
+          "count": "1"
+        },
+        {
+          "item": "2343271",
+          "count": "1"
+        },
+        {
+          "item": "4480279",
+          "count": "1"
+        },
+        {
+          "item": "2390261",
+          "count": "1"
+        },
+        {
+          "item": "3798586",
+          "count": "1"
+        },
+        {
+          "item": "2280666",
+          "count": "1"
+        },
+        {
+          "item": "3442056",
+          "count": "1"
+        },
+        {
+          "item": "2248889",
+          "count": "1"
+        },
+        {
+          "item": "2386163",
+          "count": "1"
+        }
+      ],
+      "smallest": "2248769",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "noCommas": "true",
+      "align": "right"
+    }
+  },
+  {
+    "id": 547814414,
+    "name": "ENERGY STAR Partner",
+    "dataTypeName": "text",
+    "description": "An organization that signed a Partnership Agreement with EPA to manufacture or private label ENERGY STAR qualified products.",
+    "fieldName": "energy_star_partner",
+    "position": 2,
+    "renderTypeName": "text",
+    "tableColumnId": 10027100,
+    "width": 278,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "Zhang Haoxiang",
+      "null": "0",
+      "top": [
+        {
+          "item": "Broan-NuTone LLC",
+          "count": "288"
+        },
+        {
+          "item": "Delta Electronics Inc.",
+          "count": "110"
+        },
+        {
+          "item": "Panasonic",
+          "count": "101"
+        },
+        {
+          "item": "Greenheck Fan Corporation",
+          "count": "84"
+        },
+        {
+          "item": "Air-King, Ltd.",
+          "count": "69"
+        },
+        {
+          "item": "Systemair, Inc.",
+          "count": "50"
+        },
+        {
+          "item": "GTR Technologies, Inc.",
+          "count": "37"
+        },
+        {
+          "item": "Ortech Industries Inc.",
+          "count": "31"
+        },
+        {
+          "item": "Homewerks Worldwide LLC",
+          "count": "31"
+        },
+        {
+          "item": "S&P USA Ventilation Systems, LLC",
+          "count": "29"
+        },
+        {
+          "item": "The Home Depot",
+          "count": "23"
+        },
+        {
+          "item": "Zhang Haoxiang",
+          "count": "20"
+        },
+        {
+          "item": "North America Range Hoods Inc.",
+          "count": "17"
+        },
+        {
+          "item": "1HVAC, a division of Brock Air Products, Inc.",
+          "count": "15"
+        },
+        {
+          "item": "Lowe's Home Improvement",
+          "count": "15"
+        },
+        {
+          "item": "Dayton Electric Manufacturing, Inc.",
+          "count": "12"
+        },
+        {
+          "item": "akicon Inc.",
+          "count": "11"
+        },
+        {
+          "item": "Aero Pure LLC",
+          "count": "10"
+        },
+        {
+          "item": "GUANGDONG WINTEK SCIENCE AND TECHNOLOGY CO.,LTD",
+          "count": "9"
+        },
+        {
+          "item": "YIZHONG ELECTRICAL APPLIANCES LIMITED",
+          "count": "9"
+        }
+      ],
+      "smallest": "1HVAC, a division of Brock Air Products, Inc.",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814415,
+    "name": "Brand Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to a product or family/series of products for sales and marketing purposes.",
+    "fieldName": "brand_name",
+    "position": 3,
+    "renderTypeName": "text",
+    "tableColumnId": 10027101,
+    "width": 220,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "Zephyr",
+      "null": "0",
+      "top": [
+        {
+          "item": "Broan",
+          "count": "197"
+        },
+        {
+          "item": "Delta",
+          "count": "110"
+        },
+        {
+          "item": "Panasonic",
+          "count": "92"
+        },
+        {
+          "item": "Air King",
+          "count": "69"
+        },
+        {
+          "item": "Greenheck",
+          "count": "56"
+        },
+        {
+          "item": "Fantech",
+          "count": "50"
+        },
+        {
+          "item": "Broan-Nutone",
+          "count": "43"
+        },
+        {
+          "item": "Ortech",
+          "count": "31"
+        },
+        {
+          "item": "S&P",
+          "count": "29"
+        },
+        {
+          "item": "Revent",
+          "count": "29"
+        },
+        {
+          "item": "HomeWerks Worldwide",
+          "count": "27"
+        },
+        {
+          "item": "Venco",
+          "count": "23"
+        },
+        {
+          "item": "Tech Drive",
+          "count": "20"
+        },
+        {
+          "item": "Nutone",
+          "count": "19"
+        },
+        {
+          "item": "Best",
+          "count": "17"
+        },
+        {
+          "item": "Cyclone",
+          "count": "17"
+        },
+        {
+          "item": "Commercial Electric",
+          "count": "15"
+        },
+        {
+          "item": "ACIQ",
+          "count": "15"
+        },
+        {
+          "item": "Utilitech",
+          "count": "14"
+        },
+        {
+          "item": "Dayton",
+          "count": "12"
+        }
+      ],
+      "smallest": "ACIQ",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814416,
+    "name": "Model Name",
+    "dataTypeName": "text",
+    "description": "An identifier assigned by the manufacturer or private labeler to a product or family/series of products for sales and marketing purposes.",
+    "fieldName": "model_name",
+    "position": 4,
+    "renderTypeName": "text",
+    "tableColumnId": 10027102,
+    "width": 220,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "Zephyr Quiet Ceiling Centrifugal Fan",
+      "null": "0",
+      "top": [
+        {
+          "item": "RANGE HOOD",
+          "count": "70"
+        },
+        {
+          "item": "Air King",
+          "count": "53"
+        },
+        {
+          "item": "Model SP Ceiling Fan, Direct Drive",
+          "count": "51"
+        },
+        {
+          "item": "ReVent",
+          "count": "29"
+        },
+        {
+          "item": "SP",
+          "count": "26"
+        },
+        {
+          "item": "BreezSignature",
+          "count": "26"
+        },
+        {
+          "item": "BreezSlim",
+          "count": "23"
+        },
+        {
+          "item": "INVENT",
+          "count": "23"
+        },
+        {
+          "item": "FLEX",
+          "count": "21"
+        },
+        {
+          "item": "N/A",
+          "count": "19"
+        },
+        {
+          "item": "QT SERIES",
+          "count": "17"
+        },
+        {
+          "item": "ROOMSIDE",
+          "count": "17"
+        },
+        {
+          "item": "Whisper Green Select",
+          "count": "16"
+        },
+        {
+          "item": "ULTRA GREEN",
+          "count": "16"
+        },
+        {
+          "item": "BreezElite",
+          "count": "16"
+        },
+        {
+          "item": "BreezIntegrity",
+          "count": "15"
+        },
+        {
+          "item": "BreezGreenBuilder",
+          "count": "14"
+        },
+        {
+          "item": "BPT",
+          "count": "12"
+        },
+        {
+          "item": "FLEX SERIES",
+          "count": "12"
+        },
+        {
+          "item": "TD",
+          "count": "11"
+        }
+      ],
+      "smallest": "1",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814417,
+    "name": "Model Number",
+    "dataTypeName": "text",
+    "description": "A distinguishing identifier, usually alphanumeric, assigned to a product by the manufacturer or private labeler.",
+    "fieldName": "model_number",
+    "position": 5,
+    "renderTypeName": "text",
+    "tableColumnId": 10027103,
+    "width": 244,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "ZSI-E36BS-ES",
+      "null": "0",
+      "top": [
+        {
+          "item": "SP-AP0511W",
+          "count": "5"
+        },
+        {
+          "item": "SP-AP0511WL",
+          "count": "5"
+        },
+        {
+          "item": "SP-AP0511W-1",
+          "count": "4"
+        },
+        {
+          "item": "SP-AP0511WL-1",
+          "count": "4"
+        },
+        {
+          "item": "ZB80ML1",
+          "count": "4"
+        },
+        {
+          "item": "ALT4306SS",
+          "count": "3"
+        },
+        {
+          "item": "BPT13-12EN",
+          "count": "2"
+        },
+        {
+          "item": "XB80",
+          "count": "2"
+        },
+        {
+          "item": "SIG80-110LED",
+          "count": "2"
+        },
+        {
+          "item": "QT130E",
+          "count": "2"
+        },
+        {
+          "item": "SEP120",
+          "count": "2"
+        },
+        {
+          "item": "FV-0511VFL1K",
+          "count": "2"
+        },
+        {
+          "item": "BPT14-24TGHS",
+          "count": "2"
+        },
+        {
+          "item": "VQ-AP0511WL-1",
+          "count": "2"
+        },
+        {
+          "item": "AMG03RWW",
+          "count": "2"
+        },
+        {
+          "item": "SP-B110ES",
+          "count": "2"
+        },
+        {
+          "item": "XB80=XB00HwithXB80F",
+          "count": "2"
+        },
+        {
+          "item": "EZ80C",
+          "count": "2"
+        },
+        {
+          "item": "AE80K = A000HFKTC WITH AE80KF",
+          "count": "2"
+        },
+        {
+          "item": "FV-0511VKSL3",
+          "count": "2"
+        }
+      ],
+      "smallest": "1001357397",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814418,
+    "name": "Additional Model Information",
+    "dataTypeName": "text",
+    "description": "This column includes for the qualified model or family, family members, additional model names, model numbers and other identifying information associated with a  product or family/series of products for sales and marketing purposes. Other identifying information includes, but is not limited to, SKUs, UPC codes, retail numbers, and/or descriptions of models included/not included in the reported Model Family.",
+    "fieldName": "additional_model_information",
+    "position": 6,
+    "renderTypeName": "text",
+    "tableColumnId": 10027104,
+    "width": 352,
+    "cachedContents": {
+      "non_null": "6",
+      "largest": "WVW; WVW73UC0LS0; WVW73UC6LS",
+      "null": "1067",
+      "top": [
+        {
+          "item": "8144NC",
+          "count": "1"
+        },
+        {
+          "item": "8145NC",
+          "count": "1"
+        },
+        {
+          "item": "FAPV-L-HW",
+          "count": "1"
+        },
+        {
+          "item": "HCP30E51UC,30” Pyramid Canopy Chimney Hood, (1) 13w Fluorescent Lamp; HCP30E52UC,30” Pyramid Canopy Chimney Hood, (2) 6.5w LED Lamps; HCP34E52UC,34” Pyramid Canopy Chimney Hood, (2) 6.5w LED Lamps; HCP36E52UC,36” Pyramid Canopy Chimney Hood, (2) 6.5w LED Lamps",
+          "count": "1"
+        },
+        {
+          "item": "JVX5305DJWW; JVX5305EJES; JVX5305SJSS; JVX5365SJSS",
+          "count": "1"
+        },
+        {
+          "item": "WVW; WVW73UC0LS0; WVW73UC6LS",
+          "count": "1"
+        }
+      ],
+      "smallest": "8144NC",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814454,
+    "name": "UPC",
+    "dataTypeName": "text",
+    "description": "UPC codes provided by partners for ENERGY STAR certified products. The brand, model name and model number continue to serve as the identifiers used to establish certification. The UPC code data below is intended to aid in identification of ENERGY STAR models. UPC code data is not provided for all certified models.",
+    "fieldName": "upc",
+    "position": 7,
+    "renderTypeName": "text",
+    "tableColumnId": 139294576,
+    "cachedContents": {
+      "non_null": "584",
+      "largest": "990312490678",
+      "null": "489",
+      "top": [
+        {
+          "item": "026715273638",
+          "count": "8"
+        },
+        {
+          "item": "026715273645",
+          "count": "6"
+        },
+        {
+          "item": "00004512",
+          "count": "4"
+        },
+        {
+          "item": "026715260904",
+          "count": "4"
+        },
+        {
+          "item": "026715272204",
+          "count": "4"
+        },
+        {
+          "item": "026715273782",
+          "count": "4"
+        },
+        {
+          "item": "026715252572",
+          "count": "3"
+        },
+        {
+          "item": "820633940944",
+          "count": "3"
+        },
+        {
+          "item": "026715274161",
+          "count": "3"
+        },
+        {
+          "item": "026715274710",
+          "count": "3"
+        },
+        {
+          "item": "026715273621",
+          "count": "3"
+        },
+        {
+          "item": "026715275656",
+          "count": "3"
+        },
+        {
+          "item": "026715258758",
+          "count": "3"
+        },
+        {
+          "item": "026715273713",
+          "count": "3"
+        },
+        {
+          "item": "026715275571",
+          "count": "3"
+        },
+        {
+          "item": "026715256976",
+          "count": "2"
+        },
+        {
+          "item": "026715201099",
+          "count": "2"
+        },
+        {
+          "item": "026715257614;026715259052",
+          "count": "2"
+        },
+        {
+          "item": "026715252558",
+          "count": "2"
+        },
+        {
+          "item": "026715249305;026715261062",
+          "count": "2"
+        }
+      ],
+      "smallest": "000000000032",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {}
+  },
+  {
+    "id": 547814419,
+    "name": "Type",
+    "dataTypeName": "text",
+    "description": "The type of ventilating fan.",
+    "fieldName": "unit_type",
+    "position": 8,
+    "renderTypeName": "text",
+    "tableColumnId": 10027105,
+    "width": 148,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "Range Hood",
+      "null": "0",
+      "top": [
+        {
+          "item": "Bathroom/Utility Room",
+          "count": "914"
+        },
+        {
+          "item": "Range Hood",
+          "count": "89"
+        },
+        {
+          "item": "In-line (single-port)",
+          "count": "69"
+        },
+        {
+          "item": "In-line (multi-port)",
+          "count": "1"
+        }
+      ],
+      "smallest": "Bathroom/Utility Room",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814420,
+    "name": "MERV of In-line Fan Filter",
+    "dataTypeName": "number",
+    "description": "Some in-line fans are shipped with a filter. The minimum efficiency reporting value (MERV) rating indicates the level of filtration. A higher MERV rating means a greater level of filtration.",
+    "fieldName": "merv_of_in_line_fan_filter",
+    "position": 9,
+    "renderTypeName": "number",
+    "tableColumnId": 68405573,
+    "width": 100,
+    "cachedContents": {
+      "non_null": "6",
+      "largest": "13",
+      "null": "1067",
+      "top": [
+        {
+          "item": "13",
+          "count": "4"
+        },
+        {
+          "item": "6",
+          "count": "2"
+        }
+      ],
+      "smallest": "6",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814421,
+    "name": "Number of Speeds",
+    "dataTypeName": "text",
+    "description": "The number of speeds available for a ventilating fan. For fans with three or more speeds, only 3 is displayed.",
+    "fieldName": "number_of_speeds",
+    "position": 10,
+    "renderTypeName": "text",
+    "tableColumnId": 10027106,
+    "width": 154,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "3 or more",
+      "null": "0",
+      "top": [
+        {
+          "item": "1",
+          "count": "628"
+        },
+        {
+          "item": "3 or more",
+          "count": "264"
+        },
+        {
+          "item": "2",
+          "count": "181"
+        }
+      ],
+      "smallest": "1",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814422,
+    "name": "Duct Size",
+    "dataTypeName": "text",
+    "description": "Duct size indicates circular diameter for circular ducts and depth by width for rectangular ducts.",
+    "fieldName": "duct_size",
+    "position": 11,
+    "renderTypeName": "text",
+    "tableColumnId": 34953063,
+    "width": 205,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "8 inch diameter",
+      "null": "0",
+      "top": [
+        {
+          "item": "4.00 inch diameter",
+          "count": "283"
+        },
+        {
+          "item": "4 inch diameter",
+          "count": "157"
+        },
+        {
+          "item": "4.00 inch depth X 0.00 inch width",
+          "count": "154"
+        },
+        {
+          "item": "6.00 inch diameter",
+          "count": "105"
+        },
+        {
+          "item": "6 inch diameter",
+          "count": "97"
+        },
+        {
+          "item": "6.00 inch depth X 0.00 inch width",
+          "count": "45"
+        },
+        {
+          "item": "3.00 inch diameter",
+          "count": "38"
+        },
+        {
+          "item": "7.00 inch depth X 0.00 inch width",
+          "count": "35"
+        },
+        {
+          "item": "3.25 inch depth X 10.00 inch width",
+          "count": "17"
+        },
+        {
+          "item": "8.00 inch diameter",
+          "count": "15"
+        },
+        {
+          "item": "6.0 inch diameter",
+          "count": "14"
+        },
+        {
+          "item": "3 inch diameter",
+          "count": "13"
+        },
+        {
+          "item": "3.00 inch depth X 0.00 inch width",
+          "count": "11"
+        },
+        {
+          "item": "10.00 inch depth X 0.00 inch width",
+          "count": "10"
+        },
+        {
+          "item": "6.0 inch depth X 8.0 inch width",
+          "count": "9"
+        },
+        {
+          "item": "4 inch depth X 0 inch width",
+          "count": "6"
+        },
+        {
+          "item": "3.25 inch depth X 10 inch width",
+          "count": "6"
+        },
+        {
+          "item": "6.00 inch depth X 6.00 inch width",
+          "count": "6"
+        },
+        {
+          "item": "5.00 inch diameter",
+          "count": "6"
+        },
+        {
+          "item": "3.25 inch diameter",
+          "count": "5"
+        }
+      ],
+      "smallest": "10.00 inch depth X 0.00 inch width",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814423,
+    "name": "Sound Level (sones)",
+    "dataTypeName": "text",
+    "description": "Residential bath and utility ventilating fans and range hoods must meet maximum allowable sound levels between 2-3 sones. There are no sound requirements for single or multi-port in-line fans.",
+    "fieldName": "sound_level_sones",
+    "position": 12,
+    "renderTypeName": "text",
+    "tableColumnId": 10027109,
+    "width": 149,
+    "cachedContents": {
+      "non_null": "1061",
+      "largest": "N/A",
+      "null": "12",
+      "top": [
+        {
+          "item": "1.5",
+          "count": "99"
+        },
+        {
+          "item": "2.0",
+          "count": "84"
+        },
+        {
+          "item": "1.0",
+          "count": "83"
+        },
+        {
+          "item": "N/A",
+          "count": "69"
+        },
+        {
+          "item": "0.7",
+          "count": "50"
+        },
+        {
+          "item": "0.8",
+          "count": "33"
+        },
+        {
+          "item": "1.5 - 2.0",
+          "count": "32"
+        },
+        {
+          "item": "0.4",
+          "count": "32"
+        },
+        {
+          "item": "0.5",
+          "count": "28"
+        },
+        {
+          "item": "0.3",
+          "count": "26"
+        },
+        {
+          "item": "1.1",
+          "count": "26"
+        },
+        {
+          "item": "0.9",
+          "count": "24"
+        },
+        {
+          "item": "0.6",
+          "count": "24"
+        },
+        {
+          "item": "1.2",
+          "count": "19"
+        },
+        {
+          "item": "0.1 - 0.3",
+          "count": "19"
+        },
+        {
+          "item": "0.1 - 0.1",
+          "count": "18"
+        },
+        {
+          "item": "1.5 - 1.5",
+          "count": "18"
+        },
+        {
+          "item": "0.1 - 0.9",
+          "count": "17"
+        },
+        {
+          "item": "0.1 - 1.0",
+          "count": "16"
+        },
+        {
+          "item": "0.6 - 1.5",
+          "count": "13"
+        }
+      ],
+      "smallest": "0.0",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814424,
+    "name": "Bathroom and Utility Room Sound Level (sones) at 0.25 in. w.g.",
+    "dataTypeName": "number",
+    "description": "This measurement showcases the sound performance of a fan that is installed and operating under a heavier load than it is designed for.",
+    "fieldName": "bathroom_and_utility_room_sound_level_sones_at_0_25_in_w_g",
+    "position": 13,
+    "renderTypeName": "number",
+    "tableColumnId": 68405583,
+    "width": 100,
+    "cachedContents": {
+      "non_null": "771",
+      "largest": "5.6",
+      "null": "302",
+      "top": [
+        {
+          "item": "0.0",
+          "count": "451"
+        },
+        {
+          "item": "1.5",
+          "count": "84"
+        },
+        {
+          "item": "2.0",
+          "count": "48"
+        },
+        {
+          "item": "1.4",
+          "count": "41"
+        },
+        {
+          "item": "0.8",
+          "count": "25"
+        },
+        {
+          "item": "1.3",
+          "count": "25"
+        },
+        {
+          "item": "1.2",
+          "count": "17"
+        },
+        {
+          "item": "1",
+          "count": "15"
+        },
+        {
+          "item": "0.9",
+          "count": "13"
+        },
+        {
+          "item": "1.1",
+          "count": "10"
+        },
+        {
+          "item": "2.5",
+          "count": "8"
+        },
+        {
+          "item": "0.3",
+          "count": "7"
+        },
+        {
+          "item": "0.7",
+          "count": "6"
+        },
+        {
+          "item": "0.6",
+          "count": "4"
+        },
+        {
+          "item": "0.5",
+          "count": "4"
+        },
+        {
+          "item": "0.4",
+          "count": "3"
+        },
+        {
+          "item": "1.7",
+          "count": "3"
+        },
+        {
+          "item": "3.0",
+          "count": "2"
+        },
+        {
+          "item": "5.6",
+          "count": "1"
+        },
+        {
+          "item": "1.9",
+          "count": "1"
+        }
+      ],
+      "smallest": "0.0",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814425,
+    "name": "Bathroom and Utility Room Airflow at 0.25 in. w.g.",
+    "dataTypeName": "text",
+    "description": "This measurement showcases the airflow performance of a fan that is installed and operating under a heavier load than it is designed for.",
+    "fieldName": "bathroom_and_utility_room_airflow_at_0_25_in_w_g",
+    "position": 14,
+    "renderTypeName": "text",
+    "tableColumnId": 68405584,
+    "width": 100,
+    "cachedContents": {
+      "non_null": "895",
+      "largest": "99.0",
+      "null": "178",
+      "top": [
+        {
+          "item": "91.7",
+          "count": "19"
+        },
+        {
+          "item": "106.5",
+          "count": "13"
+        },
+        {
+          "item": "60.5",
+          "count": "12"
+        },
+        {
+          "item": "85.6",
+          "count": "11"
+        },
+        {
+          "item": "80.0",
+          "count": "10"
+        },
+        {
+          "item": "112.9",
+          "count": "10"
+        },
+        {
+          "item": "60.0",
+          "count": "10"
+        },
+        {
+          "item": "51.9",
+          "count": "9"
+        },
+        {
+          "item": "110.3",
+          "count": "9"
+        },
+        {
+          "item": "84.1",
+          "count": "9"
+        },
+        {
+          "item": "110.2",
+          "count": "8"
+        },
+        {
+          "item": "36.5",
+          "count": "8"
+        },
+        {
+          "item": "126.1",
+          "count": "8"
+        },
+        {
+          "item": "97.3",
+          "count": "8"
+        },
+        {
+          "item": "70.5",
+          "count": "8"
+        },
+        {
+          "item": "123.8",
+          "count": "8"
+        },
+        {
+          "item": "92.1",
+          "count": "8"
+        },
+        {
+          "item": "111.2",
+          "count": "8"
+        },
+        {
+          "item": "92.2",
+          "count": "7"
+        },
+        {
+          "item": "113.5",
+          "count": "7"
+        }
+      ],
+      "smallest": "100",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814426,
+    "name": "Shipped with ENERGY STAR Lamp(s)",
+    "dataTypeName": "text",
+    "description": "For ventilating fans with lighting, this column indicates whether the ceiling fan is shipped with ENERGY STAR certified lamps.",
+    "fieldName": "shipped_with_energy_star_lamp_s",
+    "position": 15,
+    "renderTypeName": "text",
+    "tableColumnId": 68405585,
+    "width": 100,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "Yes",
+      "null": "0",
+      "top": [
+        {
+          "item": "No",
+          "count": "1049"
+        },
+        {
+          "item": "Yes",
+          "count": "24"
+        }
+      ],
+      "smallest": "No",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814427,
+    "name": "ENERGY STAR Lamp ESUID",
+    "dataTypeName": "number",
+    "description": "This column indicates the ENERGY STAR Unique ID (ESUID) number for the ENERGY STAR lamps that are shipped with the certified ceiling fan.",
+    "fieldName": "energy_star_lamp_esuid",
+    "position": 16,
+    "renderTypeName": "number",
+    "tableColumnId": 68405586,
+    "width": 100,
+    "cachedContents": {
+      "non_null": "24",
+      "largest": "2393898",
+      "null": "1049",
+      "top": [
+        {
+          "item": "2339458",
+          "count": "6"
+        },
+        {
+          "item": "2393898",
+          "count": "4"
+        },
+        {
+          "item": "2348803",
+          "count": "3"
+        },
+        {
+          "item": "2348811",
+          "count": "3"
+        },
+        {
+          "item": "2339513",
+          "count": "2"
+        },
+        {
+          "item": "2275533",
+          "count": "1"
+        },
+        {
+          "item": "2339511",
+          "count": "1"
+        },
+        {
+          "item": "2332456",
+          "count": "1"
+        },
+        {
+          "item": "2348815",
+          "count": "1"
+        },
+        {
+          "item": "2371772",
+          "count": "1"
+        },
+        {
+          "item": "2309222",
+          "count": "1"
+        }
+      ],
+      "smallest": "2275533",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814428,
+    "name": "Alternate ENERGY STAR Lamps ESUIDs",
+    "dataTypeName": "number",
+    "description": "This column indicates alternate ENERGY STAR Unique ID (ESUID) number(s) for the ENERGY STAR lamps that are shipped with the certified ventilating fan.",
+    "fieldName": "alternate_energy_star_lamps_esuids",
+    "position": 17,
+    "renderTypeName": "number",
+    "tableColumnId": 68405587,
+    "width": 100,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "1073",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814429,
+    "name": "ENERGY STAR Lamp Partner",
+    "dataTypeName": "text",
+    "description": "",
+    "fieldName": "energy_star_lamp_partner",
+    "position": 18,
+    "renderTypeName": "text",
+    "tableColumnId": 68405597,
+    "width": 100,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "1073",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814430,
+    "name": "Lamp Model Number",
+    "dataTypeName": "text",
+    "description": "A distinguishing identifier, usually alphanumeric, assigned to a product by the manufacturer or private labeler. This model number pertains only to the lamp.",
+    "fieldName": "lamp_model_number",
+    "position": 19,
+    "renderTypeName": "text",
+    "tableColumnId": 68405598,
+    "width": 100,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "1073",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814431,
+    "name": "Lighting Technology",
+    "dataTypeName": "text",
+    "description": "The light source technology utilized by the fixture: compact fluorescent light (CFL), light emitting diode (LED), or halogen. ",
+    "fieldName": "lighting_technology_used",
+    "position": 20,
+    "renderTypeName": "text",
+    "tableColumnId": 10027111,
+    "width": 198,
+    "cachedContents": {
+      "non_null": "204",
+      "largest": "LED",
+      "null": "869",
+      "top": [
+        {
+          "item": "LED",
+          "count": "203"
+        },
+        {
+          "item": "Fluorescent",
+          "count": "1"
+        }
+      ],
+      "smallest": "Fluorescent",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814432,
+    "name": "Total Light Output (lumens)",
+    "dataTypeName": "number",
+    "description": "The amount of light emitted by the light source or light fixture. Non directional fixtures (with removable light sources i.e. GU24 base bulbs) are measured at the light source and do not account for light lost from the fixture, while other fixtures meant to put light on a specific application (e.g. recessed downlights, under cabinet lights, accent lights, cove lights) are measured at the fixture level, only counting the light that escapes the fixture.",
+    "fieldName": "light_output_lumens",
+    "position": 21,
+    "renderTypeName": "number",
+    "tableColumnId": 10027112,
+    "width": 174,
+    "cachedContents": {
+      "non_null": "204",
+      "largest": "2225",
+      "null": "869",
+      "top": [
+        {
+          "item": "1179",
+          "count": "16"
+        },
+        {
+          "item": "791",
+          "count": "14"
+        },
+        {
+          "item": "720",
+          "count": "11"
+        },
+        {
+          "item": "843",
+          "count": "11"
+        },
+        {
+          "item": "736",
+          "count": "10"
+        },
+        {
+          "item": "941",
+          "count": "9"
+        },
+        {
+          "item": "1286",
+          "count": "9"
+        },
+        {
+          "item": "936",
+          "count": "8"
+        },
+        {
+          "item": "1326",
+          "count": "8"
+        },
+        {
+          "item": "507",
+          "count": "6"
+        },
+        {
+          "item": "1189",
+          "count": "6"
+        },
+        {
+          "item": "943",
+          "count": "6"
+        },
+        {
+          "item": "1193",
+          "count": "5"
+        },
+        {
+          "item": "938",
+          "count": "5"
+        },
+        {
+          "item": "986",
+          "count": "5"
+        },
+        {
+          "item": "940",
+          "count": "5"
+        },
+        {
+          "item": "696",
+          "count": "5"
+        },
+        {
+          "item": "867",
+          "count": "4"
+        },
+        {
+          "item": "855",
+          "count": "4"
+        },
+        {
+          "item": "782",
+          "count": "4"
+        }
+      ],
+      "smallest": "308",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "right"
+    }
+  },
+  {
+    "id": 547814433,
+    "name": "Total Input Power (Watts)",
+    "dataTypeName": "number",
+    "description": "Total power consumed by the luminaire while in use.",
+    "fieldName": "total_input_power_watts",
+    "position": 22,
+    "renderTypeName": "number",
+    "tableColumnId": 10027113,
+    "width": 200,
+    "cachedContents": {
+      "non_null": "414",
+      "largest": "19.40",
+      "null": "659",
+      "top": [
+        {
+          "item": "0.00",
+          "count": "210"
+        },
+        {
+          "item": "1",
+          "count": "70"
+        },
+        {
+          "item": "9.92",
+          "count": "14"
+        },
+        {
+          "item": "11",
+          "count": "11"
+        },
+        {
+          "item": "10.48",
+          "count": "11"
+        },
+        {
+          "item": "9.20",
+          "count": "10"
+        },
+        {
+          "item": "13",
+          "count": "10"
+        },
+        {
+          "item": "10.04",
+          "count": "9"
+        },
+        {
+          "item": "10.00",
+          "count": "8"
+        },
+        {
+          "item": "13.67",
+          "count": "5"
+        },
+        {
+          "item": "15.70",
+          "count": "5"
+        },
+        {
+          "item": "16.00",
+          "count": "5"
+        },
+        {
+          "item": "13.12",
+          "count": "4"
+        },
+        {
+          "item": "9.50",
+          "count": "4"
+        },
+        {
+          "item": "8.50",
+          "count": "4"
+        },
+        {
+          "item": "2.77",
+          "count": "3"
+        },
+        {
+          "item": "6.00",
+          "count": "3"
+        },
+        {
+          "item": "6.50",
+          "count": "3"
+        },
+        {
+          "item": "14.99",
+          "count": "3"
+        },
+        {
+          "item": "12.63",
+          "count": "2"
+        }
+      ],
+      "smallest": "0.00",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "right"
+    }
+  },
+  {
+    "id": 547814434,
+    "name": "Energy Efficiency - Measured Outside the Fixture (lm/W)",
+    "dataTypeName": "number",
+    "description": "The quotient of the total luminous flux (lumens) emitted by the fixture over the total power input (Watts). It is expressed in lumens per watt (lm/W). For ENERGY STAR qualified fixtures this applies to light fixtures that are considered directional and are measured at the fixture level. This includes the following residential grade directional fixture types: line-voltage track lights, ceiling fan light kits, undercabinet and cove lighting, downlights, recessed, pendant or surface mounted and includes retrofit kits for existing recessed cans. This also includes the following LIMITED commercial fixture types: Accent lights such as line-voltage track lights, under cabinet task lights, portable desk task lights, downlights, recessed, pendant or surface-mounts BUT EXCLUDES typical commercial and industrial fixtures such as recessed troffers or linear forms (e.g. linear fluorescent pendants) typically used in office spaces.",
+    "fieldName": "luminaire_efficacy",
+    "position": 23,
+    "renderTypeName": "number",
+    "tableColumnId": 10027114,
+    "width": 175,
+    "cachedContents": {
+      "non_null": "227",
+      "largest": "119.3",
+      "null": "846",
+      "top": [
+        {
+          "item": "75.1",
+          "count": "16"
+        },
+        {
+          "item": "90",
+          "count": "15"
+        },
+        {
+          "item": "79.7",
+          "count": "14"
+        },
+        {
+          "item": "80.5",
+          "count": "12"
+        },
+        {
+          "item": "80",
+          "count": "10"
+        },
+        {
+          "item": "108",
+          "count": "9"
+        },
+        {
+          "item": "93.8",
+          "count": "9"
+        },
+        {
+          "item": "83",
+          "count": "8"
+        },
+        {
+          "item": "72.2",
+          "count": "8"
+        },
+        {
+          "item": "71.9",
+          "count": "6"
+        },
+        {
+          "item": "88.9",
+          "count": "6"
+        },
+        {
+          "item": "83.9",
+          "count": "6"
+        },
+        {
+          "item": "94.3",
+          "count": "6"
+        },
+        {
+          "item": "72.1",
+          "count": "5"
+        },
+        {
+          "item": "87.7",
+          "count": "5"
+        },
+        {
+          "item": "96.1",
+          "count": "5"
+        },
+        {
+          "item": "87.9",
+          "count": "5"
+        },
+        {
+          "item": "90.8",
+          "count": "4"
+        },
+        {
+          "item": "84.2",
+          "count": "4"
+        },
+        {
+          "item": "89.5",
+          "count": "4"
+        }
+      ],
+      "smallest": "45.7",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "right"
+    }
+  },
+  {
+    "id": 547814435,
+    "name": "Power Factor",
+    "dataTypeName": "number",
+    "description": "Ratio of real power flowing to the lamp to the apparent power in the circuit. A lamp with a lower power factor will draw more current than a lamp with a higher power factor of the same wattage.",
+    "fieldName": "power_factor",
+    "position": 24,
+    "renderTypeName": "number",
+    "tableColumnId": 10027115,
+    "width": 143,
+    "cachedContents": {
+      "non_null": "1",
+      "largest": "0.9",
+      "null": "1072",
+      "top": [
+        {
+          "item": "0.9",
+          "count": "1"
+        }
+      ],
+      "smallest": "0.9",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "right"
+    }
+  },
+  {
+    "id": 547814436,
+    "name": "Light Color Appearance (CCT)",
+    "dataTypeName": "text",
+    "description": "A description of the \"color\" of a light source measured on the Kelvin (K) scale. CFLs are available in a range of color temperatures. Lower values (2700-3000K) mean the white light has a warmer (red-yellow) tone, while higher kelvin (4100-6500K) mean the white light has a cooler (bluer) tone.",
+    "fieldName": "correlated_color_temperature_kelvin",
+    "position": 25,
+    "renderTypeName": "text",
+    "tableColumnId": 10027116,
+    "width": 268,
+    "cachedContents": {
+      "non_null": "215",
+      "largest": "4000/4100K",
+      "null": "858",
+      "top": [
+        {
+          "item": "3000K",
+          "count": "121"
+        },
+        {
+          "item": "2700K",
+          "count": "39"
+        },
+        {
+          "item": "4000/4100K",
+          "count": "33"
+        },
+        {
+          "item": "3500K",
+          "count": "22"
+        }
+      ],
+      "smallest": "2700K",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814437,
+    "name": "Light Color Quality (CRI)",
+    "dataTypeName": "number",
+    "description": "Measure of the degree of color shift objects undergo when illuminated by the light source as compared with the color of those same objects when illuminated by a reference source of comparable color temperature.",
+    "fieldName": "color_rendering_index_cri",
+    "position": 26,
+    "renderTypeName": "number",
+    "tableColumnId": 10027117,
+    "width": 175,
+    "cachedContents": {
+      "non_null": "216",
+      "largest": "97",
+      "null": "857",
+      "top": [
+        {
+          "item": "94",
+          "count": "35"
+        },
+        {
+          "item": "93",
+          "count": "31"
+        },
+        {
+          "item": "82",
+          "count": "26"
+        },
+        {
+          "item": "92",
+          "count": "25"
+        },
+        {
+          "item": "83",
+          "count": "19"
+        },
+        {
+          "item": "91",
+          "count": "16"
+        },
+        {
+          "item": "95",
+          "count": "14"
+        },
+        {
+          "item": "80",
+          "count": "11"
+        },
+        {
+          "item": "88",
+          "count": "11"
+        },
+        {
+          "item": "81",
+          "count": "10"
+        },
+        {
+          "item": "84",
+          "count": "6"
+        },
+        {
+          "item": "87",
+          "count": "6"
+        },
+        {
+          "item": "97",
+          "count": "3"
+        },
+        {
+          "item": "85",
+          "count": "1"
+        },
+        {
+          "item": "86",
+          "count": "1"
+        },
+        {
+          "item": "90",
+          "count": "1"
+        }
+      ],
+      "smallest": "80",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "right"
+    }
+  },
+  {
+    "id": 547814438,
+    "name": "Light Source Life (Hours)",
+    "dataTypeName": "number",
+    "description": "The expected useful life of the light source. Measured differently depending on the technology of the light source. For example, LED lighting expected useful life is based on the estimated point at which only 70% of the original light output remains, while for older technologies, like fluorescent and halogen, estimated useful life is based on the measured median sample life.",
+    "fieldName": "life_source_life_hours",
+    "position": 27,
+    "renderTypeName": "number",
+    "tableColumnId": 10027118,
+    "width": 217,
+    "cachedContents": {
+      "non_null": "215",
+      "largest": "72000",
+      "null": "858",
+      "top": [
+        {
+          "item": "54000",
+          "count": "46"
+        },
+        {
+          "item": "36000",
+          "count": "42"
+        },
+        {
+          "item": "50000",
+          "count": "40"
+        },
+        {
+          "item": "60000",
+          "count": "27"
+        },
+        {
+          "item": "25000",
+          "count": "19"
+        },
+        {
+          "item": "30000",
+          "count": "17"
+        },
+        {
+          "item": "59000",
+          "count": "6"
+        },
+        {
+          "item": "35000",
+          "count": "4"
+        },
+        {
+          "item": "15000",
+          "count": "4"
+        },
+        {
+          "item": "60006",
+          "count": "4"
+        },
+        {
+          "item": "49000",
+          "count": "3"
+        },
+        {
+          "item": "72000",
+          "count": "2"
+        },
+        {
+          "item": "10000",
+          "count": "1"
+        }
+      ],
+      "smallest": "10000",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "right"
+    }
+  },
+  {
+    "id": 547814439,
+    "name": "Special Features (Dimming, Motion Sensing, etc.)",
+    "dataTypeName": "text",
+    "description": "Most fixtures are designed to operate on an on/off switch. However, some fixtures have been designed with features to perform in specialized applications, such as with dimmers, three-way, or photo cell controls. Special features and compatibility with controls should be clearly marked on the product packaging, cut sheet or web site for the product.",
+    "fieldName": "special_features_dimming_motion_sensing_etc",
+    "position": 28,
+    "renderTypeName": "text",
+    "tableColumnId": 10027119,
+    "width": 347,
+    "cachedContents": {
+      "non_null": "215",
+      "largest": "Non-Dimmable",
+      "null": "858",
+      "top": [
+        {
+          "item": "Continuous Dimming",
+          "count": "159"
+        },
+        {
+          "item": "Non-Dimmable",
+          "count": "56"
+        }
+      ],
+      "smallest": "Continuous Dimming",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814440,
+    "name": "Notes",
+    "dataTypeName": "text",
+    "description": "Indicates information on certification relevant to the consumer (i.e. product variations, unique issues concerning the model’s listing, etc.).",
+    "fieldName": "notes",
+    "position": 29,
+    "renderTypeName": "text",
+    "tableColumnId": 10027120,
+    "width": 160,
+    "cachedContents": {
+      "non_null": "45",
+      "largest": "The LED array is 99271626, the LED Driver is 99271625, which when combined with the grille and lens, become the 97020827 grille assembly.",
+      "null": "1028",
+      "top": [
+        {
+          "item": "Driver ERP EBR015U-0375-29",
+          "count": "9"
+        },
+        {
+          "item": "1109266",
+          "count": "8"
+        },
+        {
+          "item": "Flicker Pst=0.45, Flicker SVM=0.70",
+          "count": "5"
+        },
+        {
+          "item": "AGL1-27LS on CSD, BACL 1109266",
+          "count": "4"
+        },
+        {
+          "item": "2.0",
+          "count": "4"
+        },
+        {
+          "item": "Lutron CTCL-153P",
+          "count": "2"
+        },
+        {
+          "item": "Flicker Pst=4.23, Flicker SVM=1.14",
+          "count": "2"
+        },
+        {
+          "item": "from CSD data",
+          "count": "2"
+        },
+        {
+          "item": "from CSD data, max insitu 105, confirmed no CRI-R9 in CSD",
+          "count": "2"
+        },
+        {
+          "item": "initially recorded from CSD data, max insitu 105,. 2.0",
+          "count": "2"
+        },
+        {
+          "item": "operates on switch or relay, so zero standby power. 2.0",
+          "count": "2"
+        },
+        {
+          "item": "The LED array is 99271626, the LED Driver is 99271625, which when combined with the grille and lens, become the 97020827 grille assembly.",
+          "count": "1"
+        },
+        {
+          "item": "LED Driver Oasistek Model NCL-013-033T, LED = EFSA3-YK110-CS",
+          "count": "1"
+        },
+        {
+          "item": "10%-100% Dimming",
+          "count": "1"
+        }
+      ],
+      "smallest": "10%-100% Dimming",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814441,
+    "name": "Lighting",
+    "dataTypeName": "text",
+    "description": "Indicates if the unit includes a light source.",
+    "fieldName": "lighting",
+    "position": 30,
+    "renderTypeName": "text",
+    "tableColumnId": 11103064,
+    "width": 100,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "Yes",
+      "null": "0",
+      "top": [
+        {
+          "item": "No",
+          "count": "648"
+        },
+        {
+          "item": "Yes",
+          "count": "425"
+        }
+      ],
+      "smallest": "No",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814442,
+    "name": "Airflow 1 (cfm)",
+    "dataTypeName": "number",
+    "description": "It is standard industry practice to round down airflow to the nearest 10 cfm when publishing this metric in product directories as the Airflow Certified Rating. For this reason, Airflow Certified Rating and As-Tested Airflow may occasionally differ on this list. In the case of a range hood, Airflow Certified Rating represents performance at working speed, while in the case of a bathroom or utility room fan, or an in-line ventilating fan, it represents maximum speed.",
+    "fieldName": "airflow_1_cfm",
+    "position": 31,
+    "renderTypeName": "number",
+    "tableColumnId": 11103129,
+    "width": 208,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "750",
+      "null": "0",
+      "top": [
+        {
+          "item": "110",
+          "count": "280"
+        },
+        {
+          "item": "80",
+          "count": "175"
+        },
+        {
+          "item": "100",
+          "count": "148"
+        },
+        {
+          "item": "150",
+          "count": "106"
+        },
+        {
+          "item": "50",
+          "count": "75"
+        },
+        {
+          "item": "70",
+          "count": "47"
+        },
+        {
+          "item": "90",
+          "count": "40"
+        },
+        {
+          "item": "130",
+          "count": "34"
+        },
+        {
+          "item": "160",
+          "count": "20"
+        },
+        {
+          "item": "200",
+          "count": "16"
+        },
+        {
+          "item": "120",
+          "count": "15"
+        },
+        {
+          "item": "260",
+          "count": "9"
+        },
+        {
+          "item": "140",
+          "count": "8"
+        },
+        {
+          "item": "180",
+          "count": "8"
+        },
+        {
+          "item": "60",
+          "count": "6"
+        },
+        {
+          "item": "270",
+          "count": "5"
+        },
+        {
+          "item": "170",
+          "count": "5"
+        },
+        {
+          "item": "113",
+          "count": "4"
+        },
+        {
+          "item": "210",
+          "count": "4"
+        },
+        {
+          "item": "190",
+          "count": "4"
+        }
+      ],
+      "smallest": "50",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814443,
+    "name": "Airflow 2 (cfm)",
+    "dataTypeName": "number",
+    "description": "It is standard industry practice to round down airflow to the nearest 10 cfm when publishing this metric in product directories as the Airflow Certified Rating. For this reason, Airflow Certified Rating and As-Tested Airflow may occasionally differ on this list. In the case of a range hood, Airflow Certified Rating represents performance at working speed, while in the case of a bathroom or utility room fan, or an in-line ventilating fan, it represents maximum speed.",
+    "fieldName": "airflow_2_cfm",
+    "position": 32,
+    "renderTypeName": "number",
+    "tableColumnId": 11103135,
+    "width": 100,
+    "cachedContents": {
+      "non_null": "431",
+      "largest": "310",
+      "null": "642",
+      "top": [
+        {
+          "item": "80",
+          "count": "200"
+        },
+        {
+          "item": "130",
+          "count": "49"
+        },
+        {
+          "item": "70",
+          "count": "37"
+        },
+        {
+          "item": "110",
+          "count": "34"
+        },
+        {
+          "item": "50",
+          "count": "28"
+        },
+        {
+          "item": "60",
+          "count": "19"
+        },
+        {
+          "item": "160",
+          "count": "12"
+        },
+        {
+          "item": "100",
+          "count": "11"
+        },
+        {
+          "item": "140",
+          "count": "9"
+        },
+        {
+          "item": "90",
+          "count": "7"
+        },
+        {
+          "item": "88",
+          "count": "4"
+        },
+        {
+          "item": "120",
+          "count": "4"
+        },
+        {
+          "item": "40",
+          "count": "3"
+        },
+        {
+          "item": "200",
+          "count": "2"
+        },
+        {
+          "item": "150",
+          "count": "2"
+        },
+        {
+          "item": "170",
+          "count": "2"
+        },
+        {
+          "item": "210",
+          "count": "2"
+        },
+        {
+          "item": "310",
+          "count": "1"
+        },
+        {
+          "item": "229",
+          "count": "1"
+        },
+        {
+          "item": "230",
+          "count": "1"
+        }
+      ],
+      "smallest": "30",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814444,
+    "name": "Airflow 3 (cfm)",
+    "dataTypeName": "number",
+    "description": "It is standard industry practice to round down airflow to the nearest 10 cfm when publishing this metric in product directories as the Airflow Certified Rating. For this reason, Airflow Certified Rating and As-Tested Airflow may occasionally differ on this list. In the case of a range hood, Airflow Certified Rating represents performance at working speed, while in the case of a bathroom or utility room fan, or an in-line ventilating fan, it represents maximum speed.",
+    "fieldName": "airflow_3_cfm",
+    "position": 33,
+    "renderTypeName": "number",
+    "tableColumnId": 11103136,
+    "width": 100,
+    "cachedContents": {
+      "non_null": "304",
+      "largest": "210",
+      "null": "769",
+      "top": [
+        {
+          "item": "50",
+          "count": "142"
+        },
+        {
+          "item": "30",
+          "count": "63"
+        },
+        {
+          "item": "110",
+          "count": "43"
+        },
+        {
+          "item": "130",
+          "count": "12"
+        },
+        {
+          "item": "40",
+          "count": "7"
+        },
+        {
+          "item": "160",
+          "count": "6"
+        },
+        {
+          "item": "60",
+          "count": "5"
+        },
+        {
+          "item": "80",
+          "count": "5"
+        },
+        {
+          "item": "89",
+          "count": "4"
+        },
+        {
+          "item": "55",
+          "count": "3"
+        },
+        {
+          "item": "90",
+          "count": "3"
+        },
+        {
+          "item": "120",
+          "count": "3"
+        },
+        {
+          "item": "20",
+          "count": "2"
+        },
+        {
+          "item": "100",
+          "count": "2"
+        },
+        {
+          "item": "126",
+          "count": "1"
+        },
+        {
+          "item": "70",
+          "count": "1"
+        },
+        {
+          "item": "27",
+          "count": "1"
+        },
+        {
+          "item": "210",
+          "count": "1"
+        }
+      ],
+      "smallest": "20",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814445,
+    "name": "Efficacy 1 (cfm/Watt)",
+    "dataTypeName": "number",
+    "description": "Efficacy is calculated by using airflow and fan motor electrical power values as tested per the requirements of this specification. Fan motor electrical usage is the only energy consumption considered for the fan efficacy calculation. Energy used for other fan auxiliaries (e.g., lights, sensors, heaters, timers, or night lights) is not included in the determination of fan efficacy.",
+    "fieldName": "efficacy_1_cfm_w",
+    "position": 34,
+    "renderTypeName": "number",
+    "tableColumnId": 11103167,
+    "width": 133,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "19",
+      "null": "0",
+      "top": [
+        {
+          "item": "4.2",
+          "count": "59"
+        },
+        {
+          "item": "3.9",
+          "count": "58"
+        },
+        {
+          "item": "4.6",
+          "count": "53"
+        },
+        {
+          "item": "4.7",
+          "count": "49"
+        },
+        {
+          "item": "4.3",
+          "count": "41"
+        },
+        {
+          "item": "3.8",
+          "count": "38"
+        },
+        {
+          "item": "4.5",
+          "count": "30"
+        },
+        {
+          "item": "4.4",
+          "count": "30"
+        },
+        {
+          "item": "4",
+          "count": "27"
+        },
+        {
+          "item": "3.7",
+          "count": "24"
+        },
+        {
+          "item": "3.5",
+          "count": "24"
+        },
+        {
+          "item": "4.1",
+          "count": "23"
+        },
+        {
+          "item": "3.6",
+          "count": "21"
+        },
+        {
+          "item": "3",
+          "count": "21"
+        },
+        {
+          "item": "5.5",
+          "count": "20"
+        },
+        {
+          "item": "9.3",
+          "count": "18"
+        },
+        {
+          "item": "3.4",
+          "count": "17"
+        },
+        {
+          "item": "10.5",
+          "count": "17"
+        },
+        {
+          "item": "9.5",
+          "count": "17"
+        },
+        {
+          "item": "4.9",
+          "count": "16"
+        }
+      ],
+      "smallest": "2.9",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814446,
+    "name": "Efficacy 2 (cfm/Watt)",
+    "dataTypeName": "number",
+    "description": "Efficacy is calculated by using airflow and fan motor electrical power values as tested per the requirements of this specification. Fan motor electrical usage is the only energy consumption considered for the fan efficacy calculation. Energy used for other fan auxiliaries (e.g., lights, sensors, heaters, timers, or night lights) is not included in the determination of fan efficacy.",
+    "fieldName": "efficacy_2_cfm_w",
+    "position": 35,
+    "renderTypeName": "number",
+    "tableColumnId": 11103168,
+    "width": 106,
+    "cachedContents": {
+      "non_null": "431",
+      "largest": "19.6",
+      "null": "642",
+      "top": [
+        {
+          "item": "3.7",
+          "count": "24"
+        },
+        {
+          "item": "4.2",
+          "count": "21"
+        },
+        {
+          "item": "12.1",
+          "count": "17"
+        },
+        {
+          "item": "11.4",
+          "count": "14"
+        },
+        {
+          "item": "12.3",
+          "count": "13"
+        },
+        {
+          "item": "12.8",
+          "count": "12"
+        },
+        {
+          "item": "4",
+          "count": "12"
+        },
+        {
+          "item": "12.5",
+          "count": "12"
+        },
+        {
+          "item": "13.1",
+          "count": "11"
+        },
+        {
+          "item": "12.7",
+          "count": "11"
+        },
+        {
+          "item": "11.7",
+          "count": "11"
+        },
+        {
+          "item": "11.6",
+          "count": "10"
+        },
+        {
+          "item": "5.1",
+          "count": "10"
+        },
+        {
+          "item": "9.3",
+          "count": "10"
+        },
+        {
+          "item": "13.3",
+          "count": "9"
+        },
+        {
+          "item": "8.4",
+          "count": "9"
+        },
+        {
+          "item": "12.9",
+          "count": "8"
+        },
+        {
+          "item": "6.9",
+          "count": "7"
+        },
+        {
+          "item": "12",
+          "count": "7"
+        },
+        {
+          "item": "15.8",
+          "count": "7"
+        }
+      ],
+      "smallest": "3.1",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814447,
+    "name": "Efficacy 3 (cfm/Watt)",
+    "dataTypeName": "number",
+    "description": "Efficacy is calculated by using airflow and fan motor electrical power values as tested per the requirements of this specification. Fan motor electrical usage is the only energy consumption considered for the fan efficacy calculation. Energy used for other fan auxiliaries (e.g., lights, sensors, heaters, timers, or night lights) is not included in the determination of fan efficacy.",
+    "fieldName": "efficacy_3_cfm_w",
+    "position": 36,
+    "renderTypeName": "number",
+    "tableColumnId": 11103169,
+    "width": 137,
+    "cachedContents": {
+      "non_null": "308",
+      "largest": "18.4",
+      "null": "765",
+      "top": [
+        {
+          "item": "11.7",
+          "count": "20"
+        },
+        {
+          "item": "3.7",
+          "count": "16"
+        },
+        {
+          "item": "4.2",
+          "count": "12"
+        },
+        {
+          "item": "12.5",
+          "count": "12"
+        },
+        {
+          "item": "10",
+          "count": "11"
+        },
+        {
+          "item": "4",
+          "count": "10"
+        },
+        {
+          "item": "3.9",
+          "count": "10"
+        },
+        {
+          "item": "13.9",
+          "count": "10"
+        },
+        {
+          "item": "11.4",
+          "count": "9"
+        },
+        {
+          "item": "11.6",
+          "count": "9"
+        },
+        {
+          "item": "8.9",
+          "count": "8"
+        },
+        {
+          "item": "10.6",
+          "count": "8"
+        },
+        {
+          "item": "12",
+          "count": "7"
+        },
+        {
+          "item": "14.9",
+          "count": "7"
+        },
+        {
+          "item": "13.1",
+          "count": "7"
+        },
+        {
+          "item": "10.7",
+          "count": "6"
+        },
+        {
+          "item": "12.9",
+          "count": "6"
+        },
+        {
+          "item": "14.6",
+          "count": "6"
+        },
+        {
+          "item": "11.8",
+          "count": "6"
+        },
+        {
+          "item": "13.7",
+          "count": "6"
+        }
+      ],
+      "smallest": "2.9",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "precisionStyle": "standard",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814448,
+    "name": "Ventilating Fan Features",
+    "dataTypeName": "text",
+    "description": "",
+    "fieldName": "ventilating_fan_features",
+    "position": 37,
+    "renderTypeName": "text",
+    "tableColumnId": 68405820,
+    "width": 100,
+    "cachedContents": {
+      "non_null": "0",
+      "null": "1073",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814449,
+    "name": "Date Available On Market",
+    "dataTypeName": "calendar_date",
+    "description": "The date that the model is available for purchase.",
+    "fieldName": "date_available_on_market",
+    "position": 38,
+    "renderTypeName": "calendar_date",
+    "tableColumnId": 10027121,
+    "width": 203,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "2025-12-16T00:00:00.000",
+      "null": "0",
+      "top": [
+        {
+          "item": "2025-01-30T00:00:00.000",
+          "count": "18"
+        },
+        {
+          "item": "2019-01-15T00:00:00.000",
+          "count": "16"
+        },
+        {
+          "item": "2018-01-12T00:00:00.000",
+          "count": "16"
+        },
+        {
+          "item": "2024-10-01T00:00:00.000",
+          "count": "16"
+        },
+        {
+          "item": "2024-04-19T00:00:00.000",
+          "count": "16"
+        },
+        {
+          "item": "2021-08-02T00:00:00.000",
+          "count": "14"
+        },
+        {
+          "item": "2024-08-30T00:00:00.000",
+          "count": "14"
+        },
+        {
+          "item": "2015-10-01T00:00:00.000",
+          "count": "14"
+        },
+        {
+          "item": "2022-01-26T00:00:00.000",
+          "count": "13"
+        },
+        {
+          "item": "2024-03-30T00:00:00.000",
+          "count": "12"
+        },
+        {
+          "item": "2025-07-25T00:00:00.000",
+          "count": "12"
+        },
+        {
+          "item": "2023-06-30T00:00:00.000",
+          "count": "12"
+        },
+        {
+          "item": "2025-02-28T00:00:00.000",
+          "count": "11"
+        },
+        {
+          "item": "2025-06-06T00:00:00.000",
+          "count": "11"
+        },
+        {
+          "item": "2010-01-01T00:00:00.000",
+          "count": "11"
+        },
+        {
+          "item": "2019-10-01T00:00:00.000",
+          "count": "11"
+        },
+        {
+          "item": "2023-06-01T00:00:00.000",
+          "count": "11"
+        },
+        {
+          "item": "2022-11-16T00:00:00.000",
+          "count": "11"
+        },
+        {
+          "item": "2022-07-16T00:00:00.000",
+          "count": "10"
+        },
+        {
+          "item": "2025-04-15T00:00:00.000",
+          "count": "10"
+        }
+      ],
+      "smallest": "2002-06-03T00:00:00.000",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "view": "date",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814450,
+    "name": "Date Qualified",
+    "dataTypeName": "calendar_date",
+    "description": "The date on which the product was confirmed to meet the ENERGY STAR specification.",
+    "fieldName": "date_qualified",
+    "position": 39,
+    "renderTypeName": "calendar_date",
+    "tableColumnId": 10027122,
+    "width": 153,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "2025-12-19T00:00:00.000",
+      "null": "0",
+      "top": [
+        {
+          "item": "2022-12-09T00:00:00.000",
+          "count": "42"
+        },
+        {
+          "item": "2024-09-13T00:00:00.000",
+          "count": "31"
+        },
+        {
+          "item": "2015-10-01T00:00:00.000",
+          "count": "29"
+        },
+        {
+          "item": "2025-09-05T00:00:00.000",
+          "count": "26"
+        },
+        {
+          "item": "2025-06-06T00:00:00.000",
+          "count": "23"
+        },
+        {
+          "item": "2025-01-24T00:00:00.000",
+          "count": "21"
+        },
+        {
+          "item": "2025-07-25T00:00:00.000",
+          "count": "19"
+        },
+        {
+          "item": "2024-03-15T00:00:00.000",
+          "count": "19"
+        },
+        {
+          "item": "2015-10-15T00:00:00.000",
+          "count": "19"
+        },
+        {
+          "item": "2018-01-19T00:00:00.000",
+          "count": "17"
+        },
+        {
+          "item": "2025-02-21T00:00:00.000",
+          "count": "17"
+        },
+        {
+          "item": "2018-12-21T00:00:00.000",
+          "count": "16"
+        },
+        {
+          "item": "2024-05-24T00:00:00.000",
+          "count": "16"
+        },
+        {
+          "item": "2025-10-03T00:00:00.000",
+          "count": "15"
+        },
+        {
+          "item": "2024-09-27T00:00:00.000",
+          "count": "15"
+        },
+        {
+          "item": "2023-01-13T00:00:00.000",
+          "count": "14"
+        },
+        {
+          "item": "2025-03-07T00:00:00.000",
+          "count": "14"
+        },
+        {
+          "item": "2025-06-20T00:00:00.000",
+          "count": "13"
+        },
+        {
+          "item": "2022-04-01T00:00:00.000",
+          "count": "13"
+        },
+        {
+          "item": "2021-07-16T00:00:00.000",
+          "count": "13"
+        }
+      ],
+      "smallest": "2014-11-27T00:00:00.000",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "view": "date",
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814451,
+    "name": "Markets",
+    "dataTypeName": "text",
+    "description": "Includes products sold in the U.S. and/or Canada and other ENERGY STAR partner countries.",
+    "fieldName": "markets",
+    "position": 40,
+    "renderTypeName": "text",
+    "tableColumnId": 10027123,
+    "width": 184,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "United States, Taiwan, Canada",
+      "null": "0",
+      "top": [
+        {
+          "item": "United States, Canada",
+          "count": "765"
+        },
+        {
+          "item": "United States",
+          "count": "242"
+        },
+        {
+          "item": "Canada",
+          "count": "63"
+        },
+        {
+          "item": "United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada",
+          "count": "2"
+        },
+        {
+          "item": "United States, Taiwan, Canada",
+          "count": "1"
+        }
+      ],
+      "smallest": "Canada",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814452,
+    "name": "CB Model Identifier",
+    "dataTypeName": "text",
+    "description": "A unique string of characters assigned by certification\nbodies (CBs) to identify a model or set of models with the same performance\ncharacteristics. This identifier should remain the same for a model even if it\nis recertified to a new version of an ENERGY STAR specification. This string of\ncharacters is determined by CBs and is not the ENERGY STAR Unique ID assigned\nby EPA.\n",
+    "fieldName": "energy_star_model_identifier",
+    "position": 41,
+    "renderTypeName": "text",
+    "tableColumnId": 10027124,
+    "width": 357,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "ES_98337_QBV0800_01102025000000_1008296",
+      "null": "0",
+      "top": [
+        {
+          "item": "ES_31845_FV-0810RSL1_01212022000000_1006997",
+          "count": "1"
+        },
+        {
+          "item": "ES_1033540_FA100X_01192024000000_3005169",
+          "count": "1"
+        },
+        {
+          "item": "ES_1016667_AER110S_06142019000000_1006105",
+          "count": "1"
+        },
+        {
+          "item": "ES_1019376_ELT80-110DLED-4\"-Duct_12212018000000_1005757",
+          "count": "1"
+        },
+        {
+          "item": "ES_31845_FV-0511VKS3-4\"-Duct_03152024000000_1007737",
+          "count": "1"
+        },
+        {
+          "item": "ES_31912_7130-16-CE_05032024000000_1007861",
+          "count": "1"
+        },
+        {
+          "item": "CER_1003326_009042019_8000001",
+          "count": "1"
+        },
+        {
+          "item": "ES_1148894_34456-6\"-Duct_06202025000000_1008536",
+          "count": "1"
+        },
+        {
+          "item": "ES_1151218_AESD100-3_01242025000000_1008315",
+          "count": "1"
+        },
+        {
+          "item": "ES_31845_RG-T810LA_12092022000000_1007429",
+          "count": "1"
+        },
+        {
+          "item": "ES_1016667_AE80S-4\"-Duct_11062020000000_1006532",
+          "count": "1"
+        },
+        {
+          "item": "ES_31845_RG-T810A_12092022000000_1007440",
+          "count": "1"
+        },
+        {
+          "item": "ES_1003326_SP-AP0511W-4\"-Duct_09132024000000_1008087",
+          "count": "1"
+        },
+        {
+          "item": "ES_1016667_XB50L1-4\"-Duct_04012022000000_1007081",
+          "count": "1"
+        },
+        {
+          "item": "ES_1151218_ANPD100-3_01242025000000_1008314",
+          "count": "1"
+        },
+        {
+          "item": "ES_1135249_RVLH50_10032025000000_1008413",
+          "count": "1"
+        },
+        {
+          "item": "ES_1019376_ELT80-110-6\"-Duct_12212018000000_1005752",
+          "count": "1"
+        },
+        {
+          "item": "ES_1016667_EZ80C-3\"-Duct_01132023000000_1007458",
+          "count": "1"
+        },
+        {
+          "item": "ES_31845_FV-30VQ3_12202024000000_5004320",
+          "count": "1"
+        },
+        {
+          "item": "ES_1117510_7140-110-G3_08262022000000_1007318",
+          "count": "1"
+        }
+      ],
+      "smallest": "CER_1003326_009042019_8000001",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  },
+  {
+    "id": 547814453,
+    "name": "Meets ENERGY STAR Most Efficient 2025 Criteria",
+    "dataTypeName": "text",
+    "description": "Indicates models meeting the Most Efficient criteria. The ENERGY STAR Most Efficient criteria recognizes the most efficient products among those that qualify for the ENERGY STAR. These exceptional products represent the leading edge in energy efficient products this year. For more information, please visit www.energystar.gov/mostefficient",
+    "fieldName": "meets_most_efficient_criteria",
+    "position": 42,
+    "renderTypeName": "text",
+    "tableColumnId": 19726195,
+    "width": 285,
+    "cachedContents": {
+      "non_null": "1073",
+      "largest": "Yes",
+      "null": "0",
+      "top": [
+        {
+          "item": "No",
+          "count": "973"
+        },
+        {
+          "item": "Yes",
+          "count": "100"
+        }
+      ],
+      "smallest": "No",
+      "count": "1073",
+      "cardinality": "1073"
+    },
+    "format": {
+      "align": "left"
+    }
+  }
+]
