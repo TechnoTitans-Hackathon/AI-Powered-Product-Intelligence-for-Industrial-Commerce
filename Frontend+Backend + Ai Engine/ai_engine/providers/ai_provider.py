@@ -546,19 +546,37 @@ Output strictly a JSON array (or an object with an 'attributes' array). No markd
         import json
 
         original_text = text
-        # 1. Remove think blocks
+        # 1. Remove think blocks and common reasoning prefixes
         text = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL)
         text = re.sub(r'(?i)Thinking\.\.\..*?done thinking\.', '', text, flags=re.DOTALL)
+        # Handle "Thinking Process:" prefix that doesn't use XML tags
+        if "Thinking Process:" in text:
+            # Try to strip everything from "Thinking Process:" up to the first JSON-like opening or markdown fence
+            match = re.search(r'(?i)Thinking Process:.*?(?=\n```|\n\s*\{|\n\s*\[)', text, flags=re.DOTALL)
+            if match:
+                text = text[:match.start()] + text[match.end():]
+            else:
+                # If no clear JSON boundary, just remove the prefix and let raw_decode scan
+                text = re.sub(r'(?i)Thinking Process:', '', text)
 
-        # 2. Robust JSON extraction
+        # 2. Extract JSON from markdown blocks if present
+        json_pattern = r'```(?:json)?(.*?)```'
+        matches = re.findall(json_pattern, text, flags=re.DOTALL)
+
+        search_text = text
+        if matches:
+            # Prioritize searching inside markdown blocks first
+            search_text = "\n".join(matches) + "\n" + text
+
+        # 3. Robust JSON extraction
         valid_jsons = []
         decoder = json.JSONDecoder()
 
         i = 0
-        while i < len(text):
-            if text[i] in '{[':
+        while i < len(search_text):
+            if search_text[i] in '{[':
                 try:
-                    obj, idx = decoder.raw_decode(text[i:])
+                    obj, idx = decoder.raw_decode(search_text[i:])
                     if isinstance(obj, expected_type):
                         valid_jsons.append(obj)
                     i += idx
@@ -569,13 +587,43 @@ Output strictly a JSON array (or an object with an 'attributes' array). No markd
 
         if valid_jsons:
             if expected_type == dict:
-                if len(valid_jsons) == 1:
-                    return valid_jsons[0]
-                # Merge all dicts (resolves LLMs splitting output into multiple blocks)
-                merged = {}
+                # Deduplicate based on string representation to avoid identical fragments
+                unique_jsons = []
+                seen = set()
                 for d in valid_jsons:
-                    merged.update(d)
-                return merged
+                    s = json.dumps(d, sort_keys=True)
+                    if s not in seen:
+                        seen.add(s)
+                        unique_jsons.append(d)
+
+                if len(unique_jsons) == 1:
+                    return unique_jsons[0]
+
+                # Score candidates to find the best match for our expected schemas
+                best_candidate = None
+                best_score = -1
+
+                for candidate in unique_jsons:
+                    score = len(candidate)  # Base score is number of keys
+
+                    # Discovery Schema signals
+                    if "product_identity" in candidate: score += 50
+                    if "actions" in candidate: score += 20
+                    if "missing_information" in candidate: score += 20
+                    if "mfg_part_number" in candidate: score += 20
+
+                    # Extraction Schema signals
+                    if "attributes" in candidate: score += 50
+
+                    # Penalize tiny fragments
+                    if len(candidate) <= 2 and "status" in candidate:
+                        score -= 50
+
+                    if score > best_score:
+                        best_score = score
+                        best_candidate = candidate
+
+                return best_candidate if best_candidate is not None else unique_jsons[-1]
             else:
                 return valid_jsons[-1]
 
